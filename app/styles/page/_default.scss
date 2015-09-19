@@ -1,0 +1,322 @@
+/* ==========================================================================
+   default - helpers and all that
+   ========================================================================== */
+html, body{
+  height:100%;
+}
+
+
+img[data-sizes="auto"] {
+    display: block;
+}
+
+
+h1{
+    @include media($laptop) {
+        font-size: $base-font-size * 3.358;
+    }
+    @include media($tablet) {
+        font-size: $base-font-size * 3.025;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 2.3;
+    }    
+}
+
+h2{
+    @include media($laptop) {
+        font-size: $base-font-size * 3.358;
+    }
+    @include media($tablet) {
+        font-size: $base-font-size * 3.025;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 2;
+    }    
+}
+
+h3{
+    @include media($laptop-large) {
+        font-size: $base-font-size * 2.158;
+    }
+    @include media($tablet) {
+        font-size: $base-font-size * 1.825;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1;
+    }      
+}
+
+h4{
+    @include media($laptop-large) {
+        font-size: $base-font-size * 1.458;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .78;
+    }    
+}
+h5{
+    @include media($laptop-large) {
+        font-size: $base-font-size * 1.1;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .9;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .78;
+    }    
+}
+
+
+h6{
+    @include media($laptop-large) {
+        font-size: $base-font-size * .8;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .7;
+    }    
+}
+
+.wrapper{
+    position:  relative;
+}
+
+header {
+width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 12% 0 6% 0;
+    justify-content: center;
+
+            @include media($mobile) {
+                @include fill-parent;
+            }
+
+    @include row;
+        article {
+            padding-top: 6%;
+            @include span-columns(5);
+            @include shift(1);
+
+            @include media($mobile) {
+                @include fill-parent;
+                @include row;
+                @include shift(0);
+                padding: 6%;
+            }
+        }
+            picture{
+            @include span-columns(8);
+            @include shift(2);
+
+
+
+
+            img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+                z-index: 11;
+            }
+        }
+
+        h1{
+            margin-bottom: 0.5em;
+
+        }
+            h4, h5{
+        font-weight: normal;
+    }    
+}
+
+
+#more-work
+{
+    @include row();
+    } a{
+        @include media($mobile){
+    }
+}
+
+#clients{
+    h6:after{
+        display: none;
+    }
+}
+
+
+.block-list {
+    list-style-type: square;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@include selection {
+  background-color: $reddish;
+}
+
+ 
+
+.outer-container {
+    @include outer-container;
+    padding: 0 3%;
+}
+.content {
+    @include outer-container;
+}
+
+
+.content--copy{
+    @extend .content;
+    padding-top: 3%;
+    
+    h2, h4, p, h5, h6 {
+        
+        @include span-columns(8);
+        @include shift(2);
+
+        @include media($mobile) {
+            @include fill-parent;
+            @include row;
+            @include shift(0);
+        }
+    }
+}
+
+.row {
+    @include row;
+}
+
+section {
+	@include row();
+}
+
+br {
+    @include media($mobile) {
+        display: none;
+    }
+}
+
+.excerpt{
+    line-height: 1.35;
+}
+
+
+#blog-list{
+    background-color: $dark-gray;
+    @include row();
+    padding: 8% 0;
+
+    article, aside{
+        display: block;
+        @include media($mobile) {
+        text-align: left;
+        }
+    }
+article{
+    h6{
+        border-bottom: 2px solid rgba(0, 0, 0, 0);;
+        padding-bottom: .25em;
+        @include transition(all 0.2s ease-out);
+        display: inline-block;
+
+    }
+    &:hover {
+        -webkit-filter: brightness(102.5%);
+
+        h6 {
+            margin-bottom: 1em;
+            border-bottom: 2px solid currentColor;
+        }
+    }
+  }    
+
+    aside{
+        margin-left: 6%;
+        height: 100%;
+        @include span-columns(3);
+        color: #8b8f92;
+    }
+
+    h4{
+        margin-bottom: .5em;
+        padding: 0;
+    }
+    article {
+        color: white;
+
+        border-bottom: 2px solid $light-gray;
+        padding: 6% 0;
+
+    }
+
+    .right-column{
+                @include span-columns(5);
+                        @include shift(2);
+    }
+}
+
+#more-work{
+    @include row();
+    h6{
+        padding: 0;
+        margin-bottom: .5em;
+        font-weight: normal;
+    }
+}
+
+#blog {
+    .content{
+        padding-bottom: 6%;
+    }
+
+    header{
+        padding: 6% 0;
+    }
+    h2{
+        margin-bottom: .5em;
+    }
+}
+#post{
+h1{
+    text-align: left;
+}
+
+nav, .content, footer{
+    padding: 3%;
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: none;
+}
+ul{
+    float: left;
+}
+    header{
+        background-color: none;
+        padding: 12% 0 0 0;
+    }
+    footer{
+        background-color: white;
+        padding: 1% 0;
+    }
+}
+
+
+nav, .content, footer {
+    @include media($mobile) {
+        @include fill-parent;
+    }
+}

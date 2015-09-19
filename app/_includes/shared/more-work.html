@@ -1,0 +1,21 @@
+<section id="more-work">
+
+    {% if page.next %}
+        {% assign next = page.next %}
+    {% else %}
+        {%comment%}
+           As the array index start at zero we substract 1 to the total count,
+           we then get the last post index in the site.posts array
+        {%endcomment%}
+        {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+        {% assign next = site.posts[lastPostIndex] %}
+    {% endif %}
+    
+    <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+        <div class="content--wide">
+            <h6>Next Project:&nbsp;</h6>
+            <h3>{{ next.title}}</h3>
+            <span class="arrow-button">&#10141;</span>
+        </div>
+    </a>
+</section>

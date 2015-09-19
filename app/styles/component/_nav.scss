@@ -1,0 +1,95 @@
+a.logo {
+    opacity: 1;
+    height: auto;
+    display: block;
+    float: none;
+    fill: currentColor;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+nav {
+    padding: 1.5% 8%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 9;
+
+    @extend h6;
+
+    z-index: 100;
+
+            @include media($mobile) {
+                @include fill-parent;
+                @include row;
+                position: relative;
+
+            }
+
+    .logo {
+        width: 3em;
+        display: inline-block;
+        float: left;
+        height: 3em;
+        vertical-align: center;
+    }
+}
+nav{
+    ul {
+        list-style-type: none;
+        float: right;
+        }
+
+    li {
+        margin: 0 0 0 2em;
+        float: right;
+
+        @extend h6;
+
+        margin-bottom: 0;
+        text-transform: capitalize;
+        display: inline-block;
+        list-style-type: none;
+border-bottom: 2px solid rgba(0,0,0,0);
+padding-bottom: .25em;
+
+        &:hover {
+            border-bottom: 2px solid $reddish;
+            padding-bottom: .25em;
+        }
+    }
+}
+
+footer{
+    padding: 2% 8%;
+}
+
+footer{
+    @include row();
+    ul {
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        }
+
+    li {
+        margin-right: 2em;
+        @extend h6;
+
+        margin-bottom: 0;
+        text-transform: capitalize;
+        display: inline;
+        list-style-type: none;
+
+        &:hover {
+            border-bottom: 2px solid $reddish;
+            padding-bottom: .25em;
+        }
+    }    
+}

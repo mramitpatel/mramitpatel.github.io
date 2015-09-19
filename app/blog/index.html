@@ -1,0 +1,23 @@
+---
+layout: default
+body_id: blog
+---
+{% for post in site.categories['blog'] %}
+<div id="blog-list">
+
+<section class="content--wide">        
+<aside>
+<h5>Sometimes I write about design, technology and other random things.</h5>
+</aside>
+<article>
+            <a class="animsition-link" href="{{ post.url }}">     
+                            <!--<h6>{{ page.client }}</h6>-->
+                            <h2 style="color:{{ post.accentColor }}">{{ post.title }}</h2>
+                            <div class="excerpt" style="color:{{ post.txtColor }};">{{ post.excerpt }}</div>
+                            <h6 style="color: {{post.accentColor}}";>Read More</h6>
+                            
+            </a>
+            </article>
+</section>
+</div>
+{% endfor %}

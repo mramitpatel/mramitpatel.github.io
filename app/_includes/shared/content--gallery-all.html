@@ -1,0 +1,5 @@
+<div markdown="1" class="gallery">
+{% for i in ({{include.start}}..{{include.end}}) %}
+<img class="packery" src="/images/{{ page.cid }}/{{ include.prefix }}-{{ i }}.jpg" data-jslghtbx="/images/{{ page.cid }}/{{ include.prefix }}-{{ i }}@2x.jpg">
+{% endfor %}
+</div>

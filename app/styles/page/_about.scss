@@ -1,0 +1,34 @@
+#about {
+
+    .wrapper{
+    }
+    padding-top: 9%;
+    background-color: $dark-gray;
+    h6:after{
+        display: none;
+
+    }
+
+  h1{
+    text-align: center;
+    color: white;
+  }    
+  }
+
+
+    #clients {
+        text-align: center;
+        position: relative;
+        padding: 6% 0 6% 0;
+        z-index: 10;
+        background-color: white;
+        h6 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+        }
+    }
+    #home #about {
+        background-color: #fff;
+    }

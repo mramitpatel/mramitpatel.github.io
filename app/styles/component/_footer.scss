@@ -1,0 +1,38 @@
+
+#more-work {
+    @include row();
+    h3{
+        line-height: 1;
+display: inline-block;
+        margin: 0;
+    &:first-child{
+        color: #cccccc;
+        }
+    }
+    .arrow-button{
+        font-size: 2.5em;
+        line-height: 1;
+    }
+
+    a {
+        padding: 4% 8%;
+        display: block;
+        background-color: $reddish;
+        color: #fff;
+
+        &:hover{
+            color: white;
+
+            h3{
+
+            }
+    
+    .arrow-button{
+        font-size: 2.5em;
+        line-height: 1;
+        padding-left: 3%;
+    }
+
+        }
+    }   
+}
