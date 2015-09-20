@@ -12,8 +12,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
@@ -45,10 +44,17 @@ h5{
 }
 
 h6{
-  font-size: $base-font-size * .82;
+  font-size: $base-font-size * .72;
   font-family: $base-font-family;
   padding-top: 1em;
 }
+
+h7{
+  font-size: $base-font-size * .62;
+  font-family: $base-font-family;
+  padding-top: 1em;
+}
+
 
 p {
   margin: 0 0 $small-spacing;

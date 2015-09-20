@@ -1,15 +1,17 @@
-
 #more-work {
-    @include row();
-    h3{
+    @include row;
+
+    h3 {
         line-height: 1;
-display: inline-block;
+        display: inline-block;
         margin: 0;
-    &:first-child{
-        color: #cccccc;
+
+        &:first-child {
+            color: #cccccc;
         }
     }
-    .arrow-button{
+
+    .arrow-button {
         font-size: 2.5em;
         line-height: 1;
     }
@@ -20,19 +22,48 @@ display: inline-block;
         background-color: $reddish;
         color: #fff;
 
-        &:hover{
+        &:hover {
             color: white;
 
-            h3{
+            h3 {}
 
+            .arrow-button {
+                font-size: 2.5em;
+                line-height: 1;
+                padding-left: 3%;
             }
-    
-    .arrow-button{
-        font-size: 2.5em;
-        line-height: 1;
-        padding-left: 3%;
-    }
-
         }
-    }   
+    }
+}
+
+
+footer{
+        padding: 2% 8%;
+    background-color: $light-gray;
+
+    a{
+        color: $medium-gray;
+    }
+    @include row();
+    ul {
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        }
+
+    li {
+        margin-right: 2em;
+        @extend h6;
+
+        margin-bottom: 0;
+        text-transform: capitalize;
+        display: inline;
+        list-style-type: none;
+
+        &:hover {
+            border-bottom: 1px solid $reddish;
+            padding-bottom: .25em;
+        }
+    }    
 }

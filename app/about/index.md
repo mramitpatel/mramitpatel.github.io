@@ -1,6 +1,6 @@
 ---
-layout: default
-body_id: about
+layout: post
+body_id: post
 title: "Great at many things; sports not one of them."
 ---
 My name is Amit Patel. Currently, I am an ACD at [UnitOneNine](http://www.unitonenine.com) in Chicago. I'm a designer that specializes in user experience design, brand strategy and art direction. Though I'm not a developer by trade, I love front-end development. Check out my [github](http://www.github.com/mramitpatel).

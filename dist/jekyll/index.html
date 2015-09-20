@@ -10,9 +10,9 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     
-<link rel="stylesheet" href="/styles/screen-697f9517.css">
+<link rel="stylesheet" href="/styles/screen-35c5121d.css">
 
-    <script src="/scripts/modernizr.js"></script>
+    
   </head>
 
   <body id="post" class="animsition">
@@ -47,39 +47,138 @@
 </header>
 
 <section class="content">
-    <p>I’ve been asked a few times about Jekyll, what’s good about it and why I ended up using it for my portfolio and blog.</p>
+    <p>I’ve been asked a few times about (Jekyll) [https://jekyllrb.com/], what’s good about it and why I ended up using it for my portfolio and blog.</p>
 
 <p>I could begin to explain the history behind Wordpress and other blog engines and make claims why they suck. The truth is, I choose Jekyll because its supported by Github Pages, the markup and fact pages uses Markdown was attractive and it seemed like a good challenge.</p>
 
-<p>Jekyll, Shopify, Squarespace all run on the same liquid templating langauge so despite being a designer, I figured learning the langauge would allow me to develop or speak towards the constraints around each platform, whenever a client project arose.</p>
+<h5 id="github-support">Github Support</h5>
+<p>Every GitHub Page is run through Jekyll and most read me’s you see in the repo’s are also rendering readme.txt or readme.md files from markdown into HTML pages. Though my portfolio isn’t running on GitHub pages, it’s probably the best place to set up a lean, git powered website in a matter of minutes.</p>
 
+<h5 id="site-structure">Site Structure</h5>
 <p>Jekyll is a static, database-less file system consisting of posts, includes, layouts (templates). The whole thing sits un-rendered and a build commmand essentially converts markdown pages, includes, etc into a fully flushed out HTML/CSS/JS site.</p>
 
 <p>The basic structure consists of:</p>
 
-<p>.
+<div class="highlight">
+  <pre><code class="language-bash" data-lang="bash">.
 ├── _config.yml
 ├── _drafts
-|   ├── begin-with-the-crazy-ideas.textile
-|   └── on-simplicity-in-technology.markdown
+<span class="p">|</span>   ├── begin-with-the-crazy-ideas.textile
+<span class="p">|</span>   └── on-simplicity-in-technology.markdown
 ├── _includes
-|   ├── footer.html
-|   └── header.html
+<span class="p">|</span>   ├── footer.html
+<span class="p">|</span>   └── header.html
 ├── _layouts
-|   ├── default.html
-|   └── post.html
+<span class="p">|</span>   ├── default.html
+<span class="p">|</span>   └── post.html
 ├── _posts
-|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+<span class="p">|</span>   ├── 2007-10-29-client-name.md
+<span class="p">|</span>   └── 2009-04-26-client-name.md
 ├── _data
-|   └── members.yml
+<span class="p">|</span>   └── members.yml
 ├── _site
 ├── .jekyll-metadata
-└── index.html</p>
+└── index.html</code></pre>
+</div>
+
+<h5 id="liquid">Liquid</h5>
+<p>Liquid is the templating engine that powers Jekyll posts. Shopify and Squarespace all run on the same liquid templating langauge so despite being a designer, I figured learning the langauge would allow me to develop or speak towards the constraints around each platform, whenever a client project arose. Learning Jekyll’s liquid langauage has helped me develop SquareSpace sites dramatically. I’ll post an article on my SS workflow later.</p>
+
+<div class="highlight">
+  <pre><code class="language-bash" data-lang="bash">.
+├── _posts
+<span class="p">|</span>   ├── 2007-10-29-client-name.md
+.</code></pre>
+</div>
+
+<p>In each of my portfolio posts, I define a number of variables that define colors, title, client name, type of work and a host of others.</p>
+
+<div class="highlight">
+  <pre><code class="language-bash" data-lang="bash">---
+
+featured: <span class="nb">true</span>
+<span class="nb">type</span>: mobile application
+publish: <span class="nb">true</span>
+layout: project
+
+categories: mobile
+
+cid: <span class="s2">&quot;whisk&quot;</span>
+client: Whisk iPhone App
+title: <span class="s2">&quot;Whisk&quot;</span>
+role: <span class="s2">&quot;Product Design&quot;</span>
+
+homeimage: hero.png
+projectHero: hero.png
+backgroundColor: <span class="s2">&quot;rgba(238, 235, 218, 1)&quot;</span>
+accentColor: <span class="s2">&quot;rgba(220, 88, 69, 1)&quot;</span>
+txtColor: <span class="s2">&quot;rgba(105, 144, 60, 1)&quot;</span>
+---</code></pre>
+</div>
+
+<p>My layouts and includes files display variables accordingly. For example, my <code>header.html</code> include consists of html markup and liquid variables to display titles, colors, descriptions, etc.</p>
+
+<div class="highlight">
+  <pre><code class="language-html" data-lang="html">{% if page.title %}
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;content--wide&quot;</span> <span class="na">style=</span><span class="s">&quot;color: {{page.txtColor}}&quot;</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;article&gt;</span>
+			<span class="nt">&lt;h1&gt;</span>{{ page.title }}<span class="nt">&lt;/h1&gt;</span>
+			{% if page.description %}
+				<span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">&quot;description&quot;</span><span class="nt">&gt;</span>{{ page.description }}<span class="nt">&lt;/h4&gt;</span>
+			{% endif %}
+		<span class="nt">&lt;/article&gt;</span>
+ {% endif %}		
+ ...</code></pre>
+</div>
+
+<h5 id="looping">Looping</h5>
+<p>To display all posts, variables or other contents, I loop through the <code>site.posts</code> on my index.html with a snippet of code:</p>
+
+<div class="highlight">
+  <pre><code class="language-html" data-lang="html">{% for post in site.posts %}
+        {% if post.featured == true and post.type != &quot;blog&quot; %}
+        ...</code></pre>
+</div>
+
+<p>This block of code is a <code>for</code> loop, essentially telling the Jekyll build task to loop through <code>posts</code> contained in the <code>site.posts</code>folder. The <code>if</code> segment assures <code>featured</code> posts and displayed and only projects, not blog articles. This could easily be done with Jekyll categories.</p>
+
+<h5 id="gulp-bower-and-build-tasks">Gulp, bower and build tasks</h5>
+<p>My development is managed with Gulp, bower and a number of custom tasks that allow me to quickly run <code>gulp</code> commands from the command line to perform various actions. I’ll write more about this later.</p>
+
+<p>If you have any questions, feel free to ask in the comments.</p>
+
 
 </section>
 
 
+<section class="content comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mramitpatel';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</section>
+
+
+<footer>
+<div class="content">
+    
+    <ul class="social">
+    	<li><a href="/about">About</a></li>
+        <li><a class="twitter" href="https://twitter.com/mramitpatel">Twitter</a></li>
+        <li><a class="linkedin" href="https://www.linkedin.com/in/mramitpatel">LinkedIn</a></li>
+        <li><a class="instagram" href="https://www.instagram.com/mramitpatel">Instagram</a></li>
+    </ul>
+  </div>
+</footer>
 <!--
 <section id="more-work">
 
@@ -97,16 +196,7 @@
     </a>
 </section>
 -->
-    <footer id="footer" role="contentinfo">
-<div class="content--wide">
-    <ul class="social">
-    	<li><a href="/about">About</a></li>
-        <li><a class="twitter" href="https://twitter.com/mramitpatel">Twitter</a></li>
-        <li><a class="linkedin" href="https://www.linkedin.com/in/mramitpatel">LinkedIn</a></li>
-        <li><a class="instagram" href="https://www.instagram.com/mramitpatel">Instagram</a></li>
-    </ul>
-    </div>
-</footer>
+
 </div>
 
     <!--[if lte IE 8]>

@@ -17,30 +17,37 @@
     }
 }
 
-
 .results {
     @include span-columns(8);
+
     padding-top: 6%;
+
     @include shift(2);
+
     text-align: center;
     color: #333;
     background-color: white;
 
-    h5{
+    h5 {
         padding-bottom: 2em;
+
         @include span-columns(8);
+
         color: $medium-gray;
+
         @include shift(2);
     }
-    
-    h1{
+
+    h1 {
         font-size: 5em;
         color: $reddish;
         margin-bottom: .15em;
     }
-    button{
+
+    button {
         padding: .5em 1em;
-        h5{
+
+        h5 {
             padding: 0;
             margin: 0;
         }
@@ -52,6 +59,7 @@
     color: $light-gray;
 }
 
+
 /*--------------------------------------- */
 /*
 /*  Project Hero: page role, page title
@@ -59,25 +67,21 @@
 /*--------------------------------------- */
 
 .header--project {
-        padding-top: 12%;
-        display: flex;
-        align-items: center;
-
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-         justify-content: center;
-
-    article{
+    article {
         text-align: center;
+
         @include shift(3);
-        @include span-columns(6);
-    }
 
-    picture{
-        padding: 3%;
-    }
+        @include media($mobile) {
+            @include fill-parent;
 
+            @include row;
+
+            @include shift(0);
+
+            padding: 6%;
+        }
+    }
 }
 
 /*--------------------------------------- */
@@ -109,30 +113,31 @@
 /*
 /*--------------------------------------- */
 
+.content--wide {
+    max-width: 1620px;
+    margin: 0 auto;
 
-    .content--wide{
-        max-width: 1620px;
-        margin: 0 auto;
-            @include row();
-    } 
+    @include row;
+}
 
 #content-project {
-
-    img{
+    img {
         width: 100%;
         display: block;
         float: left;
         height: auto;
     }
+
     margin-bottom: 9%;
 
     .content {
         padding: 4% 8%;
     }
 
-.content + .content--copy{
-    padding-bottom: 3%;
-}
+    .content + .content--copy {
+        padding-bottom: 3%;
+    }
+
     .images-two {
         img {
             width: 50%;
@@ -140,52 +145,53 @@
         }
     }
 
-.overview{
-    @extend .content--copy;
-    padding-top: 6%;
-    padding-bottom: 0;
-                @include media($mobile) {
-                @include fill-parent;
-                @include row;
-                @include shift(0);
-            }
-}
+    .overview {
+        @extend .content--copy;
 
+        padding-top: 6%;
+        padding-bottom: 0;
 
+        @include media($mobile) {
+            @include fill-parent;
+
+            @include row;
+
+            @include shift(0);
+        }
+    }
 
     aside {
         @include span-columns(5);
-        margin-right: 9%;
-    
-    @include media($mobile){
-                @include fill-parent;    
-    }
-    }
 
+        margin-right: 9%;
+
+        @include media($mobile) {
+            @include fill-parent;
+        }
+    }
 }
 
-    /*  Section .Content 6 Image Holder
-    /*--------------------------------------- */
+/*  Section .Content 6 Image Holder
+/*--------------------------------------- */
 
-    .gallery {
-        @extend .content--wide;
-        img{
-            /* flexbox specific properties */
-            -webkit-flex: auto;
-            flex: auto;
-            -webkit-box-flex: 1;
-            -moz-box-flex: 1;
-            box-flex: 1;
-        }
-        .four{
-            img{
-                width: 25%;
-                height: auto;
-        }
+.gallery {
+    @extend .content--wide;
+
+    img {
+        /* flexbox specific properties */
+        -webkit-flex: auto;
+        flex: auto;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        box-flex: 1;
     }
 
-
-
+    .four {
+        img {
+            width: 25%;
+            height: auto;
+        }
+    }
 
     .content--images-six {
         .gallery img {
@@ -195,12 +201,14 @@
 
     .content--images-three img {
         @include span-columns(4);
+
         @include omega(3n);
     }
 
     .content--images-four {
         img {
             @include span-columns(3);
+
             @include omega(4);
         }
     }
@@ -255,4 +263,3 @@
 .shift-3 {
     @include shift(3);
 }
-

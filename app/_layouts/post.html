@@ -12,7 +12,7 @@
     {% include shared/styles.html %}
 
     <!-- build:js({app,.tmp}) /scripts/modernizr.js -->
-    <script src="/vendor/modernizr/modernizr.js"></script>
+
     <!-- endbuild -->
   </head>
 
@@ -66,7 +66,17 @@
     {{ content }}
 </section>
 
+{% if page.comments %}
+<section class="content comments">
+  {% include shared/comments.html %}
+</section>
+{% endif %}
 
+<footer>
+<div class="content">
+    {% include shared/footer.html %}
+  </div>
+</footer>
 <!--
 <section id="more-work">
 
@@ -89,7 +99,7 @@
     </a>
 </section>
 -->
-    {% include shared/footer.html %}
+
 </div>
 
     <!--[if lte IE 8]>

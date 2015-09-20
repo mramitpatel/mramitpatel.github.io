@@ -35,7 +35,6 @@ nav {
         width: 3em;
         display: inline-block;
         float: left;
-        height: 3em;
         vertical-align: center;
     }
 }
@@ -44,19 +43,20 @@ nav{
         list-style-type: none;
         float: right;
         }
-
     li {
+
+        a{
+    color: $base-font-color;
+}
         margin: 0 0 0 2em;
         float: right;
-
         @extend h6;
-
         margin-bottom: 0;
         text-transform: capitalize;
         display: inline-block;
         list-style-type: none;
-border-bottom: 2px solid rgba(0,0,0,0);
-padding-bottom: .25em;
+        border-bottom: 2px solid rgba(0,0,0,0);
+        padding-bottom: .25em;
 
         &:hover {
             border-bottom: 2px solid $reddish;
@@ -65,31 +65,3 @@ padding-bottom: .25em;
     }
 }
 
-footer{
-    padding: 2% 8%;
-}
-
-footer{
-    @include row();
-    ul {
-        list-style-type: none;
-        float: left;
-        margin: 0;
-        padding: 0;
-        }
-
-    li {
-        margin-right: 2em;
-        @extend h6;
-
-        margin-bottom: 0;
-        text-transform: capitalize;
-        display: inline;
-        list-style-type: none;
-
-        &:hover {
-            border-bottom: 2px solid $reddish;
-            padding-bottom: .25em;
-        }
-    }    
-}
