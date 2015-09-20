@@ -9,58 +9,57 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     {% include shared/styles.html %}
     <!-- build:js({app,.tmp}) /scripts/modernizr.js -->
-    <script src="/vendor/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
   <body>
     <!--[if lt IE 9]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-      {% include shared/progress.html %}
-      <div id="project" class="animsition">
+    {% include shared/progress.html %}
+    <div id="project" class="animsition">
       {% include shared/nav.html %}
-        <!-- HERO -->
-        <header class="header--project" style="background-color: {{ page.backgroundColor }};">
+      <!-- HERO -->
+      <header class="header--project" style="background-color: {{ page.backgroundColor }};">
         {% include shared/header.html %}
-        </header>
-        </div>
-        
       </header>
-      <div id="content-project" class="content--wide">
-          {{ content }}
-          {% if page.link %}
-          <section class="results">
-            <button><h5>Visit <a href="{{page.link}}" title="{{page.title}}">{{page.title}}</a></h5></button>
-          </section>
-          {% endif %}
-      </div>
-      
-<section id="more-work">
+    </div>
+    
+  </header>
+  <div id="content-project" class="content--wide">
+    {{ content }}
+    {% if page.link %}
+      <section class="results">
+        <button><h5>Visit <a href="{{page.link}}" title="{{page.title}}">{{page.title}}</a></h5></button>
+      </section>
+    {% endif %}
+  </div>
+  
+  <section id="more-work">
     {% if page.next %}
-        {% assign next = page.next %}
+      {% assign next = page.next %}
     {% else %}
-        {%comment%}
-           As the array index start at zero we substract 1 to the total count,
-           we then get the last post index in the site.posts array
-        {%endcomment%}
-        {% assign last lastPostIndex = site.posts | size | minus: 1 %}
-        {% assign next = site.posts[lastPostIndex] %}
+      {%comment%}
+      As the array index start at zero we substract 1 to the total count,
+      we then get the last post index in the site.posts array
+      {%endcomment%}
+      {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+      {% assign next = site.posts[lastPostIndex] %}
     {% endif %}
     
     <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-        <div class="content--wide">
-            <h6>Next Project:&nbsp;</h6>
-            <h3>{{ next.title}}</h3>
-        </div>
+      <div class="content--wide">
+        <h6>Next Project:&nbsp;</h6>
+        <h3>{{ next.title}}</h3>
+      </div>
     </a>
-</section>
-      {% include shared/footer.html %}
-    </div>
-  
-  <!--[if lte IE 8]>
-  {% include shared/scripts-ie8.html %}
-  <![endif]-->
-  {% include shared/scripts.html %}
-  {% include shared/google-analytics.html %}
+  </section>
+  {% include shared/footer.html %}
+</div>
+
+<!--[if lte IE 8]>
+{% include shared/scripts-ie8.html %}
+<![endif]-->
+{% include shared/scripts.html %}
+{% include shared/google-analytics.html %}
 </body>
 </html>

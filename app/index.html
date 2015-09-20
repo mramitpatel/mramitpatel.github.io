@@ -9,52 +9,45 @@ description: "I create brand experiences, design for the internet and overall ma
     {% for post in site.posts %}
         {% if post.featured == true and post.type != "blog" %}
             <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="background-color:{{post.backgroundColor}}";>
-            
+                
                 <a class="animsition-link" href="{{ post.url }}">
                     <picture data-id="{{ post.cid }}">
                         <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
                     </picture>
-
-                
+                    
                     <article style="color: {{post.accentColor}}">
                         <div>
                             <!--<h6><span>{{ post.role }}</h6>-->
                             <h2><span style="color: {{post.accentColor}}";>{{ post.title }}</span>
                             </h2>
-                                
-                            <h5 style="color: {{post.accentColor}}">{{post.description }}</h5>    
+                            
+                            <h5 style="color: {{post.accentColor}}">{{post.description }}</h5>
                         </div>
-                            <h6 style="color: {{post.accentColor}}">Read More</h6>
+                        <h6 style="color: {{post.accentColor}}">Read More</h6>
                     </article>
-
-
-            </a>
+                </a>
                 
             </section>
         {% endif %}
-    {% endfor %} 
+    {% endfor %}
 </div>
-
-
-
 <div id="blog-list">
-
-<section class="content--wide">        
-<aside>
-<h5>Sometimes I write about design, technology and other random things.</h5>
-</aside>
-<div class="right-column">
-{% for post in site.categories['blog'] %}
-        <article>
-            <a class="animsition-link" href="{{ post.url }}">     
-                            <!--<h6>{{ page.client }}</h6>-->
-                            <h4 style="color:{{ post.accentColor }}">{{ post.title }}</h4>
-                            <div class="excerpt" style="color:{{ post.txtColor }};">{{ post.excerpt }}</div>
-                            <h6 style="color: {{post.accentColor}}";>Read More</h6>
-                            
-            </a>
-            </article>
+    <section class="content--wide">
+        <aside>
+            <h5>Sometimes I write about design, technology and other random things.</h5>
+        </aside>
+        <div class="right-column">
+            {% for post in site.categories['blog'] %}
+                <article>
+                    <a class="animsition-link" href="{{ post.url }}">
+                        <!--<h6>{{ page.client }}</h6>-->
+                        <h4 style="color:{{ post.accentColor }}">{{ post.title }}</h4>
+                        <div class="excerpt" style="color:{{ post.txtColor }};">{{ post.excerpt }}</div>
+                        <h6 style="color: {{post.accentColor}}";>Read More</h6>
+                        
+                    </a>
+                </article>
             {% endfor %}
-           </div> 
-</section>
+        </div>
+    </section>
 </div>
