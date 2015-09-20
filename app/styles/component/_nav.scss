@@ -36,6 +36,7 @@ nav {
         display: inline-block;
         float: left;
         vertical-align: center;
+        padding-top: 1em;
     }
 }
 nav{
@@ -51,7 +52,7 @@ nav{
         margin: 0 0 0 2em;
         float: right;
         @extend h6;
-        margin-bottom: 0;
+        padding: 0;
         text-transform: capitalize;
         display: inline-block;
         list-style-type: none;
