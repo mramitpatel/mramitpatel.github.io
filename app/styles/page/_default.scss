@@ -12,6 +12,17 @@ img[data-sizes="auto"] {
     display: block;
 }
 
+.teaser.lazyload {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.teaser.lazyloaded {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 700ms;
+}
+
 
 h1{
     @include media($laptop) {
@@ -310,9 +321,14 @@ h1{
 
 nav, .content, footer{
     padding: 3%;
-    width: 800px;
-    margin: 0 auto;
+    @include span-columns(7);
+    @include shift(2);
     border-bottom: none;
+
+        @include media($laptop) {
+        @include fill-parent;
+            @include shift(0);
+    }
 }
 ul{
     float: left;
@@ -322,13 +338,7 @@ ul{
         padding: 12% 0 0 0;
     }
     footer{
-        padding: 1% 0;
+        padding: 3%;
     }
 }
 
-
-nav, .content, footer {
-    @include media($mobile) {
-        @include fill-parent;
-    }
-}

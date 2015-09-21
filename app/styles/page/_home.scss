@@ -48,7 +48,9 @@
         -webkit-align-items: center;
         -webkit-box-align: center;
 
-
+&:hover{
+            -webkit-filter: brightness(105%);
+}
         @include transition(all 0.2s ease-out);
 
         @include media($tablet){

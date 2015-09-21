@@ -32,3 +32,7 @@ $(document).ready(function() {
     overlayParentElement : 'body'
   });
 });
+
+window.lazySizesConfig = {
+  addClasses: true
+};
