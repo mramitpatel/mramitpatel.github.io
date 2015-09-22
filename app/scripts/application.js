@@ -1,14 +1,22 @@
-//DISJOINTED ROLLOVERS USING BUTTON NAVIGATION AND IMAGES FADING IN AND OUT
 
+$(document).ready(function() {
+  // Lettering.js keeps it all tight
+  $("h1").lettering();
+  console.log("lettering.js");
+  // Add "lazyload" class to all images so LazySizes fires
+  $('img').addClass('lazyload');
+  console.log("lazyload");
+});
 
-// Lettering.js keeps it all tight
-  $(document).ready(function() {
-    $("h1").lettering();
-    console.log("lettering.js");
-  });
+// Lazyload
+window.lazySizesConfig = {
+  addClasses: true
+};
 
+//Equalize Script
 $("#home-work-list .panel--home").equalHeights();
 
+//Animsition
 $(document).ready(function() {
   $(".animsition").animsition({
     inClass: 'fade-in-up-sm',
@@ -33,6 +41,8 @@ $(document).ready(function() {
   });
 });
 
-window.lazySizesConfig = {
-  addClasses: true
-};
+
+
+
+
+

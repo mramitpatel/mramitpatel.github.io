@@ -3,11 +3,10 @@ layout: home
 title: "Amit Patel, Designer"
 body_id: home
 title: "Hi, I'm Amit."
-description: "I create brand experiences, design for the internet and overall make great things."
+description: "I create digital experiences, design interfaces and shape brands."
 ---
 <div id="home-work-list" class="content--wide">
-    {% for post in site.posts %}
-        {% if post.featured == true and post.type != "blog" %}
+    {% for post in site.categories.projects %}
             <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="background-color:{{post.backgroundColor}}";>
                 
                 <a class="animsition-link" href="{{ post.url }}">
@@ -28,7 +27,6 @@ description: "I create brand experiences, design for the internet and overall ma
                 </a>
                 
             </section>
-        {% endif %}
     {% endfor %}
 </div>
 <div id="blog-list">
@@ -37,7 +35,7 @@ description: "I create brand experiences, design for the internet and overall ma
             <h5>Sometimes I write about design, technology and other random things.</h5>
         </aside>
         <div class="right-column">
-            {% for post in site.categories['blog'] %}
+            {% for post in site.categories.blog] %}
                 <article>
                     <a class="animsition-link" href="{{ post.url }}">
                         <!--<h6>{{ page.client }}</h6>-->

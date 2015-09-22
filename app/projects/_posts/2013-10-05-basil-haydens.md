@@ -44,7 +44,7 @@ txtColor: "#000"
 </section>
 <section class="content--copy">
 #### Initial Sketches & Direction
-Vision is an vital aspect of life and representing surgical treatments online is a challenging task. I knew I wanted to create an expressive, vibrant experience that celebrated the concepts of vision. To do this, I used isolated imagery to create singular strong focal points. By using clipping masks and overlapping images, gives a sense of depth. I wanted to avoid parallax effects and cheesy effects and focus primarily on bold colors, photographs and type.
+For Basil Hayden's, I created a blog centric destination as a unique spin on traditional liquor sites. It combines curated blog content with traditional liquor brand marketing. I was responsible for creative direction and art direction with limited assets to craft a brand destination that was engaging for a typical whiskey connoisseur."
 </section>
 <section>
 

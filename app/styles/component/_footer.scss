@@ -40,11 +40,12 @@
 footer{
         padding: 2% 8%;
     background-color: $light-gray;
+        @include row();
 
     a{
         color: $medium-gray;
     }
-    @include row();
+
     ul {
         list-style-type: none;
         float: left;

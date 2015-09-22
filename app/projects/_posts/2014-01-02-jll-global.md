@@ -1,5 +1,5 @@
 ---
-publish: true
+published: true
 featured: true
 layout: project
 
@@ -25,7 +25,7 @@ accentColor: "rgba(207, 43, 30, 1)"
 txtColor: "#000"
 ---
 <section class="content">
-![interior pages, careers and research](/images/{{ page.cid }}/sketches-1.jpg)
+![interior pages, careers and research](/images/{{ page.cid }}/2010-homepage.jpg)
 </section>
 <section class="content--copy">
 #### Phase 1: Pitch
@@ -46,11 +46,7 @@ I pitched JLL on homepage messaging ideas that fit into the core concept of the 
 In 2014, I revisted global pages by redesigning them towards a central branded experience. Part of JLL's legacy brand was the use of a square as a lexicon. I extended the brand by marrying Helvetica Neue and a Swiss typographic and grid design approach across all major layouts. 
 </section>
 <section class="content--wide">
-![messaging](/images/{{ page.cid }}/messaging-1.jpg)
-</section>
-<section class="content--copy">
-#### Messaging 
-I pitched JLL on homepage messaging ideas that fit into the core concept of the future of JLL. My core concept was to show the breadth of JLL and how their properties affect the lives of many. Though primarily a commercial B2B brand, I wanted to push JLL to embrace a more consumer friendly face. To help communicate and illstrate tactile headline applications - I created and presented a deck to JLL's Digital Marketing managers. Unfortunately, the idea was scrapped in favor of the current solution.
+![messaging](/images/{{ page.cid }}/2012-cd.jpg)
 </section>
 
 <section class="content">

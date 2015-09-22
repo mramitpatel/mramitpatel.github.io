@@ -17,7 +17,11 @@
     <![endif]-->
     {% include shared/progress.html %}
     <div id="project" class="animsition">
-      {% include shared/nav.html %}
+<nav>
+<div class="content--wide">
+    {% include shared/nav.html %}
+</div>
+</nav>
       <!-- HERO -->
       <header class="header--project" style="background-color: {{ page.backgroundColor }};">
         {% include shared/header.html %}
@@ -45,14 +49,17 @@
       {% assign last lastPostIndex = site.posts | size | minus: 1 %}
       {% assign next = site.posts[lastPostIndex] %}
     {% endif %}
+
     
     <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
       <div class="content--wide">
-        <h6>Next Project:&nbsp;</h6>
+        <h6>Next</h6>
         <h3>{{ next.title}}</h3>
       </div>
     </a>
   </section>
+
+
 <footer>
 <div class="content--wide">
     {% include shared/footer.html %}

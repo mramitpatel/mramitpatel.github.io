@@ -1,14 +1,13 @@
 <section id="more-work">
-
-    {% if page.next %}
-        {% assign next = page.next %}
+    {% if site.categories.projects.next %}
+        {% assign next = site.categories.projects.next %}
     {% else %}
         {%comment%}
            As the array index start at zero we substract 1 to the total count,
            we then get the last post index in the site.posts array
         {%endcomment%}
-        {% assign last lastPostIndex = site.posts | size | minus: 1 %}
-        {% assign next = site.posts[lastPostIndex] %}
+        {% assign last lastPostIndex = site.categories.projects | size | minus: 1 %}
+        {% assign next = site.categories.projects[lastPostIndex] %}
     {% endif %}
     
     <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">

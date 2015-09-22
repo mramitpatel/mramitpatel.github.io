@@ -12,15 +12,14 @@ img[data-sizes="auto"] {
     display: block;
 }
 
-.teaser.lazyload {
-    opacity: 0;
-    transform: scale(0.8);
-}
 
-.teaser.lazyloaded {
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
     opacity: 1;
-    transform: scale(1);
-    transition: all 700ms;
+    transition: opacity 300ms;
 }
 
 
@@ -106,6 +105,8 @@ h6{
     @include transition(all 0.2s ease-out);
     display: inline-block;
     margin-bottom: 1em;
+    padding-top: 0;
+    margin-top: 0;
     border-bottom: 1px solid currentColor;
 
     &:hover {
@@ -303,39 +304,54 @@ p + h5{
 }
 
 #blog {
-    .content{
-        padding-bottom: 6%;
-    }
+
+
 
     header{
         padding: 6% 0;
     }
     h2{
-        margin-bottom: .5em;
+        margin-bottom: 0em;
     }
 }
 #post{
-h1{
-    text-align: left;
-}
 
-nav, .content, footer{
-    padding: 3%;
-    @include span-columns(7);
+    nav{
+        position: absolute;
+    }
+
+    article{
+        padding: 12% 0;
+        border-bottom: 1px solid $light-gray;
+    &:last-child{
+        border-bottom: none;
+    }
+    }
+
+    .content{
+    @include span-columns(8);
     @include shift(2);
+    padding: 1% 8%;
     border-bottom: none;
 
         @include media($laptop) {
         @include fill-parent;
             @include shift(0);
     }
+    }
+
+    p{
+        font-family: $serif;
+        font-size: 1.2em;
+    }
+
+nav ul{
+    float: right;
 }
-ul{
-    float: left;
-}
+
     header{
         background-color: none;
-        padding: 12% 0 0 0;
+        padding: 15% 0 0 0;
     }
     footer{
         padding: 3%;

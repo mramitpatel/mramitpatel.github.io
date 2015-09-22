@@ -1,3 +1,6 @@
+
+
+
 .page-link {
     @include row;
 
@@ -69,7 +72,8 @@
 .header--project {
     article {
         text-align: center;
-
+        @include span-columns(6);
+        padding: 3% 0;    
         @include shift(3);
 
         @include media($mobile) {
@@ -91,6 +95,13 @@
 /*
 /*--------------------------------------- */
 /*--------------------------------------- */
+
+
+#project{
+    nav .content--wide{
+        padding: 1% 8%;
+    }
+}
 
 .active {
     background-color: #000;

@@ -1,6 +1,6 @@
 // Typography
 $sans-serif: 'Neue Haas Unica W01';
-$serif: 'Leitura News W01';
+$serif: 'georgia', sans-serif;
 $base-font-family: $sans-serif;//$serif;
 $heading-font-family: $sans-serif;
 $geometric-sans: 'Geogrotesque W01';
@@ -14,14 +14,14 @@ $base-border-radius: em(2);
 
 // Colors
 $blue: #477DCA;
-$dark-gray: rgba(0, 39, 59, 1);
+$dark-gray: rgba(0,39,59,.9);
 $medium-gray: rgb(132, 132, 132);
 $light-gray: rgba(0,39,59,.2);
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $dark-gray: rgb(34, 34, 34);
 $reddish: #F04C37;
-$light-gray: rgba(0,39,59,.1);;
+$light-gray: rgba(0,39,59,.1);
 
 
 $border-color: $light-gray;
@@ -31,7 +31,7 @@ $border-color: $light-gray;
 $base-background-color: white;
 
 // Font Colors
-$base-font-color: #3f4549;
+$base-font-color: rgba(0,39,59,.9);
 $base-accent-color: #000;
 
 // Link Colors

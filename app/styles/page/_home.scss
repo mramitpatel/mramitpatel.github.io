@@ -17,6 +17,10 @@
             @extend .content--wide;
         }
     }
+
+    nav .content--wide{
+        padding: 1% 8%;
+    }
 }
 
 .underline{

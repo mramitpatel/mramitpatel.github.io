@@ -36,7 +36,6 @@ txtColor: "#000"
 ![detail](/images/{{ page.cid }}/jll-ipad-propertysearch-detail.jpg)
 </section>
 <section class="content--wide">
-<img src="/images/{{ page.cid }}/initial-sketches.png" data-jslghtbx>
 
 ![Final Designs](/images/{{ page.cid }}/jll-ipad-propertysearch-1.jpg)
 
