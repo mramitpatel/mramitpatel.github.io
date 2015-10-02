@@ -28,7 +28,7 @@ images:
     - img-3.jpg
 backgroundColor: "rgba(133, 190, 242, 1)"
 accentColor: "#fff"    
-txtColor: "#fff"
+txtColor: "rgba(133, 190, 242, 1)"
 ---
 <section class="overview">
 #### Overview

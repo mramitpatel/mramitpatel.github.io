@@ -23,77 +23,6 @@ img[data-sizes="auto"] {
 }
 
 
-h1{
-    @include media($laptop) {
-        font-size: $base-font-size * 4;
-    }
-    @include media($tablet) {
-        font-size: $base-font-size * 3.25;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * 2.3;
-    }    
-}
-
-h2{
-    @include media($laptop) {
-        font-size: $base-font-size * 3.358;
-    }
-    @include media($tablet) {
-        font-size: $base-font-size * 3.025;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * 2;
-    }    
-}
-
-h3{
-    @include media($laptop-large) {
-        font-size: $base-font-size * 2.158;
-    }
-    @include media($tablet) {
-        font-size: $base-font-size * 1.825;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * 1;
-    }      
-}
-
-h4{
-    @include media($laptop-large) {
-        font-size: $base-font-size * 1.458;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * 1.125;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * .78;
-    }    
-}
-h5{
-    @include media($laptop-large) {
-        font-size: $base-font-size * 1.1;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * 1.1;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * .78;
-    }    
-}
-
-
-h6{
-    @include media($laptop-large) {
-        font-size: $base-font-size * .8;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * 1.125;
-    }
-    @include media($mobile) {
-        font-size: $base-font-size * .7;
-    }    
-}
 
 .wrapper{
     position:  relative;
@@ -120,7 +49,7 @@ header {
 width: 100%;
     position: relative;
     overflow: hidden;
-    padding: 12% 0 6% 0;
+    padding: 6% 0 6% 0;
     justify-content: center;
     @include row;
 
@@ -130,10 +59,7 @@ width: 100%;
 
 
     article {
-        padding-top: 6%;
-        @include span-columns(5);
-        @include shift(1);
-
+        @include span-columns(7);
         @include media($mobile) {
             @include fill-parent;
             @include row;
@@ -256,10 +182,10 @@ p + h5{
     }
 }
 
-#blog-list{
+#blog--list{
     background-color: $dark-gray;
     @include row();
-    padding: 6%;
+    padding: 3%;
 
     aside{
         height: 100%;
@@ -279,7 +205,6 @@ p + h5{
 
     .right-column{
         @include span-columns(5);
-        @include shift(2);
     }
 
 
@@ -358,3 +283,67 @@ nav ul{
     }
 }
 
+
+
+
+
+
+h2{
+    @include media($laptop) {
+        font-size: $base-font-size * 3.358;
+    }
+    @include media($tablet) {
+        font-size: $base-font-size * 3.025;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 2;
+    }    
+}
+
+h3{
+    @include media($laptop-large) {
+        font-size: $base-font-size * 2.158;
+    }
+    @include media($tablet) {
+        font-size: $base-font-size * 1.825;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1;
+    }      
+}
+
+h4{
+    @include media($laptop-large) {
+        font-size: $base-font-size * 1.458;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .78;
+    }    
+}
+h5{
+    @include media($laptop-large) {
+        font-size: $base-font-size * 1.1;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1.1;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .78;
+    }    
+}
+
+
+h6{
+    @include media($laptop-large) {
+        font-size: $base-font-size * .8;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * 1.125;
+    }
+    @include media($mobile) {
+        font-size: $base-font-size * .7;
+    }    
+}

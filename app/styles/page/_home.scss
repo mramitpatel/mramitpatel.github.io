@@ -24,36 +24,110 @@
 }
 
 .underline{
-    background-image: linear-gradient( to right, currentColor 0%, currentColor 100% );
+    background-image: linear-gradient( to right, currentColor 0%, currentColor 90% );
     background-repeat: repeat-x;
-    background-position: 0px 96%;
-    -webkit-background-size: 100% 2px;
-    background-size: 100% 1px;
+    background-position: 0px 89%;
+    -webkit-background-size: 100% 3px;
+    background-size: 100% 3px;
+
+  text-shadow: 3px 0 0 white, -3px 0 0 white;
+
 }
 
-#home-work-list {
-    padding: 3%;
-    overflow: auto;
+
+.container{
+@include row();
+position: relative;
+padding: 3% 8%;
+}
+
+.container--home{
+    @extend .container;
+    background: #eee;
+
+
+        @include media($laptop-large) {
+    margin-left: 18%;
+    margin-right: 6%;
+        }    
+
+        @include media($tablet) {
+    margin-left: 18%;
+    margin-right: 6%;
+        }
+        @include media($laptop) {
+                padding: 3%; 
+        }
+        @include media($mobile) {
+margin:0;
+        }
+
+}
+
+
+.wrapper-work{
+    width: auto;
+}
+
+.wrapper{
+    height: 100%;
+    @include row();
+    max-width: 2880px;
+        padding-left: 8%;
+        padding-top: 3%;
+        background: #eee;
+}
+
+
+#work--list {
+    @include shift(3);
+    overflow: none;
 
     section {
-        padding: 8% 6%;
-        width: 50%;
-        margin: 0;
+                padding: 6% 0;
+        @include fill-parent();
         display: block;
-        position: relative;
+     position: relative;
         float: left;
-        overflow: hidden;
-        -webkit-filter: brightness(95%);
+
         cursor: default;
-        display: flex;
 
-        align-items: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
+        border-bottom: 1px solid $border-color;
 
-&:hover{
-            -webkit-filter: brightness(105%);
+        //h1 span{
+            //@extend .underline;
+        //}
+
+
+.added-info{
+    height: 100%;
+    width: 100%;
+    bottom:0;
+   position: absolute;
+opacity: 0;
+
+    @include transition(all 0.5s ease-out);
+
+
+    .added-info-wrapper{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    right: 0;
+    }
+
+
+}
+
+
+&:hover .added-info{
+display: block;
+    height: 100%;
+    opacity: 1;
+    
+
 }
         @include transition(all 0.2s ease-out);
 
@@ -65,16 +139,18 @@
         article {
             h5 {
                 opacity: 0.8;
+                font-weight: 500;
             }
         }
 
         picture {
             @include span-columns(8);
+            z-index: 10;
 
             position: absolute;
             height: 100%;
             right: 0%;
-            top: 0;
+            bottom: -20%d;
 
             @include transition(all 0.3s);
 
@@ -103,12 +179,7 @@
             max-width: 100%;
             width: 100%;
             height: auto;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -moz-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            -o-transform: translateY(-50%);
-            transform: translateY(-50%);
+bottom: 0;
             z-index: 11;
 
 
@@ -122,37 +193,35 @@
 
 
         // full span image container image //
-        &:nth-child(3n-8) {
-            @include fill-parent;
+      //  &:nth-child(3n-8) {
+          //  @include fill-parent;
+//
 
-            article{
 
-            }
+           // picture {
+                //@include span-columns(6);
+                //position: absolute;
+                //height: 100%;
+                //right: 25%;
+                //top: 0;
 
-            picture {
-                @include span-columns(6);
-                position: absolute;
-                height: 100%;
-                right: 25%;
-                top: 0;
+                //@include media($laptop) {
+                 //   right: -25%;
+                 //   float: left;
+                 //   display: block;
+                //}
 
-                @include media($laptop) {
-                    right: -25%;
-                    float: left;
-                    display: block;
-                }
+    //@include media($mobile) {
+      //  @include fill-parent;
+      //  position: relative;
 
-    @include media($mobile) {
-        @include fill-parent;
-        position: relative;
+   // }
 
-    }
-
-            }
-        }
+           // }
+       // }
 
         // end full span container image //
-        h2 {
+        h1 {
             margin-bottom: .5em;
         }
 
@@ -176,6 +245,7 @@ section{
     @include media($laptop) {
         @include fill-parent;
         right: 0%;
+
     }
     picture{
         @include media($tablet) {
@@ -194,6 +264,12 @@ section{
         }            
     }           
 }
+
+//.underline-alt{
+//    color: #e2e2e2;
+//    padding-bottom: 1em;
+//    border-bottom: 1px solid $border-color;
+//}
 
 
 .arrow-button {

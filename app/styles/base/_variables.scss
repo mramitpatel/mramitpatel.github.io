@@ -1,9 +1,11 @@
 // Typography
-$sans-serif: 'Neue Haas Unica W01';
-$serif: 'georgia', sans-serif;
-$base-font-family: $sans-serif;//$serif;
+$sans-serif: 'Neue Haas Grotesk W04 Disp';
+$heading-font-family: 'Neue Haas Grotesk W01 Disp';
+$serif: sans-serif;
+$base-font-family: $serif;
 $heading-font-family: $sans-serif;
 $geometric-sans: 'Geogrotesque W01';
+
 
 // Sizes
 $base-font-size: 1.1em;
@@ -31,7 +33,7 @@ $border-color: $light-gray;
 $base-background-color: white;
 
 // Font Colors
-$base-font-color: rgba(0,39,59,.9);
+$base-font-color: rgba(0,0,0,.65);
 $base-accent-color: #000;
 
 // Link Colors

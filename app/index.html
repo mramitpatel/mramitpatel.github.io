@@ -1,35 +1,43 @@
 ---
 layout: home
-title: "Amit Patel, Designer"
+title: "I'm Amit, a Digital Creative Director & Designer. I create digital experiences, design interfaces and shape brands."
 body_id: home
-title: "Hi, I'm Amit."
-description: "I create digital experiences, design interfaces and shape brands."
+client: "Mr. Amit Patel"
+description: 
 ---
-<div id="home-work-list" class="content--wide">
+
+<h6 class="underline-alt"> Recent Work </h6>
+<div id="work--list" class="">
     {% for post in site.categories.projects %}
-            <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="background-color:{{post.backgroundColor}}";>
-                
+            <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="background-color: {{ post.backgroundColor }}";>
+                <div class="wrapper-work">
                 <a class="animsition-link" href="{{ post.url }}">
-                    <picture data-id="{{ post.cid }}">
-                        <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
-                    </picture>
+
                     
-                    <article style="color: {{post.accentColor}}">
-                        <div>
-                            <!--<h6><span>{{ post.role }}</h6>-->
-                            <h2><span style="color: {{post.accentColor}}";>{{ post.title }}</span>
-                            </h2>
+                    <article class="info" style="color: {{post.accentColor}}">
+                        <!--<h6><span>{{ post.role }}</h6>-->
+                        <h2 style="color: {{post.accentColor}}";>{{ post.title }}</h2>
+                        <h5>{{post.description }}</h5>
+                   </article>
+
+
+                    <div class="added-info">
+                        <div class="added-info-wrapper">
+                        <span class="arrow-btn">
+                        </span>
                             
-                            <h5 style="color: {{post.accentColor}}">{{post.description }}</h5>
+                            <picture data-id="{{ post.cid }}">
+                                <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
+                            </picture>
                         </div>
-                        <h6 class="read-more" style="color: {{post.accentColor}}">Read More</h6>
-                    </article>
+                    </div>
+
                 </a>
-                
+                </div>
             </section>
     {% endfor %}
 </div>
-<div id="blog-list">
+<div id="blog--list">
     <section class="content--wide">
         <aside>
             <h5>Sometimes I write about design, technology and other random things.</h5>

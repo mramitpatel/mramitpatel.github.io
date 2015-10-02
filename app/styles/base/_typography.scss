@@ -13,16 +13,16 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: $heading-font-family;
+            font-family:'Neue Haas Grotesk W01 Disp';
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 h1{
-  font-size: $base-font-size * 3.38;
-  line-height: .95;
+  font-size: $base-font-size * 2.5;
+  line-height: 1.125;
 }
 
 h2{
@@ -38,8 +38,8 @@ h4{
 }
 
 h5{
-  font-size: $base-font-size * 1.11; 
-  line-height: 1.5; 
+  font-size: $base-font-size * 1.25; 
+  line-height: 1.5;
   font-family: $base-font-family;
 }
 

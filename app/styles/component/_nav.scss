@@ -1,44 +1,42 @@
-a.logo {
-    opacity: 1;
+    .logo {
+       width: 3em;
+        display: inline-block;
+        float: left;
+
+        vertical-align: center;
     height: auto;
-    display: block;
-    float: none;
+
     fill: currentColor;
 
-    &:hover {
-        opacity: 1;
     }
+.menu{
+
 }
 
+
 nav {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-    top: 0;
-    position: absolute;
+    border-bottom: 1px solid $border-color;
     z-index: 100;
+    @include row();
 
     @include media($mobile) {
         @include fill-parent;
-
         @include row;
-
         position: relative;
     }
 
 
-    .logo {
-        width: 3em;
-        display: inline-block;
-        float: left;
-        vertical-align: center;
-        padding-top: 1em;
-    }
+
+}
+
+.menu{
+    @extend h6;
 }
 
 nav {
     ul {
+        padding: 0;
+        margin: 0;
         list-style-type: none;
         float: right;
     }
@@ -49,16 +47,14 @@ nav {
             @extend h6;
         }
 
-        margin: 0 0 0 2em;
+        margin: 0 0 0 1.5em;
         float: right;
 
-        
 
         padding: 0;
         text-transform: capitalize;
         display: inline-block;
         list-style-type: none;
-        border-bottom: 2px solid rgba(0, 0, 0, 0);
         padding-bottom: .25em;
 
         &:hover {

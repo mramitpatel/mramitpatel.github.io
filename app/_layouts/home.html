@@ -24,8 +24,16 @@
     <![endif]-->
 
 
+<a class="logo">
+  {% include shared/logo.html %}
+</a>
+
+<div class="container--home">
+
+   <!-- <a class="logo" href="/">{% include shared/logo.html %}</a>-->
+
 <nav>
-<div class="content--wide">
+<div>
     {% include shared/nav.html %}
 </div>
 </nav> 
@@ -41,7 +49,9 @@
 <div class="content--wide">
     {% include shared/footer.html %}
 </div>
-</footer> 
+</footer>
+</div>
+
    
     {% include shared/scripts.html %}
     {% include shared/google-analytics.html %}
