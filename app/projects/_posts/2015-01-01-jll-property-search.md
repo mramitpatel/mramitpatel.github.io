@@ -11,7 +11,7 @@ category: webApp
 
 type: web redesign
 client: JLL
-role: "Product Design | UnitOneNine"
+role: "Product Design"
 
 description: "As part of an overall web design overhaul, Jones Lang LaSalle's property search was in dire need of a redesign."
 

@@ -18,7 +18,7 @@
     {% include shared/progress.html %}
     <div id="project" class="animsition">
 <nav>
-<div class="content--wide">
+<div class="wrapper-work">
     {% include shared/nav.html %}
 </div>
 </nav>
@@ -40,6 +40,7 @@
   </div>
   
   <section id="more-work">
+  <div class="content--copy">
     {% if page.next %}
       {% assign next = page.next %}
     {% else %}
@@ -53,11 +54,16 @@
 
     
     <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-      <div class="content--wide">
-        <h6>Next</h6>
-        <h3>{{ next.title}}</h3>
-      </div>
+        <h3 style="color: {{post.accentColor}}">Next Project: {{ next.title}}</h2>
     </a>
+
+
+                <h3 class="show-more">More projects:
+                    {% for post in site.categories.projects | join: ', '  %}
+                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                    {% endfor %}
+                 </h3>
+</div>
   </section>
 
 

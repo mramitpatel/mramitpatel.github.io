@@ -28,6 +28,11 @@
         border-bottom: 4px solid currentColor;
         padding-bottom: .15em;
         display: inline-block;
+        cursor: pointer;
+    
+&:hover{
+    color: $reddish;
+}
     }
 
     footer {
@@ -163,8 +168,24 @@ display: block;
         }
         h6{
             padding: 0;
-           margin: .5em 0; 
+           margin: .5em 0;
+           
         }
+
+h2:before {
+    content: counter(project) ".";
+    position: absolute;
+    margin: 2.3em 0em 0em -3em;
+    display: inline-block;
+    font-size: 0.25em;
+    width: 1.3em;
+    height: 1.3em;
+    line-height: 1.2em;
+    text-align: center;
+    font-family: "courier new", courier, monospace;
+    font-weight: bold;
+}
+
 
 &:nth-child(odd) {
     background: #eee;
@@ -197,8 +218,8 @@ display: block;
         &:hover {
 
             background-color: currentColor;
-            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
-            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
+            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color .35s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
+            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color .35s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
 
 
 

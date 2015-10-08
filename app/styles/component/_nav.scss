@@ -24,8 +24,8 @@
 }
 
 nav .wrapper-work {
-    display: flex;
-    align-items: center;
+
+
 }
 
 nav {
@@ -69,7 +69,6 @@ nav {
         a {
             color: $base-font-color;
             padding-bottom: .10em;
-            @extend h5;
         }
 
         margin: 0 0 0 1.5em;

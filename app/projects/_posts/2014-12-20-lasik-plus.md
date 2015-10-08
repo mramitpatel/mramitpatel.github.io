@@ -12,7 +12,7 @@ category: webRedesign
 
 type: web redesign
 client: JLL
-role: "Creative Direction, Art Direction, Design | UnitOneNine"
+role: "Creative Direction, Art Direction, Design"
 description: "A responsive redesign for increased user conversions."
 link: "http://www.lasikplus.com"
 
@@ -34,6 +34,10 @@ txtColor: "rgba(108, 108, 108, 1)"
 <section class="overview">
 #### Overview
 {{page.overview}}
+
++ Increased conversion rates across mobile, desktop and tablet.
++ Increased mobile bookings.
++ Evolved brand standards for the web with typography, iconography and design.
 </section>
 
 <section class="content images-two">

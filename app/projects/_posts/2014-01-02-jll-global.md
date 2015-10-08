@@ -11,7 +11,7 @@ title: "JLL.com"
 
 type: web redesign
 client: Jones Lang LaSalle
-role: "Strategy, Art Direction, Design | UnitOneNine"
+role: "Strategy, Art Direction, Design"
 description: "A global redesign for the 3rd largest real-estate corporation in the world."
 summary: "I redesigned JLL.com, the 3rd largest real-estate corporation in the world."
 link: "http://www.jll.com"

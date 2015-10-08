@@ -1,4 +1,4 @@
-<div class="content--wide">
+<div class="wrapper-work">
 
 
         {% if page.title %}
@@ -10,10 +10,15 @@
               {% endif %}
              {% if page.description %}
                 <h4 class="description">{{ page.summary }}</h4>
-                <h6 class="role"> {{ page.role }}</h6>
+                <h5 class="role"> {{ page.role }}</h6>
               </article>
               <!--{% if page.link %}
                 <a href="{{page.link}}"><h6>Visit Live Site</h6></a>
               {% endif %}-->
+
+                            <picture data-id="{{ post.cid }}">
+                                <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
+                            </picture>
+
       {% endif %}
 </div>

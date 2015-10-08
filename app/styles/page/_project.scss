@@ -72,10 +72,13 @@
 
 .header--project {
     article {
-        text-align: left;
+        text-align: center;
+        @include shift(3);
         @include span-columns(6);
         color: #fff;  
-
+        h5{
+            font-weight: 400;
+        }
         @include media($mobile) {
             @include fill-parent;
 
@@ -193,6 +196,23 @@
     }
 }
 
+
+
+#more-work {
+
+    h3 {
+        line-height: 1;
+        display: inline-block;
+        margin: 0;
+
+        &:first-child {
+            color: #cccccc;
+        }
+    }
+
+}
+
+
 /*  Section .Content 6 Image Holder
 /*--------------------------------------- */
 
@@ -240,48 +260,3 @@
     }
 }
 
-.push-1 {
-    @include shift(1);
-}
-
-.span-2-12 {
-    @include span-columns(2);
-}
-
-.span-3-12 {
-    @include span-columns(3);
-}
-
-.span-4-12 {
-    @include span-columns(4);
-}
-
-.span-5-12 {
-    @include span-columns(5);
-}
-
-.span-6-12 {
-    @include span-columns(6);
-}
-
-.span-7-12 {
-    @include span-columns(7);
-}
-
-.span-8-12 {
-    @include span-columns(8);
-}
-
-.span-9-12 {
-    @include span-columns(9);
-}
-
-.span-10-12 {
-    @include span-columns(10);
-
-    @include shift(1);
-}
-
-.shift-3 {
-    @include shift(3);
-}

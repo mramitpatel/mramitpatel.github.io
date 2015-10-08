@@ -9,7 +9,7 @@ type: website redesign
 resource: true
 cid: "basil-haydens"
 
-role: "Art Direction, Design | UnitOneNine"
+role: "Art Direction, Design"
 client: "Basil Hayden's"
 title: "Basil Hayden's"
 description: "Crafting a brand destination for the true small-batch whiskey conniouseur."

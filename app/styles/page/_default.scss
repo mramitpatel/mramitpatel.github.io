@@ -89,14 +89,6 @@ width: 100%;
 }
 
 
-#more-work
-{
-    @include row();
-    } a{
-        @include media($mobile){
-    }
-}
-
 
 
 #clients{
@@ -121,7 +113,7 @@ width: 100%;
 
 .outer-container {
     @include outer-container;
-    padding: 0 3%;
+    padding: 0 1%;
 }
 .content {
     @include outer-container;
@@ -140,9 +132,8 @@ width: 100%;
     
     h2, h4, p, h5, h6 {
         
-        @include span-columns(8);
-        @include shift(2);
-
+        @include span-columns(10);
+        @include shift(1);
         @include media($mobile) {
             @include fill-parent;
             @include row;
@@ -152,6 +143,10 @@ width: 100%;
 }
 
 
+.overview ul{
+    float: left;
+    list-style: decimal;
+}
 section {
 	@include row();
 }
@@ -219,15 +214,6 @@ p + h5{
     }
 }
 
-}
-
-#more-work{
-    @include row();
-    h6{
-        padding: 0;
-        margin-bottom: .5em;
-        font-weight: normal;
-    }
 }
 
 #blog {
@@ -300,24 +286,24 @@ nav ul{
 
 h1{
         @include media($mobile) {
-        font-size: $base-font-size * 2;
+        font-size: $base-font-size * 1.25;
     }
 }
 
 h2{
         @include media($mobile) {
-        font-size: $base-font-size * 1.75;
+        font-size: $base-font-size * 1.05;
     }
 }
 
 h5{
         @include media($mobile) {
-        font-size: $base-font-size * .95;
+        font-size: $base-font-size * .55;
     }
 }
 
 h6{
         @include media($mobile) {
-        font-size: $base-font-size * .75;
+        font-size: $base-font-size * .45;
     }
 }

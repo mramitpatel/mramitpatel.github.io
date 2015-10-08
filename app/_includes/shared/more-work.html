@@ -10,11 +10,19 @@
         {% assign next = site.categories.projects[lastPostIndex] %}
     {% endif %}
     
+
+  <h3> View Next Project</h3>  
     <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
         <div class="content--wide">
-            <h6>Next Project:&nbsp;</h6>
-            <h3>{{ next.title}}</h3>
+            
+            <h2 style="{{page.accentColor}}">{{ next.title}}</h2>
             <span class="arrow-button">&#10141;</span>
         </div>
     </a>
+
+
+    <h3> Take a look at others </h3>
+                        {% for post in site.categories.projects %}
+                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                    {% endfor %}
 </section>
