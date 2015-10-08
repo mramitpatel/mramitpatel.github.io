@@ -42,6 +42,7 @@ button{
     vertical-align: middle;
     white-space: nowrap;
     margin: 0;
+    padding: 0;
     @include transition(fade .5s ease);
 
 &:hover{

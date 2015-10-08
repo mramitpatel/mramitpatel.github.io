@@ -11,7 +11,7 @@ categories: [pitch, website]
 
 type: web redesign
 client: Walton Isaacson
-role: "Art Direction, Design"
+role: "Art Direction, Design | UnitOneNine "
 description: "Site redesign and brand evolution pitch for the &ldquo;World's Most Interesting Agency&rdquo; - Walton Isaacson."
 
 summary: "Part of claiming &ldquo;The World's Most Interesting Agency&rdquo; is having an interesting website. We approached Walton Isaacon with a redesign and brand evolution at the height of a long lasting working relationship."
@@ -31,8 +31,6 @@ Walton Isaacson is an agency located in New York, Chicago and Los Angeles. With 
 This quick site redesign pitch was done in a few days to showcase our abilities to quickly produce high-quality concepts in a short amount of time. Though spec-work is never a good idea, furthering relationships by offering free services is.
 
 Little brand equity and identity meant conjuring up appeal through type, color, tone and showcasing the work.
-
-###### Creative & Art Direction - UnitOneNine
 
 </section>
 <section class="content">

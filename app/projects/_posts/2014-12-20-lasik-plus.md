@@ -12,11 +12,11 @@ category: webRedesign
 
 type: web redesign
 client: JLL
-role: "Creative Direction, Art Direction, Design"
+role: "Creative Direction, Art Direction, Design | UnitOneNine"
 description: "A responsive redesign for increased user conversions."
 link: "http://www.lasikplus.com"
 
-summary: "LasikPlus partnered with UnitOneNine to redesign a website built for the 21st century."
+summary: "LasikPlus.com was redesigned to focus on conversions, reponsivity and mobile bookings."
 
 overview: "LasikPlus is one of the nations largest providers of Laser eye treatments. I crafted a site that informs, educates and convert users into active bookings.<br><br>The result was a full redesign involving redesigned color palettes, image treatments and ultimately evolved digital branding. The site is responsive across all devices and utilizes ExpressionEngine as a CMS."
 
@@ -27,14 +27,13 @@ images:
     - img-2.jpg
     - img-3.jpg
 backgroundColor: "rgba(133, 190, 242, 1)"
-accentColor: "#fff"    
-txtColor: "rgba(133, 190, 242, 1)"
+accentColor: "rgba(133, 190, 242, 1)"    
+txtColor: "rgba(108, 108, 108, 1)"
+
 ---
 <section class="overview">
 #### Overview
 {{page.overview}}
-
-###### Creative Direction, Art Direction, Design
 </section>
 
 <section class="content images-two">

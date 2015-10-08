@@ -24,22 +24,56 @@
     <![endif]-->
 
 
-<a class="logo">
-  {% include shared/logo.html %}
-</a>
-
 <div class="container--home">
 
-   <!-- <a class="logo" href="/">{% include shared/logo.html %}</a>-->
-
 <nav>
-<div>
+<div class="wrapper-work">
     {% include shared/nav.html %}
 </div>
 </nav> 
 
-<header>       
-{% include shared/header.html %}
+
+
+
+<header>
+<div class="wrapper-work">  
+
+              <article id="show-block">
+                <h1 class="show-more">I'm Amit, a Digital Creative Director &amp; Designer. I create digital experiences, design interfaces and shape brands.</h1>
+
+                <h2 class="show-more">I specialize in User Experience, Visual Design, and Brand Strategy. <a href="#work--list">See my work.</a></h2>
+
+                <h2 class="show-more">Most recently, I worked on projects for
+                    {% for post in site.categories.projects limit: 3 %}
+                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                    {% endfor %}
+                 </h2>
+
+                <h2 class="show-more">and sometimes I write. Read my recent articles:
+                    {% for post in site.categories.blog limit: 3 %}
+                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                    {% endfor %}
+                 </h2>
+
+            <h2 class="show-more-btn">More...</h2>
+
+              </article>
+          
+
+
+          {% if page.projectHero %}
+          <picture>
+            <img src="/images/{{ page.cid }}/{{ page.projectHero }}">
+            </picture>
+
+          
+
+          
+      {% endif %}
+
+
+
+</div>
 </header>
 
 <div id="content">

@@ -1,13 +1,4 @@
 
-$(document).ready(function() {
-  // Lettering.js keeps it all tight
-  $("h1").lettering();
-  console.log("lettering.js");
-  // Add "lazyload" class to all images so LazySizes fires
-  $('img').addClass('lazyload');
-  console.log("lazyload");
-});
-
 // Lazyload
 window.lazySizesConfig = {
   addClasses: true
@@ -18,6 +9,19 @@ $("#home-work-list .panel--home").equalHeights();
 
 //Animsition
 $(document).ready(function() {
+
+
+//show more hide
+
+
+  // Lettering.js keeps it all tight
+  $("#work--list h1").lettering();
+  console.log("lettering.js");
+  // Add "lazyload" class to all images so LazySizes fires
+  $('img').addClass('lazyload');
+  console.log("lazyload");
+
+
   $(".animsition").animsition({
     inClass: 'fade-in-up-sm',
     outClass: 'fade-out-up-sm',
@@ -40,3 +44,43 @@ $(document).ready(function() {
     overlayParentElement : 'body'
   });
 });
+
+
+$.fn.scrollTo = function( target, options, callback ){
+  if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+  var settings = $.extend({
+    scrollTarget  : target,
+    offsetTop     : 50,
+    duration      : 500,
+    easing        : 'swing'
+  }, options);
+  return this.each(function(){
+    var scrollPane = $(this);
+    var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+    var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+    scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration), settings.easing, function(){
+      if (typeof callback == 'function') { callback.call(this); }
+    });
+  });
+}
+
+
+
+$(document).ready(function(){
+    $("#show-block .show-more").each(function(e) {
+        if (e != 0)
+            $(this).hide();
+  });
+    
+    $(".show-more-btn").click(function(){
+        if ($("#show-block .show-more:visible").next().length != 0){
+             $("#show-block .show-more:visible").next().fadeIn();
+             $('body').scrollTo(".show-more:visible").next;
+             console.log(e);
+
+              //$("#show-block .show-more:visible").next().addClass(".fade-in-up");
+              return false;
+            }
+    });
+});
+

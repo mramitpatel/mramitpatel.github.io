@@ -9,17 +9,18 @@ type: website redesign
 resource: true
 cid: "basil-haydens"
 
-role: "Creative Direction, Design"
+role: "Art Direction, Design | UnitOneNine"
 client: "Basil Hayden's"
 title: "Basil Hayden's"
 description: "Crafting a brand destination for the true small-batch whiskey conniouseur."
 link: "http://www.basilhaydens.com"
 
 
-summary: "Basil Hayden's, Whiskey. Among other things is a site geared toward the true whiskey aficionado. The site combines blog like content, recipes and features upcoming BH events."
+summary: "I redesigned BasilHayden's.com to be responsive, feature rich curated content and be a destination for whiskey drinkers."
 
 overview: "For Basil Hayden's, I created a blog centric destination as a unique spin on traditional liquor sites. It combines curated blog content with traditional liquor brand marketing. I was responsible for creative direction and art direction with limited assets to craft a brand destination that was engaging for a typical whiskey connoisseur."
 
+clientLogo: bh-logo.svg
 homeimage: hero.png
 projectHero: hero.png
 
@@ -34,8 +35,6 @@ txtColor: "#000"
 <section class="overview">
 #### Overview
 {{page.overview}}
-
-###### Creative Direction, Art Direction, Design - UnitOneNine
 </section>
 
 <section class="content">

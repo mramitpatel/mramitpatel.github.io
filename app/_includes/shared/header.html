@@ -1,26 +1,19 @@
-
+<div class="content--wide">
 
 
         {% if page.title %}
           <div style="color: {{page.txtColor}}">
               <article>
+
+
                 <h1>{{ page.title }}</h1>
               {% endif %}
              {% if page.description %}
-                <h4 class="description">{{ page.description }}</h4>
+                <h4 class="description">{{ page.summary }}</h4>
+                <h6 class="role"> {{ page.role }}</h6>
               </article>
-          
-          {% if page.projectHero %}
-          <picture>
-            <img src="/images/{{ page.cid }}/{{ page.projectHero }}">
-            </picture>
-          {% endif %}
-          <!--
-          <button>
-          <a href="#content--home">
-            <h6>view my recent work<br/>↓ </h6>
-          </a>
-          </button>
-          -->
-        </div>
+              <!--{% if page.link %}
+                <a href="{{page.link}}"><h6>Visit Live Site</h6></a>
+              {% endif %}-->
       {% endif %}
+</div>

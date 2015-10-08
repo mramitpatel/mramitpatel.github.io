@@ -1,8 +1,16 @@
-<a class="menu" href="/menu">{{ page.client }}</a>
+              <a style="color: {{page.accentColor}}" class="logo" href="/">
+  {% include shared/logo.html %}
+</a>
+<!--
+<a class="menu" href="/menu"><img src="/images/{{ page.cid }}/{{ page.clientLogo }}" alt=" {{ page.client }}"></a>
+-->
+
+
+
 
 		<ul class="primary-nav">
-			<li><a class="about" href="/about">about</a></li>
-			<li><a class="about" href="/blog">thoughts</a></li>
-			<li><a class="work" href="/#home-work-list">work</a></li>
+			<li><h6><a class="about" href="/about">about</a></h6></li>
+			<li><h6><a class="about" href="/blog">thoughts</a></h6></li>
+			<li><h6><a class="work" href="/#home-work-list">work</a></h6></li>
 		</ul>
 

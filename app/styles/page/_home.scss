@@ -4,137 +4,239 @@
 
 #home {
     header {
-        justify-content: center;
-        article{
-            h4{
-                color: #828282;
-            }
+        padding: 10% 0;
+
+        .recent-project-span:first-of-type:after {
+            content: ",";
+            color: #555;
+            border-bottom: none;
         }
-        padding: 14% 0 10% 0;
+        .recent-project-span:last-of-type:before {
+            content: "and ";
+            background-image: none;
+            color: #555;
+            border-bottom: 0;
+        }
+
+        article {
+            padding: 8% 0 6% 0;
+            @include span-columns(8);
+        }
     }
-    footer{
-        div{
+
+    .show-more-btn {
+        border-bottom: 4px solid currentColor;
+        padding-bottom: .15em;
+        display: inline-block;
+    }
+
+    footer {
+        div {
             @extend .content--wide;
         }
     }
 
-    nav .content--wide{
+    nav .content--wide {
         padding: 1% 8%;
     }
 }
 
-.underline{
-    background-image: linear-gradient( to right, currentColor 0%, currentColor 90% );
+.underline {
+    background-image: linear-gradient(to right, currentColor 0%, currentColor 90%);
     background-repeat: repeat-x;
     background-position: 0px 89%;
     -webkit-background-size: 100% 3px;
     background-size: 100% 3px;
-
-  text-shadow: 3px 0 0 white, -3px 0 0 white;
-
+    text-shadow: 3px 0 0 white, -3px 0 0 white;
 }
 
-
-.container{
-@include row();
-position: relative;
-padding: 3% 8%;
+.container {
+    @include row;
+    position: relative;
+    padding: 3% 8%;
 }
 
-.container--home{
-    @extend .container;
-    background: #eee;
+//.container--home{
+//    @extend .container;
+//    background: #eee;
+//
+//
+//        @include media($laptop-large) {
+//    margin-left: 18%;
+//    margin-right: 6%;
+//        }    
+//
+//        @include media($tablet) {
+//    margin-left: 18%;
+//    margin-right: 6%;
+//        }
+//        @include media($laptop) {
+//                padding: 3%; 
+//        }
+//        @include media($mobile) {
+//margin:0;
+//        }
+//
+//}
 
-
-        @include media($laptop-large) {
-    margin-left: 18%;
-    margin-right: 6%;
-        }    
-
-        @include media($tablet) {
-    margin-left: 18%;
-    margin-right: 6%;
-        }
-        @include media($laptop) {
-                padding: 3%; 
-        }
-        @include media($mobile) {
-margin:0;
-        }
-
+.animated {
+    -webkit-animation: filter-animation 5s once;
 }
 
-
-.wrapper-work{
-    width: auto;
-}
-
-.wrapper{
-    height: 100%;
-    @include row();
-    max-width: 2880px;
-        padding-left: 8%;
-        padding-top: 3%;
-        background: #eee;
-}
-
-
-#work--list {
-    @include shift(3);
-    overflow: none;
-
-    section {
-                padding: 6% 0;
-        @include fill-parent();
-        display: block;
-     position: relative;
-        float: left;
-
-        cursor: default;
-
-        border-bottom: 1px solid $border-color;
-
-        //h1 span{
-            //@extend .underline;
-        //}
-
-
-.added-info{
-    height: 100%;
-    width: 100%;
-    bottom:0;
-   position: absolute;
-opacity: 0;
-
-    @include transition(all 0.5s ease-out);
-
-
-    .added-info-wrapper{
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    height: 0%;
-    right: 0;
+@-webkit-keyframes filter-animation {
+    0% {
+        -webkit-filter: sepia(0) saturate(2);
     }
 
+    50% {
+        -webkit-filter: grayscale(1);
+    }
 
+    100% {
+        -webkit-filter: sepia(0) saturate(2);
+    }
 }
 
+.wrapper-work {
+    @include span-columns(8);
+    padding: 0% 3%;
+    @include shift(2);
+    position: relative;
 
-&:hover .added-info{
-display: block;
-    height: 100%;
-    opacity: 1;
-    
-
-}
-        @include transition(all 0.2s ease-out);
-
-        @include media($tablet){
+        @include media($mobile) {
             @include fill-parent;
+            @include row;
+            @include shift(0);
+            padding: 3%;
+        }
+
+
+}
+
+.show-more{
+    @include transition(all 0.5s ease-out);
+    padding-top: 20px;
+
+}
+
+.fade-in-up{
+opacity: 1;
+padding-top: 0px;
+display: block;
+}
+
+.wrapper {
+    height: 100%;
+
+    @include row;
+
+    max-width: 2880px;
+    padding-left: 8%;
+    padding-top: 3%;
+    background: #eee;
+}
+
+#work--list {
+    overflow: none;
+
+    //main section container
+    section {
+        @include fill-parent;
+        margin: 0;
+        display: block;
+        position: relative;
+        float: left;
+        cursor: default;
+        background-color: #fff;
+        border-top: 1px solid #eee;
+
+                -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+                transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+
+        article {
+            padding: 18% 0%;
+        }
+
+        h2 {
+            margin-bottom: .5em;
+        }
+        h6{
+            padding: 0;
+           margin: .5em 0; 
+        }
+
+&:nth-child(odd) {
+    background: #eee;
+}
+
+        .added-info {
+            height: 100%;
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            opacity: 0;
+            left: 0;
+            right: 0;
+            display: none;
+
+            @include transition(all 0.5s ease-out);
+
+            .added-info-wrapper {
+                height: 100%;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                height: 0%;
+                right: 0;
+            }
+        }
+
+
+
+        &:hover {
+
+            background-color: currentColor;
+            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
+            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
+
+
+
+            h2,h6{
+                color: #fff;
+                @include transition(all .25s ease-in .35s);
+
+
+            }
+
+            h5{
+                filter: invert(100%);
+                @include transition(all .25s ease-in .35s);
+            }
+
+            picture {
+                transform: scale(1.25);
+                opacity: 1;
+                filter: saturate(1);
+                -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+                transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+            }
+        }
+
+        &:hover .added-info {
+            display: none;
+            height: 100%;
+            opacity: 1;
+        }
+
+        @include transition(all .25s ease-out);
+
+        @include media($tablet) {
+            @include fill-parent;
+
             padding: 1% 4%;
         }
+
 
         article {
             h5 {
@@ -143,35 +245,37 @@ display: block;
             }
         }
 
-        picture {
-            @include span-columns(8);
-            z-index: 10;
+        .img-wrapper {
+            @include span-columns(7);
 
             position: absolute;
+            right: 0;
             height: 100%;
-            right: 0%;
-            bottom: -20%d;
+            z-index: 10;
+            top: 0;
+
+
+            @include media($mobile) {
+                @include fill-parent();
+                left: 0;
+                position: relative;
+                @include transform(none);
+            }
+
+        }
+
+        picture {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            position: absolute;
+            transform: scale(1.1);
+            opacity: .75;
+            filter: saturate(0.7);
 
             @include transition(all 0.3s);
 
-            -webkit-transform: translateX(50%);
-            -moz-transform: translateX(50%);
-            -ms-transform: translateX(50%);
-            -o-transform: translateX(50%);
-            transform: translateX(50%);
 
-            @include media($tablet) {
-                right: -25%;
-                @include span-columns(4);
-            }
-
-                    @include media($mobile) {
-        @include span-columns(4);
-        left: 0;
-        position: relative;
-        @include transform(none);
-        
-    }    
         }
 
         img {
@@ -179,46 +283,61 @@ display: block;
             max-width: 100%;
             width: 100%;
             height: auto;
-bottom: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
             z-index: 11;
 
-
             @include media($mobile) {
-        @include fill-parent;
-        position: relative;
-        @include transform(none);
-        
-    }    
+                @include fill-parent;
+
+                position: relative;
+
+                @include transform(none);
+            }
         }
 
-
         // full span image container image //
-      //  &:nth-child(3n-8) {
-          //  @include fill-parent;
-//
+        //  &:nth-child(3n-8) {
+        //  @include fill-parent;
+        //
 
+        // picture {
+        //@include span-columns(6);
+        //position: absolute;
+        //height: 100%;
+        //right: 25%;
+        //top: 0;
 
-           // picture {
-                //@include span-columns(6);
-                //position: absolute;
-                //height: 100%;
-                //right: 25%;
-                //top: 0;
+        //@include media($laptop) {
+        //   right: -25%;
+        //   float: left;
+        //   display: block;
+        //}
 
-                //@include media($laptop) {
-                 //   right: -25%;
-                 //   float: left;
-                 //   display: block;
-                //}
+        //@include media($mobile) {
+        //  @include fill-parent;
+        //  position: relative;
 
-    //@include media($mobile) {
-      //  @include fill-parent;
-      //  position: relative;
+        // }
 
-   // }
+        //@include media($laptop) {
+        //   right: -25%;
+        //   float: left;
+        //   display: block;
+        //}
 
-           // }
-       // }
+        //@include media($mobile) {
+        //  @include fill-parent;
+        //  position: relative;
+
+        // }
+
+        // }
+        // }
 
         // end full span container image //
         h1 {
@@ -232,37 +351,42 @@ bottom: 0;
         }
 
         article {
-            @include span-columns(6);
-            @include media($mobile) {
-            @include fill-parent;
-    }
+            @include span-columns(5);
 
+            @include media($mobile) {
+                @include fill-parent;
             }
         }
     }
+}
 
-section{
+section {
     @include media($laptop) {
         @include fill-parent;
         right: 0%;
-
     }
-    picture{
+
+
+    picture {
         @include media($tablet) {
             @include span-columns(6);
             right: -25%;
         }
+
+
         @include media($laptop) {
             right: -25%;
             float: left;
             display: block;
         }
+
+
         @include media($mobile) {
             right: -25%;
             float: left;
             display: block;
-        }            
-    }           
+        }
+    }
 }
 
 //.underline-alt{
@@ -270,7 +394,6 @@ section{
 //    padding-bottom: 1em;
 //    border-bottom: 1px solid $border-color;
 //}
-
 
 .arrow-button {
     padding-left: .5em;
@@ -290,10 +413,14 @@ section{
 
     @include media($tablet) {
         @include row;
+
         position: relative;
         display: block;
+
         @include fill-parent;
+
         right: auto;
+
         @include transform(none);
     }
 }

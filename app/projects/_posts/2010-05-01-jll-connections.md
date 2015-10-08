@@ -12,7 +12,7 @@ title: "JLL Connections"
 
 type: iPad App
 client: Jones Lang LaSalle
-role: "Product Strategy & Product Design"
+role: "Product Strategy & Product Design | UnitOneNine"
 
 description: "An enterprise iPad application for brokers and agents in the field."
 overview: "Networking is everything and as JLL knows this notion well. JLL's real estate offerings are home to companies all over the world. With that immense of a reach, JLL needed an app to help visualize and manage the network of professional relationships of its associates."
@@ -20,15 +20,13 @@ overview: "Networking is everything and as JLL knows this notion well. JLL's rea
 homeimage: jll-connections-hero.png
 projectHero: jll-connections-hero.png
 
-backgroundColor: "rgb(236, 236, 236)"
+backgroundColor: "rgb(105, 171, 8)" 
 accentColor: "rgb(105, 171, 8)"     
-txtColor: "rgb(105, 171, 8)" 
+txtColor: "#000"
 ---
 <section class="overview">
 #### Overview
 {{page.overview}}
-
-###### Product Design - UnitOneNine
 </section>
 
 <section class="content">
