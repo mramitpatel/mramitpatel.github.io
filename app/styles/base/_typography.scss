@@ -8,6 +8,9 @@ body {
 
 }
 
+$modular-scale-ratio: $perfect-fourth;
+$modular-scale-base: 1em;
+
 h1,
 h2,
 h3,
@@ -21,32 +24,33 @@ h5 {
 }
 
 h1{
-  font-size: $base-font-size * 2.15;
-  line-height: 1.125;
+  font-size: modular-scale(6);
+
 }
 
 h2{
-  font-size: $base-font-size * 1.88;
+  font-size: modular-scale(5);
+    line-height: 1.125;
 }
 
 h3{
-  font-size: $base-font-size * 1.299;
+  font-size: modular-scale(4);
 }
 
 h4{
-  font-size: $base-font-size * 1.114;
+  font-size: modular-scale(3);
 }
 
 h5{
-  font-size: $base-font-size * 1.15; 
-  line-height: 1.5;
+  font-size: modular-scale(2);
+  line-height: 1.25;
   font-family: $base-font-family;
 }
 
-h6{
-  font-size: $base-font-size * .72;
+h5{
+  font-size: modular-scale(1);
+  line-height: 1.25;
   font-family: $base-font-family;
-  padding-top: 1em;
 }
 
 h7{

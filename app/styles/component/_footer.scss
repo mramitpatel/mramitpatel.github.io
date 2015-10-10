@@ -1,25 +1,43 @@
 footer{
+    @include row();
     background-color: $light-gray;
-        @include row();
+
+    & > div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 2% 0;        
+    }
+
+
+    .logo{
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    fill: #D5D5D5;
+    align-self: flex-start;
+
+    }
+
 
     ul {
+        float: right;
+        display: inline-block;
         list-style-type: none;
-        float: left;
         margin: 0;
         padding: 0;
+
+        li {
+            margin-right: 2em;
+            margin-bottom: 0;
+            text-transform: capitalize;
+            display: inline-block;
+            list-style-type: none;
+
+            &:hover {
+            }
         }
-
-    li {
-        margin-right: 2em;
-
-        margin-bottom: 0;
-        text-transform: capitalize;
-        display: inline;
-        list-style-type: none;
-
-        &:hover {
-            border-bottom: 1px solid $reddish;
-            padding-bottom: .25em;
-        }
-    }    
+    }   
 }

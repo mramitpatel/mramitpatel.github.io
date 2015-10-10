@@ -24,38 +24,39 @@
     <![endif]-->
 
 
-<div class="container--home">
-
-<nav>
-<div class="wrapper-work">
-    {% include shared/nav.html %}
-</div>
-</nav> 
-
-
-
 
 <header>
-<div class="wrapper-work">  
+<div class="container--home">
+  <div class="wrapper--home">  
+
+<a style="color: {{page.accentColor}}" class="logo" href="/">
+  {% include shared/logo.html %}
+</a>
+</div>
+
+</div>
+
+<div class="container--home">
+<div class="wrapper--home">  
 
               <article id="show-block">
-                <h1 class="show-more">I'm Amit, a Digital Creative Director &amp; Designer. I create digital experiences, design interfaces and shape brands.</h1>
+                <h3 class="show-more">I'm Amit, a Digital Creative Director &amp; Designer. I create digital experiences, design interfaces and shape brands.</h3>
 
-                <h2 class="show-more">I specialize in User Experience, Visual Design, and Brand Strategy. <a href="#work--list">See my work.</a></h2>
+                <h3 class="show-more">I specialize in User Experience, Visual Design, and Brand Strategy. <a href="#work--list">See my work.</a></h3>
 
-                <h2 class="show-more">Most recently, I worked on projects for
+                <h3 class="show-more">Most recently, I worked on projects for
                     {% for post in site.categories.projects limit: 3 %}
                       <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
                     {% endfor %}
-                 </h2>
+                 </h3>
 
-                <h2 class="show-more">and sometimes I write. Read my recent articles:
+                <h3 class="show-more">and sometimes I write. Read my recent articles:
                     {% for post in site.categories.blog limit: 3 %}
                       <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
                     {% endfor %}
-                 </h2>
+                 </h3>
 
-            <h2 class="show-more-btn">More...</h2>
+            <h3 class="show-more-btn">More...</h3>
 
               </article>
           
@@ -72,7 +73,7 @@
       {% endif %}
 
 
-
+</div>
 </div>
 </header>
 
@@ -80,7 +81,7 @@
   {{ content }}
 </div>
 <footer>
-<div class="content--wide">
+<div class="wrapper--home">
     {% include shared/footer.html %}
 </div>
 </footer>

@@ -16,18 +16,21 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     {% include shared/progress.html %}
-    <div id="project" class="animsition">
+    <div id="project" class="animsition container--project">
+
+
+
 <nav>
-<div class="wrapper-work">
-    {% include shared/nav.html %}
+<div class="wrapper--project center">
+  {% include shared/nav.html %}
 </div>
 </nav>
       <!-- HERO -->
       <header class="header--project" style="background-color: {{ page.backgroundColor }};">
+      <div class="wrapper--project">
+
         {% include shared/header.html %}
-      </header>
-    </div>
-    
+    </div>  
   </header>
   <div id="content-project" class="animsition content--wide">
 
@@ -40,7 +43,9 @@
   </div>
   
   <section id="more-work">
-  <div class="content--copy">
+  <div class="wrapper--project">
+  <article>
+
     {% if page.next %}
       {% assign next = page.next %}
     {% else %}
@@ -54,24 +59,27 @@
 
     
     <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-        <h3 style="color: {{post.accentColor}}">Next Project: {{ next.title}}</h2>
+        <h3 style="color: {{post.accentColor}}">Next Project: {{ next.title }}</h2>
     </a>
 
 
-                <h3 class="show-more">More projects:
-                    {% for post in site.categories.projects | join: ', '  %}
-                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                <h6 class="rule"></h5>
+                    <h3>{% for post in site.categories.projects | join: ","  %}
+
+                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title | join: "," }}</a>
                     {% endfor %}
                  </h3>
 </div>
   </section>
 
 
+</article>
 <footer>
-<div class="content--wide">
+<div class="wrapper--project">
     {% include shared/footer.html %}
 </div>
-</footer> 
+</footer>
+
 </div>
 
 <!--[if lte IE 8]>

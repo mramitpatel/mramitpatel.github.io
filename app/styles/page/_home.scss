@@ -4,13 +4,14 @@
 
 #home {
     header {
-        padding: 10% 0;
+        padding: 3% 0 4% 0;
 
         .recent-project-span:first-of-type:after {
             content: ",";
             color: #555;
             border-bottom: none;
         }
+
         .recent-project-span:last-of-type:before {
             content: "and ";
             background-image: none;
@@ -19,8 +20,9 @@
         }
 
         article {
-            padding: 8% 0 6% 0;
-            @include span-columns(8);
+            padding: 3% 0;
+
+            @include span-columns(7);
         }
     }
 
@@ -29,20 +31,10 @@
         padding-bottom: .15em;
         display: inline-block;
         cursor: pointer;
-    
-&:hover{
-    color: $reddish;
-}
-    }
 
-    footer {
-        div {
-            @extend .content--wide;
+        &:hover {
+            color: $reddish;
         }
-    }
-
-    nav .content--wide {
-        padding: 1% 8%;
     }
 }
 
@@ -54,35 +46,6 @@
     background-size: 100% 3px;
     text-shadow: 3px 0 0 white, -3px 0 0 white;
 }
-
-.container {
-    @include row;
-    position: relative;
-    padding: 3% 8%;
-}
-
-//.container--home{
-//    @extend .container;
-//    background: #eee;
-//
-//
-//        @include media($laptop-large) {
-//    margin-left: 18%;
-//    margin-right: 6%;
-//        }    
-//
-//        @include media($tablet) {
-//    margin-left: 18%;
-//    margin-right: 6%;
-//        }
-//        @include media($laptop) {
-//                padding: 3%; 
-//        }
-//        @include media($mobile) {
-//margin:0;
-//        }
-//
-//}
 
 .animated {
     -webkit-animation: filter-animation 5s once;
@@ -102,51 +65,35 @@
     }
 }
 
-.wrapper-work {
-    @include span-columns(8);
-    padding: 0% 3%;
-    @include shift(2);
-    position: relative;
-
-        @include media($mobile) {
-            @include fill-parent;
-            @include row;
-            @include shift(0);
-            padding: 3%;
-        }
-
-
+.container--home {
+    @include outer-container;
+    padding: 0 3%;
 }
 
-.show-more{
+.wrapper--home {
+    @extend .wrapper;
+}
+
+.show-more {
     @include transition(all 0.5s ease-out);
+
     padding-top: 20px;
-
 }
 
-.fade-in-up{
-opacity: 1;
-padding-top: 0px;
-display: block;
-}
-
-.wrapper {
-    height: 100%;
-
-    @include row;
-
-    max-width: 2880px;
-    padding-left: 8%;
-    padding-top: 3%;
-    background: #eee;
+.fade-in-up {
+    opacity: 1;
+    padding-top: 0px;
+    display: block;
 }
 
 #work--list {
-    overflow: none;
+    overflow: hidden;
+    counter-reset: project;
 
     //main section container
     section {
         @include fill-parent;
+
         margin: 0;
         display: block;
         position: relative;
@@ -154,42 +101,40 @@ display: block;
         cursor: default;
         background-color: #fff;
         border-top: 1px solid #eee;
-
-                -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
-                transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
-
+        -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+        transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
 
         article {
             padding: 18% 0%;
         }
 
-        h2 {
+        h3 {
             margin-bottom: .5em;
         }
-        h6{
+
+        h6 {
             padding: 0;
-           margin: .5em 0;
-           
+            margin: .5em 0;
         }
 
-h2:before {
-    content: counter(project) ".";
-    position: absolute;
-    margin: 2.3em 0em 0em -3em;
-    display: inline-block;
-    font-size: 0.25em;
-    width: 1.3em;
-    height: 1.3em;
-    line-height: 1.2em;
-    text-align: center;
-    font-family: "courier new", courier, monospace;
-    font-weight: bold;
-}
+        h3:before {
+            content: counter(project) ".";
+            counter-increment: project;
+            position: absolute;
+            margin: 2.3em 0em 0em -2em;
+            display: inline-block;
+            font-size: 0.25em;
+            width: 1.3em;
+            height: 1.3em;
+            line-height: 1.2em;
+            text-align: center;
+            font-family: $base-font-family;
+            font-weight: bold;
+        }
 
-
-&:nth-child(odd) {
-    background: #eee;
-}
+        &:nth-child(odd) {
+            background: #eee;
+        }
 
         .added-info {
             height: 100%;
@@ -213,30 +158,25 @@ h2:before {
             }
         }
 
-
-
         &:hover {
-
             background-color: currentColor;
-            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color .35s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
-            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color .35s cubic-bezier(0.39, 0.575, 0.565, 1) .5s;
+            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
+            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
 
-
-
-            h2,h6{
+            h3, h6 {
                 color: #fff;
-                @include transition(all .25s ease-in .35s);
 
-
+                @include transition(all 0.25s ease-in 0.35s);
             }
 
-            h5{
+            h5 {
                 filter: invert(100%);
-                @include transition(all .25s ease-in .35s);
+
+                @include transition(all 0.25s ease-in 0.35s);
             }
 
             picture {
-                transform: scale(1.25);
+                transform: scale(1.35);
                 opacity: 1;
                 filter: saturate(1);
                 -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -244,13 +184,8 @@ h2:before {
             }
         }
 
-        &:hover .added-info {
-            display: none;
-            height: 100%;
-            opacity: 1;
-        }
 
-        @include transition(all .25s ease-out);
+        @include transition(all 0.25s ease-out);
 
         @include media($tablet) {
             @include fill-parent;
@@ -267,22 +202,23 @@ h2:before {
         }
 
         .img-wrapper {
-            @include span-columns(7);
+            @include span-columns(6);
 
+           // border: 1px solid orange;
             position: absolute;
             right: 0;
             height: 100%;
             z-index: 10;
             top: 0;
 
-
             @include media($mobile) {
-                @include fill-parent();
+                @include fill-parent;
+
                 left: 0;
                 position: relative;
+
                 @include transform(none);
             }
-
         }
 
         picture {
@@ -290,13 +226,17 @@ h2:before {
             width: 100%;
             overflow: hidden;
             position: absolute;
+            top: 0;
+            left: 0;
             transform: scale(1.1);
             opacity: .75;
             filter: saturate(0.7);
 
             @include transition(all 0.3s);
 
-
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
         }
 
         img {
@@ -384,6 +324,7 @@ h2:before {
 section {
     @include media($laptop) {
         @include fill-parent;
+
         right: 0%;
     }
 
@@ -391,6 +332,7 @@ section {
     picture {
         @include media($tablet) {
             @include span-columns(6);
+
             right: -25%;
         }
 
@@ -409,12 +351,6 @@ section {
         }
     }
 }
-
-//.underline-alt{
-//    color: #e2e2e2;
-//    padding-bottom: 1em;
-//    border-bottom: 1px solid $border-color;
-//}
 
 .arrow-button {
     padding-left: .5em;
