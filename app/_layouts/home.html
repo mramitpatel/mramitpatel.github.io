@@ -46,13 +46,13 @@
 
                 <h3 class="show-more">Most recently, I worked on projects for
                     {% for post in site.categories.projects limit: 3 %}
-                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                      <a href="{{ post.url }}" class="recent-project-span" style="color: {{post.backgroundColor}}">{{ post.title }}</a>
                     {% endfor %}
                  </h3>
 
                 <h3 class="show-more">and sometimes I write. Read my recent articles:
                     {% for post in site.categories.blog limit: 3 %}
-                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
+                      <a href="{{ post.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title }}</a>
                     {% endfor %}
                  </h3>
 
@@ -80,12 +80,13 @@
 <div id="content">
   {{ content }}
 </div>
+</div>
 <footer>
 <div class="wrapper--home">
     {% include shared/footer.html %}
 </div>
 </footer>
-</div>
+
 
    
     {% include shared/scripts.html %}

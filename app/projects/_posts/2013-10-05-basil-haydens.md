@@ -29,11 +29,11 @@ images:
     - img-3.jpg
 backgroundColor: "rgba(255, 191, 20, 1)" 
 accentColor: "#000"
-txtColor: "#000"
+txtColor: "#444"
 ---
 
 <section class="overview">
-#### Overview
+##### Overview
 {{page.overview}}
 </section>
 
@@ -42,7 +42,7 @@ txtColor: "#000"
 
 </section>
 <section class="content--copy">
-#### Initial Sketches & Direction
+##### Initial Sketches & Direction
 For Basil Hayden's, I created a blog centric destination as a unique spin on traditional liquor sites. It combines curated blog content with traditional liquor brand marketing. I was responsible for creative direction and art direction with limited assets to craft a brand destination that was engaging for a typical whiskey connoisseur."
 </section>
 <section>
@@ -60,7 +60,7 @@ For Basil Hayden's, I created a blog centric destination as a unique spin on tra
 ![Cocktail Club](/images/{{ page.cid }}/detail-1.jpg)
 </section>
 <section class="content--copy">
-##### Old Fashioned's before they were cool
+###### Old Fashioned's before they were cool
 The crux of any liquor site, the cocktail recipes. Content curation was key and a basic recipe layout and design was used to account for varying assets resolutions and edit-ability in Expression Engine. To simplify things, I desigend a simple 2-column solution that would scale in varying viewports.
 </section>
 <section class="content--wide">

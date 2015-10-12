@@ -16,23 +16,23 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     {% include shared/progress.html %}
-    <div id="project" class="animsition container--project">
+    <div class="animsition">
 
 
 
 <nav>
-<div class="wrapper--project center">
+<div class="wrapper--project">
   {% include shared/nav.html %}
 </div>
 </nav>
       <!-- HERO -->
-      <header class="header--project" style="background-color: {{ page.backgroundColor }};">
-      <div class="wrapper--project">
+      <header style="background-color: {{ page.backgroundColor }};">
+        <div class="wrapper--project">
 
         {% include shared/header.html %}
     </div>  
   </header>
-  <div id="content-project" class="animsition content--wide">
+  <div id="content-project" class="container--project animsition">
 
     {{ content }}
     {% if page.link %}
@@ -44,7 +44,7 @@
   
   <section id="more-work">
   <div class="wrapper--project">
-  <article>
+
 
     {% if page.next %}
       {% assign next = page.next %}
@@ -62,18 +62,22 @@
         <h3 style="color: {{post.accentColor}}">Next Project: {{ next.title }}</h2>
     </a>
 
-
+<div class="work--list">
                 <h6 class="rule"></h5>
-                    <h3>{% for post in site.categories.projects | join: ","  %}
-
-                      <a href="{{ page.url }}" class="recent-project-span" style="color: {{post.accentColor}}">{{ post.title | join: "," }}</a>
+                    {% for post in site.categories.projects | join: ","  %}
+                    <h3 style="color: {{post.backgroundColor}}">
+                      <a href="{{ page.url }}" class="recent-project-span">{{ post.title | join: "," }}</a>
+                    </h3>
                     {% endfor %}
-                 </h3>
+                 
+
+
+
+</div>
 </div>
   </section>
 
 
-</article>
 <footer>
 <div class="wrapper--project">
     {% include shared/footer.html %}

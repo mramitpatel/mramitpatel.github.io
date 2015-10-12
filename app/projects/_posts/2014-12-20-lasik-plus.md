@@ -16,7 +16,7 @@ role: "Creative Direction, Art Direction, Design"
 description: "A responsive redesign for increased user conversions."
 link: "http://www.lasikplus.com"
 
-summary: "LasikPlus.com was redesigned to focus on conversions, reponsivity and mobile bookings."
+summary: "I redesigned LasikPlus.com with a focus on conversions, reponsivity and mobile bookings."
 
 overview: "LasikPlus is one of the nations largest providers of Laser eye treatments. I crafted a site that informs, educates and convert users into active bookings.<br><br>The result was a full redesign involving redesigned color palettes, image treatments and ultimately evolved digital branding. The site is responsive across all devices and utilizes ExpressionEngine as a CMS."
 
@@ -27,12 +27,12 @@ images:
     - img-2.jpg
     - img-3.jpg
 backgroundColor: "rgba(133, 190, 242, 1)"
-accentColor: "rgba(133, 190, 242, 1)"    
-txtColor: "rgba(108, 108, 108, 1)"
+accentColor: "rgba(255, 255, 255, 1)"    
+txtColor: "#444"
 
 ---
 <section class="overview">
-#### Overview
+##### Overview
 {{page.overview}}
 
 + Increased conversion rates across mobile, desktop and tablet.
@@ -45,7 +45,7 @@ txtColor: "rgba(108, 108, 108, 1)"
 <img src="/images/{{ page.cid }}/sketches_02.jpg" data-jslghtbx>
 </section>
 <section class="content--copy">
-#### Initial Sketches & Direction
+##### Initial Sketches & Direction
 Vision is an vital aspect of life and representing surgical treatments online is a challenging task. I knew I wanted to create an expressive, vibrant experience that celebrated the concepts of vision. To do this, I used isolated imagery to create singular strong focal points. By using clipping masks and overlapping images, gives a sense of depth. I wanted to avoid parallax effects and cheesy effects and focus primarily on bold colors, photographs and type.
 </section>
 
@@ -75,7 +75,7 @@ The Brand color palette was dated and needed a revival. I created a palette that
 
 <section class="content video-container">
 <aside>
-### Procedures
+##### Procedures
 Vision is an vital aspect of life and representing surgical treatments online is a challenging task. I knew I wanted to create an expressive, vibrant experience that celebrated the concepts of vision. To do this, I used isolated imagery to create singular strong focal points. By using clipping masks and overlapping images, gives a sense of depth. I wanted to avoid parallax effects and cheesy effects and focus primarily on bold colors, photographs and type.
 </aside>
 <video class="span-6-12" autoplay loop>
@@ -90,19 +90,19 @@ Your browser does not support the video tag.
 ![final homepage design](/images/{{ page.cid }}/final-10.jpg)
 </section>
 <section class="results">
-### Results
+#### Results
 
 ##### Over the course of 4 months after launching the newly designed site, LasikPlus experienced tremendous growth in conversions.
 <div class="span-4-12">
 #35%
-Increase in desktop conversions. 
+#### Increase in desktop conversions. 
 </div>
 <div class="span-4-12">
 #55%
-Increase in mobile conversions.
+#### Increase in mobile conversions.
 </div>
 <div class="span-4-12">
 #40%
-Increase in mobile bookings.
+##### Increase in mobile bookings.
 </div>
 </section>

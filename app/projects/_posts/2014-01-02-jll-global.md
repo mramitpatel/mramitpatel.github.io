@@ -23,8 +23,8 @@ homeimage: jll-global-hero.png
 projectHero: jll-global-hero.png
 
 backgroundColor: "rgba(207, 43, 30, 1)"
-accentColor: "rgba(207, 43, 30, 1)"
-txtColor: "rgba(108, 108, 108, 1)"
+accentColor: "rgba(255, 255, 255, 1)"
+txtColor: "#444"
 ---
 
 <section class="content--copy">

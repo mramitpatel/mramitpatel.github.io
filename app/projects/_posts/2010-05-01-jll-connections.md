@@ -17,15 +17,17 @@ role: "Product Strategy & Product Design"
 description: "An enterprise iPad application for brokers and agents in the field."
 overview: "Networking is everything and as JLL knows this notion well. JLL's real estate offerings are home to companies all over the world. With that immense of a reach, JLL needed an app to help visualize and manage the network of professional relationships of its associates."
 
+summary: "I designed an enterprise level app that helps brokers and executive agents visualize the connection between thier contacts and their assosciated assets."
+
 homeimage: jll-connections-hero.png
 projectHero: jll-connections-hero.png
 
 backgroundColor: "rgb(105, 171, 8)" 
-accentColor: "rgb(105, 171, 8)"     
-txtColor: "#000"
+accentColor: "rgba(255, 255, 255, 1)"     
+txtColor: "#444"
 ---
 <section class="overview">
-#### Overview
+##### Overview
 {{page.overview}}
 </section>
 
@@ -33,7 +35,7 @@ txtColor: "#000"
 ![Screen silly](/images/{{ page.cid }}/initial-garbage.jpg)
 </section>
 <section class="content--copy">
-##### A Unique Challenge
+##### Wireframing
 JLL wanted an iPad app that allowed brokers to make connections between other agents, properties, clients and other facets. These crude screenshots were all I had to conceptualize the UI and interface of the app. I planned my app revolve around a spider chart of facets that allowed a broker to visually see connections between multiple facets.
 </section>
 <section class="content">
@@ -44,6 +46,11 @@ JLL wanted an iPad app that allowed brokers to make connections between other ag
 <img src="/images/{{ page.cid }}/jll-connections-ia-6.jpg" data-jslghtbx>
 </div>
 </section>
+<section class="content--copy">
+##### App Designs
+I designed the interface to have depth, shadowing and feel tactile overall. Visuallizing connections was key so I used a simple yet effective spidering diagram to drive the main view.
+</section>
+
 <section class="content--wide">
 ![Final Designs](/images/{{ page.cid }}/jll-ipad-connections-2.png)
 ![Final Designs](/images/{{ page.cid }}/jll-ipad-connections-3.png)

@@ -1,24 +1,19 @@
-<div class="wrapper-work">
 
+  {% if page.title %}
+    <div style="color: {{page.accentColor}}">
+              <h6 class="role"> {{ page.role }}</h6>
 
-        {% if page.title %}
-          <div style="color: {{page.txtColor}}">
-              <article>
-
-
-                <h1>{{ page.title }}</h1>
-              {% endif %}
-             {% if page.description %}
-                <h4 class="description">{{ page.summary }}</h4>
-                <h5 class="role"> {{ page.role }}</h6>
-              </article>
-              <!--{% if page.link %}
-                <a href="{{page.link}}"><h6>Visit Live Site</h6></a>
-              {% endif %}-->
-
-                            <picture data-id="{{ post.cid }}">
-                                <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
-                            </picture>
-
+        <h1>{{ page.title }}</h1>
+      
       {% endif %}
-</div>
+      <article>
+      {% if page.description %}
+        <h5 class="description">{{ page.summary }}</h5>
+      </article>
+      <!--{% if page.link %}
+        <a href="{{page.link}}"><h6>Visit Live Site</h6></a>
+      {% endif %}
+      <picture data-id="{{ post.cid }}">
+        <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
+      </picture>-->
+  {% endif %}

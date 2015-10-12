@@ -1,15 +1,27 @@
-
-
-#project{
-    header{
-        article{
+#project {
+    header {
+        article {
             color: currentColor;
+
+            @include shift(1);
+
+            @include span-columns(5);
+
+            &:before {
+                content: " ";
+                position: absolute;
+
+                @include span-columns(1);
+
+                height: .125em;
+                background-color: currentColor;
+                width: 100px;
+                margin: 0.35em 0em 0em -155px;
+                display: inline-block;
+                line-height: 1.2em;
+            }
         }
     }
-}
-
-.container--project {
-    @include outer-container;
 }
 
 .page-link {
@@ -30,11 +42,6 @@
         color: #fff;
     }
 }
-
-.wrapper--project{
-    @extend .wrapper;
-}
-
 
 .results {
     @include span-columns(8);
@@ -58,7 +65,6 @@
     }
 
     h1 {
-        font-size: 5em;
         color: $reddish;
         margin-bottom: .15em;
     }
@@ -78,14 +84,11 @@
     color: $light-gray;
 }
 
-
 /*--------------------------------------- */
 /*
 /*  Project Hero: page role, page title
 /*
 /*--------------------------------------- */
-
-
 
 /*--------------------------------------- */
 /*--------------------------------------- */
@@ -94,7 +97,6 @@
 /*
 /*--------------------------------------- */
 /*--------------------------------------- */
-
 
 .active {
     background-color: #000;
@@ -117,14 +119,61 @@
 /*
 /*--------------------------------------- */
 
+
+.overview ul{
+    float: left;
+    list-style: decimal;
+}
+
 .content--wide {
-    max-width: 1620px;
-    margin: 0 auto;
+    @include row;
+}
+
+.content {
+    padding: 3% 0;
+}
+
+section {
+    clear: both;
 
     @include row;
 }
 
+.content--copy {
+    @include span-columns(6);
+    padding: 3% 0;
+    @include shift(3);
+}
+
+.overview {
+    @include span-columns(6);
+    @include shift(3);
+    padding: 3% 0;
+}
+
 #content-project {
+
+aside{
+    @include span-columns(6);
+}
+
+    .span-6-12{
+        @include span-columns(6);
+    }
+
+
+.span-4-12{
+    @include span-columns(4);
+    @include omega(3);
+}
+    .images-two {
+        img {
+            float: left;
+            width: 50%;
+            height: auto;
+        }
+    }
+
     img {
         width: 100%;
         display: block;
@@ -136,42 +185,6 @@
 
     .content {
         @extend .wrapper--project;
-    }
-
-    .content + .content--copy {
-        padding-bottom: 3%;
-    }
-
-    .images-two {
-        img {
-            width: 50%;
-            height: auto;
-        }
-    }
-
-    .overview {
-        @extend .content--copy;
-
-        padding-top: 6%;
-        padding-bottom: 0;
-
-        @include media($mobile) {
-            @include fill-parent;
-
-            @include row;
-
-            @include shift(0);
-        }
-    }
-
-    aside {
-        @include span-columns(5);
-
-        margin-right: 9%;
-
-        @include media($mobile) {
-            @include fill-parent;
-        }
     }
 }
 
@@ -223,4 +236,3 @@
         height: auto !important;
     }
 }
-

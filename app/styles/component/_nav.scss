@@ -1,10 +1,12 @@
 .logo, .exit {
-    width: 100px;
-    height: 100px;
+    width: 102px;
+    height: 102px;
     display: inline-block;
     float: left;
     float: none;
     z-index: 100;
+    fill: currentColor;
+
 }
 
 .exit {

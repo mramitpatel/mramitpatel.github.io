@@ -6,7 +6,7 @@ client: "Amit Patel–Portfolio"
 description: 
 ---
 
-<div id="work--list" class="">
+<div class="work--list">
     {% for post in site.categories.projects %}
             <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="color: {{post.backgroundColor}}">
                 <div class="container--home">
@@ -14,7 +14,7 @@ description:
                 <a class="animsition-link" href="{{ post.url }}">
 
                     
-                    <article class="info" style="color: {{post.accentColor}}">
+                    <article class="info" style="color: {{post.backgroundColor}}">
                         <!--<h6><span>{{ post.role }}</h6>-->
                         <h6>{{ post.role }}</h6>
 

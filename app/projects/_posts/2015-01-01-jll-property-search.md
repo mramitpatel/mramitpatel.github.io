@@ -23,18 +23,18 @@ logo: jll-logo.png
 
 backgroundColor: "rgb(236, 0, 15)"
 accentColor: "rgb(236, 0, 15)"
-txtColor: "rgb(236, 0, 15)"       
+txtColor: "#444"      
 ---
 <section class="overview">
 ##### Overview
 <article>
-###### Project Overview
+##### Project Overview
 With an emergence of startups focusing in on-line property search engines, JLL had to step up their game. Sites such as Zillow, RedFin and KnightFrank pioneered modern day residential real-estate searching leaving a huge gap for commercial real estate.
 </article>
 </section>
 
 <section>
-###### Sketches
+##### Sketches
 Exploring UI and UX layout while in Photoshop allows me to create hi-fidelity mockups and layer interstitial states. Starting wide in exploration and narrowing in on business goals, functionality and ultimately design allows me to explore multiple avenues at once while keeping a product very focused.
 {: .span-4-12}
 ![Initial Designs](/images/{{ page.cid }}/initial-1.jpg)
@@ -44,7 +44,7 @@ Exploring UI and UX layout while in Photoshop allows me to create hi-fidelity mo
 </section>
 
 <section class="images-two">
-###### Iteration 2 & 3
+##### Iteration 2 & 3
 ![Initial Designs](/images/{{ page.cid }}/iteration2-1.jpg)
 ![Initial Designs](/images/{{ page.cid }}/iteration2-2.jpg)
 </section>

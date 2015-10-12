@@ -6,106 +6,80 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     {% include shared/styles.html %}
-
     <!-- build:js({app,.tmp}) /scripts/modernizr.js -->
-
     <!-- endbuild -->
   </head>
-
   <body id="{{ page.body_id }}" class="animsition">
-<div class="wrapper">
-  {% include shared/progress.html %}
-
-    <!--[if lt IE 9]>
+    <div>
+      {% include shared/progress.html %}
+      <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-<nav id="nav" role="banner">
-  <div class="content">
-  <a class="logo" href="/">{% include shared/logo.html %}</a>
-  <ul class="primary-nav">
-    <li><a class="about" href="/blog">thoughts</a></li>
-    <li><a class="about" href="/about">Contact</a></li>
-    <li><a class="work" href="/#content--home">work</a></li>
-  </ul>
-  </div>
-</nav>
-
-<header>       
-  {% if page.title %}
-    <div class="content" style="color: {{page.txtColor}}">
-      <h2>{{ page.title }}</h2>
-
-          {% if page.description %}
-      <h4 class="description">{{ page.description }}</h4>
-      
-      {% if page.projectHero %}
-      <picture>
-          <img src="/images/{{ page.cid }}/{{ page.projectHero }}">
-            {% elsif page.homeimage %}
-            <img src="/images/{{ page.cid }}/{{ page.homeimage }}">
-            {% endif %}
-      </picture>
-      {% endif %}    
-    </div>
-  {% endif %}
-</header>
-
-
-<section>
-<div class="content">
-{{ content }}
-</div>
-
-{% if page.comments %}
-<div class="comments content">
-  {% include shared/comments.html %}
-<div>
-{% endif %}
-
-</section>
-
-
-
-<footer>
-<div class="content">
-    {% include shared/footer.html %}
-</div>
-</footer>
-<!--
-<section id="more-work">
-
-    {% if post.next %}
-        {% assign next = page.next %}
-    {% else %}
-        {%comment%}
-           As the array index start at zero we substract 1 to the total count,
-           we then get the last post index in the site.posts array
-        {%endcomment%}
-        {% assign last lastPostIndex = site.categories.blog | size | minus: 1 %}
-        {% assign next = site.categories.blog[lastPostIndex] %}
-    {% endif %}
-    
-    <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+      <![endif]-->
+      <nav id="nav" role="banner">
         <div class="content">
-            <h6>Next Project:&nbsp;</h6>
-            <h3>{{ next.title}}</h3>
+          <ul class="primary-nav">
+            <li><a class="about" href="/blog">thoughts</a></li>
+            <li><a class="about" href="/about">Contact</a></li>
+            <li><a class="work" href="/#content--home">work</a></li>
+          </ul>
         </div>
-    </a>
-</section>
--->
+      </nav>
 
-</div>
+      <header>
+        <div class="container--home">
+          <div class="wrapper--home">
+            <a style="color: {{page.accentColor}}" class="logo" href="/">
+              {% include shared/logo.html %}
+            </a>
+          </div>
+        </div>
 
-    <!--[if lte IE 8]>
-      {% include shared/scripts-ie8.html %}
-    <![endif]-->
+        <div class="container--home">
+          <div class="wrapper--home">
 
-    {% include shared/scripts.html %}
-    {% include shared/google-analytics.html %}
-  </body>
-</html>
+               {% if page.projectHero %}
+                    <picture>
+                      <img src="/images/{{ page.cid }}/{{ page.projectHero }}">
+                  </picture>
+                {% endif %}
+
+
+
+            
+              <div style="color: {{page.txtColor}}">
+                {% if page.title %}
+                  <h2>{{ page.title }}</h2>
+                  {% if page.description %}<h4 class="description">{{ page.description }}</h4>{% endif %} 
+                {% endif %}
+              </div>
+
+
+
+          </header>
+          <section>
+            <div class="container--home">
+              <div class="wrapper--home">
+                {{ content }}
+                {% if page.comments %}
+                  <div class="comments content">
+                    {% include shared/comments.html %}
+                    <div>
+                {% endif %}
+                  </div>
+                </div>
+              </section>
+              <footer>
+                <div class="">
+                  {% include shared/footer.html %}
+                </div>
+              </footer>
+            </div>
+            <!--[if lte IE 8]>
+            {% include shared/scripts-ie8.html %}
+            <![endif]-->
+            {% include shared/scripts.html %}
+            {% include shared/google-analytics.html %}
+          </body>
+        </html>
