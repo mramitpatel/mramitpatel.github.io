@@ -1,25 +1,18 @@
-#project {
+#project, #about {
     header {
-        article {
+        text-align: center;
+            article {
+        @include span-columns(8);
+        @include shift(2);
+    }
+
+
+        h1 {
             color: currentColor;
+        }
 
-            @include shift(1);
-
-            @include span-columns(5);
-
-            &:before {
-                content: " ";
-                position: absolute;
-
-                @include span-columns(1);
-
-                height: .125em;
-                background-color: currentColor;
-                width: 100px;
-                margin: 0.35em 0em 0em -155px;
-                display: inline-block;
-                line-height: 1.2em;
-            }
+        h5 {
+            color: $base-font-color;
         }
     }
 }
@@ -45,22 +38,22 @@
 
 .results {
     @include span-columns(8);
-
     padding-top: 6%;
-
     @include shift(2);
-
     text-align: center;
     color: #333;
     background-color: white;
 
+        @include media($mobile) {
+            @include fill-parent;
+            @include shift(0);
+        }
+
+
     h5 {
         padding-bottom: 2em;
-
         @include span-columns(8);
-
         color: $medium-gray;
-
         @include shift(2);
     }
 
@@ -79,10 +72,6 @@
     }
 }
 
-.slash {
-    font-weight: normal;
-    color: $light-gray;
-}
 
 /*--------------------------------------- */
 /*
@@ -119,18 +108,24 @@
 /*
 /*--------------------------------------- */
 
-
-.overview ul{
-    float: left;
-    list-style: decimal;
-}
-
 .content--wide {
     @include row;
 }
 
 .content {
     padding: 3% 0;
+    @include span-columns(6);
+    @include shift(3);
+
+            @include media($mobile) {
+            @include fill-parent;
+            @include shift(0);
+        }
+        @include media($tablet) {
+                @include span-columns(6);
+            @include shift(1);
+        } 
+
 }
 
 section {
@@ -140,37 +135,42 @@ section {
 }
 
 .content--copy {
-    @include span-columns(6);
-    padding: 3% 0;
-    @include shift(3);
+    @extend .content;
+}
+
+.content--post{
+    @include outer-container(60%);
+
+        @include media($tablet) {
+    @include outer-container(100%);
+        }     
 }
 
 .overview {
-    @include span-columns(6);
-    @include shift(3);
-    padding: 3% 0;
+    @extend .content;
 }
 
 #content-project {
-
-aside{
-    @include span-columns(6);
-}
-
-    .span-6-12{
+    aside, video {
         @include span-columns(6);
+        padding: 3% 0;
+
+        @include media($mobile) {
+            @include fill-parent;
+            @include shift(0);
+        }        
     }
-
-
-.span-4-12{
-    @include span-columns(4);
-    @include omega(3);
-}
     .images-two {
         img {
             float: left;
             width: 50%;
             height: auto;
+
+        @include media($mobile) {
+            @include fill-parent;
+            @include shift(0);
+        }
+
         }
     }
 
@@ -183,12 +183,7 @@ aside{
 
     margin-bottom: 9%;
 
-    .content {
-        @extend .wrapper--project;
-    }
 }
-
-
 
 /*  Section .Content 6 Image Holder
 /*--------------------------------------- */

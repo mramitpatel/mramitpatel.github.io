@@ -8,55 +8,55 @@ body {
 
 }
 
-$modular-scale-ratio: $perfect-fourth;
+$modular-scale-ratio: $augmented-fourth;
 $modular-scale-base: 1em;
 
 h1,
 h2,
 h3,
-h4,
-h5 {
-  font-family:'Neue Haas Grotesk W01 Disp';
+h4{
+  font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-  font-weight: 700;
+  font-weight: $heading-font-weight;
 }
 
 h1{
-  font-size: modular-scale(6);
+  font-size: modular-scale(5);
   line-height: $heading-line-height * .79;
 
 }
 
 h2{
-  font-size: modular-scale(5);
+  font-size: modular-scale(4);
     line-height: 1.125;
 }
 
 h3{
-  font-size: modular-scale(4);
-}
-
-h4{
   font-size: modular-scale(3);
 }
 
-h5{
+h4{
   font-size: modular-scale(2);
-  line-height: 1.25;
-  font-family: $base-font-family;
 }
 
 h5{
+  font-weight: $body-font-weight;
   font-size: modular-scale(1);
   line-height: 1.25;
-  font-family: $base-font-family;
+  font-weight: 700;
+  margin: 0 0 $small-spacing;
+}
+
+h6{
+  font-size: modular-scale(-1);
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 h7{
   font-size: $base-font-size * .62;
-  font-family: $base-font-family;
   padding-top: 1em;
 }
 
@@ -64,6 +64,7 @@ h7{
 p {
   margin: 0 0 $small-spacing;
   color: rgb(97, 104, 108);
+  font-family: $sans-serif;
 }
 
 a {

@@ -1,0 +1,12 @@
+/* Webfont: FoundersGrotesk-Bold */@font-face {
+    font-family: 'FoundersGroteskBold';
+    src: url('FoundersGrotesk-Bold.eot'); /* IE9 Compat Modes */
+    src: url('FoundersGrotesk-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('FoundersGrotesk-Bold.woff') format('woff'), /* Modern Browsers */
+         url('FoundersGrotesk-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('FoundersGrotesk-Bold.svg#FoundersGrotesk-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

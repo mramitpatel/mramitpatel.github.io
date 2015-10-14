@@ -17,69 +17,44 @@
       <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
-      <nav id="nav" role="banner">
-        <div class="content">
-          <ul class="primary-nav">
-            <li><a class="about" href="/blog">thoughts</a></li>
-            <li><a class="about" href="/about">Contact</a></li>
-            <li><a class="work" href="/#content--home">work</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <header>
-        <div class="container--home">
-          <div class="wrapper--home">
-            <a style="color: {{page.accentColor}}" class="logo" href="/">
-              {% include shared/logo.html %}
-            </a>
+      {% include shared/progress.html %}
+      <div class="animsition">
+        <nav>
+          <div class="container--project">
+            <div class="wrapper--project">
+              {% include shared/nav.html %}
+            </div>
+          </div>
+        </nav>
+        <!-- HERO -->
+        <!-- HERO -->
+        <header>
+          <div class="container--project">
+            <div class="wrapper--project">
+              {% include shared/header.html %}
+            </div>
+          </div>
+        </header>
+        <div id="content-post" class="container--project animsition">
+          <div class="container--home">
+            <div class="content--post">
+              {{ content }}
+            </div>
           </div>
         </div>
-
-        <div class="container--home">
-          <div class="wrapper--home">
-
-               {% if page.projectHero %}
-                    <picture>
-                      <img src="/images/{{ page.cid }}/{{ page.projectHero }}">
-                  </picture>
-                {% endif %}
-
-
-
-            
-              <div style="color: {{page.txtColor}}">
-                {% if page.title %}
-                  <h2>{{ page.title }}</h2>
-                  {% if page.description %}<h4 class="description">{{ page.description }}</h4>{% endif %} 
-                {% endif %}
-              </div>
-
-
-
-          </header>
-          <section>
-            <div class="container--home">
-              <div class="wrapper--home">
-                {{ content }}
-                {% if page.comments %}
-                  <div class="comments content">
-                    {% include shared/comments.html %}
-                    <div>
-                {% endif %}
-                  </div>
-                </div>
-              </section>
-              <footer>
-                <div class="">
-                  {% include shared/footer.html %}
-                </div>
-              </footer>
+        
+        <footer>
+          <div class="container--project">
+            <div class="wrapper--project">
+              {% include shared/footer.html %}
             </div>
-            <!--[if lte IE 8]>
-            {% include shared/scripts-ie8.html %}
-            <![endif]-->
-            {% include shared/scripts.html %}
-            {% include shared/google-analytics.html %}
-          </body>
-        </html>
+          </div>
+        </footer>
+      </div>
+      <!--[if lte IE 8]>
+      {% include shared/scripts-ie8.html %}
+      <![endif]-->
+      {% include shared/scripts.html %}
+      {% include shared/google-analytics.html %}
+    </body>
+  </html>

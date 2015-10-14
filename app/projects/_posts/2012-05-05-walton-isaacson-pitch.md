@@ -20,8 +20,8 @@ homeimage: wi-hero.png
 logo: adrian-logo.png
 projectHero: wi-hero.png
 
-backgroundColor: "#C02141"
-accentColor: "rgba(183, 29, 19, 1)"      
+backgroundColor: "rgba(183, 29, 19, 1)" 
+accentColor: "rgba(255, 255, 255, 1)"      
 txtColor: "#444"      
 ---
 <section class="overview">

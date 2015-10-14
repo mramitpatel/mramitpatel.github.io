@@ -1,5 +1,6 @@
 footer{
     @include row();
+    padding: 3% 0;      
     background-color: $light-gray;
 
     & > div{
@@ -8,7 +9,7 @@ footer{
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    padding: 2% 0;        
+      
     }
 
 

@@ -17,79 +17,72 @@
     <![endif]-->
     {% include shared/progress.html %}
     <div class="animsition">
-
-
-
-<nav>
-<div class="wrapper--project">
-  {% include shared/nav.html %}
-</div>
-</nav>
+      <nav>
+        <div class="container--project">
+          <div class="wrapper--project">
+            {% include shared/nav.html %}
+          </div>
+        </div>
+      </nav>
       <!-- HERO -->
-      <header style="background-color: {{ page.backgroundColor }};">
+      <header>
+        <div class="container--project">
+          <div class="wrapper--project">
+            {% include shared/header.html %}
+          </div>
+        </div>
+      </header>
+      <div id="content-project" class="container--project animsition">
+          <picture class="content" data-id="{{ page.cid }}">
+      <img class="lazyload" src="/images/{{ page.cid }}/{{ page.homeimage }}">
+    </picture>
+        {{ content }}
+        {% if page.link %}
+          <section class="results">
+            <button><h5>Visit <a href="{{page.link}}" title="{{page.title}}">{{page.title}}</a></h5></button>
+          </section>
+        {% endif %}
+      </div>
+      
+      <section id="more-work">
         <div class="wrapper--project">
-
-        {% include shared/header.html %}
-    </div>  
-  </header>
-  <div id="content-project" class="container--project animsition">
-
-    {{ content }}
-    {% if page.link %}
-      <section class="results">
-        <button><h5>Visit <a href="{{page.link}}" title="{{page.title}}">{{page.title}}</a></h5></button>
+          {% if page.next %}
+            {% assign next = page.next %}
+          {% else %}
+            {%comment%}
+            As the array index start at zero we substract 1 to the total count,
+            we then get the last post index in the site.posts array
+            {%endcomment%}
+            {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+            {% assign next = site.posts[lastPostIndex] %}
+          {% endif %}
+          
+          <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+            <h3 style="color: {{post.accentColor}}">Next Project: {{ next.title }}</h2>
+          </a>
+          <div class="work--list">
+            <h6 class="rule"></h5>
+            {% for post in site.categories.projects | join: ","  %}
+              <h3 style="color: {{post.backgroundColor}}">
+              <a href="{{ post.url }}" class="recent-project-span">{{ post.title | join: "," }}</a>
+              </h3>
+            {% endfor %}
+            
+          </div>
+        </div>
       </section>
-    {% endif %}
-  </div>
-  
-  <section id="more-work">
-  <div class="wrapper--project">
-
-
-    {% if page.next %}
-      {% assign next = page.next %}
-    {% else %}
-      {%comment%}
-      As the array index start at zero we substract 1 to the total count,
-      we then get the last post index in the site.posts array
-      {%endcomment%}
-      {% assign last lastPostIndex = site.posts | size | minus: 1 %}
-      {% assign next = site.posts[lastPostIndex] %}
-    {% endif %}
-
-    
-    <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
-        <h3 style="color: {{post.accentColor}}">Next Project: {{ next.title }}</h2>
-    </a>
-
-<div class="work--list">
-                <h6 class="rule"></h5>
-                    {% for post in site.categories.projects | join: ","  %}
-                    <h3 style="color: {{post.backgroundColor}}">
-                      <a href="{{ page.url }}" class="recent-project-span">{{ post.title | join: "," }}</a>
-                    </h3>
-                    {% endfor %}
-                 
-
-
-
-</div>
-</div>
-  </section>
-
-
-<footer>
-<div class="wrapper--project">
-    {% include shared/footer.html %}
-</div>
-</footer>
-
-</div>
-
-<!--[if lte IE 8]>
-{% include shared/scripts-ie8.html %}
-<![endif]-->
-{% include shared/scripts.html %}
-{% include shared/google-analytics.html %}
-</body>
+      <footer>
+      <div class="container--project">
+        <div class="wrapper--project">
+          {% include shared/footer.html %}
+        </div>
+        </div>
+      </footer>
+    </div>
+    <!--[if lte IE 8]>
+    {% include shared/scripts-ie8.html %}
+    <![endif]-->
+    {% include shared/scripts.html %}
+    {% include shared/google-analytics.html %}
+  </body>
 </html>

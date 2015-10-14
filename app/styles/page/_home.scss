@@ -20,7 +20,6 @@
         }
 
         article {
-            padding: 3% 0;
 
             @include span-columns(7);
         }
@@ -65,7 +64,7 @@
     }
 }
 
-.wrapper{
+.wrapper {
     @include outer-container;
 
     -webkit-transform-style: preserve-3d;
@@ -74,8 +73,7 @@
     position: relative;
 
     @include media($laptop) {
-        @include shift(2);
-        @include span-columns(4);
+    @include outer-container(90%);
     }
 }
 
@@ -90,24 +88,34 @@
 
 .container--home {
     @include outer-container;
+
     @extend .container;
 }
 
+.wrapper--project {
+    @include span-columns(8);
+    position: relative;
+    @include shift(2);
 
-.wrapper--project{
-    @extend .wrapper;
+        @include media($mobile) {
+            @include fill-parent;
+            @include row;
+            @include shift(0);
+        }
+        @include media($tablet) {
+            @include fill-parent;
+            @include row;
+            @include shift(0);
+        }        
+
 }
 
 .wrapper--home {
     @extend .wrapper;
 }
 
-
-
-
 .show-more {
     @include transition(all 0.5s ease-out);
-
     padding-top: 20px;
 }
 
@@ -117,6 +125,8 @@
     display: block;
 }
 
+
+
 .work--list {
     overflow: hidden;
     counter-reset: project;
@@ -124,7 +134,7 @@
     //main section container
     section {
         @include fill-parent;
-
+        @include transition(all 0.25s ease-out);
         margin: 0;
         display: block;
         position: relative;
@@ -132,15 +142,72 @@
         cursor: default;
         background-color: #fff;
         border-top: 1px solid #eee;
-        -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
-        transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+        padding: 14% 0;
 
-        article {
-            padding: 18% 0%;
+.img-wrapper {
+    @include span-columns(6);
+
+    position: absolute;
+    right: 0;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+
+
+        @include media($tablet) {
+            @include fill-parent;
+            position: relative;
+            @include transform(none); 
+            padding: 6% 0;
         }
 
-        h3 {
+    picture {
+        height: 100%;
+        width: 100%;
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scale(1.1);
+        opacity: .75;
+        filter: saturate(0.7);
+
+        @include transition(all 0.3s);
+
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+        @include media($tablet) {
+            @include fill-parent;
+            position: relative;
+            @include transform(none); 
+        }
+
+
+    }
+
+    img {
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        @include transform(translateY(-50%));
+        z-index: 11;
+    
+        @include media($tablet) {
+            @include fill-parent;
+            position: relative;
+            @include transform(none);
+        }
+
+    }
+}
+
+        h2 {
             margin-bottom: .5em;
+            line-height: .95;
         }
 
         h6 {
@@ -148,170 +215,15 @@
             margin: .5em 0;
         }
 
-
-
         &:nth-child(odd) {
             background: #eee;
         }
 
-        .added-info {
-            height: 100%;
-            width: 100%;
-            bottom: 0;
-            position: absolute;
-            opacity: 0;
-            left: 0;
-            right: 0;
-            display: none;
-
-            @include transition(all 0.5s ease-out);
-
-            .added-info-wrapper {
-                height: 100%;
-                width: 100%;
-                bottom: 0;
-                left: 0;
-                height: 0%;
-                right: 0;
-            }
-        }
-
-        &:hover {
-            background-color: currentColor;
-            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
-            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
-
-            h3, h6 {
-                color: #fff;
-
-                @include transition(all 0.25s ease-in 0.35s);
-            }
-
-            h5 {
-                filter: invert(100%);
-
-                @include transition(all 0.25s ease-in 0.35s);
-            }
-
-            picture {
-                transform: scale(1.35);
-                opacity: 1;
-                filter: saturate(1);
-                -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
-                transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
-            }
-        }
-
-
-        @include transition(all 0.25s ease-out);
-
         @include media($tablet) {
             @include fill-parent;
-
-            padding: 1% 4%;
+            padding: 8% 4%;
         }
 
-
-
-
-        .img-wrapper {
-            @include span-columns(6);
-
-           // border: 1px solid orange;
-            position: absolute;
-            right: 0;
-            height: 100%;
-            z-index: 10;
-            top: 0;
-
-            @include media($mobile) {
-                @include fill-parent;
-
-                left: 0;
-                position: relative;
-
-                @include transform(none);
-            }
-        }
-
-        picture {
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-            transform: scale(1.1);
-            opacity: .75;
-            filter: saturate(0.7);
-
-            @include transition(all 0.3s);
-
-            -webkit-transform-style: preserve-3d;
-            -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-        }
-
-        img {
-            position: absolute;
-            max-width: 100%;
-            width: 100%;
-            height: auto;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -moz-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            -o-transform: translateY(-50%);
-            transform: translateY(-50%);
-            z-index: 11;
-
-            @include media($mobile) {
-                @include fill-parent;
-
-                position: relative;
-
-                @include transform(none);
-            }
-        }
-
-        // full span image container image //
-        //  &:nth-child(3n-8) {
-        //  @include fill-parent;
-        //
-
-        // picture {
-        //@include span-columns(6);
-        //position: absolute;
-        //height: 100%;
-        //right: 25%;
-        //top: 0;
-
-        //@include media($laptop) {
-        //   right: -25%;
-        //   float: left;
-        //   display: block;
-        //}
-
-        //@include media($mobile) {
-        //  @include fill-parent;
-        //  position: relative;
-
-        // }
-
-        //@include media($laptop) {
-        //   right: -25%;
-        //   float: left;
-        //   display: block;
-        //}
-
-        //@include media($mobile) {
-        //  @include fill-parent;
-        //  position: relative;
-
-        // }
-
-        // }
-        // }
 
         // end full span container image //
         h1 {
@@ -326,71 +238,33 @@
 
         article {
             @include span-columns(5);
-
-            @include media($mobile) {
+            @include media($tablet) {
                 @include fill-parent;
             }
         }
-    }
-}
 
-section {
-    @include media($laptop) {
-        @include fill-parent;
+        &:hover {
+            background-color: currentColor;
+            -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
+            transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
 
-        right: 0%;
-    }
+            h2, h6, h5 {
+                color: #fff;
+                @include transition(all 0.25s ease-in 0.25s);
+            }
 
-
-    picture {
-        @include media($tablet) {
-            @include span-columns(6);
-
-            right: -25%;
+            picture {
+                transform: scale(1.35);
+                opacity: 1;
+                filter: saturate(1);
+                -webkit-transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), -webkit-transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+                transition: opacity 0.8125s cubic-bezier(0.39, 0.575, 0.565, 1), transform 4s cubic-bezier(0.39, 0.575, 0.565, 1);
+            }
         }
 
-
-        @include media($laptop) {
-            right: -25%;
-            float: left;
-            display: block;
-        }
-
-
-        @include media($mobile) {
-            right: -25%;
-            float: left;
-            display: block;
-        }
     }
 }
 
-.arrow-button {
-    padding-left: .5em;
-}
 
-.hero-image {
-    position: absolute;
-    width: auto;
-    float: left;
-    display: block;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 3;
 
-    @include media($tablet) {
-        @include row;
 
-        position: relative;
-        display: block;
-
-        @include fill-parent;
-
-        right: auto;
-
-        @include transform(none);
-    }
-}

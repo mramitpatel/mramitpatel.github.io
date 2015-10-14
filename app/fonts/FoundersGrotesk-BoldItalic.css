@@ -1,0 +1,12 @@
+/* Webfont: FoundersGrotesk-BoldItalic */@font-face {
+    font-family: 'FoundersGroteskBold';
+    src: url('FoundersGrotesk-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('FoundersGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('FoundersGrotesk-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('FoundersGrotesk-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('FoundersGrotesk-BoldItalic.svg#FoundersGrotesk-BoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

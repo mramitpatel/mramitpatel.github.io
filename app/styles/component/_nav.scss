@@ -6,7 +6,6 @@
     float: none;
     z-index: 100;
     fill: currentColor;
-
 }
 
 .exit {
@@ -21,17 +20,19 @@
     }
 }
 
-.nav-wrapper {
-    width: 100%;
-    display: inline-block;
-}
 
-#project {
+#project, #about {
+    .logo {
+        width: 52px;
+        height: 52px;
+    }
+
     nav {
         padding: 2% 0;
-        position: absolute;
-        z-index: 10;
         width: 100%;
+        -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -46,14 +47,18 @@
     }
 }
 
-ul.primary-nav {
-    margin-left: auto;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+footer .wrapper--project, nav .wrapper--project{
+    display: flex;
+    justify-content: space-between;
+}
 
+ul.primary-nav {
+display: inline;
     li {
-        float: right;
+        display: inline-block;
+        vertical-align: middle;
+
+        /* Removes the extra white space below the baseline */
 
         h6 {
             margin: 0;

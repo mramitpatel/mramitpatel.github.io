@@ -3,61 +3,28 @@ layout: home
 title: "I'm Amit, a Digital Creative Director & Designer. I create digital experiences, design interfaces and shape brands."
 body_id: home
 client: "Amit Patel–Portfolio"
-description: 
 ---
-
 <div class="work--list">
     {% for post in site.categories.projects %}
-            <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="color: {{post.backgroundColor}}">
-                <div class="container--home">
+        <section class="{{ post.id }} panel--home" data-id="{{ post.cid }}" style="color: {{post.backgroundColor}}">
+            <div class="container--home">
                 <div class="wrapper--home">
-                <a class="animsition-link" href="{{ post.url }}">
-
-                    
-                    <article class="info" style="color: {{post.backgroundColor}}">
-                        <!--<h6><span>{{ post.role }}</h6>-->
-                        <h6>{{ post.role }}</h6>
-
-                        <h3>{{ post.title }}</h3>
-                        <h5 style="color: {{post.txtColor}}">{{post.description }}</h5>
-
-                   </article>
-
-                   <div class="img-wrapper">
+                    <a class="animsition-link" href="{{ post.url }}">
+                        <div class="img-wrapper">
                             <picture data-id="{{ post.cid }}">
                                 <img class="lazyload" src="/images/{{ post.cid }}/{{ post.homeimage }}">
                             </picture>
-</div>
-                    <div class="added-info" style="background-color: {{ post.accentColor }}";>
-                        <div class="added-info-wrapper">
-                        <span class="arrow-btn">
-                        </span>
-                        </div>
-                    </div>
+                        </div>                        
+                        <article class="info" style="color: {{post.backgroundColor}}">
+                            <!--<h6><span>{{ post.role }}</h6>-->
+                            <h6>{{ post.role }}</h6>
+                            <h2>{{ post.title }}</h2>
+                            <h5>{{post.description }}</h5>
+                        </article>
 
-                </a>
+                    </a>
                 </div>
-                </div>
-            </section>
+            </div>
+        </section>
     {% endfor %}
 </div>
-
-<!--
-<div id="blog--list">
-    <section class="content--wide">
-        <div class="right-column">
-            {% for post in site.categories.blog] %}
-                <article>
-                    <a class="animsition-link" href="{{ post.url }}">
-
-                        <h4 style="color:{{ post.accentColor }}">{{ post.title }}</h4>
-                        <div class="excerpt" style="color:{{ post.txtColor }};">{{ post.excerpt }}</div>
-                        <h6 class="read-more" style="color: {{post.accentColor}}";>Read More</h6>
-                        
-                    </a>
-                </article>
-            {% endfor %}
-        </div>
-    </section>
-</div>
--->

@@ -7,8 +7,8 @@
 $max-width: em(1680);
 
 // Neat Breakpoints
-$mobile: new-breakpoint(max-width 780px 2);
-$tablet: new-breakpoint(max-width 780px 6);
+$mobile: new-breakpoint(max-width 480px 2);
+$tablet: new-breakpoint(max-width 960px 8);
 $laptop: new-breakpoint(max-width 1440px 6);
 $laptop-large: new-breakpoint(min-width 1940px 12);
 

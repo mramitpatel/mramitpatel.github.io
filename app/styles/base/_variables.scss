@@ -1,14 +1,17 @@
 // Typography
-$sans-serif: 'Neue Haas Grotesk W04 Disp';
-$heading-font-family: 'Neue Haas Grotesk W01 Disp';
+$sans-serif: 'Neue Haas Unica W01'; //regular body
+//$heading-font-family: 'FoundersGroteskBold';
+$heading-font-family: 'Neue Haas Grotesk W01 Disp'; // 01 thicker
 $serif: sans-serif;
 $base-font-family: $serif;
-$heading-font-family: $sans-serif;
 $geometric-sans: 'Geogrotesque W01';
+$heading-font-weight: 700;
+$body-font-weight: 500;
+
 
 
 // Sizes
-$base-font-size: 1.11em;
+$base-font-size: 1.115em;
 $base-line-height: $base-font-size * 1.5;
 $unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
 $heading-line-height: $base-font-size * 1;
@@ -22,7 +25,7 @@ $light-gray: rgba(0,39,59,.2);
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $dark-gray: rgb(34, 34, 34);
-$reddish: #F04C37;
+$reddish: rgb(232, 46, 22);
 $light-gray: rgba(0,39,59,.1);
 
 
@@ -33,7 +36,7 @@ $border-color: $light-gray;
 $base-background-color: white;
 
 // Font Colors
-$base-font-color: rgba(0,0,0,.65);
+$base-font-color: rgba(36, 37, 37, 0.95);
 $base-accent-color: #000;
 
 // Link Colors

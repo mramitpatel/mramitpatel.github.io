@@ -1,105 +1,106 @@
 /* ==========================================================================
    default - helpers and all that
    ========================================================================== */
-html, body{
-  height:100%;
-  margin: 0;
-  padding: 0;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-
 
 img[data-sizes="auto"] {
     display: block;
 }
 
-.work--list{
-        h3:before {
-            content: counter(project) ".";
-            counter-increment: project;
-            position: absolute;
-            margin: 2.3em 0em 0em -2em;
-            display: block;
-            font-size: 0.25em;
-            width: 1.3em;
-            height: 1.3em;
-            line-height: 1.2em;
-            text-align: center;
-            font-family: $base-font-family;
-            font-weight: bold;
-        }
-  }      
-#project{
-    .work--list{
-        a{
+.work--list {
+    h3:before {
+        content: counter(project) ".";
+        counter-increment: project;
+        position: absolute;
+        margin: 2.3em 0em 0em -2em;
+        display: block;
+        font-size: 0.25em;
+        width: 1.3em;
+        height: 1.3em;
+        line-height: 1.2em;
+        text-align: center;
+        font-family: $base-font-family;
+        font-weight: bold;
+    }
+}
+
+#project {
+    .work--list {
+        a {
             color: currentColor;
             color: none;
         }
-        h3:before {
-        content: counter(project) ".";
-        counter-increment: project;
-        position: relative;
-        margin: 0;
-        float: left;
-        display: block;
-        font-size: 0.25em;
-        width: 2em;
-        height: 1.3em;
-        line-height: 6em;
-        text-align: center;
-        font-family: sans-serif;
-        font-weight: bold;
-        }
-    }    
 
+        h3:before {
+            content: counter(project) ".";
+            counter-increment: project;
+            position: relative;
+            margin: 0;
+            float: left;
+            display: block;
+            font-size: 0.25em;
+            width: 2em;
+            height: 1.3em;
+            line-height: 6em;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    }
 }
 
 .lazyload,
 .lazyloading {
     opacity: 0;
     top: -10px;
-    transform: scale(.95);
+    transform: scale(0.95);
 }
+
 .lazyloaded {
     opacity: 1;
     transition: all 1.1s;
     transform: scale(1);
     top: 0;
 }
-.center{
-        display: table;
+
+.center {
+    display: table;
     width: 100%;
 }
 
-.v-align-container{
+.v-align-container {
     display: table-cell;
     vertical-align: middle;
 }
 
-.v-align-item{
+.v-align-item {
     display: inline-block;
-    vertical-align: middle; /* Removes the extra white space below the baseline */
+    vertical-align: middle;
+
+    /* Removes the extra white space below the baseline */
 }
 
-
-h1{
-      @include media($laptop) {
-       $modular-scale-base: 1.15em;
+h1 {
+    @include media($laptop) {
+        $modular-scale-base: 1.15em;
     }
-  
 }
 
-.rule{
+.rule {
     border-bottom: 4px solid $light-gray;
     padding: 1% 0;
 }
 
-
-
-
 .read-more {
     font-weight: normal;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
+
     @include transition(all 0.2s ease-out);
+
     display: inline-block;
     margin-bottom: 1em;
     padding-top: 0;
@@ -107,18 +108,18 @@ h1{
     border-bottom: 1px solid currentColor;
 
     &:hover {
-            margin-bottom: 1em;
-            border-bottom: 1px solid none;
+        margin-bottom: 1em;
+        border-bottom: 1px solid none;
     }
 }
 
-
 header {
-width: 100%;
+    width: 100%;
     position: relative;
     overflow: hidden;
-    padding: 14% 0 8% 0;
+    padding: 10% 0 6% 0;
     justify-content: center;
+
     @include row;
 
     @include media($mobile) {
@@ -128,6 +129,7 @@ width: 100%;
 
     article {
         @include span-columns(7);
+        @include shift(0);
         @include media($mobile) {
             @include fill-parent;
             @include row;
@@ -135,40 +137,27 @@ width: 100%;
             padding: 6%;
         }
 
+
         h5 {
             font-weight: 500;
         }
     }
 
-    picture{
-    @include span-columns(8);
-    @include shift(2);
+    h1 {
+        margin-bottom: 0.15em;
+    }
 
-        img{
-            max-width: 100%;
-            max-height: 100%;
-            width: 100%;
-            height: auto;
-            z-index: 11;
-        }
+    h4, h5 {
+        font-weight: 500;
+        margin: .25em 0 0.25em 0;
     }
-    h1{
-        margin-bottom: 0.5em;
-    }
-    h4, h5{
-        font-weight: normal;
-    }    
 }
 
-
-
-
-#clients{
-    h6:after{
+#clients {
+    h6:after {
         display: none;
     }
 }
-
 
 .block-list {
     list-style-type: square;
@@ -181,153 +170,128 @@ width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
 }
- 
 
-
-.highlight{
+.highlight {
     padding: 1em;
     background-color: $light-gray;
     margin: 1em 0 2em 0;
 }
 
-
-
-
 section {
-	@include row();
+    @include row;
 }
 
 
-
-br {
-    @include media($mobile) {
-        display: none;
-    }
-}
-
-.excerpt{
+.excerpt {
     line-height: 1.35;
 }
 
-
-
-p + h5{
+p + h5 {
     padding-top: 2em;
 }
-.highlight + h5{
-    padding-top: 2em; 
+
+.highlight + h5 {
+    padding-top: 2em;
 }
 
-#post{
-    h1{
+#post {
+    h1 {
         padding-bottom: 0;
     }
 }
 
-#blog--list{
+#blog--list {
     display: none;
     background-color: $dark-gray;
-    @include row();
+
+    @include row;
+
     padding: 3%;
 
-    aside{
+    aside {
         height: 100%;
+
         @include span-columns(3);
+
         color: #8b8f92;
     }
-  
-    h4{
+
+    h4 {
         margin-bottom: .5em;
         padding: 0;
     }
+
     article {
         color: white;
         border-bottom: 2px solid $light-gray;
         padding: 6% 0;
     }
 
-    .right-column{
+    .right-column {
         @include span-columns(5);
     }
 
-
-.right-column, article, aside{
-
-    @include media($mobile) {
-        text-align: left;
-        @include fill-parent();
-        @include shift(0);
-    }
-}
-
-}
-
-#blog {
-
-
-
-    header{
-        padding: 6% 0;
-    }
-    h2{
-        margin-bottom: 0em;
-    }
-}
-#post{
-
-    nav{
-        position: absolute;
-    }
-
-    article{
-        padding: 12% 0;
-        border-bottom: 1px solid $light-gray;
-    &:last-child{
-        border-bottom: none;
-    }
-    }
-
-    .content{
-    padding: 1% 8%;
-    border-bottom: none;
-
-        @include media($laptop) {
-        @include fill-parent;
-            @include shift(0);
-    }
-    }
-
-    p{
-        font-family: $serif;
-        font-size: 1.2em;
-    }
-
-nav ul{
-    float: right;
-}
-
-    header{
-        background-color: none;
-        padding: 15% 0 0 0;
-    }
-    footer{
-        padding: 3%;
-    }
-}
-
-
-
-// responsive stuff
-
-#home header{
-    article{
+    .right-column, article, aside {
         @include media($mobile) {
-        @include fill-parent();
+            text-align: left;
+
+            @include fill-parent;
+
+            @include shift(0);
         }
     }
 }
 
+#blog {
+    header {
+        padding: 6% 0;
+    }
 
+    h2 {
+        margin-bottom: 0em;
+    }
+}
 
+#post {
+    nav {
+        position: absolute;
+    }
 
+    article {
+        padding: 12% 0;
+        border-bottom: 1px solid $light-gray;
 
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .content {
+        padding: 1% 8%;
+        border-bottom: none;
+
+        @include media($laptop) {
+            @include fill-parent;
+
+            @include shift(0);
+        }
+    }
+
+    p {
+        font-family: $serif;
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        float: right;
+    }
+
+    header {
+        background-color: none;
+        padding: 15% 0 0 0;
+    }
+
+    footer {
+        padding: 3%;
+    }
+}
