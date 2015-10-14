@@ -17,7 +17,7 @@ summary: "I redesigned JLL.com, the 3rd largest real-estate corporation in the w
 link: "http://www.jll.com"
 
 
-overview: "JLL is one of the worlds largest commercial real-estate brokers. With the real estate industry back on the rise, JLL looked to invest heavily in their digital presence. In order to bring JLL up to speed, I redesigned the global and country pages for all regions across the globe. I provided high-level content suggestions, architected flows and designed pages across every section of the site."
+overview: "JLL is one of the worlds largest commercial real-estate brokers. With the real estate industry back on the rise, JLL looked to invest heavily in their digital presence. In order to bring JLL up to speed, I redesigned the global and country pages for all regions across the globe. I provided high-level content suggestions, architected flows and designed pages across every section of the site. Designed at UnitOneNine."
 
 homeimage: jll-global-hero.png
 projectHero: jll-global-hero.png

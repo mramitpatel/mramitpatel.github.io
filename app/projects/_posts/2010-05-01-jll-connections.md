@@ -15,7 +15,7 @@ client: Jones Lang LaSalle
 role: "Product Strategy & Product Design"
 
 description: "An enterprise iPad application for brokers and agents in the field."
-overview: "Networking is everything and as JLL knows this notion well. JLL's real estate offerings are home to companies all over the world. With that immense of a reach, JLL needed an app to help visualize and manage the network of professional relationships of its associates."
+overview: "Networking is everything and as JLL knows this notion well. JLL's real estate offerings are home to companies all over the world. With that immense of a reach, JLL needed an app to help visualize and manage the network of professional relationships of its associates. Designed at UnitOneNine."
 
 summary: "I designed an enterprise level app that helps brokers and executive agents visualize the connection between thier contacts and their assosciated assets."
 

@@ -15,7 +15,7 @@ role: "Product Design"
 
 description: "As part of an overall web design overhaul, Jones Lang LaSalle's property search was in dire need of a redesign."
 
-summary: "With an emergence of startups focusing in on-line property search engines, JLL had to step up their game. Sites such as Zillow, RedFin and KnightFrank pioneered modern day residential real-estate searching leaving a huge gap for commercial real estate."
+summary: "With an emergence of startups focusing in on-line property search engines, JLL had to step up their game. Sites such as Zillow, RedFin and KnightFrank pioneered modern day residential real-estate searching leaving a huge gap for commercial real estate. Designed at UnitOneNine."
 
 homeimage: hero.png
 projectHero: hero.png

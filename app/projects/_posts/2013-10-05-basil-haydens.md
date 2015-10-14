@@ -18,7 +18,7 @@ link: "http://www.basilhaydens.com"
 
 summary: "I redesigned BasilHayden's.com to be responsive, feature rich curated content and be a destination for whiskey drinkers."
 
-overview: "For Basil Hayden's, I created a blog centric destination as a unique spin on traditional liquor sites. It combines curated blog content with traditional liquor brand marketing. I was responsible for creative direction and art direction with limited assets to craft a brand destination that was engaging for a typical whiskey connoisseur."
+overview: "For Basil Hayden's, I created a blog centric destination as a unique spin on traditional liquor sites. It combines curated blog content with traditional liquor brand marketing. I was responsible for creative direction and art direction with limited assets to craft a brand destination that was engaging for a typical whiskey connoisseur. Designed at UnitOneNine."
 
 clientLogo: bh-logo.svg
 homeimage: hero.png

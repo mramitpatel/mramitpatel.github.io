@@ -18,7 +18,7 @@ link: "http://www.lasikplus.com"
 
 summary: "I redesigned LasikPlus.com with a focus on conversions, reponsivity and mobile bookings."
 
-overview: "LasikPlus is one of the nations largest providers of Laser eye treatments. I crafted a site that informs, educates and convert users into active bookings.<br><br>The result was a full redesign involving redesigned color palettes, image treatments and ultimately evolved digital branding. The site is responsive across all devices and utilizes ExpressionEngine as a CMS."
+overview: "LasikPlus is one of the nations largest providers of Laser eye treatments. I crafted a site that informs, educates and convert users into active bookings.<br><br>The result was a full redesign involving redesigned color palettes, image treatments and ultimately evolved digital branding. The site is responsive across all devices and utilizes ExpressionEngine as a CMS. Designed at UnitOneNine."
 
 homeimage: hero-macbook.png
 projectHero: hero.svg

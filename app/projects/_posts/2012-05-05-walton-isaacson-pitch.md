@@ -14,7 +14,7 @@ client: Walton Isaacson
 role: "Art Direction, Design"
 description: "Site redesign and brand evolution pitch for the &ldquo;World's Most Interesting Agency&rdquo; - Walton Isaacson."
 
-summary: "Part of claiming &ldquo;The World's Most Interesting Agency&rdquo; is having an interesting website. I approached Walton Isaacon with a redesign and brand evolution at the height of a long lasting working relationship."
+summary: "Part of claiming &ldquo;The World's Most Interesting Agency&rdquo; is having an interesting website. I approached Walton Isaacon with a redesign and brand evolution at the height of a long lasting working relationship. Designed at UnitOneNine."
 
 homeimage: wi-hero.png
 logo: adrian-logo.png

@@ -14,7 +14,7 @@ client: Jones Lang LaSalle
 
 role: "Product Design "
 description: "A property search application built for enterprise, designed for everyday people."
-overview: "Jll Property Search for iPad is a tablet focused commercial real-estate application. In the process, I pitched JLL a number of ideas on styles, flows and overall a variety of experiences. With the rise of Windows 8, I wanted to design an iPad application that pushed JLL into a territory - a hybrid of the flat clarity of Windows 8 with the finese and UX patterns of iOS."
+overview: "Jll Property Search for iPad is a tablet focused commercial real-estate application. In the process, I pitched JLL a number of ideas on styles, flows and overall a variety of experiences. With the rise of Windows 8, I wanted to design an iPad application that pushed JLL into a territory - a hybrid of the flat clarity of Windows 8 with the finese and UX patterns of iOS. Designed at UnitOneNine."
 
 summary: "I pitched the UX and interface of JLL's iPad Property Search. A prototype application that helped evolve JLL's digital mobile app strategy."
 
