@@ -1,41 +1,45 @@
-.wrapper, #project {
-   // border: 1px solid #eee;
+.wrapper, #project, #about {
+    // border: 1px solid #eee;
 
     @include media($laptop) {
-       // border: 6px solid red;
+        // border: 6px solid red;
     }
 
 
     @include media($mobile) {
-      //  border: 2px solid green;
+        //  border: 2px solid green;
         h1 {
-            font-size: modular-scale(4);
-        }
-
-        h2 {
             font-size: modular-scale(3);
         }
 
-        h3 {
+        h2 {
             font-size: modular-scale(2);
+        }
+
+        h3 {
+            font-size: modular-scale(1);
         }
 
         h4 {
             font-size: modular-scale(1);
         }
+
+        h5 {
+            font-size: modular-scale(-1);
+        }
     }
 
 
     @include media($tablet) {
-   //     border: 4px solid green;
+        //     border: 4px solid green;
     }
 
 
     @include media($laptop-large) {
-    //    border: 8px solid orange;
+        //    border: 8px solid orange;
 
         h1 {
-            font-size: modular-scale(6);
+            font-size: modular-scale(7);
         }
 
         h2 {

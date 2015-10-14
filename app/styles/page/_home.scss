@@ -4,7 +4,7 @@
 
 #home {
     header {
-        padding: 3% 0 4% 0;
+        padding: 6% 0;
 
         .recent-project-span:first-of-type:after {
             content: ",";
@@ -17,11 +17,6 @@
             background-image: none;
             color: #555;
             border-bottom: 0;
-        }
-
-        article {
-
-            @include span-columns(7);
         }
     }
 
@@ -206,8 +201,8 @@
 }
 
         h2 {
-            margin-bottom: .5em;
-            line-height: .95;
+            margin: .25em 0 0 0;
+            line-height: .8;
         }
 
         h6 {

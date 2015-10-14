@@ -94,15 +94,15 @@ Your browser does not support the video tag.
 
 ##### Over the course of 4 months after launching the newly designed site, LasikPlus experienced tremendous growth in conversions.
 <div class="span-4-12">
-#35%
-#### Increase in desktop conversions. 
+##35%
+Increase in desktop conversions. 
 </div>
 <div class="span-4-12">
-#55%
-#### Increase in mobile conversions.
+##55%
+Increase in mobile conversions.
 </div>
 <div class="span-4-12">
-#40%
-##### Increase in mobile bookings.
+##40%
+Increase in mobile bookings.
 </div>
 </section>

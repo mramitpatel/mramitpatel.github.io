@@ -1,11 +1,12 @@
 #project, #about {
     header {
-        text-align: center;
-            article {
-        @include span-columns(8);
-        @include shift(2);
-    }
+        article {
+            @include span-columns(10);
 
+            @include shift(1);
+        }
+
+        text-align: center;
 
         h1 {
             color: currentColor;
@@ -38,22 +39,29 @@
 
 .results {
     @include span-columns(8);
+
     padding-top: 6%;
+
     @include shift(2);
+
     text-align: center;
     color: #333;
     background-color: white;
 
-        @include media($mobile) {
-            @include fill-parent;
-            @include shift(0);
-        }
+    @include media($mobile) {
+        @include fill-parent;
+
+        @include shift(0);
+    }
 
 
     h5 {
         padding-bottom: 2em;
+
         @include span-columns(8);
+
         color: $medium-gray;
+
         @include shift(2);
     }
 
@@ -71,7 +79,6 @@
         }
     }
 }
-
 
 /*--------------------------------------- */
 /*
@@ -114,18 +121,23 @@
 
 .content {
     padding: 3% 0;
+
     @include span-columns(6);
+
     @include shift(3);
 
-            @include media($mobile) {
-            @include fill-parent;
-            @include shift(0);
-        }
-        @include media($tablet) {
-                @include span-columns(6);
-            @include shift(1);
-        } 
+    @include media($tablet) {
+        @include span-columns(6);
 
+        @include shift(1);
+    }
+
+
+    @include media($mobile) {
+        @include fill-parent;
+
+        @include shift(0);
+    }
 }
 
 section {
@@ -138,12 +150,12 @@ section {
     @extend .content;
 }
 
-.content--post{
+.content--post {
     @include outer-container(60%);
 
-        @include media($tablet) {
-    @include outer-container(100%);
-        }     
+    @include media($tablet) {
+        @include outer-container(100%);
+    }
 }
 
 .overview {
@@ -153,24 +165,36 @@ section {
 #content-project {
     aside, video {
         @include span-columns(6);
+
         padding: 3% 0;
 
         @include media($mobile) {
             @include fill-parent;
+
             @include shift(0);
-        }        
+        }
     }
+
+    .span-4-12{
+        @include span-columns(4);
+        @include omega(3);
+        h2{
+            padding: 0;
+            margin: 0;
+        }
+    }
+
     .images-two {
         img {
             float: left;
             width: 50%;
             height: auto;
 
-        @include media($mobile) {
-            @include fill-parent;
-            @include shift(0);
-        }
+            @include media($mobile) {
+                @include fill-parent;
 
+                @include shift(0);
+            }
         }
     }
 
@@ -182,7 +206,6 @@ section {
     }
 
     margin-bottom: 9%;
-
 }
 
 /*  Section .Content 6 Image Holder
