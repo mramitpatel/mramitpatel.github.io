@@ -11,47 +11,47 @@ img[data-sizes="auto"] {
     display: block;
 }
 
-.work--list {
-    h2:before {
-        content: counter(project) ".";
-        counter-increment: project;
-        position: absolute;
-        margin: 2.3em 0em 0em -2em;
-        display: block;
-        font-size: 0.15em;
-        width: 1.3em;
-        height: 1.3em;
-        line-height: 2.85em;
-        text-align: center;
-        font-family: $base-font-family;
-        font-weight: bold;
-    }
-}
+//.work--list {
+//    h2:before {
+//        content: counter(project) ".";
+//        counter-increment: project;
+//        position: absolute;
+//        margin: 2.3em 0em 0em -2em;
+//        display: block;
+//        font-size: 0.15em;
+//        width: 1.3em;
+//        height: 1.3em;
+//        line-height: 2.85em;
+//        text-align: center;
+//        font-family: $base-font-family;
+//        font-weight: bold;
+//    }
+//}
 
-#project {
-    .work--list {
-        a {
-            color: currentColor;
-            color: none;
-        }
-
-        h3:before {
-            content: counter(project) ".";
-            counter-increment: project;
-            position: relative;
-            margin: 0;
-            float: left;
-            display: block;
-            font-size: 0.25em;
-            width: 2em;
-            height: 1.3em;
-            line-height: 4.55em;
-            text-align: center;
-            font-family: sans-serif;
-            font-weight: bold;
-        }
-    }
-}
+//#project {
+//    .work--list {
+//        a {
+//            color: currentColor;
+//            color: none;
+//        }
+//
+//        h3:before {
+//            content: counter(project) ".";
+//            counter-increment: project;
+//            position: relative;
+//            margin: 0;
+//            float: left;
+//            display: block;
+//            font-size: 0.25em;
+//            width: 2em;
+//            height: 1.3em;
+//            line-height: 4.55em;
+//            text-align: center;
+//            font-family: sans-serif;
+//            font-weight: bold;
+//        }
+//    }
+//}
 
 .lazyload,
 .lazyloading {
