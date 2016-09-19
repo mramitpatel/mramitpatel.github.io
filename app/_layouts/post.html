@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    {% include shared/styles.html %}
+
+    <!-- build:js({app,.tmp}) /scripts/modernizr.js -->
+    <script src="/vendor/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body id="{{ page.body_id }}" class="animsition">
+<div class="wrapper">
+  {% include shared/progress.html %}
+
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<nav id="nav" role="banner">
+  <div>
+  <a class="logo" href="/">{% include shared/logo.html %}</a>
+  <ul class="primary-nav">
+    <li><a class="about" href="/blog">thoughts</a></li>
+    <li><a class="about" href="/about">Contact</a></li>
+    <li><a class="work" href="/#content--home">work</a></li>
+  </ul>
+  </div>
+</nav>
+
+<header>       
+        {% if page.title %}
+          <div class="content" style="color: {{page.txtColor}}">
+                <h1>{{ page.title }}</h1>
+              {% endif %}
+             {% if page.description %}
+                <h4 class="description">{{ page.description }}</h4>
+
+          
+          {% if page.projectHero %}
+          <picture>
+            <img src="/images/{{ page.cid }}/{{ page.projectHero }}">
+              {% elsif page.homeimage %}
+              <img src="/images/{{ page.cid }}/{{ page.homeimage }}">
+            </picture>
+          {% endif %}
+          <!--
+          <button>
+          <a href="#content--home">
+            <h6>view my recent work<br/>↓ </h6>
+          </a>
+          </button>
+          -->
+        </div>
+      {% endif %}
+</header>
+
+<section class="content">
+    {{ content }}
+</section>
+
+
+<!--
+<section id="more-work">
+
+    {% if post.next %}
+        {% assign next = page.next %}
+    {% else %}
+        {%comment%}
+           As the array index start at zero we substract 1 to the total count,
+           we then get the last post index in the site.posts array
+        {%endcomment%}
+        {% assign last lastPostIndex = site.categories.blog | size | minus: 1 %}
+        {% assign next = site.categories.blog[lastPostIndex] %}
+    {% endif %}
+    
+    <a href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+        <div class="content">
+            <h6>Next Project:&nbsp;</h6>
+            <h3>{{ next.title}}</h3>
+        </div>
+    </a>
+</section>
+-->
+    {% include shared/footer.html %}
+</div>
+
+    <!--[if lte IE 8]>
+      {% include shared/scripts-ie8.html %}
+    <![endif]-->
+
+    {% include shared/scripts.html %}
+    {% include shared/google-analytics.html %}
+  </body>
+</html>

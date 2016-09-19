@@ -1,0 +1,5 @@
+- Sports Times and Channels
+-- Pull colors from sports logos to use as background-colors
+-- Geolocate user to determine provider or cable TV options
+--- Reduce the number of 
+-- Display sporting events for the day with times and channels it can be found on
