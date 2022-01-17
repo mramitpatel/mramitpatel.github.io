@@ -1,0 +1,18 @@
+{
+  "name": "mramitpatel.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mramitpatel/mramitpatel.github.io.git",
+  "author": "Imad Khan <imadalikhan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "node-sass assets/scss/main.scss assets/css/main.css -w",
+    "serve": "http-server",
+    "dev": "concurrently \"yarn scss\" \" yarn serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "http-server": "^14.1.0",
+    "node-sass": "^7.0.1"
+  }
+}

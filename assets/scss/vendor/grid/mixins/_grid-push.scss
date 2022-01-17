@@ -1,0 +1,19 @@
+﻿/// Push or pull a grid column by manipulating its left margin.
+///
+/// @group features
+///
+/// @name Grid push
+///
+/// @argument {number (unitless)} $push [false]
+///   The number of columns to push the column.
+///
+/// @argument {map} $grid [$neat-grid]
+///   The grid to be used to determine how far to push the column.
+///   By default, the global `$neat-grid` will be used.
+
+@mixin grid-push($push: false, $grid: $neat-grid) {
+	@if $push {
+		$_margin-value: calc(#{_neat-column-width($grid, $push)});
+		margin-left: $_margin-value;
+	}
+}

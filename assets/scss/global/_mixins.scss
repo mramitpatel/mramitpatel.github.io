@@ -1,0 +1,19 @@
+@mixin screen-xl-max {
+	@media (max-width: $screen-xl) { @content; }
+}
+
+@mixin screen-lg-max {
+	@media (max-width: $screen-lg) { @content; }
+}
+
+@mixin screen-md-max {
+	@media (max-width: $screen-md) { @content; }
+}
+
+@mixin screen-sm-max {
+	@media (max-width: $screen-sm) { @content; }
+}
+
+@mixin screen-xs-max {
+	@media (max-width: $screen-xs) { @content; }
+}

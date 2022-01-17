@@ -1,0 +1,137 @@
+.header {
+	padding: 96px 0;
+}
+
+.hero {
+	margin-bottom: 180px;
+
+	&--info {
+		h1 {
+			margin-bottom: 48px;
+		}
+		p {
+			margin-bottom: 24px;
+		}
+	}
+}
+
+.navigation {
+	margin-bottom: 96px;
+
+	&--interior {
+		margin-top: 72px;
+	}
+	.container {
+		display: flex;
+	}
+	.button {
+		margin-right: 10px;
+	}
+}
+
+.showcase {
+	background: #000000;
+	border-radius: 56px;
+	padding: 106px 55px 96px;
+	color: $color-white;
+
+	h2 {
+		margin-bottom: 106px;
+	}
+
+	img {
+		margin-bottom: 40px;
+	}
+
+	&-button {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 54px;
+	}
+
+}
+
+.essays {
+	margin: 111px 0 149px;
+	&-list {
+		margin: 0;
+		padding: 0;
+		li {
+			border-bottom: 1px solid $color-black;
+			&:last-child {
+				border: none;
+			}
+			a {
+				padding: 34px 0;
+				color: $color-black;
+				display: block;
+			}
+		}
+	}
+	&-button {
+		display: flex;
+		justify-content: end;
+	}
+}
+
+
+.clientExperience {
+	margin-bottom: 300px;
+	h2 {
+		margin-bottom: 64px;
+	}
+	&-list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&-item {
+			flex: 0 1 30%;
+			margin-bottom: 12px;
+			margin-bottom: 64px;
+			&-title {
+				font-weight: bold;
+			}
+		}
+	}
+	
+}
+
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	&-item {
+		flex: 0 1 50%;
+		margin-bottom: 192px;
+		@include screen-md-max {
+			flex: 0 1 100%;
+			margin-bottom: 95px;
+		}
+		&:nth-child(3n) {
+			margin-top: 100px;
+			@include screen-md-max {
+				margin-top: 0;
+			}
+		}
+		&--full {
+			flex: 0 1 100%;
+			margin-bottom: 150px;
+			@include screen-md-max {
+				margin-bottom: 95px;
+			}
+		}
+		img {
+			@include screen-md-max {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.footer {
+	&-copy {
+		margin-bottom: 35px;
+	}
+	&-copyright {
+		margin-top: 77px;
+	}
+}

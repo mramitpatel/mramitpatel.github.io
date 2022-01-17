@@ -1,0 +1,13 @@
+﻿/// Return a calulated column width that can then be passed in to a `calc()`.
+///
+/// @argument {map} $grid
+///
+/// @argument {number} $columns
+///
+/// @return {string}
+
+@function _neat-column-width($grid, $columns) {
+  $_column-ratio: _neat-column-ratio($grid, $columns);
+
+  @return unquote("#{percentage($_column-ratio)}");
+}

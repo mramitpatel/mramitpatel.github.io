@@ -1,0 +1,14 @@
+﻿/// Parse media types. If the property is a string then return it, otherwise
+/// assume screen and min-width.
+///
+/// @argument {string | number (with unit)} $media
+///
+/// @return {number}
+
+@function _neat-parse-media($media) {
+	@if type-of($media) == number {
+		@return "only screen and (min-width: #{$media})";
+	} @else if type-of($media) == string {
+		@return "#{$media}";
+	}
+}

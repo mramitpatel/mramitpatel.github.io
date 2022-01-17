@@ -1,0 +1,26 @@
+﻿/// Creates a grid column of requested size.
+///
+/// @group features
+///
+/// @name Grid column
+///
+/// @argument {number (unitless)} $columns [null]
+///   Specifies the number of columns an element should span based on the total
+///   columns of the grid.
+///
+///   This can also be defined in a shorthand syntaxt which also contains the
+///   total column count such as `3 of 5`.
+///
+/// @argument {map} $grid [$neat-grid]
+///   The grid to be used to generate the column.
+///   By default, the global `$neat-grid` will be used.
+
+@mixin grid-column($columns: null, $grid: $neat-grid) {
+	$columns: _neat-column-default($grid, $columns);
+	$_grid-gutter: _retrieve-neat-setting($grid, gutter);
+
+	max-width: calc(#{_neat-column-width($grid, $columns)});
+	flex-basis: calc(#{_neat-column-width($grid, $columns)});
+	padding-left: $_grid-gutter / 2;
+	padding-right: $_grid-gutter / 2;
+}

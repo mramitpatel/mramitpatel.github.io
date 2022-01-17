@@ -1,0 +1,21 @@
+﻿/// Creates collapsed grid object that consumes the gutters of its container,
+/// for use in nested layouts.
+///
+/// @group features
+///
+/// @name Grid row
+///
+/// @argument {map} $grid [$neat-grid]
+///   The grid to be used to generate the collapsed container.
+///   By default, the global `$neat-grid` will be used.
+
+@mixin grid-row($grid: $neat-grid) {
+	$_grid-gutter: _retrieve-neat-setting($grid, gutter);
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: -($_grid-gutter / 2);
+	margin-right: -($_grid-gutter / 2);
+	width: calc(100% + #{($_grid-gutter)});
+}
