@@ -1,0 +1,27 @@
+.home-showcase {
+	.container{
+		background: #000000;
+		border-radius: 56px;
+		padding: 106px 55px 96px;
+		color: $color-white;
+	}
+
+	h2 {
+		margin-bottom: 106px;
+	}
+
+	img {
+		margin-bottom: 40px;
+		width: 100%;
+	}
+
+	&-title {
+		
+	}
+
+	&-button {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 54px;
+	}
+}

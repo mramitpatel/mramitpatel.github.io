@@ -1,0 +1,109 @@
+ 
+@font-face {
+	font-family: 'Sneak';
+	src: url('../fonts/Sneak-Regular.eot');
+	src: url('../fonts/Sneak-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Sneak-Regular.woff2') format('woff2'),
+	url('../fonts/Sneak-Regular.woff') format('woff'),;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Sneak Light';
+	src: url('../fonts/Sneak-Light.eot');
+	src: url('../fonts/Sneak-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Sneak-Light.woff2') format('woff2'),
+	url('../fonts/Sneak-Light.woff') format('woff'),;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sneak Medium';
+	src: url('../fonts/Sneak-Medium.eot');
+	src: url('../fonts/Sneak-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Sneak-Medium.woff2') format('woff2'),
+	url('../fonts/Sneak-Medium.woff') format('woff'),;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+$font-heading-regular: "Sneak", "Helvetica", "Arial", sans-serif;
+$font-heading-light: "Sneak Light", "Helvetica", "Arial", sans-serif;
+$font-heading-medium: "Sneak Medium", "Helvetica", "Arial", sans-serif;
+
+$font-base: 'Sneak Light', "Times New Roman", Times, serif;
+
+$font-size-base: 21px;
+$line-height-base: 30px;
+
+html, body {
+	font-family: $font-base;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	color: $color-gray
+}
+
+a {
+	text-decoration: none;
+	transition: all $default-transition;
+}
+
+p {
+	a {
+		color: $color-gray;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+h1 {
+	font-size: 54px;
+	line-height: 58px;
+	letter-spacing: -1.74845px;
+	font-family: $font-heading-light;
+	font-weight: normal;
+	span {
+		font-family: $font-heading-medium;
+	}
+	@include screen-md-max {
+		font-size: 40px;
+		line-height: 44px;
+	}
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 32px;
+	font-weight: normal;
+	font-family: $font-heading-regular;
+}
+
+h3 {
+	font-size: 32px;
+	line-height: 32px;
+	font-family: $font-heading-regular;
+}
+
+h4 {
+	font-size: 21px;
+	line-height: 30px;
+	font-family: $font-heading-light;
+	span {
+		font-family: $font-heading-medium;
+	}
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 21px;
+	font-family: $font-heading-light;
+}
+
+strong {
+	font-weight: bold;
+}

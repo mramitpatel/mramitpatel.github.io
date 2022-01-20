@@ -1,0 +1,26 @@
+.clientExperience {
+	margin-bottom: 300px;
+	h2 {
+		margin-bottom: 64px;
+	}
+	&-list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&-item {
+			flex: 0 1 30%;
+			margin-bottom: 12px;
+			margin-bottom: 64px;
+			@include screen-lg-max {
+				flex: 0 1 48%;
+			}
+			@include screen-md-max {
+				flex: 0 1 100%;
+			}
+			&-title {
+				font-weight: bold;
+			}
+		}
+	}
+	
+}

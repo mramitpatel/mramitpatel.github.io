@@ -1,18 +1,39 @@
 {
-  "name": "mramitpatel.github.io",
+  "name": "amit",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:mramitpatel/mramitpatel.github.io.git",
-  "author": "Imad Khan <imadalikhan@gmail.com>",
-  "license": "MIT",
+  "private": true,
+  "description": "amit",
+  "author": "Imad Khan",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "scss": "node-sass assets/scss/main.scss assets/css/main.css -w",
-    "serve": "http-server",
-    "dev": "concurrently \"yarn scss\" \" yarn serve\""
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
-  "devDependencies": {
-    "concurrently": "^7.0.0",
-    "http-server": "^14.1.0",
-    "node-sass": "^7.0.1"
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.5.2",
+    "gatsby-plugin-google-analytics": "^4.5.0",
+    "gatsby-plugin-image": "^2.5.1",
+    "gatsby-plugin-manifest": "^4.5.1",
+    "gatsby-plugin-mdx": "^3.5.1",
+    "gatsby-plugin-page-creator": "^4.5.1",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sass": "^5.5.0",
+    "gatsby-plugin-sharp": "^4.5.1",
+    "gatsby-plugin-sitemap": "^5.5.0",
+    "gatsby-source-filesystem": "^4.5.1",
+    "gatsby-transformer-json": "^4.5.0",
+    "gatsby-transformer-sharp": "^4.5.0",
+    "intersection-observer": "^0.12.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.48.0"
   }
 }

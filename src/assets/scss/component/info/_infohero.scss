@@ -1,0 +1,16 @@
+.info-hero {
+	margin-bottom: 128px;
+
+	&-content {
+		margin-top: 70px;
+		h1 {
+			margin-bottom: 20px;
+		}
+		p {
+			margin-bottom: 60px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

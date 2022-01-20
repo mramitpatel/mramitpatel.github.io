@@ -1,0 +1,22 @@
+.essay {
+	margin: 111px 0 149px;
+	&-list {
+		margin: 0;
+		padding: 0;
+		li {
+			border-bottom: 1px solid $color-black;
+			&:last-child {
+				border: none;
+			}
+			a {
+				padding: 34px 0;
+				color: $color-black;
+				display: block;
+			}
+		}
+	}
+	&-button {
+		display: flex;
+		justify-content: end;
+	}
+}

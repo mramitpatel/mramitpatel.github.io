@@ -1,0 +1,22 @@
+﻿.button {
+	color: $color-gray;
+	font-size: 21px;
+	line-height: 30px;
+	border: 1px solid #979797;
+	border-radius: 82px;
+	padding: 14px 20px;
+	transition: all $default-transition;
+	cursor: pointer;
+	&:hover {
+		background-color: $color-black;
+		color: $color-white;
+	}
+	&--invert {
+		border-color:$color-white;
+		color: $color-white;
+		&:hover {
+			background-color: $color-white;
+			color: $color-black;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	&-item {
+		flex: 0 1 50%;
+		margin-bottom: 192px;
+		@include screen-md-max {
+			flex: 0 1 100%;
+			margin-bottom: 95px;
+		}
+		&-title {
+			margin-top: 50px;
+			color: $color-black;
+			margin-bottom: 5px;
+		}
+		
+		&-type {
+			color: $color-black;
+		}
+
+		&:nth-child(3n) {
+			margin-top: 100px;
+			@include screen-md-max {
+				margin-top: 0;
+			}
+		}
+		&--full {
+			flex: 0 1 100%;
+			margin-bottom: 150px;
+			@include screen-md-max {
+				margin-bottom: 95px;
+			}
+		}
+		img {
+			@include screen-md-max {
+				width: 100%;
+			}
+		}
+	}
+}

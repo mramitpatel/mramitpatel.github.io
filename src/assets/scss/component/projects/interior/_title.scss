@@ -1,0 +1,14 @@
+.project-title {
+	padding: 80px 0 80px;
+
+	&-title {
+		font-family: $font-heading-medium;
+		margin-bottom: 18px;
+	}
+
+	&-description {
+		font-size: 54px;
+		line-height: 58px;
+		letter-spacing: -1.74845px;
+	}
+}
