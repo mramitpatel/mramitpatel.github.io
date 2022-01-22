@@ -103,5 +103,169 @@
       "title": "Mack",
       "description": "Digital marketing for an American legend."
     }
+  },
+  {
+    "background": "black",
+    "slug": "daddario",
+    "title": "D’Addario",
+		"type":"Product Design",
+    "byline": "E-Com designed for the music enthusiast.",
+    "hero": "../images/projects/daddario/Hero.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 17.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 11.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 9.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 17.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/daddario/FL Design 13.png",
+          "img2": "../images/projects/daddario/FL Design 10.png"
+        }
+      }  
+    ],
+    "next": {
+      "slug": "mack-builder",
+      "title": "Mack",
+      "description": "Digital marketing for an American legend."
+    }
+  },
+  {
+    "slug": "mack",
+    "title": "Mack",
+		"type":"Product Design",
+    "byline": "Digital marketing for an American legend.",
+    "hero": "../images/projects/mack/Hero.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/FL Design 18.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/Frame 90.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/Group 3 10.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/FL Design 19.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/FL Design 20.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/Mack Page System.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/69chev_spread 1.png"
+        }
+      }
+    ],
+    "next": {
+      "slug": "mack-builder",
+      "title": "Mack",
+      "description": "Digital marketing for an American legend."
+    }
+  },
+  {
+    "slug": "imove",
+    "title": "iMove",
+		"type":"Product Design",
+    "byline": "Relocation reimagined",
+    "hero": "../images/projects/imove/Hero.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/iMove Logos.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 128.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 6.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/3_Launch.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 7.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/interface-2 1.png"
+        }
+      }
+    ],
+    "next": {
+      "slug": "mack-builder",
+      "title": "Mack",
+      "description": "Digital marketing for an American legend."
+    }
   }
 ]

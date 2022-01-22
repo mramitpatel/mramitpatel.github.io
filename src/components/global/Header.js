@@ -1,6 +1,6 @@
 import * as React from "react"
 
-const Header = ({isCaseStudy = false}) => {
+const Header = ({isCaseStudy = false,idx,len}) => {
 	const classList = !isCaseStudy ? 'col-12' : 'col-10 push-2'
 	return (
 		<div className="header">
@@ -9,7 +9,7 @@ const Header = ({isCaseStudy = false}) => {
 					<div className={classList}>
 						{!isCaseStudy ?
 							<h4><span>Amit Patel –</span> UX/Design</h4>
-							: <h4>Case Study</h4>
+							: <h4>{idx}/{len}</h4>
 						}
 					</div>
 				</div>

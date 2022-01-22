@@ -20,7 +20,9 @@ export default function CaseStudy({pageContext}){
 		byline,
 		agency,
 		layout,
-		next} = pageContext
+		next,
+		idx,
+		len} = pageContext
 		const ComponentList = {
 			TextBlock,
 			FullWidthImage,
@@ -35,7 +37,7 @@ export default function CaseStudy({pageContext}){
 		}, [])
 
 	return (
-		<Layout pageClass="project" type="case">
+		<Layout pageClass="project" type="case" idx={idx} len={len}>
 			<Seo title={title} />
 			<Title title={title} byline={byline} />
 			<Hero img={hero} />

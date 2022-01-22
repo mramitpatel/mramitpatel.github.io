@@ -10,7 +10,9 @@ import Navigation from "./global/Navigation"
  const Layout = ({
 	 children,
 	 pageClass,
-	 type
+	 type,
+	 idx,
+	 len
 	}) => {
 	 const data = useStaticQuery(graphql`
 		 query SiteTitleQuery {
@@ -52,7 +54,7 @@ import Navigation from "./global/Navigation"
 		const Casestudy = ({children}) => {
 			return (
 				<>
-					<Header isCaseStudy={true}/>
+					<Header isCaseStudy={true} idx={idx} len={len} />
 					<ChildrenContainer children={children} />
 					<Footer isHome={false}/>
 				</>

@@ -44,11 +44,6 @@ exports.createPages = ({ actions, graphql }) => {
 							}
 						}
 					}
-					next {
-						description
-						slug
-						title
-					}
 				}
 			}
 		}`)
@@ -57,7 +52,22 @@ exports.createPages = ({ actions, graphql }) => {
 					return Promise.reject(res.errors);
 				}
 
-				res.data.allWorkJson.nodes.forEach(node => {
+				res.data.allWorkJson.nodes.forEach((node,idx) => {
+						node.idx = idx + 1;
+						node.len = res.data.allWorkJson.nodes.length;
+						if (node[idx+1] != null) {
+							node.next = {
+								description: res.data.allWorkJson.nodes[idx+1].byline, 
+								slug: res.data.allWorkJson.nodes[idx+1].slug,
+								title:res.data.allWorkJson.nodes[idx+1].title
+							}
+						} else {
+							node.next = {
+								description: res.data.allWorkJson.nodes[0].byline, 
+								slug: res.data.allWorkJson.nodes[0].slug,
+								title:res.data.allWorkJson.nodes[0].title
+							}
+						}
 						createPage({
 							path: `/projects/${node.slug}`,
 							component: caseStudyTemplate,
