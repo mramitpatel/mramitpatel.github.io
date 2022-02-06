@@ -51,15 +51,7 @@ import Navigation from "./global/Navigation"
 				</>
 			)
 		}
-		const Casestudy = ({children}) => {
-			return (
-				<>
-					<Header isCaseStudy={true} idx={idx} len={len} />
-					<ChildrenContainer children={children} />
-					<Footer isHome={false}/>
-				</>
-			)
-		}
+
 		const Projects = ({children}) => {
 			return (
 				<>
@@ -76,8 +68,6 @@ import Navigation from "./global/Navigation"
 					return <Home children={children}/>
 				case 'info':
 					return <Info children={children}/>
-				case 'case':
-					return <Casestudy children={children}/>
 				case 'projects':
 					return <Projects children={children}/>
 			}

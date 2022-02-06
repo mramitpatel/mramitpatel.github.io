@@ -1,13 +1,13 @@
 import React from 'react';
-
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Hero() {
 	return (
 		<div className="info-hero">
 			<div className="container">
 				<div className="row">
-					<div className="push-2 col-4 col-lg-12">
-						<img src="https://via.placeholder.com/408x636" alt="" />
+					<div className="col-6 push-lg-hide col-lg-12">
+						<StaticImage height={636} src="../../../images/Amit_Patel.jpg" alt="Amit Patel" />
 					</div>
 					<div className="col-5 col-lg-12">
 						<div className="info-hero-content">

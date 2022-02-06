@@ -3,7 +3,6 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import { Link } from 'gatsby';
 
 export default function ProjectListItem({position, slug, img, title, type}) {
-	console.log(position, slug, img, title, type)
 	const projectClassList = position % 3 === 0 ? "project-list-item--full" : '';
 	return (
 		<div className={`project-list-item ${projectClassList}`}>

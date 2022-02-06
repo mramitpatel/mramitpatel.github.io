@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby';
-export default function Navigation() {
+export default function Navigation({isHome}) {
+	const classList = isHome ? 'col-12' : 'col-8 push-2 push-lg-hide col-lg-12'; 
 	return (
 		<div className="container">
 			<div className="row">
-				<div className="col-8 push-2 push-lg-hide col-lg-12">
+				<div className={classList}>
 					<nav className="navigation">
-						<Link className="button">Projects</Link>
-						<Link className="button">Writing</Link>
-						<Link className="button">Info</Link>
+						<Link to="/projects" className="button">Projects</Link>
+						<Link to="/" className="button">Writing</Link>
+						<Link to="/info" className="button">Info</Link>
 					</nav>
 				</div>
 			</div>

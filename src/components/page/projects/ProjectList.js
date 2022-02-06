@@ -4,7 +4,6 @@ import ProjectListItem from './ProjectListItem';
 export default function ProjectList({projects}) {
 	const ProjectItems = () => {
 		return projects.map((p,idx)=> {
-			console.log('p',p);
 			return <ProjectListItem key={idx} position={idx} img={p.hero} title={p.title} type={p.type} slug={p.slug}/>
 		})
 	}

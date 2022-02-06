@@ -52,12 +52,7 @@
           "img": "../images/projects/mackbuilder/FL Design 17.png"
         }
       }   
-    ],
-    "next": {
-      "slug": "cooler-screens",
-      "title": "Mack",
-      "description": "Digital marketing for an American legend."
-    }
+    ]
   },
   {
     "slug": "cooler-screens",
@@ -97,12 +92,7 @@
           "img2": "../images/projects/cooler/CS_Beer_Crop.png"
         }
       }  
-    ],
-    "next": {
-      "slug": "mack-builder",
-      "title": "Mack",
-      "description": "Digital marketing for an American legend."
-    }
+    ]
   },
   {
     "background": "black",
@@ -148,12 +138,7 @@
           "img2": "../images/projects/daddario/FL Design 10.png"
         }
       }  
-    ],
-    "next": {
-      "slug": "mack-builder",
-      "title": "Mack",
-      "description": "Digital marketing for an American legend."
-    }
+    ]
   },
   {
     "slug": "mack",
@@ -207,12 +192,7 @@
           "img": "../images/projects/mack/69chev_spread 1.png"
         }
       }
-    ],
-    "next": {
-      "slug": "mack-builder",
-      "title": "Mack",
-      "description": "Digital marketing for an American legend."
-    }
+    ]
   },
   {
     "slug": "imove",
@@ -261,11 +241,59 @@
           "img": "../images/projects/imove/interface-2 1.png"
         }
       }
+    ]
+  },{
+    "slug": "finelite",
+    "title": "FineLite",
+    "type":"Product Design",
+    "byline": "Relocation reimagined",
+    "hero": "../images/projects/finelite/Hero.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
     ],
-    "next": {
-      "slug": "mack-builder",
-      "title": "Mack",
-      "description": "Digital marketing for an American legend."
-    }
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/Fine-Lite-SketchSetup.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/FLSketch.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/Fine-lite-product-all.png"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Design",
+          "text": "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue."
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/finelite/FL Design 2.png",
+          "img1Class": "col-7",
+          "img2": "../images/projects/finelite/Frame 145.png",
+          "img2Class": "col-5" 
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/FL Design 4.png"
+        }
+      }
+    ]
   }
+  
 ]

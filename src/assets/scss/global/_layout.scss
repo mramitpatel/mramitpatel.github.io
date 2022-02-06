@@ -182,3 +182,14 @@ body {
 		}
 	}
 }
+
+.animated-layout {
+	transition: all $default-transition;
+	max-height: 10000px;
+	overflow: hidden;
+	&.animated {
+		// opacity: 0;
+		max-height: 0;
+		// visibility: hidden;
+	}
+}

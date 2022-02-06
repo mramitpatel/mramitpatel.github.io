@@ -1,7 +1,15 @@
 .project-next {
-	padding: 80px 0 110px;
+	padding: 250px 0 300px;
+	transition: transform $default-transition;
+	&-animated {
+		transform: translateY(-222px);
+	}
 	&-link {
 		margin-bottom: 176px;
+		transition: opacity $default-transition;
+		&-hide {
+			opacity: 0;
+		}
 	}
 
 	&-title {

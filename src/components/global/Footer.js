@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function Footer({isHome}) {
-	const classList = isHome ?"col-6 col-md-12" :'col-6 push-2 '; 
-	const copyClassList = !isHome && 'push-2'
+	const classList = isHome ?"col-6 col-lg-12" :'col-6 push-2 push-lg-hide col-lg-12 '; 
+	const copyClassList = !isHome && 'push-2 push-lg-hide'
 	return (
 		<div className="footer">
 		<div className="container">

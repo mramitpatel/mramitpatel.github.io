@@ -1,8 +1,8 @@
-import React from 'react';
+import React,{forwardRef} from 'react';
 
-export default function Title({title,byline}) {
+const Title = ({title,byline,ref}) => {
 	return (
-		<div className="project-title">
+		<div ref={ref} className="project-title">
 			<div className="container">
 				<div className="row">
 					<div className="col-6 push-2 ">
@@ -14,3 +14,5 @@ export default function Title({title,byline}) {
 		</div>
 	)
 }
+
+export default forwardRef(Title)
