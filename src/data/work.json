@@ -242,7 +242,8 @@
         }
       }
     ]
-  },{
+  },
+  {
     "slug": "finelite",
     "title": "FineLite",
     "type":"Product Design",
@@ -294,6 +295,94 @@
         }
       }
     ]
+  },
+  {
+    "slug": "csa",
+    "title": "CSA",
+    "type":"Product Design",
+    "byline": "Transforming the cooler aisle.",
+    "hero": "../images/projects/csa/CSA-Hero.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-Main-Logo.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/CSA-Logo-Detail.png",
+          "img2": "../images/projects/csa/FL Design 8.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/CSA-Color-Palette.png",
+          "img1Class": "col-5",
+          "img2": "../images/projects/csa/CSA-Type-Spec.png",
+          "img2Class": "col-7"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/cent-all@2x-100 1.png"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Brand Expression",
+          "text": "lorem"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-brand-expression-all.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-Brand-Expression-Standards-Doc.png"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Web Experience",
+          "text": "lorem"
+        }
+      },
+      {
+        "BackgroundSwap": {
+          "prevBg": "white",
+          "newBg": "black"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-Web-1.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/CSA-web-image-3.png",
+          "img2": "../images/projects/csa/CSA-web-image-4.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-web-image5.png"
+        }
+      }
+    ]
   }
+ 
   
 ]

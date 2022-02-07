@@ -11,6 +11,7 @@ import TextBlock from '../components/page/projects/interior/TextBlock';
 import FullWidthImage from '../components/page/projects/interior/FullWidthImage';
 import TwoColumnImages from '../components/page/projects/interior/TwoColumnImages';
 import Next from '../components/page/projects/interior/Next';
+import BackgroundSwap from '../components/page/projects/interior/BackgroundSwap';
 
 export default function CaseStudy({pageContext}){
 	const {title,
@@ -24,7 +25,8 @@ export default function CaseStudy({pageContext}){
 		layout,
 		next,
 		idx,
-		len} = pageContext;
+		len
+	} = pageContext;
 
 	const [isAnimiating, setIsAnimating] = useState(false);
 	const [titleData, setTitleData] = useState();
@@ -34,6 +36,7 @@ export default function CaseStudy({pageContext}){
 		TextBlock,
 		FullWidthImage,
 		TwoColumnImages,
+		BackgroundSwap
 	};
 
 	useEffect(() => {

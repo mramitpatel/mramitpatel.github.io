@@ -44,6 +44,10 @@ exports.createPages = ({ actions, graphql }) => {
 						title
 						text
 					}
+					BackgroundSwap {
+						prevBg
+						newBg
+					}
 				}
 			}
 		}

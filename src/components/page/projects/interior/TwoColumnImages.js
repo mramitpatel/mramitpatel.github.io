@@ -2,8 +2,8 @@ import React from 'react';
 import { GatsbyImage } from "gatsby-plugin-image"
 
 export default function TwoColumnImages({data}) {
-	const img1Class = `${data.img1Class} col-lg-12` || "col-6 col-lg-12"
-	const img2Class = `${data.img2Class} col-lg-12` || "col-6 col-lg-12"
+	const img1Class = data.img1Class ? `${data.img1Class} col-lg-12` : "col-6 col-lg-12";
+	const img2Class = data.img2Class ? `${data.img2Class} col-lg-12` : "col-6 col-lg-12";
 	return (
 		<div className="project-TwoColumnImages">
 			<div className="container">
