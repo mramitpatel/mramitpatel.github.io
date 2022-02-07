@@ -2,10 +2,11 @@
   {
     "background": "black",
     "slug": "mack-builder",
-    "title": "Mack Builder",
+    "title": "Mack Truck Builder",
 		"type":"Product Design",
     "byline": "Build your own Mack.",
     "hero": "../images/projects/mackbuilder/Hero.png",
+    "thumbnail": "../images/projects/mackbuilder/thumbnail.png",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
@@ -55,200 +56,13 @@
     ]
   },
   {
-    "slug": "cooler-screens",
-    "title": "Cooler Screens",
-		"type":"Product Concepting & Design",
-    "byline": "Transforming the cooler aisle.",
-    "hero": "../images/projects/cooler/cokes 1.png",
-    "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/FL Design 8.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/gatorade-2 1.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/Big-Ad_Aisle_Comp_v4 1.png"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/cooler/CS_IceCream_v4.png",
-          "img2": "../images/projects/cooler/CS_Beer_Crop.png"
-        }
-      }  
-    ]
-  },
-  {
-    "background": "black",
-    "slug": "daddario",
-    "title": "D’Addario",
-		"type":"Product Design",
-    "byline": "E-Com designed for the music enthusiast.",
-    "hero": "../images/projects/daddario/Hero.png",
-    "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 17.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 11.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 9.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 17.png"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/daddario/FL Design 13.png",
-          "img2": "../images/projects/daddario/FL Design 10.png"
-        }
-      }  
-    ]
-  },
-  {
-    "slug": "mack",
-    "title": "Mack",
-		"type":"Product Design",
-    "byline": "Digital marketing for an American legend.",
-    "hero": "../images/projects/mack/Hero.png",
-    "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 18.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/Frame 90.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/Group 3 10.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 19.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 20.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/Mack Page System.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/69chev_spread 1.png"
-        }
-      }
-    ]
-  },
-  {
-    "slug": "imove",
-    "title": "iMove",
-		"type":"Product Design",
-    "byline": "Relocation reimagined",
-    "hero": "../images/projects/imove/Hero.png",
-    "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/iMove Logos.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 128.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 6.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/3_Launch.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 7.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/interface-2 1.png"
-        }
-      }
-    ]
-  },
-  {
     "slug": "finelite",
     "title": "FineLite",
     "type":"Product Design",
     "byline": "Relocation reimagined",
     "hero": "../images/projects/finelite/Hero.png",
+    "thumbnail": "../images/projects/finelite/thumbnail.png",
+    "thumbnailClass": "col-5 col-lg-12",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
@@ -302,6 +116,8 @@
     "type":"Product Design",
     "byline": "Transforming the cooler aisle.",
     "hero": "../images/projects/csa/CSA-Hero.png",
+    "thumbnail": "../images/projects/csa/thumbnail.png",
+    "thumbnailClass": "col-7 col-lg-12",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
@@ -384,11 +200,105 @@
     ]
   },
   {
+    "slug": "imove",
+    "title": "iMove",
+		"type":"Product Design",
+    "byline": "Relocation reimagined",
+    "hero": "../images/projects/imove/Hero.png",
+    "thumbnail": "../images/projects/imove/thumbnail.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/iMove Logos.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 128.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 6.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/3_Launch.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 7.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/interface-2 1.png"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "cooler-screens",
+    "title": "Cooler Screens",
+		"type":"Product Concepting & Design",
+    "byline": "Transforming the cooler aisle.",
+    "hero": "../images/projects/cooler/cokes 1.png",
+    "thumbnail": "../images/projects/cooler/thumbnail.png",
+    "thumbnailClass": "col-6 col-lg-12",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/FL Design 8.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/gatorade-2 1.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/Big-Ad_Aisle_Comp_v4 1.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/cooler/CS_IceCream_v4.png",
+          "img2": "../images/projects/cooler/CS_Beer_Crop.png"
+        }
+      }  
+    ]
+  },
+  {
     "slug": "mango",
     "title": "Mango",
     "type":"Product Design",
     "byline": "Global language learning",
     "hero": "../images/projects/mango/Artboard 20@4x-100 1.png",
+    "thumbnail": "../images/projects/mango/thumbnail.png",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
@@ -443,7 +353,127 @@
         }
       }
     ]
+  },
+  {
+    "slug": "spectrum",
+    "title": "Spectrum Enterprise",
+		"type":"Digital Marketing",
+    "byline": "E-Com designed for the music enthusiast.",
+    "hero": "../images/projects/daddario/Hero.png",
+    "thumbnail": "../images/projects/spectrum/thumbnail.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ]
+  },
+  {
+    "slug": "mack",
+    "title": "Mack",
+		"type":"Product Design",
+    "byline": "Digital marketing for an American legend.",
+    "hero": "../images/projects/mack/Hero.png",
+    "thumbnail": "../images/projects/mack/thumbnail.png",
+    "thumbnailClass": "col-6 col-lg-12",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/FL Design 18.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/Frame 90.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/Group 3 10.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/FL Design 19.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/FL Design 20.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/Mack Page System.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/69chev_spread 1.png"
+        }
+      }
+    ]
+  },
+  {
+    "background": "black",
+    "slug": "daddario",
+    "title": "D’Addario",
+		"type":"Product Design",
+    "byline": "E-Com designed for the music enthusiast.",
+    "hero": "../images/projects/daddario/Hero.png",
+    "thumbnail": "../images/projects/daddario/thumbnail.png",
+    "thumbnailClass": "col-6 col-lg-12",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 17.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 11.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 9.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/FL Design 17.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/daddario/FL Design 13.png",
+          "img2": "../images/projects/daddario/FL Design 10.png"
+        }
+      }  
+    ]
   }
- 
-  
 ]

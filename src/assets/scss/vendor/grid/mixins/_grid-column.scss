@@ -21,6 +21,6 @@
 
 	max-width: calc(#{_neat-column-width($grid, $columns)});
 	flex-basis: calc(#{_neat-column-width($grid, $columns)});
-	padding-left: $_grid-gutter / 2;
-	padding-right: $_grid-gutter / 2;
+	padding-left: calc($_grid-gutter / 2);
+	padding-right: calc($_grid-gutter / 2);
 }

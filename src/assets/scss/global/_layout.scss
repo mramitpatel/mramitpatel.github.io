@@ -171,14 +171,17 @@ body {
 	background-color: $color-white;
 	transition: all $default-transition;
 
-	&.red {
-		background-color: red;
-	}
 	&.black {
 		color: $color-white !important;
 		background-color: $color-black;
 		a {
 			color: $color-white !important;
+		}
+		.header-flex-close {
+			&:before,
+			&:after {
+				background: white;
+			}
 		}
 	}
 }

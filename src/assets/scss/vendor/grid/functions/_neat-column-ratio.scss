@@ -13,6 +13,6 @@
 	@if length($columns) > 1 {
 		@return nth($columns, 1) / _neat-parse-columns($columns);
 	} @else if $columns {
-		@return $columns / _retrieve-neat-setting($grid, columns);
+		@return calc($columns / _retrieve-neat-setting($grid, columns));
 	}
 }

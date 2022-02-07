@@ -56,7 +56,6 @@ export default function CaseStudy({pageContext}){
 				<InfoBlock description={description} agency={agency} roles={roles}/>
 				{
 					layout.map((l,idx)=> {
-						console.log({l})
 						return Object.keys(l).map((c,iidx)=> {
 							const Tag = ComponentList[c]
 							if (l[c] != null) {
