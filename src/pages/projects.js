@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from '../components/layout'
@@ -20,11 +20,22 @@ export default function Projects() {
 								gatsbyImageData(formats: [WEBP, AUTO])
 							}
 						}
+						thumbnailClass
+						thumbnail {
+							childImageSharp {
+								gatsbyImageData(formats: [WEBP, AUTO])
+							}
+						}
 					}
 				}
       }
     `
   )
+
+	useEffect(() => {
+		document.getElementsByTagName('body')[0].classList = []
+	}, [])
+
 	return (
 		<Layout pageClass="project" type="projects">
 			<Seo title="Selected Projects" />

@@ -10,12 +10,12 @@ export default function TwoColumnImages({data}) {
 				<div className="row">
 					<div className={img1Class}>
 					{data.img1 != null && 
-						<GatsbyImage className="project-fullwidthimage-image" image={data.img1.childImageSharp.gatsbyImageData} />
+						<GatsbyImage className="project-fullwidthimage-image" image={data.img1.childImageSharp.gatsbyImageData} alt={data.img1.name | ""}/>
 					}
 					</div>
 					<div className={img2Class}>
 					{data.img2 != null && 
-						<GatsbyImage className="project-fullwidthimage-image" image={data.img2.childImageSharp.gatsbyImageData} />
+						<GatsbyImage className="project-fullwidthimage-image" image={data.img2.childImageSharp.gatsbyImageData} alt={data.img2.name | ""}/>
 					}
 					</div>
 				</div>
