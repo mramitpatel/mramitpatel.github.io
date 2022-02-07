@@ -382,6 +382,67 @@
         }
       }
     ]
+  },
+  {
+    "slug": "mango",
+    "title": "Mango",
+    "type":"Product Design",
+    "byline": "Global language learning",
+    "hero": "../images/projects/mango/Artboard 20@4x-100 1.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Full-Logo.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/mango/Mango-Brand-iPhone.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/mango/Mango-Brand-Photography.png",
+          "img2": "../images/projects/mango/Mango-Brand-Charecteristics.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Brand-OOH.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Brochure.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img2": "../images/projects/mango/Mango-Business-Card.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Trade-Show.png"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/mango/Mango-Trade-Show-Stickers.png",
+          "img2": "../images/projects/mango/Mango-Trade-Show-Print.png"
+        }
+      }
+    ]
   }
  
   

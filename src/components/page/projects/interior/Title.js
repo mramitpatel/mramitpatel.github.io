@@ -5,7 +5,7 @@ const Title = ({title,byline,ref}) => {
 		<div ref={ref} className="project-title">
 			<div className="container">
 				<div className="row">
-					<div className="col-6 push-2 ">
+					<div className="col-7 push-2 push-lg-hide col-lg-12">
 						<h1 className="project-title-title">{title}</h1>
 						<p className="project-title-description">{byline}</p>
 					</div>

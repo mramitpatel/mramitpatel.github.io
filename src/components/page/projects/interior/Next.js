@@ -21,14 +21,14 @@ export default function Next({data, toggleAnimation, titleRef}) {
 		<div className={`project-next ${nextAnimatedClass}`}>
 			<div className="container">
 				<div className="row">
-					<div className="push-7 col-2">
+					<div className="push-2 col-2 push-lg-hide ">
 						<div className={`project-next-link ${hideNextClass}`} onClick={caseStudyRedirect}>
 							Next
 						</div>
 					</div>
 				</div>
 				<div className="row">
-					<div className="push-2 col-6">
+					<div className="push-2 col-7 push-lg-hide col-lg-12">
 						<div className="project-next-title">{title}</div>
 						<div className="project-next-description">{description}</div>
 					</div>
