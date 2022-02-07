@@ -185,7 +185,7 @@ body {
 
 .animated-layout {
 	transition: all $default-transition;
-	max-height: 10000px;
+	max-height: 20000px;
 	overflow: hidden;
 	&.animated {
 		// opacity: 0;
