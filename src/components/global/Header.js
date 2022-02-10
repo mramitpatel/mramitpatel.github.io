@@ -10,7 +10,8 @@ const Header = ({isCaseStudy = false,idx,len}) => {
 		return (
 			<h4 className="header-flex">
 				{idx}/{len} 
-				<Link to="/projects">
+				<Link to="/projects"
+				state={{ fromCaseStudy: false }}>
 					<div className="header-flex-close"></div>
 				</Link>
 			</h4>
