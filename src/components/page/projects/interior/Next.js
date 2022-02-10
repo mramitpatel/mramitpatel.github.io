@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import { navigate } from 'gatsby';
 
 
@@ -7,18 +7,26 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const [isAnim, setIsAnim] = useState(false)
 	const nextAnimatedClass = isAnim ? 'project-next-animated' : '';
 	const hideNextClass = isAnim ? 'project-next-link-hide' : '';
+	const nextRef = useRef();
+	const currentWindowHeight = window.innerHeight != null? window.innerHeight : document.documentElement && document.documentElement.clientHeight ?  document.documentElement.clientHeight : document.body != null? document.body.clientHeight : null;
 
 	function caseStudyRedirect() {
-		// document.getElementsByTagName('body')[0].style ="overflow:hidden"
+		document.getElementsByTagName('body')[0].classList.add('overflow');
 		toggleAnimation(true)
 		setIsAnim(true)
+		nextRef.current.style = `transform:translateY(-${225}px)`
 		setTimeout(()=> {
-			navigate(`/projects/${slug}`)
+			navigate(
+				`/projects/${slug}`,
+				{
+          state: { fromCaseStudy:true },
+        })
+			// nextRef.current.offsetTop = 222;
 		}, 1000)
 	}
 
 	return (
-		<div className={`project-next ${nextAnimatedClass}`}>
+		<div ref={nextRef} className={`project-next ${nextAnimatedClass}`}>
 			<div className="container">
 				<div className="row">
 					<div className="push-2 col-2 push-lg-hide ">

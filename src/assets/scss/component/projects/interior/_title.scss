@@ -4,11 +4,38 @@
 	&-title {
 		font-family: $font-heading-medium;
 		margin-bottom: 18px;
+		transform: translateY(50px);
+		transition:transform $default-transition, opacity $default-transition;
+		opacity:0;
+
+		&.show {
+			opacity: 1;
+			transform: none;
+		}
+		&-visible {
+			opacity: 1;
+			transform: none;
+			transition: none;
+		}
 	}
 
 	&-description {
 		font-size: 54px;
 		line-height: 58px;
 		letter-spacing: -1.74845px;
+		transform:translateY(50px);
+		transition:transform $default-transition, opacity $default-transition;
+		opacity:0;
+		transition-delay: 300ms;
+
+		&.show {
+			opacity: 1;
+			transform: none;
+		}
+		&-visible {
+			opacity: 1;
+			transform: none;
+			transition: none;
+		}
 	}
 }

@@ -12,10 +12,10 @@ import FullWidthImage from '../components/page/projects/interior/FullWidthImage'
 import TwoColumnImages from '../components/page/projects/interior/TwoColumnImages';
 import Next from '../components/page/projects/interior/Next';
 import BackgroundSwap from '../components/page/projects/interior/BackgroundSwap';
+import ScrollToShow from '../components/page/projects/interior/ScrollToShow';
 
-export default function CaseStudy({pageContext}){
+export default function CaseStudy({pageContext,location}){
 	const {title,
-		slug,
 		background,
 		roles,
 		hero,
@@ -29,9 +29,8 @@ export default function CaseStudy({pageContext}){
 	} = pageContext;
 
 	const [isAnimiating, setIsAnimating] = useState(false);
-	const [titleData, setTitleData] = useState();
 	const titleRef = useRef();
-
+	const [fromCaseStudy, setFromCaseStudy] = useState(false);
 	const ComponentList = {
 		TextBlock,
 		FullWidthImage,
@@ -44,28 +43,47 @@ export default function CaseStudy({pageContext}){
 		if(background) {
 			document.getElementsByTagName('body')[0].classList.add(background);
 		}
-	}, [])
+	}, [background])
 	
+	useEffect(() => {
+		if(location.state != null ) {
+			setFromCaseStudy(location.state.fromCaseStudy)
+			// setTimeout(()=>setFromCaseStudy(false))
+		}
+	}, [fromCaseStudy])
+
 	return (
 		<>
 			<Seo title={title} />
 			<AnimatedLayout isAnimating={isAnimiating}>
 				<Header isCaseStudy={true} idx={idx} len={len} />
-				<Title ref={titleRef} title={title} byline={byline} />
-				<Hero img={hero} />
-				<InfoBlock description={description} agency={agency} roles={roles}/>
+				<Title 
+					toggleCaseStudy={setFromCaseStudy} 
+					fromCaseStudy={fromCaseStudy} 
+					ref={titleRef} 
+					title={title} 
+					byline={byline} />
+				<Hero 
+					img={hero} />
+					<ScrollToShow  component={<InfoBlock description={description} agency={agency} roles={roles}/>}/>
+				
+				
 				{
 					layout.map((l,idx)=> {
 						return Object.keys(l).map((c,iidx)=> {
 							const Tag = ComponentList[c]
 							if (l[c] != null) {
-								return <Tag key={iidx} data={l[c]}/>
+								return <ScrollToShow  key={iidx} component={<Tag data={l[c]}/>}/>
+								
+							} else {
+								return null
 							}
 						})
 					})
 				}
 			</AnimatedLayout>
-			<Next data={next} toggleAnimation={setIsAnimating}/>
+			<ScrollToShow  component={<Next data={next} titleRef={titleRef} toggleAnimation={setIsAnimating}/>}/>
+			
 			<AnimatedLayout isAnimating={isAnimiating}>
 				<Footer isHome={false}/>
 			</AnimatedLayout>

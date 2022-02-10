@@ -184,15 +184,28 @@ body {
 			}
 		}
 	}
+	&.overflow {
+		overflow: hidden;
+	}
 }
 
 .animated-layout {
-	transition: all $default-transition;
+	transition: opacity $default-transition max-height $default-transition;
 	max-height: 20000px;
-	overflow: hidden;
 	&.animated {
-		// opacity: 0;
+		overflow: hidden;
+		opacity: 0;
 		max-height: 0;
 		// visibility: hidden;
+	}
+}
+.scroll-to-show {
+	opacity: 0;
+	transform: translateY(-20px);
+	transition: all $default-transition;
+
+	&-reveal {
+		opacity: 1;
+		transform: none;
 	}
 }
