@@ -21,21 +21,24 @@ exports.createPages = ({ actions, graphql }) => {
 				layout {
 					FullWidthImage {
 						img {
+							name
 							childImageSharp {
-								gatsbyImageData(formats: [WEBP,AUTO])
+								gatsbyImageData(formats: [WEBP,AUTO] transformOptions: {fit: FILL})
 							}
 						}
 					}
 					TwoColumnImages {
 						img1 {
+							name
 							childImageSharp {
-								gatsbyImageData(formats: [WEBP,AUTO])
+								gatsbyImageData(formats: [WEBP,AUTO] transformOptions: {fit: FILL})
 							}
 						}
 						img1Class
 						img2 {
+							name
 							childImageSharp {
-								gatsbyImageData(formats: [WEBP,AUTO])
+								gatsbyImageData(formats: [WEBP,AUTO] transformOptions: {fit: FILL})
 							}
 						}
 						img2Class
