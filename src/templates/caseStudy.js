@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef} from 'react';
-
+import "../assets/scss/main.scss"
 import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
 import Seo from '../components/seo'
