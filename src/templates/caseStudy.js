@@ -30,6 +30,7 @@ export default function CaseStudy({pageContext,location}){
 
 	const [isAnimiating, setIsAnimating] = useState(false);
 	const titleRef = useRef();
+	const headerRef = useRef();
 	const [fromCaseStudy, setFromCaseStudy] = useState(false);
 	const ComponentList = {
 		TextBlock,
@@ -56,18 +57,18 @@ export default function CaseStudy({pageContext,location}){
 		<>
 			<Seo title={title} />
 			<AnimatedLayout isAnimating={isAnimiating}>
-				<Header isCaseStudy={true} idx={idx} len={len} />
+				<Header ref={headerRef} isCaseStudy={true} idx={idx} len={len} />
 				<Title 
 					toggleCaseStudy={setFromCaseStudy} 
 					fromCaseStudy={fromCaseStudy} 
 					ref={titleRef} 
+					idx={idx}
+					len={len}
 					title={title} 
 					byline={byline} />
 				<Hero 
 					img={hero} />
 					<ScrollToShow  component={<InfoBlock description={description} agency={agency} roles={roles}/>}/>
-				
-				
 				{
 					layout.map((l,idx)=> {
 						return Object.keys(l).map((c,iidx)=> {
@@ -82,8 +83,7 @@ export default function CaseStudy({pageContext,location}){
 					})
 				}
 			</AnimatedLayout>
-			<ScrollToShow  component={<Next data={next} titleRef={titleRef} toggleAnimation={setIsAnimating}/>}/>
-			
+			<Next data={next} headerRef={headerRef} titleRef={titleRef} toggleAnimation={setIsAnimating}/>
 			<AnimatedLayout isAnimating={isAnimiating}>
 				<Footer isHome={false}/>
 			</AnimatedLayout>

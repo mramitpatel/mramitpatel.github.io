@@ -170,6 +170,7 @@
 body {
 	background-color: $color-white;
 	transition: all $default-transition;
+	position: relative;
 
 	&.black {
 		color: $color-white !important;
@@ -190,13 +191,9 @@ body {
 }
 
 .animated-layout {
-	transition: opacity $default-transition max-height $default-transition;
-	max-height: 20000px;
+	transition: opacity $default-transition;
 	&.animated {
-		overflow: hidden;
 		opacity: 0;
-		max-height: 0;
-		// visibility: hidden;
 	}
 }
 .scroll-to-show {
