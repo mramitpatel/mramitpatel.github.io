@@ -1,23 +1,29 @@
 .project-next {
 	padding: 250px 0 300px;
-	transition: transform $default-transition;
+	transition: all $default-transition;
+	cursor: pointer;
 	&-animated {
-		transform: translateY(-300px);
+		// padding-top:0;
+	}
+	.container {
+		transition: all $default-transition;
 	}
 	&-link {
-		margin-bottom: 176px;
-		transition: opacity $default-transition;
+		transition: all $default-transition;
+		max-height: 30px;
 		&-hide {
 			opacity: 0;
+			max-height: 0px;
 		}
 	}
 
 	&-title {
 		font-size: 54px;
+		margin-top: 176px;
 		line-height: 58px;
 		letter-spacing: -1.74845px;
 		font-family: $font-heading-medium;
-		margin-bottom: 16px;
+		margin-bottom: 18px;
 	}
 
 	&-description {

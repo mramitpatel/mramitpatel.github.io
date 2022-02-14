@@ -8,13 +8,27 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const nextAnimatedClass = isAnim ? 'project-next-animated' : '';
 	const hideNextClass = isAnim ? 'project-next-link-hide' : '';
 	const nextRef = useRef();
+	const textRef = useRef();
 	const currentWindowHeight = window.innerHeight != null? window.innerHeight : document.documentElement && document.documentElement.clientHeight ?  document.documentElement.clientHeight : document.body != null? document.body.clientHeight : null;
 
+	
+	
 	function caseStudyRedirect() {
-		document.getElementsByTagName('body')[0].classList.add('overflow');
+		let scrollTop;
+		let nextOffset;
+		let diff;
+		let titleOffset;
 		toggleAnimation(true)
 		setIsAnim(true)
-		nextRef.current.style = `transform:translateY(-${225}px)`
+		if (window) {
+			scrollTop = window.scrollY;
+			nextOffset = nextRef.current.offsetTop;
+			titleOffset = titleRef.current.offsetTop;
+			// diff = nextOffset - scrollTop + 250 - 30 - 80 - 20;
+			diff = nextOffset - scrollTop + 250 + 176 - 222 - 80;
+		}
+
+		nextRef.current.style = `transform:translateY(-${diff}px)`
 		setTimeout(()=> {
 			navigate(
 				`/projects/${slug}`,
@@ -26,11 +40,14 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	}
 
 	return (
-		<div ref={nextRef} className={`project-next ${nextAnimatedClass}`}>
-			<div className="container">
+	<div 
+	ref={nextRef} 
+	onClick={caseStudyRedirect} 
+	className={`project-next ${nextAnimatedClass}`}>
+			<div ref={textRef} className="container">
 				<div className="row">
 					<div className="push-2 col-2 push-lg-hide ">
-						<div className={`project-next-link ${hideNextClass}`} onClick={caseStudyRedirect}>
+						<div className={`project-next-link ${hideNextClass}`}>
 							Next
 						</div>
 					</div>

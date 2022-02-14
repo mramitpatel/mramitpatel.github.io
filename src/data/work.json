@@ -370,6 +370,14 @@
       "Pitch Strategy",
       "Concept Design",
       "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "TextBlock": {
+          "title": "Design",
+          "text": "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue."
+        }
+      }
     ]
   },
   {
