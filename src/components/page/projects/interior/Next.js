@@ -9,7 +9,7 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const hideNextClass = isAnim ? 'project-next-link-hide' : '';
 	const nextRef = useRef();
 	const textRef = useRef();
-	const currentWindowHeight = window.innerHeight != null? window.innerHeight : document.documentElement && document.documentElement.clientHeight ?  document.documentElement.clientHeight : document.body != null? document.body.clientHeight : null;
+	const currentWindowHeight = typeof window !== "undefined" && window.innerHeight != null? window.innerHeight : document.documentElement && document.documentElement.clientHeight ?  document.documentElement.clientHeight : document.body != null? document.body.clientHeight : null;
 
 	
 	
