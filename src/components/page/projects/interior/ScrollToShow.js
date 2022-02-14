@@ -5,19 +5,26 @@ import { useCallback } from 'react'
 const ScrollToShow = ({ component}) => {
 	const [visible, setVisible] = useState(false);
 	const hiddenRef = useRef();
+	const isBrowser = typeof window !== "undefined"
 	
 	const scrollHandler = useCallback(() => {
-		if (!visible && window.pageYOffset + window.innerHeight >= hiddenRef.current.offsetTop + 70) {
-			setVisible(true)
-			window.removeEventListener('scroll', scrollHandler);
+		if(isBrowser) {
+			if (!visible && window.pageYOffset + window.innerHeight >= hiddenRef.current.offsetTop + 70) {
+				setVisible(true)
+				window.removeEventListener('scroll', scrollHandler);
+			}
 		}
+
 	},[visible]);
 	
 	useEffect(() => {
-		window.addEventListener('scroll', scrollHandler);
-		return () => {
-			window.removeEventListener('scroll', scrollHandler);
+		if(isBrowser) {
+			window.addEventListener('scroll', scrollHandler);
+			return () => {
+				window.removeEventListener('scroll', scrollHandler);
+			}
 		}
+
 	}, [hiddenRef, scrollHandler]);
 
 	const showClass = visible ? 'scroll-to-show-reveal' : '';
