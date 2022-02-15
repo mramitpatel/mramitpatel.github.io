@@ -12,7 +12,11 @@ exports.createPages = ({ actions, graphql }) => {
 				byline
 				hero {
 					childImageSharp {
-						gatsbyImageData(formats: [WEBP,AUTO])
+						gatsbyImageData(
+							formats: WEBP
+							transformOptions: {fit: FILL}
+							outputPixelDensities: 2
+						)
 					}
 				}
 				description
@@ -23,7 +27,11 @@ exports.createPages = ({ actions, graphql }) => {
 						img {
 							name
 							childImageSharp {
-								gatsbyImageData(formats: [WEBP,AUTO] transformOptions: {fit: FILL})
+								gatsbyImageData(
+									formats: WEBP
+									transformOptions: {fit: FILL}
+									outputPixelDensities: 2
+								)
 							}
 						}
 					}
@@ -31,14 +39,22 @@ exports.createPages = ({ actions, graphql }) => {
 						img1 {
 							name
 							childImageSharp {
-								gatsbyImageData(formats: [WEBP,AUTO] transformOptions: {fit: FILL})
+								gatsbyImageData(
+									formats: WEBP
+									transformOptions: {fit: FILL}
+									outputPixelDensities: 2
+								)
 							}
 						}
 						img1Class
 						img2 {
 							name
 							childImageSharp {
-								gatsbyImageData(formats: [WEBP,AUTO] transformOptions: {fit: FILL})
+								gatsbyImageData(
+									formats: WEBP
+									transformOptions: {fit: FILL}
+									outputPixelDensities: 2
+								)
 							}
 						}
 						img2Class
