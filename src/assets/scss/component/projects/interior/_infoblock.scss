@@ -12,6 +12,9 @@
 	}
 	&-section {
 		margin-bottom: 20px;
+		@include screen-lg-max {
+			margin-top: 30px;
+		}
 		&-title {
 			font-family: $font-heading-medium;
 		}
