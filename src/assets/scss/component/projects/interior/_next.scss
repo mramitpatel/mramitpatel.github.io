@@ -24,6 +24,10 @@
 		letter-spacing: -1.74845px;
 		font-family: $font-heading-medium;
 		margin-bottom: 18px;
+		@include screen-md-max {
+			font-size: 40px;
+			line-height: 44px;
+		}
 	}
 
 	&-description {

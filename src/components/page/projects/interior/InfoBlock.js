@@ -5,12 +5,12 @@ export default function InfoBlock({description,agency,roles}) {
 		<div className="project-infoblock">
 			<div className="container">
 				<div className="row">
-					<div className="col-6 push-2">
+					<div className="col-6 push-2 push-lg-hide col-lg-12 ">
 						<div className="project-infoblock-description">
 							{description.map((d,idx) => <p key={idx}>{d}</p>)}
 						</div>
 					</div>
-					<div className="col-3">
+					<div className="col-3 col-lg-12">
 						<div className="project-infoblock-section">
 							<div className="project-infoblock-section-title">Agency</div>
 							<p className="project-infoblock-section-text">{agency}</p>
