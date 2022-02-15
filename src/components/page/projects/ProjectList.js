@@ -10,13 +10,9 @@ export default function ProjectList({projects}) {
 	
 	return (
 		<div className="container">
-			{/* <div className="row"> */}
-				{/* <div className="col-12"> */}
-					<div className="row project-list">
-						<ProjectItems/>
-					</div>
-				{/* </div> */}
-			{/* </div> */}
+			<div className="row project-list">
+				<ProjectItems/>
+			</div>
 		</div>
 	)
 }
