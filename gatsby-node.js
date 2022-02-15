@@ -15,7 +15,7 @@ exports.createPages = ({ actions, graphql }) => {
 						gatsbyImageData(
 							formats: WEBP
 							transformOptions: {fit: FILL}
-							outputPixelDensities: 2
+							outputPixelDensities: 3
 						)
 					}
 				}
