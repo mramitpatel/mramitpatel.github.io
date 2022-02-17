@@ -5,7 +5,7 @@
     "title": "Mack Truck Builder",
 		"type":"Product Design",
     "byline": "Build your own Mack.",
-    "hero": "../images/projects/mackbuilder/Hero.png",
+    "hero": "../images/projects/mackbuilder/Mack-Builder-Hero-2.jpg",
     "thumbnail": "../images/projects/mackbuilder/thumbnail.png",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
@@ -20,39 +20,49 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/Frame 110.jpg"
+          "img": "../images/projects/mackbuilder/MackBuilder-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/FL Design 9.jpg"
+          "img": "../images/projects/mackbuilder/MackBuilder-2.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/FL Design 8.jpg"
+          "img": "../images/projects/mackbuilder/MackBuilder-3.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/Modal_Annotation.png"
+          "img": "../images/projects/mackbuilder/MackBuilder-4.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/Exterior.png"
+          "img": "../images/projects/mackbuilder/MackBuilder-5.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/Frame 122.png"
+          "img": "../images/projects/mackbuilder/MackBuilder-6.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/FL Design 17.png"
+          "img": "../images/projects/mackbuilder/MackBuilder-7.jpg"
         }
-      }   
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mackbuilder/MackBuilder-3up.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mackbuilder/MackBuilder-.jpg"
+        }
+      }  
     ]
   },
   {
@@ -60,7 +70,7 @@
     "title": "FineLite",
     "type":"Product Design",
     "byline": "Relocation reimagined",
-    "hero": "../images/projects/finelite/Hero.png",
+    "hero": "../images/projects/finelite/FL Design Hero 1.jpg",
     "thumbnail": "../images/projects/finelite/thumbnail.png",
     "thumbnailClass": "col-5 col-lg-12",
     "description": [
@@ -76,17 +86,22 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/Fine-Lite-SketchSetup.png"
+          "img": "../images/projects/finelite/Fine-Lite-SketchSetup.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/FLSketch.jpg"
+          "img": "../images/projects/finelite/IA Sketch.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/Fine-lite-product-all.png"
+          "img": "../images/projects/finelite/FL-Flow.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/Fine-lite-product-all.jpg"
         }
       },
       {
@@ -97,15 +112,15 @@
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/finelite/FL Design 2.png",
+          "img1": "../images/projects/finelite/FL Design 2.jpg",
           "img1Class": "col-7",
-          "img2": "../images/projects/finelite/Frame 145.png",
+          "img2": "../images/projects/finelite/Frame 145.jpg",
           "img2Class": "col-5" 
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/FL Design 4.png"
+          "img": "../images/projects/finelite/FL Design 4.jpg"
         }
       }
     ]
@@ -115,7 +130,7 @@
     "title": "CSA",
     "type":"Product Design",
     "byline": "Transforming the cooler aisle.",
-    "hero": "../images/projects/csa/CSA-Hero.png",
+    "hero": "../images/projects/csa/CSA-Hero.jpg",
     "thumbnail": "../images/projects/csa/thumbnail.png",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
@@ -131,26 +146,31 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Main-Logo.png"
+          "img": "../images/projects/csa/CSA-Main-Logo.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/csa/CSA-Logo-Detail.png",
-          "img2": "../images/projects/csa/FL Design 8.png"
+          "img1": "../images/projects/csa/CSA-Logo-Detail.jpg",
+          "img2": "../images/projects/csa/FL Design 8.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/csa/CSA-Color-Palette.png",
+          "img1": "../images/projects/csa/CSA-Color-Palette.jpg",
           "img1Class": "col-5",
-          "img2": "../images/projects/csa/CSA-Type-Spec.png",
+          "img2": "../images/projects/csa/CSA-Type-Spec.jpg",
           "img2Class": "col-7"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/cent-all@2x-100 1.png"
+          "img": "../images/projects/csa/CSA-Icons.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-Brand-Guideliens.jpg"
         }
       },
       {
@@ -161,18 +181,17 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-brand-expression-all.png"
+          "img": "../images/projects/csa/CSA-brand-expression-all.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Brand-Expression-Standards-Doc.png"
+          "img": "../images/projects/csa/CSA-Brand-Expression-Standards-Doc.jpg"
         }
       },
       {
-        "TextBlock":{
-          "title": "Web Experience",
-          "text": "lorem"
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-Signage.jpg"
         }
       },
       {
@@ -182,19 +201,25 @@
         }
       },
       {
+        "TextBlock":{
+          "title": "Web Experience",
+          "text": "lorem"
+        }
+      },
+      {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Web-1.png"
+          "img": "../images/projects/csa/CSA-Web-1.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/csa/CSA-web-image-3.png",
-          "img2": "../images/projects/csa/CSA-web-image-4.png"
+          "img1": "../images/projects/csa/CSA-web-image-3.jpg",
+          "img2": "../images/projects/csa/CSA-web-image-4.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-web-image5.png"
+          "img": "../images/projects/csa/CSA-web-image5.jpg"
         }
       }
     ]
@@ -204,7 +229,7 @@
     "title": "iMove",
 		"type":"Product Design",
     "byline": "Relocation reimagined",
-    "hero": "../images/projects/imove/Hero.png",
+    "hero": "../images/projects/imove/iMove-Hero.jpg",
     "thumbnail": "../images/projects/imove/thumbnail.png",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
@@ -219,32 +244,32 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/iMove Logos.png"
+          "img": "../images/projects/imove/imove-logos.png"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 128.png"
+          "img": "../images/projects/imove/Frame 128.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 6.png"
+          "img": "../images/projects/imove/imove-startscreen.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/3_Launch.png"
+          "img": "../images/projects/imove/3_Launch.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 7.png"
+          "img": "../images/projects/imove/imove-designs-all.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/interface-2 1.png"
+          "img": "../images/projects/imove/imove-3up-gain.jpg"
         }
       }
     ]
@@ -254,7 +279,7 @@
     "title": "Cooler Screens",
 		"type":"Product Concepting & Design",
     "byline": "Transforming the cooler aisle.",
-    "hero": "../images/projects/cooler/cokes 1.png",
+    "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
     "thumbnail": "../images/projects/cooler/thumbnail.png",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
@@ -270,25 +295,30 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/cooler/FL Design 8.png"
+          "img": "../images/projects/cooler/cooler-screens-diagram-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/cooler/gatorade-2 1.png"
+          "img": "../images/projects/cooler/cooler-screens-design-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/cooler/Big-Ad_Aisle_Comp_v4 1.png"
+          "img": "../images/projects/cooler/cooler-screens-design-2.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-design-3.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/cooler/CS_IceCream_v4.png",
-          "img2": "../images/projects/cooler/CS_Beer_Crop.png"
+          "img1": "../images/projects/cooler/image-left-1.jpg",
+          "img2": "../images/projects/cooler/image-right-1.jpg"
         }
-      }  
+      }
     ]
   },
   {
@@ -296,7 +326,7 @@
     "title": "Mango",
     "type":"Product Design",
     "byline": "Global language learning",
-    "hero": "../images/projects/mango/Artboard 20@4x-100 1.png",
+    "hero": "../images/projects/mango/Mango-Hero.jpg",
     "thumbnail": "../images/projects/mango/thumbnail.png",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
@@ -312,44 +342,44 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Full-Logo.png"
+          "img": "../images/projects/mango/Mango-Full-Logo.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Brand-iPhone.png"
+          "img1": "../images/projects/mango/Mango-Brand-iPhone.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Brand-Photography.png",
-          "img2": "../images/projects/mango/Mango-Brand-Charecteristics.png"
+          "img1": "../images/projects/mango/Mango-Brand-Photography.jpg",
+          "img2": "../images/projects/mango/Mango-Brand-Charecteristics.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Brand-OOH.png"
+          "img": "../images/projects/mango/Mango-Brand-OOH.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Brochure.png"
+          "img": "../images/projects/mango/Mango-Brochure.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img2": "../images/projects/mango/Mango-Business-Card.png"
+          "img2": "../images/projects/mango/Mango-Business-Card.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Trade-Show.png"
+          "img": "../images/projects/mango/Mango-Trade-Show.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Trade-Show-Stickers.png",
-          "img2": "../images/projects/mango/Mango-Trade-Show-Print.png"
+          "img1": "../images/projects/mango/Mango-Trade-Show-Stickers.jpg",
+          "img2": "../images/projects/mango/Mango-Trade-Show-Print.jpg"
         }
       }
     ]
@@ -359,7 +389,7 @@
     "title": "Spectrum Enterprise",
 		"type":"Digital Marketing",
     "byline": "E-Com designed for the music enthusiast.",
-    "hero": "../images/projects/daddario/Hero.png",
+    "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/thumbnail.png",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
@@ -373,11 +403,84 @@
     ],
     "layout": [
       {
-        "TextBlock": {
-          "title": "Design",
-          "text": "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue."
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/SE-Audit.jpg"
         }
-      }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/Verbatims.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/SE-INT-Syn-Out-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/SE-INT-Syn-Out-2.jpg"
+        }
+      },
+      {
+        "BackgroundSwap": {
+          "prevBg": "white",
+          "newBg": "black"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/FL Design 9.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/FL Design 17.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/Frame 20.jpg"
+        }
+      },
+      {
+        "BackgroundSwap": {
+          "prevBg": "black",
+          "newBg": "white"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/BEU-Wires-1.jpg"
+        }
+      },
+
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/Landing HoverSpectrum.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/BE-U-Designs.jpg"
+        }
+      },
+
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/MNE-Tool-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/MNE-Tool-Design-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/MNE-Tool-2.jpg"
+        }
+      }        
     ]
   },
   {
@@ -385,7 +488,7 @@
     "title": "Mack",
 		"type":"Product Design",
     "byline": "Digital marketing for an American legend.",
-    "hero": "../images/projects/mack/Hero.png",
+    "hero": "../images/projects/mack/Mack-Marketing-Hero-1.jpg",
     "thumbnail": "../images/projects/mack/thumbnail.png",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
@@ -401,37 +504,37 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 18.png"
+          "img": "../images/projects/mack/Anthem-Emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Frame 90.png"
+          "img": "../images/projects/mack/Anthem-Social-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Group 3 10.png"
+          "img": "../images/projects/mack/FL Design 19.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 19.png"
+          "img": "../images/projects/mack/FL Design 20.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 20.png"
+          "img": "../images/projects/mack/Anthem-brochure-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Mack Page System.png"
+          "img": "../images/projects/mack/Mack Page System.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/69chev_spread 1.png"
+          "img": "../images/projects/mack/69chev_spread 1.jpg"
         }
       }
     ]
@@ -442,7 +545,7 @@
     "title": "D’Addario",
 		"type":"Product Design",
     "byline": "E-Com designed for the music enthusiast.",
-    "hero": "../images/projects/daddario/Hero.png",
+    "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
     "thumbnail": "../images/projects/daddario/thumbnail.png",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
@@ -458,30 +561,29 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 17.png"
+          "img": "../images/projects/daddario/DAddario-Img-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 11.png"
+          "img": "../images/projects/daddario/DAddario-Img-2.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 9.png"
+          "img": "../images/projects/daddario/DAddario-Style-guide-3.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/daddario/FL Design 17.png"
+          "img": "../images/projects/daddario/DAddario-Img-4.jpg"
         }
       },
       {
-        "TwoColumnImages": {
-          "img1": "../images/projects/daddario/FL Design 13.png",
-          "img2": "../images/projects/daddario/FL Design 10.png"
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/DAddario-Img-2.jpg"
         }
-      }  
+      }
     ]
   }
 ]

@@ -84,9 +84,9 @@ export default function CaseStudy({pageContext,location}){
 				}
 			</AnimatedLayout>
 			<Next data={next} headerRef={headerRef} titleRef={titleRef} toggleAnimation={setIsAnimating}/>
-			<AnimatedLayout isAnimating={isAnimiating}>
+			{/* <AnimatedLayout isAnimating={isAnimiating}>
 				<Footer isHome={false}/>
-			</AnimatedLayout>
+			</AnimatedLayout> */}
 		</>
 	)
 }
