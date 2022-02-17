@@ -16,6 +16,7 @@ exports.createPages = ({ actions, graphql }) => {
 							formats: WEBP
 							transformOptions: {fit: FILL}
 							outputPixelDensities: 3
+							placeholder: TRACED_SVG
 						)
 					}
 				}
@@ -30,7 +31,8 @@ exports.createPages = ({ actions, graphql }) => {
 								gatsbyImageData(
 									formats: WEBP
 									transformOptions: {fit: FILL}
-									outputPixelDensities: 2
+									outputPixelDensities: 3
+									placeholder: TRACED_SVG
 								)
 							}
 						}
@@ -42,7 +44,8 @@ exports.createPages = ({ actions, graphql }) => {
 								gatsbyImageData(
 									formats: WEBP
 									transformOptions: {fit: FILL}
-									outputPixelDensities: 2
+									outputPixelDensities: 3
+									placeholder: TRACED_SVG
 								)
 							}
 						}
@@ -53,7 +56,8 @@ exports.createPages = ({ actions, graphql }) => {
 								gatsbyImageData(
 									formats: WEBP
 									transformOptions: {fit: FILL}
-									outputPixelDensities: 2
+									outputPixelDensities: 3
+									placeholder: TRACED_SVG
 								)
 							}
 						}
