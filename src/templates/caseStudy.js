@@ -1,7 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react';
 import "../assets/scss/main.scss"
 import Header from '../components/global/Header';
-import Footer from '../components/global/Footer';
 import Seo from '../components/seo'
 import AnimatedLayout from '../components/page/projects/interior/AnimatedLayout'
 import Title from '../components/page/projects/interior/Title'
@@ -74,7 +73,8 @@ export default function CaseStudy({pageContext,location}){
 						return Object.keys(l).map((c,iidx)=> {
 							const Tag = ComponentList[c]
 							if (l[c] != null) {
-								return <ScrollToShow  key={iidx} component={<Tag data={l[c]}/>}/>
+								// return <ScrollToShow  key={iidx} component={<Tag data={l[c]}/>}/>
+								return <Tag data={l[c]}/>
 								
 							} else {
 								return null

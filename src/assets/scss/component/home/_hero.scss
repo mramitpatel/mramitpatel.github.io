@@ -1,3 +1,11 @@
 .home-hero {
 	padding: 96px 0;
+
+	h1 {
+		br {
+			@include screen-md-max {
+				display: none;
+			}
+		}
+	}
 }

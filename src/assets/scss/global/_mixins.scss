@@ -1,3 +1,6 @@
+@mixin screen-xxl-max {
+	@media (max-width: $screen-xxl) { @content; }
+}
 @mixin screen-xl-max {
 	@media (max-width: $screen-xl) { @content; }
 }
