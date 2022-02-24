@@ -6,6 +6,10 @@
 	width: 100%;
 	max-width: $grid-width;
 	margin: 0 auto;
+	@include screen-xxl-max {
+		max-width: none;
+		padding: 0 80px;
+	}
 	@include screen-xl-max {
 		max-width: none;
 		padding-left: 80px;
@@ -53,6 +57,28 @@
 
 		.push-#{$i} {
 			@include grid-push($i);
+		}
+	}
+
+	@include grid-media($neat-grid-xxl) {
+		@include grid-row;
+
+		@for $i from 1 through $grid-columns {
+			.col-xxl-#{$i} {
+				@include grid-column($i);
+			}
+
+			.col-#{$i} {
+				@include grid-column($i);
+			}
+
+			.push-xxl-#{$i} {
+				@include grid-push($i);
+			}
+		}
+
+		.push-xxl-hide {
+			@include grid-push(0);
 		}
 	}
 

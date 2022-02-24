@@ -61,6 +61,13 @@ import Navigation from "./global/Navigation"
 				</>
 			)
 		}
+		const Writing = ({children}) => {
+			return (<>
+				<Navigation />
+				<ChildrenContainer children={children} />
+				<Footer isHome={false}/>
+			</>)
+		}
 
 		const getCorrectLayout = (type) => {
 			switch(type) {
@@ -70,6 +77,8 @@ import Navigation from "./global/Navigation"
 					return <Info children={children}/>
 				case 'projects':
 					return <Projects children={children}/>
+				case 'writing': 
+				return <Writing children={children} />
 			}
 		}
 	 return (

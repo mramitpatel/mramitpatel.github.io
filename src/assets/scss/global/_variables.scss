@@ -5,6 +5,7 @@ $color-gray: #222222;
 $default-transition: 0.3s ease-in;
 
 // Breakpoints
+$screen-xxl: 1920px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
 $screen-xl: 1408px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
 $screen-lg: 1024px;     /* big landscape tablets, laptops, and desktops */
 $screen-md: 768px;      /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -15,6 +16,7 @@ $screen-xs: 480px;      /* portrait e-readers (Nook/Kindle), smaller tablets @ 6
 $grid-width: 1330px;
 $grid-columns: 12;
 $neat-grid: (columns: $grid-columns, gutter: 32px);
+$neat-grid-xxl: (columns: $grid-columns, gutter: 48px, media: '(max-width: 1920px)');
 $neat-grid-xl: (columns: $grid-columns, gutter: 48px, media: '(max-width: 1320px)');
 $neat-grid-lg: (columns: $grid-columns, gutter: 32px, media: '(max-width: 1024px)');
 $neat-grid-md: (columns: $grid-columns, gutter: 16px, media: '(max-width: 768px)');
