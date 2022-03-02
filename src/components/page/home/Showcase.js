@@ -7,15 +7,15 @@ const Carousel = (data) => {
 	const [current,setCurrent] = useState(0);
 	const len = data.data.nodes.length;
 
-	useEffect(()=> {
-		setInterval(() => {
-			if(current != len) {
-				setCurrent(current + 1)
-			} else {
-				setCurrent(0)
-			}
-		}, 2000);
-	})
+	// useEffect(()=> {
+	// 	setInterval(() => {
+	// 		if(current != len) {
+	// 			setCurrent(current + 1)
+	// 		} else {
+	// 			setCurrent(0)
+	// 		}
+	// 	}, 2000);
+	// })
 
 	return (
 		<div className="carousel">
