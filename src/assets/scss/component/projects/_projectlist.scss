@@ -6,14 +6,15 @@
 			margin-bottom: 92px;
 		}
 		&-thumbnail {
+			display: block !important;
 			@include screen-lg-max {
-				display: none;
+				display: none !important;
 			}
 		}
 		&-hero {
-			display: none;
+			display: none !important;
 			@include screen-lg-max {
-				display: block;
+				display: block !important;
 			}
 		}
 		&-title {

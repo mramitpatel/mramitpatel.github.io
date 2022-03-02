@@ -3,77 +3,92 @@ const path = require('path');
 exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions;
 	const caseStudyTemplate = path.resolve('src/templates/caseStudy.js');
-	return graphql(`{
-		allWorkJson {
-			nodes {
-				background
-				slug
-				title
-				byline
-				hero {
-					childImageSharp {
-						gatsbyImageData(
-							formats: WEBP
-							transformOptions: {fit: FILL}
-							outputPixelDensities: 3
-							placeholder: TRACED_SVG
-						)
+	const writingTemplate = path.resolve('src/templates/writing.js');
+	const allWorkQuery = `allWorkJson {
+		nodes {
+			background
+			slug
+			title
+			byline
+			hero {
+				childImageSharp {
+					gatsbyImageData(
+						formats: WEBP
+						transformOptions: {fit: FILL}
+						outputPixelDensities: 3
+						placeholder: TRACED_SVG
+					)
+				}
+			}
+			description
+			agency
+			roles
+			layout {
+				FullWidthImage {
+					img {
+						name
+						childImageSharp {
+							gatsbyImageData(
+								formats: WEBP
+								transformOptions: {fit: FILL}
+								outputPixelDensities: 3
+								placeholder: TRACED_SVG
+							)
+						}
 					}
 				}
-				description
-				agency
-				roles
-				layout {
-					FullWidthImage {
-						img {
-							name
-							childImageSharp {
-								gatsbyImageData(
-									formats: WEBP
-									transformOptions: {fit: FILL}
-									outputPixelDensities: 3
-									placeholder: TRACED_SVG
-								)
-							}
+				TwoColumnImages {
+					img1 {
+						name
+						childImageSharp {
+							gatsbyImageData(
+								formats: WEBP
+								transformOptions: {fit: FILL}
+								outputPixelDensities: 3
+								placeholder: TRACED_SVG
+							)
 						}
 					}
-					TwoColumnImages {
-						img1 {
-							name
-							childImageSharp {
-								gatsbyImageData(
-									formats: WEBP
-									transformOptions: {fit: FILL}
-									outputPixelDensities: 3
-									placeholder: TRACED_SVG
-								)
-							}
+					img1Class
+					img2 {
+						name
+						childImageSharp {
+							gatsbyImageData(
+								formats: WEBP
+								transformOptions: {fit: FILL}
+								outputPixelDensities: 3
+								placeholder: TRACED_SVG
+							)
 						}
-						img1Class
-						img2 {
-							name
-							childImageSharp {
-								gatsbyImageData(
-									formats: WEBP
-									transformOptions: {fit: FILL}
-									outputPixelDensities: 3
-									placeholder: TRACED_SVG
-								)
-							}
-						}
-						img2Class
 					}
-					TextBlock {
-						title
-						text
-					}
-					BackgroundSwap {
-						prevBg
-						newBg
-					}
+					img2Class
+				}
+				TextBlock {
+					title
+					text
+				}
+				BackgroundSwap {
+					prevBg
+					newBg
 				}
 			}
 		}
+	}`;
+	const writingQuery = `allMarkdownRemark {
+    nodes {
+      frontmatter {
+        date
+        slug
+        title
+      }
+			html
+    }
+  }`
+	
+	return graphql(`{
+		${allWorkQuery}
+		${writingQuery}
+		
 	}`)
 	.then(res => {
 		if (res.errors) {
@@ -110,5 +125,16 @@ exports.createPages = ({ actions, graphql }) => {
 				context: node
 			})
 		});
+
+		const blogNodes = res.data.allMarkdownRemark.nodes;
+		blogNodes.forEach((node,idx) => {
+			const fm = node.frontmatter;
+			createPage({
+				path: `/writing/${fm.slug}`,
+				component: writingTemplate,
+				context: node
+			})
+
+		})
 	})
 }
