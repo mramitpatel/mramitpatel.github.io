@@ -1,13 +1,28 @@
 .home-showcase {
 	.container{
-		background: #000000;
-		border-radius: 56px;
-		padding: 106px 55px 96px;
 		color: $color-white;
-		@include screen-lg-max {
-			padding: 40px 29px;
-			border-radius: 24px;
+		position: relative;
+		&:before {
+			background: #000000;
+			border-radius: 56px;
+			padding: 106px 55px 96px;
+			content: "";
+			position: absolute;
+			width: 120%;
+			margin-left: -9%;
+			height: 108%;
+			z-index: -1;
+			top: -50px;
 		}
+		@include screen-lg-max {
+			&:before {
+				display: none;
+			}
+		}
+		// @include screen-lg-max {
+		// 	padding: 40px 29px;
+		// 	border-radius: 24px;
+		// }
 	}
 
 	h2 {
@@ -42,19 +57,20 @@
 		position: relative;
 	}
 	&-carouselItem {
-		// display: none;
-		opacity: 0;
-		position: absolute;
-		top:0;
-		left: 0;
-		transition: opacity $default-transition;
-		z-index: 0;
-		// visibility: hidden;
-		&.show {
-			// display: block;
-			z-index: 2;
-			// visibility: visible;
-			opacity: 1;
+		position: relative;
+		&:hover {
+			content: '';
+			border: 100%;
+			background:red;
+			position: absolute;
+			top:0;
+			right:0;
+			height: 20px;
+			width: 30px;
+		}
+		.gatsby-image-wrapper {
+			margin-bottom: 50px;
+
 		}
 	}
 }
