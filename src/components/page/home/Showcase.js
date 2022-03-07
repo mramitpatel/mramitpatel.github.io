@@ -2,7 +2,9 @@ import React, {useEffect, useState} from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 const Carousel = (data) => {
 	const [current,setCurrent] = useState(0);
 	const len = data.data.nodes.length;
@@ -29,9 +31,8 @@ const Carousel = (data) => {
 
 const CarouselItem = (data,active) => {
 	const {hero, title,type,slug} = data.data;
-	const showClass = data.active ? "home-showcase-carouselItem show" : 'home-showcase-carouselItem';
 	return (
-		<Link to={slug} className={showClass}>
+		<Link to={`projects/${slug}`} className='home-showcase-carouselItem'>
 			<div className="row">
 				<div className="col-12">
 					{/* <img src="https://via.placeholder.com/1327x885" alt="" /> */}
@@ -44,10 +45,34 @@ const CarouselItem = (data,active) => {
 					<h4 className="home-showcase-type">{type}</h4>
 				</div>
 			</div>
-			</Link>
+		</Link>
 	)
 }
 
+const SimpleSlider = (data) => {
+	const settings = {
+		dots: false,
+		arrows: false,
+		adaptiveHeight: true,
+		fade: true,
+		pauseOnHover: false,
+		infinite: true,
+		speed: 700,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		// autoplay: true,
+	};
+	return (
+		<div>
+			<Slider {...settings}>
+			{data.data.nodes.map((work,idx) => {
+					return <CarouselItem idx={idx}key={idx} data={work}/>
+				})
+			}
+			</Slider>
+		</div>
+	);
+}
 
 
 export default function Showcase() {
@@ -77,7 +102,8 @@ export default function Showcase() {
 						<h2>Select Projects</h2>
 					</div>
 				</div>
-				<Carousel data={allWorkJson} />
+				{/* <Carousel data={allWorkJson} /> */}
+				<SimpleSlider data={allWorkJson} />
 				<div className="row">
 					<div className="col-12">
 						<div className="home-showcase-button">
