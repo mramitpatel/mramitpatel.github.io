@@ -13,9 +13,8 @@ export default function ProjectListItem({position, slug, img, hero, title, type,
 			const windowSize = window.innerWidth;
 			window.addEventListener("resize", ()=> {
 				isMobile = windowSize < 1024 ? true : false;
-				console.log('resize');
 			});
-		}	console.log(isMobile);
+		}
 	}, [])
 	return (
 		<div className={`project-list-item ${projectClassList}`}>

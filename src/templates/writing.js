@@ -8,8 +8,7 @@ import Seo from '../components/seo'
 export default function CaseStudy({pageContext}){
 	const {frontmatter,html} = pageContext
 	const {title} = frontmatter;
-	console.log(html);
-	console.log(pageContext)
+
 	return (
 		<Layout pageClass="writing" type="writing">
 			<Seo title={title} />
