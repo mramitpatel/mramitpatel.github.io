@@ -13,6 +13,9 @@
 			height: 108%;
 			z-index: -1;
 			top: -50px;
+			@include screen-lg-max {
+				display: none;
+			}
 		}
 		@include screen-lg-max {
 			&:before {
@@ -59,18 +62,47 @@
 	&-carouselItem {
 		position: relative;
 		&:hover {
-			content: '';
-			border: 100%;
-			background:red;
-			position: absolute;
-			top:0;
-			right:0;
-			height: 20px;
-			width: 30px;
+			.hover {
+				span {
+					opacity: 1;
+				}
+			}
 		}
+		.hover {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			span {
+				opacity: 0;
+				background:black;
+				position: absolute;
+				top:50%;
+				border-radius: 100%;
+				color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 21px;
+				line-height: 24px;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				height: 158px;
+				width: 158px;
+				border: 1px solid white;
+				z-index: 2;
+				transition: .1s $default-transition;
+			}		
+		}
+		&-img {
+			position: relative; 
+		}
+
 		.gatsby-image-wrapper {
 			margin-bottom: 50px;
 
 		}
+	}
+	.slick-slide.slick-active.slick-current {
+		z-index: 999;
 	}
 }

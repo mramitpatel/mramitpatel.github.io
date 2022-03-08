@@ -22,29 +22,36 @@ const Carousel = (data) => {
 	return (
 		<div className="carousel">
 			{data.data.nodes.map((work,idx) => {
-					return <CarouselItem active={idx == current && true} idx={idx}key={idx} data={work}/>
+					return <CarouselItem key={idx} data={work}/>
 				})
 			}
 		</div>
 	)
 }
 
-const CarouselItem = (data,active) => {
+const CarouselItem = (data) => {
 	const {hero, title,type,slug} = data.data;
+	const [show,setShow] = useState(false);
+	const showdiv = () => {
+		console.log('enter');
+		setShow(true)
+	};
 	return (
-		<Link to={`projects/${slug}`} className='home-showcase-carouselItem'>
+		<Link  to={`projects/${slug}`} className='home-showcase-carouselItem'>
 			<div className="row">
-				<div className="col-12">
+				<div className="col-12 home-showcase-carouselItem-img">
 					{/* <img src="https://via.placeholder.com/1327x885" alt="" /> */}
+					<div className="hover"><span>Case Study</span></div>
 					<GatsbyImage alt={title} image={hero.childImageSharp.gatsbyImageData} />
 				</div>
 			</div>
 			<div className="row">
 				<div className="col-12">
-					<h4 className="home-showcase-title">{title}</h4>
+					<h4 className="home-showcase-title">{title}{show ? 'vis': 'hid'}</h4>
 					<h4 className="home-showcase-type">{type}</h4>
 				</div>
 			</div>
+
 		</Link>
 	)
 }
@@ -60,7 +67,7 @@ const SimpleSlider = (data) => {
 		speed: 700,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		// autoplay: true,
+		autoplay: true,
 	};
 	return (
 		<div>
