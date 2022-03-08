@@ -17,15 +17,30 @@
 				display: none;
 			}
 		}
-		@include screen-lg-max {
+		@media (min-width:1408px) and (max-width:1920px) {
+			background: #000000;
+			border-radius: 56px;
+			padding: 106px 55px 96px;
+			color: $color-white;
+
 			&:before {
 				display: none;
 			}
 		}
-		// @include screen-lg-max {
-		// 	padding: 40px 29px;
-		// 	border-radius: 24px;
-		// }
+		@media (max-width:1407px) {
+			background: #000000;
+			padding: 40px 29px;
+			border-radius: 24px;
+			color: $color-white;
+			&:before {
+				display: none;
+			}
+		}
+
+		@include screen-lg-max {
+			padding: 40px 29px;
+			border-radius: 24px;
+		}
 	}
 
 	h2 {
