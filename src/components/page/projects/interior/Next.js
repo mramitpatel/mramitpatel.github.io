@@ -23,7 +23,7 @@ export default function Next({data, toggleAnimation, titleRef}) {
 			nextOffset = nextRef.current.offsetTop;
 			titleOffset = titleRef.current.offsetTop;
 			// diff = nextOffset - scrollTop + 250 - 30 - 80 - 20;
-			diff = nextOffset - scrollTop + 250 + 176 - 222 - 80;
+			diff = nextOffset - scrollTop + 250 + 176 - 222 - 47;
 		}
 
 		nextRef.current.style = `transform:translateY(-${diff}px)`

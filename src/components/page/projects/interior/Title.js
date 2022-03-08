@@ -16,7 +16,6 @@ const Title = forwardRef((props,ref) => {
 		}
 		// toggleCaseStudy(false);
 	}, [fromCaseStudy])
-	console.log({fromCaseStudy})
 	return (
 		<div ref={ref} className="project-title">
 			<div className="container">

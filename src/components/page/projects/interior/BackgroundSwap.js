@@ -11,7 +11,7 @@ export default function BackgroundSwap({data}) {
 	}
 
 	const scrollHandler = useCallback(() => {
-		if (isBrowser && window.pageYOffset >= hiddenRef.current.offsetTop - 500) {
+		if (isBrowser && window.pageYOffset <= hiddenRef.current.offsetTop - 500) {
 			toggleBackgroundCLass(newBg);
 		} else {
 			toggleBackgroundCLass(prevBg);
