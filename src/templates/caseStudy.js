@@ -12,6 +12,8 @@ import TwoColumnImages from '../components/page/projects/interior/TwoColumnImage
 import Next from '../components/page/projects/interior/Next';
 import BackgroundSwap from '../components/page/projects/interior/BackgroundSwap';
 import ScrollToShow from '../components/page/projects/interior/ScrollToShow';
+import { navigate } from 'gatsby';
+
 
 export default function CaseStudy({pageContext,location}){
 	const {title,
@@ -39,7 +41,8 @@ export default function CaseStudy({pageContext,location}){
 	};
 
 	useEffect(() => {
-		document.getElementsByTagName('body')[0].classList = []
+		document.getElementsByTagName('body')[0].classList = [];
+		document.addEventListener("keydown", closeCaseStudy, false);
 		if(background) {
 			document.getElementsByTagName('body')[0].classList.add(background);
 		}
@@ -51,6 +54,16 @@ export default function CaseStudy({pageContext,location}){
 			// setTimeout(()=>setFromCaseStudy(false))
 		}
 	}, [fromCaseStudy])
+
+	const closeCaseStudy = (e) => {
+		if (e.key === "Escape") {
+			navigate(
+				`/projects/`,
+				{
+          state: { fromCaseStudy:false },
+        })
+    }
+	};
 
 	return (
 		<>
