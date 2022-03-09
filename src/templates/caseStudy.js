@@ -29,6 +29,7 @@ export default function CaseStudy({pageContext,location}){
 		len
 	} = pageContext;
 
+
 	const [isAnimiating, setIsAnimating] = useState(false);
 	const titleRef = useRef();
 	const headerRef = useRef();
@@ -51,17 +52,24 @@ export default function CaseStudy({pageContext,location}){
 	useEffect(() => {
 		if(location.state != null ) {
 			setFromCaseStudy(location.state.fromCaseStudy)
-			// setTimeout(()=>setFromCaseStudy(false))
 		}
 	}, [fromCaseStudy])
 
 	const closeCaseStudy = (e) => {
 		if (e.key === "Escape") {
-			navigate(
-				`/projects/`,
-				{
-          state: { fromCaseStudy:false },
-        })
+			if(location.state.fromHome) {
+				navigate(
+					`/`,
+					{
+						state: { fromCaseStudy:false,fromHome: false },
+					})
+			} else {
+				navigate(
+					`/projects/`,
+					{
+						state: { fromCaseStudy:false },
+					})
+			}
     }
 	};
 
@@ -69,7 +77,7 @@ export default function CaseStudy({pageContext,location}){
 		<>
 			<Seo title={title} />
 			<AnimatedLayout isAnimating={isAnimiating}>
-				<Header ref={headerRef} isCaseStudy={true} idx={idx} len={len} />
+				<Header ref={headerRef} isCaseStudy={true} location={location} idx={idx} len={len} />
 				<Title 
 					toggleCaseStudy={setFromCaseStudy} 
 					fromCaseStudy={fromCaseStudy} 

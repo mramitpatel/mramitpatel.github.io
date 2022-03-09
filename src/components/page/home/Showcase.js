@@ -32,7 +32,7 @@ const Carousel = (data) => {
 const CarouselItem = (data) => {
 	const {hero, title,type,slug} = data.data;
 	return (
-		<Link  to={`projects/${slug}`} className='home-showcase-carouselItem'>
+		<Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
 			<div className="row">
 				<div className="col-12 home-showcase-carouselItem-img">
 					<div className="hover"><span>Case Study</span></div>
