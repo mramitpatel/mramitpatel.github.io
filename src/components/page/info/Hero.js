@@ -6,7 +6,7 @@ export default function Hero() {
 		<div className="info-hero">
 			<div className="container">
 				<div className="row">
-					<div className="col-6 push-lg-hide col-lg-12">
+					<div className="col-6  col-lg-12">
 						<StaticImage height={636} src="../../../images/Amit_Patel.jpg" alt="Amit Patel" />
 					</div>
 					<div className="col-5 col-lg-12">

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
 export default function Navigation({isHome}) {
-	const classList = isHome ? 'col-12' : 'col-8 push-2 push-lg-hide col-lg-12'; 
+	const showName = !isHome ? 'true' : false;
 	return (
 		<div className="container">
 			<div className="row">
-				<div className={classList}>
+				<div className='col-12'>
+					
 					<nav className="navigation">
+					{showName && 	<Link to="/"><h4>Amit Patel</h4></Link>}
 						<Link to="/projects" className="button">Projects</Link>
 						<Link to="/" className="button">Writing</Link>
 						<Link to="/info" className="button">Info</Link>

@@ -44,7 +44,9 @@ html, body {
 	font-family: $font-base;
 	font-size: $font-size-base;
 	line-height: $line-height-base;
-	color: $color-gray
+	color: $color-gray;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {

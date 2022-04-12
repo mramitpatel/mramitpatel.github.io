@@ -5,24 +5,32 @@
 		display: flex;
 		justify-content: space-between;
 		position: relative;
+		.name {
+			font-size: 21px;
+			margin-right: 150px;
+			white-space: nowrap;
+			width: inherit;
+			display: block;
+			color: $color-black;
+		}
+		.count {
+			font-family: $font-heading-regular !important;
+			font-weight: normal;
+		}
+		a {
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+		}
 		&-close {
-			height: 24px;
-			width: 24px;
-			position: relative;
+			height: 38px;
+			width: 38px;
 			cursor: pointer;
-			&:before,
-			&:after {
-				content: '';
-				background: black;
-				width: 24px;
-				height: 1px;
-				display: block;
-				position: absolute;
-				bottom: 8px;
+			z-index: 999;
+			&-icon {
+				position: fixed;
+				z-index: 999;
 			}
-
-			&:before {transform: rotate(45deg);}
-			&:after {transform: rotate(-45deg);}
 		}
 	}
 }

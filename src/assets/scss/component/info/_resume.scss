@@ -1,0 +1,44 @@
+.resume {
+	margin-bottom: 300px;
+	@include screen-lg-max {
+		margin-bottom: 150px;
+	}
+	h2 {
+		margin-bottom: 64px;
+	}
+	&-item {
+		&-left {
+			border-top: 1px solid #c4c4c4;
+			padding: 32px 0;
+			@include screen-lg-max {
+				padding: 32px 0 16px;
+			}
+		}
+		&-right {
+			border-top: 1px solid #c4c4c4;
+			padding: 32px 0;
+
+			@include screen-lg-max {
+				border: none;
+			}
+		}
+		&-year {
+			font-family: $font-heading-medium;
+			color: $color-black;
+		}
+		
+		&-company {
+			font-family: $font-heading-medium;
+			margin-bottom: 5px;
+		}
+		&-title {
+			margin-bottom: 20px;
+		}
+		&-description {
+			p {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	
+}

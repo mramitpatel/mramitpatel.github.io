@@ -1,10 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage,StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick-theme.css";
+
 const Carousel = (data) => {
 	const [current,setCurrent] = useState(0);
 	const len = data.data.nodes.length;
@@ -29,14 +30,15 @@ const Carousel = (data) => {
 	)
 }
 
+
+
 const CarouselItem = (data) => {
-	const {hero, title,type,slug} = data.data;
+	const {hero, title,type,slug    } = data.data;
 	return (
 		<Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
 			<div className="row">
 				<div className="col-12 home-showcase-carouselItem-img">
-					<div className="hover"><span>Case Study</span></div>
-					<GatsbyImage alt={title} image={hero.childImageSharp.gatsbyImageData} />
+					<GatsbyImage  alt={title} image={hero.childImageSharp.gatsbyImageData} />
 				</div>
 			</div>
 			<div className="row">
@@ -45,7 +47,6 @@ const CarouselItem = (data) => {
 					<h4 className="home-showcase-type">{type}</h4>
 				</div>
 			</div>
-
 		</Link>
 	)
 }
@@ -56,7 +57,7 @@ const SimpleSlider = (data) => {
 		arrows: false,
 		adaptiveHeight: true,
 		fade: true,
-		pauseOnHover: false,
+		pauseOnHover: true,
 		infinite: true,
 		speed: 700,
 		slidesToShow: 1,
@@ -84,7 +85,11 @@ export default function Showcase() {
 					nodes {
 						hero {
 							childImageSharp {
-								gatsbyImageData
+								gatsbyImageData(
+									breakpoints: [750, 1080, 1366, 1920]
+									formats: WEBP
+									placeholder: DOMINANT_COLOR
+								)
 							}
 						}
 						title
@@ -103,7 +108,6 @@ export default function Showcase() {
 						<h2>Select Projects</h2>
 					</div>
 				</div>
-				{/* <Carousel data={allWorkJson} /> */}
 				<SimpleSlider data={allWorkJson} />
 				<div className="row">
 					<div className="col-12">
