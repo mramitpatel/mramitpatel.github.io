@@ -7,8 +7,18 @@
 		}
 		&-thumbnail {
 			display: block !important;
+
 			@include screen-lg-max {
 				display: none !important;
+			}
+		}
+		.gatsby-image-wrapper {
+			img {
+				transform: scale(1) !important;
+				transition: all .3s;
+				&:hover {
+					transform: scale(.98) !important;
+				}
 			}
 		}
 		&-hero {

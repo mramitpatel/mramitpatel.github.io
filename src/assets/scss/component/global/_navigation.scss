@@ -1,7 +1,23 @@
 .navigation {
 	margin-top: 53px;
 	margin-bottom: 186px;
+	@include screen-lg-max {
+		margin-bottom: 93px;
+	}
+	a h4{
+		display: inline-block;
+		font-family: $font-heading-medium;
+		font-size: 21px;
+		line-height: 150%;
+		color: $color-black;
+		margin-right: 150px;
+		@media (max-width:634px) {
 
+			display: block;
+			margin-bottom: 50px;
+			
+		}
+	}
 	.button {
 		margin-right: 10px;
 	}

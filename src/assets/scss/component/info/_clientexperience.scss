@@ -1,5 +1,8 @@
 .clientExperience {
 	margin-bottom: 300px;
+	@include screen-lg-max {
+		margin-bottom: 150px;
+	}
 	h2 {
 		margin-bottom: 64px;
 	}
@@ -18,7 +21,7 @@
 				flex: 0 1 100%;
 			}
 			&-title {
-				font-weight: bold;
+				font-family: $font-heading-medium;
 			}
 		}
 	}

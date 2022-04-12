@@ -1,7 +1,12 @@
+.slick-slider .slick-track, .slick-slider .slick-list {
+	-webkit-transform: none !important;
+	transform: none !important;
+}
 .home-showcase {
 	.container{
 		color: $color-white;
 		position: relative;
+		
 		&:before {
 			background: #000000;
 			border-radius: 56px;
@@ -53,10 +58,13 @@
 	}
 
 	img {
-		margin-bottom: 40px;
+
 		width: 100%;
 	}
 
+	&-title {
+		margin-top: 50px;
+	}
 	&-title,&-type {
 		color: $color-white;
 		
@@ -66,6 +74,7 @@
 		display: flex;
 		justify-content: flex-end;
 		margin-top: 54px;
+		cursor: url("/R-Arrow.gif"), auto;
 		@include screen-lg-max {
 			margin-top: 72px;
 			justify-content: flex-start;
@@ -76,48 +85,24 @@
 	}
 	&-carouselItem {
 		position: relative;
-		&:hover {
-			.hover {
-				span {
-					opacity: 1;
-				}
-			}
-		}
-		.hover {
-			height: 100%;
-			width: 100%;
-			position: absolute;
-			span {
-				opacity: 0;
-				background:black;
-				position: absolute;
-				top:50%;
-				border-radius: 100%;
-				color: white;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				font-size: 21px;
-				line-height: 24px;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				height: 158px;
-				width: 158px;
-				border: 1px solid white;
-				z-index: 2;
-				transition: .1s $default-transition;
-			}		
-		}
-		&-img {
-			position: relative; 
-		}
 
 		.gatsby-image-wrapper {
-			margin-bottom: 50px;
-
+			// margin-bottom: 50px;
+			img {
+				transform: scale(1);
+				transition: all .3s;
+				&:hover {
+					transform: scale(.98);
+	
+				}
+			}
 		}
 	}
 	.slick-slide.slick-active.slick-current {
 		z-index: 999;
 	}
+	.gatsby-image-wrapper {
+
+	}
+
 }
