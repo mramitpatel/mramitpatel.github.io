@@ -5,4 +5,34 @@
 	&-content{
 		margin-bottom: 200px;
 	}
+
+	&-list {
+		padding-top: 150px;
+		@include screen-lg-max {
+			padding-top:75px;
+		}
+		&-item {
+			color: $color-black;
+			display: block;
+			border-top: 1px solid #C4C4C4;
+			padding: 40px 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			&:first-child {
+				border: none;
+			}
+			.gatsby-image-wrapper {
+				opacity: 0;
+				transition: opacity .3s ease-in;
+			}
+			&:hover {
+				.gatsby-image-wrapper {
+					opacity: 1;
+
+				}
+
+			}
+		}
+	}
 }

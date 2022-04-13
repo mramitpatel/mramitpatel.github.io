@@ -1,13 +1,30 @@
-import Essay from '../components/page/home/Essay';
 import React from 'react';
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import { Link } from 'gatsby';
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Writing() {
 	return (
-		<Layout pageClass="info" type="info">
+		<Layout pageClass="writing" type="info">
 			<Seo title="Writing" />
-			<Essay />
+			<div className="container">
+				<div className="row">
+					<div className="col-10 push-2">
+						<h1 class="writing-title">Select Writing</h1>
+						<p className="writing-description">Sometimes I write</p>
+
+						<div className="writing-list">
+							<Link to='/writing/name' className="writing-list-item">
+							New Kanye Album is Mid <StaticImage src={'../images/arrow.png'}/>
+							</Link>
+							<Link to='/writing/name' className="writing-list-item">
+							New Kanye Album is Mid <StaticImage src={'../images/arrow.png'}/>
+							</Link>
+						</div>
+					</div>
+				</div>
+			</div>
 		</Layout>
 	)
 }

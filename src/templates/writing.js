@@ -18,7 +18,6 @@ export default function CaseStudy({pageContext}){
 						<h2>{title}</h2>
 						<div className="writing-content">
 							<div dangerouslySetInnerHTML={{ __html: html}} />
-
 						</div>
 					</div>
 				</div>
