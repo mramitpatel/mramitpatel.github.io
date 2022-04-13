@@ -1,11 +1,16 @@
 .navigation {
 	margin-top: 53px;
 	margin-bottom: 186px;
-
+	opacity: 0;
+	transition: opacity $default-transition, transform $default-transition;
+	&-visible {
+		transform: none;
+		opacity: 1;
+	}
 	&-home {
 		opacity: 0;
 		transform: translateY(50px);
-		transition: opacity $default-transition, transform $default-transition;
+		
 		transition-delay: .2s;
 		&-visible {
 			transform: none;

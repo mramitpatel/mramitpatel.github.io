@@ -89,6 +89,8 @@ export default function Showcase() {
 									breakpoints: [750, 1080, 1366, 1920]
 									formats: WEBP
 									placeholder: DOMINANT_COLOR
+									quality: 100
+									layout: FULL_WIDTH
 								)
 							}
 						}

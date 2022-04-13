@@ -5,7 +5,7 @@ export default function Navigation({isHome}) {
 	const [visible, setVisible] = useState(false);
 	const navClass = isHome ? 'navigation-home' : '';
 
-	const visibleClass = visible ? 'navigation-home-visible' : '';
+	const visibleClass = visible ? 'navigation-home-visible' : 'navigation-visible';
 
 	useEffect(()=> {
 		if (isHome) {
