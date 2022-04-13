@@ -1,5 +1,12 @@
 .home-hero {
 	padding: 96px 0;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity $default-transition, transform $default-transition;
+	&-visible {
+		transform: none;
+		opacity: 1;
+	}
 
 	h1 {
 		br {

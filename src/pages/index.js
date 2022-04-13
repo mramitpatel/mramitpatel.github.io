@@ -5,6 +5,7 @@ import Hero from '../components/page/home/Hero';
 
 import Showcase from '../components/page/home/Showcase';
 import Navigation from '../components/global/Navigation';
+import Essay from '../components/page/home/Essay';
 export default function Index() {
 	useEffect(() => {
 		document.getElementsByTagName('body')[0].classList = [];
@@ -15,7 +16,7 @@ export default function Index() {
 			<Hero />
 			<Navigation isHome={true}/>
 			<Showcase />
-
+			<Essay/>
 		</Layout>
 	)
 }

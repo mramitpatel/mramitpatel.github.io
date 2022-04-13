@@ -205,9 +205,14 @@ body {
 			color: $color-white !important;
 		}
 		.header-flex-close {
-			&:before,
-			&:after {
-				background: white;
+			svg {
+				circle {
+					fill: $color-white !important;
+					stroke:$color-black !important;
+				}
+				line {
+					stroke:$color-black !important;
+				}
 			}
 		}
 	}

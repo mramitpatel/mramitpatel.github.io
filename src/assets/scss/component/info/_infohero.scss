@@ -1,6 +1,12 @@
 .info-hero {
 	margin-bottom: 128px;
-
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity $default-transition, transform $default-transition;
+	&-visible {
+		transform: none;
+		opacity: 1;
+	}
 	&-content {
 		margin-top: 70px;
 		h1 {
@@ -10,6 +16,14 @@
 			margin-bottom: 60px;
 			&:last-child {
 				margin-bottom: 0;
+			}
+		}
+		a {
+			border-bottom: 1px solid transparent;
+			transition: border .3s ease-in;
+			&:hover {
+				text-decoration: none;
+				border-color: #000000;
 			}
 		}
 	}

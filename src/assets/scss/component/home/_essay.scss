@@ -5,13 +5,28 @@
 		padding: 0;
 		li {
 			border-bottom: 1px solid #c4c4c4;
+			display: flex;
 			&:last-child {
 				border: none;
 			}
 			a {
 				padding: 34px 0;
 				color: $color-black;
-				display: block;
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.gatsby-image-wrapper {
+					opacity: 0;
+					transition: opacity .3s ease-in;
+				}
+				&:hover {
+					.gatsby-image-wrapper {
+						opacity: 1;
+	
+					}
+	
+				}
 			}
 		}
 	}
