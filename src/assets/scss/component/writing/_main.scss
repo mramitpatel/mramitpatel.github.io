@@ -1,6 +1,7 @@
 .writing {
-	h2 {
-		margin-bottom: 20px;
+	&-title {
+		font-family: $font-heading-medium;
+		margin-bottom: 16px;
 	}
 	&-content{
 		margin-bottom: 200px;

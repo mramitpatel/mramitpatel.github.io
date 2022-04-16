@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react';
+import React, {useState, useRef,useCallback,useEffect} from 'react';
 import { navigate } from 'gatsby';
 
 
@@ -10,7 +10,35 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const nextRef = useRef();
 	const textRef = useRef();
 
+	const hiddenRef = useRef();
+	const isBrowser = typeof window !== "undefined"
 	
+	const scrollHandler = useCallback(() => {
+		if(isBrowser) {
+			const currentColor = document.getElementsByTagName('body')[0].classList[0];
+			console.log(currentColor);
+			if (window.pageYOffset + window.innerHeight >= nextRef.current.offsetTop + 70) {
+				if (currentColor != undefined) {
+					document.getElementsByTagName('body')[0].classList = [];
+				} else {
+					document.getElementsByTagName('body')[0].classList.add('black');
+				}
+			}
+		}
+
+	},[]);
+
+	useEffect(() => {
+		if(isBrowser) {
+			window.addEventListener('scroll', scrollHandler);
+			return () => {
+				window.removeEventListener('scroll', scrollHandler);
+			}
+		}
+
+	}, [nextRef, scrollHandler]);
+
+
 	function caseStudyRedirect() {
 		let scrollTop;
 		let nextOffset;
