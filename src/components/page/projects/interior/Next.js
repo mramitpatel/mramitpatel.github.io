@@ -16,7 +16,6 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const scrollHandler = useCallback(() => {
 		if(isBrowser) {
 			const currentColor = document.getElementsByTagName('body')[0].classList[0];
-			console.log(currentColor);
 			if (window.pageYOffset + window.innerHeight >= nextRef.current.offsetTop + 70) {
 				if (currentColor != undefined) {
 					document.getElementsByTagName('body')[0].classList = [];
