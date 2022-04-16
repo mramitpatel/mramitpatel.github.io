@@ -207,11 +207,10 @@ body {
 		.header-flex-close {
 			svg {
 				circle {
-					fill: $color-white !important;
-					stroke:$color-black !important;
+					stroke:$color-white !important;
 				}
 				line {
-					stroke:$color-black !important;
+					stroke:$color-white !important;
 				}
 			}
 		}

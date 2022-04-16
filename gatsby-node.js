@@ -111,14 +111,7 @@ exports.createPages = ({ actions, graphql }) => {
 					title:CaseStudyNodes[0].title
 				}
 			}
-			// console.log(Object.keys(node.layout))
-			// console.log(node.layout[0])
-			// node.layout.forEach(item => {
-			// 	console.log({item})
-			// 	// if (item === 'FullWidthImage' || item === ' TwoColumnImages') {
-			// 	// 	item.alt = `${node.title} case study` 
-			// 	}
-			// });
+
 			createPage({
 				path: `/projects/${node.slug}`,
 				component: caseStudyTemplate,

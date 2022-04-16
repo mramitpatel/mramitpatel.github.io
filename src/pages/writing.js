@@ -10,7 +10,7 @@ export default function Writing() {
 			<Seo title="Writing" />
 			<div className="container">
 				<div className="row">
-					<div className="col-10 push-2">
+					<div className="push-2 col-10 push-lg-hide col-lg-12">
 						<h1 class="writing-title">Select Writing</h1>
 						<p className="writing-description">Sometimes I write</p>
 
