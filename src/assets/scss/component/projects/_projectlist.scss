@@ -30,7 +30,7 @@
 		&-title {
 			margin-top: 50px;
 			color: $color-black;
-			margin-bottom: 5px;
+			margin-bottom: 0px;
 			font-family: $font-heading-medium;
 		}
 		
@@ -39,7 +39,6 @@
 		}
 
 		&:nth-child(3n) {
-			margin-top: 196px;
 			@include screen-lg-max {
 				margin-top: 0;
 			}

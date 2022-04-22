@@ -1,5 +1,5 @@
 .project-title {
-	padding: 80px 0 80px;
+	padding: 128px 0 80px;
 
 	&-title {
 		font-family: $font-heading-medium;
@@ -21,6 +21,7 @@
 
 	&-description {
 		font-size: 54px;
+		font-family: $font-heading-light;
 		line-height: 58px;
 		letter-spacing: -1.74845px;
 		transform:translateY(50px);

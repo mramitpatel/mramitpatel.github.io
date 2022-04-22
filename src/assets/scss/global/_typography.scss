@@ -35,9 +35,9 @@ $font-heading-regular: "Sneak", "Helvetica", "Arial", sans-serif;
 $font-heading-light: "Sneak Light", "Helvetica", "Arial", sans-serif;
 $font-heading-medium: "Sneak Medium", "Helvetica", "Arial", sans-serif;
 
-$font-base: 'Sneak Light', "Times New Roman", Times, serif;
+$font-base: 'Sneak', "Times New Roman", Times, serif;
 
-$font-size-base: 21px;
+$font-size-base: 18px;
 $line-height-base: 30px;
 
 html, body {
@@ -92,11 +92,10 @@ h3 {
 }
 
 h4 {
-	font-size: 21px;
+	font-size: 18px;
 	line-height: 30px;
-	font-family: $font-heading-light;
 	span {
-		font-family: $font-heading-medium;
+		font-family: $font-heading-light;
 	}
 }
 

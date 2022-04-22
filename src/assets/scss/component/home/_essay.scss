@@ -18,7 +18,7 @@
 				align-items: center;
 				.gatsby-image-wrapper {
 					opacity: 0;
-					transition: opacity .3s ease-in;
+					transition: opacity .3s ease-out;
 				}
 				&:hover {
 					.gatsby-image-wrapper {

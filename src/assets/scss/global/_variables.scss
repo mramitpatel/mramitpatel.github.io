@@ -2,7 +2,7 @@ $color-black: #000000;
 $color-white: #ffffff;
 $color-gray: #222222;
 // Transition
-$default-transition: 0.3s ease-in;
+$default-transition: 0.3s ease-out;
 
 // Breakpoints
 $screen-xxl: 1920px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
@@ -16,8 +16,8 @@ $screen-xs: 480px;      /* portrait e-readers (Nook/Kindle), smaller tablets @ 6
 $grid-width: 1330px;
 $grid-columns: 12;
 $neat-grid: (columns: $grid-columns, gutter: 32px);
-$neat-grid-xxl: (columns: $grid-columns, gutter: 48px, media: '(max-width: 1920px)');
-$neat-grid-xl: (columns: $grid-columns, gutter: 48px, media: '(max-width: 1320px)');
+$neat-grid-xxl: (columns: $grid-columns, gutter: 56px, media: '(max-width: 1920px)');
+$neat-grid-xl: (columns: $grid-columns, gutter: 56px, media: '(max-width: 1320px)');
 $neat-grid-lg: (columns: $grid-columns, gutter: 32px, media: '(max-width: 1024px)');
 $neat-grid-md: (columns: $grid-columns, gutter: 16px, media: '(max-width: 768px)');
 $neat-grid-sm: (columns: $grid-columns, gutter: 16px, media: '(max-width: 640px)');

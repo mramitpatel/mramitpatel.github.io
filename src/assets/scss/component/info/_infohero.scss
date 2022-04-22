@@ -20,7 +20,7 @@
 		}
 		a {
 			border-bottom: 1px solid transparent;
-			transition: border .3s ease-in;
+			transition: border .3s ease-out;
 			&:hover {
 				text-decoration: none;
 				border-color: #000000;

@@ -7,7 +7,7 @@ export default function TextBlock({data}) {
 			<div className="container">
 				<div className="row">
 					<div className="col-6 push-2 push-lg-1 col-lg-11 push-md-hide col-md-12">
-						<div className="project-textblock-title">
+						<div className="h4 project-textblock-title">
 							{title}
 						</div>
 						<p className="project-textblock-text">

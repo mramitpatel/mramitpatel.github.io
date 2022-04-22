@@ -10,7 +10,7 @@
 		justify-content: space-between;
 		position: relative;
 		.name {
-			font-size: 21px;
+			font-size: 18px;
 			margin-right: 150px;
 			white-space: nowrap;
 			width: inherit;
@@ -19,6 +19,7 @@
 		}
 		.count {
 			font-family: $font-heading-regular !important;
+			font-feature-settings: "zero", "tnum", "ss05";
 			font-weight: normal;
 		}
 		a {
