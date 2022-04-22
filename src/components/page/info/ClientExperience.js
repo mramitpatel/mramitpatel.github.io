@@ -6,6 +6,10 @@ const clientData = [
 		"description": "Digital marketing and brand system design for B2B global supply chain distribtion"
 	},
 	{
+		"title": "Patagonia",
+		"description": "Patagonia Tin-Shed, website maintenance, other experiences"
+	},
+	{
 		"title": "CSA",
 		"description": "Brand identity, branding, photography direction for a global provider of standards and testing"
 	},

@@ -5,22 +5,20 @@ const exp = [
 		year:'2016-2022',
 		company: 'The Office of Experience',
 		title: 'Creative Director',
-		description:["Designed B2B and B2C experieces for brands like Spectrum Enterprise, D’Addario, Mack Trucks."
-		,"Digital Marketing, T-shaped, cross-disciplinary designer focusing on B2B enterprise digital experiences, products and brand strategy. Insights lead approac."]
+		description:["While at OX, I lead design iniatives across brand, product and digital projects. I was forunate to work with some of the most talented designers, strategists and practicioners in Chicago - over the course of 6 years, the team grew from 8 to 60, changed offices once, and went on 4 boat parties."]
 	},
 	{
 		year:'2008–2016',
 		company: 'UnitOneNine',
 		title: 'Creative Director',
-		description:["Designed B2B and B2C experieces for brands like Spectrum Enterprise, D’Addario, Mack Trucks."
-		,"Digital Marketing, T-shaped, cross-disciplinary designer focusing on B2B enterprise digital experiences, products and brand strategy. Insights lead approac."]
+		description:["A team of two is mightier than a team of twenty. At UON, a small, nimble team managed the redesign of large enterprise websites such as JLL.com as well making time for launching a successful marketing/design meetup group called CISC. I was fortunate to lead visual design and UX for the replatforming of Beam Brand websites as well renvisioning LasikPlus.com "]
 	},
 	{
 		year:'2006–2008',
 		company: 'SomeOddPilot, Royal Order, Sender',
 		title: 'Designer',
-		description:["Designed B2B and B2C experieces for brands like Spectrum Enterprise, D’Addario, Mack Trucks."
-		,"Digital Marketing, T-shaped, cross-disciplinary designer focusing on B2B enterprise digital experiences, products and brand strategy. Insights lead approac."]
+		description:["Designed web, print, brand experiences for Patagonia, Mozilla, NEC and (Former) President Obama 2008 Inagural Campaign."
+		,""]
 	},
 ]
 
