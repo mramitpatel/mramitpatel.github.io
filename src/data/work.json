@@ -6,7 +6,7 @@
 		"type":"Product Design",
     "byline": "Build your own Mack.",
     "hero": "../images/projects/mackbuilder/Mack-Builder-Hero-2.jpg",
-    "thumbnail": "../images/projects/mackbuilder/thumbnail.png",
+    "thumbnail": "../images/projects/mackbuilder/builder-thumb.jpg",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
@@ -66,85 +66,13 @@
     ]
   },
   {
-    "slug": "finelite",
-    "title": "FineLite",
-    "type":"Product Design",
-    "byline": "Relocation reimagined",
-    "hero": "../images/projects/finelite/FL Design Hero 1.jpg",
-    "thumbnail": "../images/projects/finelite/thumbnail.png",
-    "thumbnailClass": "col-5 col-lg-12",
-    "description": [
-      "Studies have shown, interior lighting is critical to human functioning affecting beings both pyschologically and physiologically. FineLite partnered with Airro Studio to a design a lighting system that allows for optimial control of commercial lighting to provide optimial lighting conditions to patients, students and other commercial applications.",
-      "The goal? Design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continiously tuneable with little to no assistance from a techncian.",
-      "To build an app, I first understood the context and the behaviors of the audience at hand. With partnering with Airro Studios, we designed an app that is intutive as other IOT applications. I took care in insuring onboarding to on-going scheduling was easy."
-    ],
-    "agency": "Airro Studio",
-    "roles": [
-      "Product Visioning",
-      "UX",
-      "Product Design"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/Fine-Lite-SketchSetup.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "User Journey & Controller",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemless discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience. The UI where an operator would be doing most of their work needed to feel intuitive and natural."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/IA Sketch.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "User Journey & Controller",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemless discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience. The UI where an operator would be doing most of their work needed to feel intuitive and natural."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/FL-Flow.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/Fine-lite-product-all.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Design",
-          "text": "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue."
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/finelite/FL Design 2.jpg",
-          "img1Class": "col-7",
-          "img2": "../images/projects/finelite/Frame 145.jpg",
-          "img2Class": "col-5" 
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/FL Design 4.jpg"
-        }
-      }
-    ]
-  },
-  {
     "slug": "csa",
+    "background": "white",
     "title": "CSA",
     "type":"Product Design",
     "byline": "Holding the future to a higher standard.",
     "hero": "../images/projects/csa/CSA-Hero.jpg",
-    "thumbnail": "../images/projects/csa/thumbnail.png",
+    "thumbnail": "../images/projects/csa/CSA-thumb.jpg",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
       "CSA Group has a long but hidden history in making the products we use on a daily basis, safer for all. The CSA mark is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
@@ -254,156 +182,74 @@
     ]
   },
   {
-    "slug": "imove",
-    "title": "iMove",
-		"type":"Product Design",
-    "byline": "Relocation reimagined",
-    "hero": "../images/projects/imove/iMove-Hero.jpg",
-    "thumbnail": "../images/projects/imove/thumbnail.png",
-    "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-logos.png"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 128.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-startscreen.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/3_Launch.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-designs-all.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-3up-gain.jpg"
-        }
-      }
-    ]
-  },
-  {
-    "slug": "cooler-screens",
-    "title": "Cooler Screens",
-		"type":"Product Concepting & Design",
-    "byline": "Transforming the cooler aisle.",
-    "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
-    "thumbnail": "../images/projects/cooler/thumbnail.png",
-    "thumbnailClass": "col-6 col-lg-12",
-    "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-diagram-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-design-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-design-2.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/cooler/image-left-1.jpg",
-          "img2": "../images/projects/cooler/image-right-1.jpg"
-        }
-      }
-    ]
-  },
-  {
-    "slug": "mango",
-    "title": "Mango",
+    "slug": "finelite",
+    "title": "FineLite",
     "type":"Product Design",
-    "byline": "Global language learning",
-    "hero": "../images/projects/mango/Mango-Hero.jpg",
-    "thumbnail": "../images/projects/mango/thumbnail.png",
-    "thumbnailClass": "col-6 col-lg-12",
+    "byline": "Relocation reimagined",
+    "hero": "../images/projects/finelite/FL Design Hero 1.jpg",
+    "thumbnail": "../images/projects/finelite/FL-thumb.jpg",
+    "thumbnailClass": "col-5 col-lg-12",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "Studies have shown, interior lighting is critical to human functioning affecting beings both pyschologically and physiologically. FineLite partnered with Airro Studio to a design a lighting system that allows for optimial control of commercial lighting to provide optimial lighting conditions to patients, students and other commercial applications.",
+      "The goal? Design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continiously tuneable with little to no assistance from a techncian.",
+      "To build an app, I first understood the context and the behaviors of the audience at hand. With partnering with Airro Studios, we designed an app that is intutive as other IOT applications. I took care in insuring onboarding to on-going scheduling was easy."
     ],
-    "agency": "The Office of Experience",
+    "agency": "Airro Studio",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "Product Visioning",
+      "UX",
+      "Product Design"
     ],
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Full-Logo.jpg"
+          "img": "../images/projects/finelite/Fine-Lite-SketchSetup.jpg"
         }
       },
       {
-        "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Brand-iPhone.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Brand-Photography.jpg",
-          "img2": "../images/projects/mango/Mango-Brand-Charecteristics.jpg"
+        "TextBlock": {
+          "title": "User Journey & Controller",
+          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemless discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience. The UI where an operator would be doing most of their work needed to feel intuitive and natural."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Brand-OOH.jpg"
+          "img": "../images/projects/finelite/IA Sketch.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "User Journey & Controller",
+          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemless discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience. The UI where an operator would be doing most of their work needed to feel intuitive and natural."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Brochure.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img2": "../images/projects/mango/Mango-Business-Card.jpg"
+          "img": "../images/projects/finelite/FL-Flow.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Trade-Show.jpg"
+          "img": "../images/projects/finelite/Fine-lite-product-all.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Design",
+          "text": "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue."
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Trade-Show-Stickers.jpg",
-          "img2": "../images/projects/mango/Mango-Trade-Show-Print.jpg"
+          "img1": "../images/projects/finelite/FL Design 2.jpg",
+          "img1Class": "col-7",
+          "img2": "../images/projects/finelite/Frame 145.jpg",
+          "img2Class": "col-5" 
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/FL Design 4.jpg"
         }
       }
     ]
@@ -414,7 +260,7 @@
 		"type":"Digital Marketing",
     "byline": "E-Com designed for the music enthusiast.",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
-    "thumbnail": "../images/projects/spectrum/thumbnail.png",
+    "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
@@ -508,12 +354,167 @@
     ]
   },
   {
+    "slug": "cooler-screens",
+    "title": "Cooler Screens",
+		"type":"Product Concepting & Design",
+    "byline": "Transforming the cooler aisle.",
+    "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
+    "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
+    "thumbnailClass": "col-5 col-lg-12",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-diagram-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-design-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-design-2.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/cooler/image-left-1.jpg",
+          "img2": "../images/projects/cooler/image-right-1.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mango",
+    "title": "Mango",
+    "type":"Product Design",
+    "byline": "Global language learning",
+    "hero": "../images/projects/mango/Mango-Hero.jpg",
+    "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
+    "thumbnailClass": "col-7 col-lg-12",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Full-Logo.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/mango/Mango-Brand-iPhone.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/mango/Mango-Brand-Photography.jpg",
+          "img2": "../images/projects/mango/Mango-Brand-Charecteristics.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Brand-OOH.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Brochure.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img2": "../images/projects/mango/Mango-Business-Card.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mango/Mango-Trade-Show.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/mango/Mango-Trade-Show-Stickers.jpg",
+          "img2": "../images/projects/mango/Mango-Trade-Show-Print.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "imove",
+    "title": "iMove",
+		"type":"Product Design",
+    "byline": "Relocation reimagined",
+    "hero": "../images/projects/imove/iMove-Hero.jpg",
+    "thumbnail": "../images/projects/imove/thumbnail.png",
+    "description": [
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+    ],
+    "agency": "The Office of Experience",
+    "roles": [
+      "Pitch Strategy",
+      "Concept Design",
+      "Video Storyboard"
+    ],
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-logos.png"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/Frame 128.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-startscreen.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/3_Launch.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-designs-all.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-3up-gain.jpg"
+        }
+      }
+    ]
+  },
+  {
     "slug": "mack",
     "title": "Mack",
 		"type":"Product Design",
     "byline": "Digital marketing for an American legend.",
     "hero": "../images/projects/mack/Mack-Marketing-Hero-1.jpg",
-    "thumbnail": "../images/projects/mack/thumbnail.png",
+    "thumbnail": "../images/projects/mack/Mack-Marketing-Thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
@@ -570,7 +571,7 @@
 		"type":"Product Design",
     "byline": "E-Com designed for the music enthusiast.",
     "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
-    "thumbnail": "../images/projects/daddario/thumbnail.png",
+    "thumbnail": "../images/projects/daddario/D'Addario-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
