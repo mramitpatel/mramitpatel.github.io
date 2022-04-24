@@ -6,12 +6,8 @@
 		opacity: 1;
 	}
 	&-flex {
-		display: flex;
-		justify-content: space-between;
-		position: relative;
 		.name {
 			font-size: 18px;
-			margin-right: 150px;
 			white-space: nowrap;
 			width: inherit;
 			display: block;
