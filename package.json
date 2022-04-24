@@ -38,6 +38,7 @@
     "react-helmet": "^6.1.0",
     "react-slick": "^0.28.1",
     "sass": "^1.48.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.1.3"
   }
 }

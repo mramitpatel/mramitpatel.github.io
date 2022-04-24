@@ -25,12 +25,9 @@
 		font-family: $font-heading-light;
 		line-height: 150%;
 		color: $color-black;
-		margin-right: 150px;
-		@media (max-width:634px) {
-
+		@include screen-md-max {
 			display: block;
 			margin-bottom: 50px;
-			
 		}
 	}
 	.button {

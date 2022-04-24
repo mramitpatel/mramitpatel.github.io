@@ -66,6 +66,13 @@
 	&-title {
 		font-family: $font-heading-medium;
 		margin-top: 50px;
+		display: flex;
+		justify-content: space-between;
+		&-count {
+			font-family: $font-heading-light;
+			font-size: 18px;
+			line-height: 21px;
+		}
 	}
 	&-title,&-type {
 		color: $color-white;

@@ -3,77 +3,35 @@ import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage,StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick.css"; 
 // import "slick-carousel/slick/slick-theme.css";
-
-const Carousel = (data) => {
-	const [current,setCurrent] = useState(0);
-	const len = data.data.nodes.length;
-
-	// useEffect(()=> {
-	// 	setInterval(() => {
-	// 		if(current != len) {
-	// 			setCurrent(current + 1)
-	// 		} else {
-	// 			setCurrent(0)
-	// 		}
-	// 	}, 2000);
-	// })
-
-	return (
-		<div className="carousel">
-			{data.data.nodes.map((work,idx) => {
-					return <CarouselItem key={idx} data={work}/>
-				})
-			}
-		</div>
-	)
-}
-
-
+import { Swiper, SwiperSlide} from 'swiper/react';
+import { EffectFade, Autoplay } from 'swiper';
+import 'swiper/css';
+import "swiper/css/effect-fade";
 
 const CarouselItem = (data) => {
-	const {hero, title,type,slug    } = data.data;
+	const {hero, title,type,slug,current,len} = data.data;
+	console.log(data.data);
 	return (
-		<Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
-			<div className="row">
-				<div className="col-12 home-showcase-carouselItem-img">
-					<GatsbyImage  alt={title} image={hero.childImageSharp.gatsbyImageData} />
-				</div>
-			</div>
-			<div className="row">
-				<div className="col-12">
-					<h4 className="home-showcase-title">{title}</h4>
-					<h4 className="home-showcase-type">{type}</h4>
-				</div>
-			</div>
-		</Link>
-	)
-}
+		<SwiperSlide>Slide 1</SwiperSlide>
 
-const SimpleSlider = (data) => {
-	const settings = {
-		dots: false,
-		arrows: false,
-		adaptiveHeight: true,
-		fade: true,
-		pauseOnHover: true,
-		infinite: true,
-		speed: 700,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-	};
-	return (
-		<div>
-			<Slider {...settings}>
-			{data.data.nodes.map((work,idx) => {
-					return <CarouselItem idx={idx}key={idx} data={work}/>
-				})
-			}
-			</Slider>
-		</div>
-	);
+		// <Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
+		// 	<div className="row">
+		// 		<div className="col-12 home-showcase-carouselItem-img">
+		// 			{/* <GatsbyImage  alt={title} image={hero.childImageSharp.gatsbyImageData} /> */}
+		// 		</div>
+		// 	</div>
+		// 	<div className="row">
+		// 		<div className="col-12">
+		// 			<h4 className="home-showcase-title">{title}
+		// 				<span className="home-showcase-title-count">{current}–{len}</span>
+		// 			</h4>
+		// 			<h4 className="home-showcase-type">{type}</h4>
+		// 		</div>
+		// 	</div>
+		// </Link>
+	)
 }
 
 
@@ -102,6 +60,7 @@ export default function Showcase() {
 			}
 		`
 	);
+	const showcaseLen = allWorkJson.nodes.length;
 	return (
 		<div className="home-showcase">
 			<div className="container">
@@ -110,7 +69,42 @@ export default function Showcase() {
 						<h2>Select Projects</h2>
 					</div>
 				</div>
-				<SimpleSlider data={allWorkJson} />
+				<Swiper
+					spaceBetween={0}
+					autoHeight={true}
+					autoplay={{
+						delay: 2500,
+					}}
+					loop={true}
+					effect={"fade"}
+					modules={[Autoplay]}
+
+				>
+					{allWorkJson.nodes.map((work,idx) => {
+						work.len = showcaseLen;
+						work.current = idx + 1;
+						const {hero, title,type,slug,current,len} = work;
+							return (
+							<SwiperSlide>
+								<Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
+									<div className="row">
+										<div className="col-12 home-showcase-carouselItem-img">
+											<GatsbyImage  alt={title} image={hero.childImageSharp.gatsbyImageData} />
+										</div>
+									</div>
+									<div className="row">
+										<div className="col-12">
+											<h4 className="home-showcase-title">{title}
+												<span className="home-showcase-title-count">{current}–{len}</span>
+											</h4>
+											<h4 className="home-showcase-type">{type}</h4>
+										</div>
+									</div>
+								</Link>
+							</SwiperSlide>)
+						})
+					}
+				</Swiper>
 				<div className="row">
 					<div className="col-12">
 						<div className="home-showcase-button">
