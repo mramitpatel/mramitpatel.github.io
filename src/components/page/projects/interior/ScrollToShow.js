@@ -15,7 +15,7 @@ const ScrollToShow = ({ component}) => {
 			}
 		}
 
-	},[visible]);
+	},[visible,isBrowser]);
 	
 	useEffect(() => {
 		if(isBrowser) {
@@ -25,7 +25,7 @@ const ScrollToShow = ({ component}) => {
 			}
 		}
 
-	}, [hiddenRef, scrollHandler]);
+	}, [isBrowser,hiddenRef, scrollHandler]);
 
 	const showClass = visible ? 'scroll-to-show-reveal' : '';
 	return (

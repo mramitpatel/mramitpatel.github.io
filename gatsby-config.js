@@ -26,6 +26,21 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1920,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
+    
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
@@ -44,7 +59,7 @@ module.exports = {
     // },
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-gatsby-cloud`
+    `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

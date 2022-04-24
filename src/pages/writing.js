@@ -3,8 +3,22 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { Link } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image"
-
+import { useStaticQuery, graphql } from "gatsby"
 export default function Writing() {
+	const { allMdx } = useStaticQuery(
+		graphql`
+				query {
+					allMdx {
+						nodes {
+							frontmatter {
+								title
+								slug
+							}
+						}
+					}
+				}
+			`
+		);
 	return (
 		<Layout pageClass="writing" type="info">
 			<Seo title="Writing" />
@@ -15,12 +29,12 @@ export default function Writing() {
 						<p className="writing-description">Sometimes I write</p>
 
 						<div className="writing-list">
-							<Link to='/writing/name' className="writing-list-item">
-							New Kanye Album is Mid <StaticImage src={'../images/arrow.png'}/>
-							</Link>
-							<Link to='/writing/name' className="writing-list-item">
-							New Kanye Album is Mid <StaticImage src={'../images/arrow.png'}/>
-							</Link>
+						{allMdx.nodes.map((writing) => {
+								return (
+								<Link className="writing-list-item" to={`writing/${writing.frontmatter.slug}`}> 
+									{writing.frontmatter.title} <StaticImage src={'../../../images/arrow.png'}/>
+								</Link>)
+						})}
 						</div>
 					</div>
 				</div>

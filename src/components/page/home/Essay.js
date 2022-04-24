@@ -1,7 +1,24 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from 'gatsby';
+import { useStaticQuery, graphql } from "gatsby"
+
+
 export default function Essay() {
+	const { allMdx } = useStaticQuery(
+	graphql`
+			query {
+				allMdx{
+					nodes {
+						frontmatter {
+							title
+							slug
+						}
+					}
+				}
+			}
+		`
+	);
 	return (
 		<div className="essay">
 			<div className="container">
@@ -11,11 +28,9 @@ export default function Essay() {
 					</div>
 					<div className="col-7 col-md-12">
 						<ul className="essay-list">
-							<li><a href="#">New Kanye album is mid. <StaticImage src={'../../../images/arrow.png'}/> </a></li>
-							<li><a href="#">New Kanye album is mid. <StaticImage src={'../../../images/arrow.png'}/> </a></li>
-							<li><a href="#">New Kanye album is mid. <StaticImage src={'../../../images/arrow.png'}/> </a></li>
-							<li><a href="#">New Kanye album is mid. <StaticImage src={'../../../images/arrow.png'}/> </a></li>
-							<li><a href="#">New Kanye album is mid. <StaticImage src={'../../../images/arrow.png'}/> </a></li>
+							{allMdx.nodes.map((writing) => {
+								return <li><Link to={`writing/${writing.frontmatter.slug}`}> {writing.frontmatter.title} <StaticImage src={'../../../images/arrow.png'}/></Link></li>
+							})}
 						</ul>
 					</div>
 				</div>

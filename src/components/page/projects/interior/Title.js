@@ -1,7 +1,7 @@
 import React,{forwardRef,useEffect, useRef} from 'react';
 
 const Title = forwardRef((props,ref) => {
-	const {title,byline,fromCaseStudy,toggleCaseStudy} = props;
+	const {title,byline,fromCaseStudy} = props;
 	const titleRef = useRef();
 	const descRef = useRef()
 	let titleCLass = fromCaseStudy ? 'project-title-title-visible' : '';
@@ -10,11 +10,9 @@ const Title = forwardRef((props,ref) => {
 		if (!fromCaseStudy) {
 			titleRef.current.classList.add('show');
 			descRef.current.classList.add('show');
-			// console.log(titleRef.current);
 		} else {
 
 		}
-		// toggleCaseStudy(false);
 	}, [fromCaseStudy])
 	return (
 		<div ref={ref} className="project-title">

@@ -41,7 +41,26 @@ export default function CaseStudy({pageContext,location}){
 		BackgroundSwap
 	};
 
+
+
 	useEffect(() => {
+		const closeCaseStudy = (e) => {
+			if (e.key === "Escape") {
+				if(location.state.fromHome) {
+					navigate(
+						`/`,
+						{
+							state: { fromCaseStudy:false,fromHome: false },
+						})
+				} else {
+					navigate(
+						`/projects/`,
+						{
+							state: { fromCaseStudy:false },
+						})
+				}
+			}
+		};
 		document.getElementsByTagName('body')[0].classList = [];
 		document.addEventListener("keydown", closeCaseStudy, false);
 		if(background) {
@@ -53,25 +72,9 @@ export default function CaseStudy({pageContext,location}){
 		if(location.state != null ) {
 			setFromCaseStudy(location.state.fromCaseStudy)
 		}
-	}, [fromCaseStudy])
+	}, [fromCaseStudy,location.state])
 
-	const closeCaseStudy = (e) => {
-		if (e.key === "Escape") {
-			if(location.state.fromHome) {
-				navigate(
-					`/`,
-					{
-						state: { fromCaseStudy:false,fromHome: false },
-					})
-			} else {
-				navigate(
-					`/projects/`,
-					{
-						state: { fromCaseStudy:false },
-					})
-			}
-    }
-	};
+
 
 	return (
 		<>
