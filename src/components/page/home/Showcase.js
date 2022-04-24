@@ -1,38 +1,11 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from "gatsby"
-import { GatsbyImage,StaticImage } from "gatsby-plugin-image";
-import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css"; 
-// import "slick-carousel/slick/slick-theme.css";
+import { GatsbyImage} from "gatsby-plugin-image";
 import { Swiper, SwiperSlide} from 'swiper/react';
-import { EffectFade, Autoplay } from 'swiper';
+import { Autoplay } from 'swiper';
 import 'swiper/css';
 import "swiper/css/effect-fade";
-
-const CarouselItem = (data) => {
-	const {hero, title,type,slug,current,len} = data.data;
-	console.log(data.data);
-	return (
-		<SwiperSlide>Slide 1</SwiperSlide>
-
-		// <Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
-		// 	<div className="row">
-		// 		<div className="col-12 home-showcase-carouselItem-img">
-		// 			{/* <GatsbyImage  alt={title} image={hero.childImageSharp.gatsbyImageData} /> */}
-		// 		</div>
-		// 	</div>
-		// 	<div className="row">
-		// 		<div className="col-12">
-		// 			<h4 className="home-showcase-title">{title}
-		// 				<span className="home-showcase-title-count">{current}–{len}</span>
-		// 			</h4>
-		// 			<h4 className="home-showcase-type">{type}</h4>
-		// 		</div>
-		// 	</div>
-		// </Link>
-	)
-}
 
 
 export default function Showcase() {

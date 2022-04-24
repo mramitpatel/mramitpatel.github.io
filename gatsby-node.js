@@ -74,20 +74,28 @@ exports.createPages = ({ actions, graphql }) => {
 			}
 		}
 	}`;
-	const writingQuery = `allMarkdownRemark {
+
+	const allMdx = `allMdx {
     nodes {
       frontmatter {
-        date
-        slug
         title
+        slug
+        byline
+        date
+        hero {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
-			html
+      body
     }
   }`
+
 	
 	return graphql(`{
-		${allWorkQuery}
-		${writingQuery}
+		${allWorkQuery},
+		${allMdx}
 		
 	}`)
 	.then(res => {
@@ -118,16 +126,14 @@ exports.createPages = ({ actions, graphql }) => {
 				context: node
 			})
 		});
-
-		const blogNodes = res.data.allMarkdownRemark.nodes;
-		blogNodes.forEach((node,idx) => {
-			const fm = node.frontmatter;
+		const writingNodes = res.data.allMdx;
+		writingNodes.nodes.forEach((node,idx) => {
 			createPage({
-				path: `/writing/${fm.slug}`,
+				path: `/writing/${node.frontmatter.slug}`,
 				component: writingTemplate,
 				context: node
 			})
-
 		})
 	})
 }
+

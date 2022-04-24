@@ -16,7 +16,7 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const scrollHandler = useCallback(() => {
 		if(isBrowser) {
 			const currentColor = document.getElementsByTagName('body')[0].classList[0];
-			if (window.pageYOffset + window.innerHeight >= nextRef.current.offsetTop + 70) {
+			if (window.pageYOffset + window.innerHeight >= nextRef.current.offsetTop) {
 				if (currentColor != undefined) {
 					document.getElementsByTagName('body')[0].classList = [];
 				} else {
@@ -50,7 +50,7 @@ export default function Next({data, toggleAnimation, titleRef}) {
 			nextOffset = nextRef.current.offsetTop;
 			titleOffset = titleRef.current.offsetTop;
 			// diff = nextOffset - scrollTop + 250 - 30 - 80 - 20;
-			diff = nextOffset - scrollTop + 250 + 176 - 222 - 47;
+			diff = nextOffset - scrollTop + 136 + 128 + 24;
 		}
 
 		nextRef.current.style = `transform:translateY(-${diff}px)`

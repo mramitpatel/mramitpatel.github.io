@@ -1,27 +1,42 @@
 import React, {useEffect, useState, useRef} from 'react';
 import "../assets/scss/main.scss"
 import Layout from '../components/layout';
-import Header from '../components/global/Header';
-import Footer from '../components/global/Footer';
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Seo from '../components/seo'
+import Title from '../components/writing/Title'
+import Hero from '../components/writing/Hero'
+import { MDXProvider } from "@mdx-js/react"
+
+const colClass = ''; 
+
+const img = props => {
+	// const data = props.map(({ style, ...rest }) => rest)
+	console.log(props);
+	return (
+	 <img {...props}/>
+	)
+}
+const components = {
+	img: img
+
+}
 
 export default function CaseStudy({pageContext}){
-	const {frontmatter,html} = pageContext
-	const {title} = frontmatter;
+	const {frontmatter,body} = pageContext
+	const {title,byline,hero} = frontmatter;
+
 
 	return (
-		<Layout pageClass="writing" type="writing">
+		<Layout pageClass="writing-article" type="writing">
 			<Seo title={title} />
-			<div className="container">
-				<div className="row">
-					<div className="col-10 push-2 push-lg-hide col-lg-12">
-						<h2>{title}</h2>
-						<div className="writing-content">
-							<div dangerouslySetInnerHTML={{ __html: html}} />
-						</div>
-					</div>
-				</div>
-			</div>
+			<Title title={title} byline={byline}/>
+			<Hero img={hero}/>
+				<MDXProvider components={components}>
+					<MDXRenderer>{body}</MDXRenderer>
+				</MDXProvider>
+
+
+
 		</Layout>
 	)
 }
