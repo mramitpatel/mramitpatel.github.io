@@ -7,7 +7,7 @@ const Header = ({isCaseStudy = false,idx,len, location = {}}) => {
 	const HomeHeader = () => {
 		return(
 			<div className="col-12">
-			 <h4><span>Amit Patel –</span> UX/Design</h4>
+			 <h4>Amit Patel—Brand &amp; Product Design</h4>
 			</div>
 		)
 	};

@@ -8,14 +8,13 @@
     "hero": "../images/projects/mackbuilder/Mack-Builder-Hero-2.jpg",
     "thumbnail": "../images/projects/mackbuilder/builder-thumb.jpg",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
+      "I helped shape and design the experience from high-level UX and the interactive model to detailed product design across all viewport sizes allowing anyone, anywhere, to design a Mack."
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "UX Concepting",
+      "Product Design"
     ],
     "layout": [
       {
@@ -24,8 +23,20 @@
         }
       },
       {
+        "TextBlock":{
+          "title": "Make Stuff, Break Stuff",
+          "text": "With a finite budget for 3D renders, the truck configurator experience needed to be lean and repurpose as many image assets as much as possible. I explored many interactive models that focused on a guided linear experience while allowing a user to freely select categories of customization all while keeping the truck front and center."
+        }
+      },
+      {
         "FullWidthImage": {
           "img": "../images/projects/mackbuilder/MackBuilder-2.jpg"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Make Stuff, Break Stuff",
+          "text": "With a finite budget for 3D renders, the truck configurator experience needed to be lean and repurpose as many image assets as much as possible. I explored many interactive models that focused on a guided linear experience while allowing a user to freely select categories of customization all while keeping the truck front and center."
         }
       },
       {
@@ -66,8 +77,8 @@
     ]
   },
   {
+    "background": "white",    
     "slug": "csa",
-    "background": "white",
     "title": "CSA",
     "type":"Product Design",
     "byline": "Holding the future to a higher standard.",
@@ -75,11 +86,9 @@
     "thumbnail": "../images/projects/csa/CSA-thumb.jpg",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
-      "CSA Group has a long but hidden history in making the products we use on a daily basis, safer for all. The CSA mark is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
-
-      "As an insitution with over 100 years in making the world a safer place, CSA needed to renew their global story and global presence by revisiting the past. The goal? A brand update that holds the future of CSA to a higher standard.",
-      
-      "With the collaboration of brand strategists and CSA stakeholders, the identity was renewed and a new brand expression was created to embody the characteristcs of the brand."
+      "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
+      "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.",
+      "As Creative Director of the multi-year initiative , I re-invigorated the mark and reshape all aspects of the brand - from identity, brand expression, photography direction and the digital experience."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -96,8 +105,8 @@
       },
       {
         "TextBlock":{
-          "title": "Logo Mark & Identity",
-          "text": "Renewing the logo meant revisiting past incarnations of the CSA mark. As a symbol that appears on thousands of products in the world, we opted to design a mark that retained the timeless qualities of previous versions but refine and refactor the mark both in metrics and optically."
+          "title": "The Mark that Created it All",
+          "text": "Renewing the logo meant revisiting past incarnations of the CSA mark to truly understand the evolution of the identity. As a symbol that appears on thousands of products in the world, a radical redesign would mean endless hours of updating and create inconsistency across old and new product badging. I opted to perfect the original CSA mark from the 1900's mark by retaining the timeless quality of the geometric shape while refining the form optically and true geometry."
         }
       },
       {
@@ -108,8 +117,8 @@
       },
       {
         "TextBlock":{
-          "title": "Expression System",
-          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were run through the strategic lens. A color pallete was selected that represented credibility and trust but also carry the gravitas of immediacy. Typefaces were selected to deliver the the practicality and elegance of the brand."
+          "title": "Expressing the Brand",
+          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color pallete was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
         }
       },      
       {
@@ -128,12 +137,6 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/csa/CSA-Brand-Guideliens.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Brand Expression",
-          "text": "lorem"
         }
       },
       {
@@ -159,8 +162,8 @@
       },
       {
         "TextBlock":{
-          "title": "Brand Collateral",
-          "text": "CSA Group marketing material across all channels - from print to digital were produced making sure elements across all materials were consistent in both visual and langauge."
+          "title": "Elevating the Story",
+          "text": "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
         }
       },
       {
@@ -185,7 +188,7 @@
     "slug": "finelite",
     "title": "FineLite",
     "type":"Product Design",
-    "byline": "Relocation reimagined",
+    "byline": "Advanced lighting for healthier living",
     "hero": "../images/projects/finelite/FL Design Hero 1.jpg",
     "thumbnail": "../images/projects/finelite/FL-thumb.jpg",
     "thumbnailClass": "col-5 col-lg-12",
@@ -204,12 +207,6 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/finelite/Fine-Lite-SketchSetup.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "User Journey & Controller",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemless discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience. The UI where an operator would be doing most of their work needed to feel intuitive and natural."
         }
       },
       {
@@ -235,8 +232,8 @@
       },
       {
         "TextBlock": {
-          "title": "Design",
-          "text": "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue."
+          "title": "Leveraging Intuitive Interfaces",
+          "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
         }
       },
       {
@@ -258,7 +255,7 @@
     "slug": "spectrum",
     "title": "Spectrum Enterprise",
 		"type":"Digital Marketing",
-    "byline": "E-Com designed for the music enthusiast.",
+    "byline": "Humanizing B2B telecom.",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
     "description": [
@@ -362,8 +359,8 @@
     "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
     "thumbnailClass": "col-5 col-lg-12",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "CoolerScreens is a startup focused on evoling the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
+      "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
     ],
     "agency": "The Office of Experience",
     "roles": [
