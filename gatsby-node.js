@@ -81,7 +81,6 @@ exports.createPages = ({ actions, graphql }) => {
         title
         slug
         byline
-        date
         hero {
           childImageSharp {
             gatsbyImageData
