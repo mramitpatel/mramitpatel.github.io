@@ -36,7 +36,7 @@
       {
         "TextBlock":{
           "title": "Be an app",
-          "text": "Many product configurators fall prey to feeling like addons to existing marketing websites. While part of the Mack digital ecosystem, Mack Builder is intended to feel like an application. With full-screen modals and eliminating extraneous information, the configurator experience is meant to feel like a digital product."
+          "text": "Many product configurators fall prey to feeling like add-ons to existing marketing websites. While part of the Mack digital ecosystem, Mack Builder is intended to feel like an application. With full-screen modals and eliminating extraneous information, the configurator experience is meant to feel like a digital product."
         }
       },
       {
@@ -118,7 +118,7 @@
       {
         "TextBlock":{
           "title": "Expressing the Brand",
-          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color pallete was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
+          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color palette was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
         }
       },      
       {
@@ -193,9 +193,9 @@
     "thumbnail": "../images/projects/finelite/FL-thumb.jpg",
     "thumbnailClass": "col-5 col-lg-12",
     "description": [
-      "Studies have shown, interior lighting is critical to human functioning affecting beings both pyschologically and physiologically. FineLite partnered with Airro Studio to a design a lighting system that allows for optimial control of commercial lighting to provide optimial lighting conditions to patients, students and other commercial applications.",
-      "The goal? Design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continiously tuneable with little to no assistance from a techncian.",
-      "To build an app, I first understood the context and the behaviors of the audience at hand. With partnering with Airro Studios, we designed an app that is intutive as other IOT applications. I took care in insuring onboarding to on-going scheduling was easy."
+      "Studies have shown, interior lighting is critical to human functioning affecting beings both psychologically and physiologically. FineLite partnered with Airro Studio to a design a lighting system that allows for optimal control of commercial lighting to provide optimal lighting conditions to patients, students and other commercial applications.",
+      "The goal? Design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
+      "To build an app, I first understood the context and the behaviors of the audience at hand. With partnering with Airro Studios, we designed an app that is intuitive as other IOT applications. I took care in insuring onboarding to on-going scheduling was easy."
     ],
     "agency": "Airro Studio",
     "roles": [
@@ -359,7 +359,7 @@
     "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
     "thumbnailClass": "col-5 col-lg-12",
     "description": [
-      "CoolerScreens is a startup focused on evoling the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
+      "CoolerScreens is a startup focused on evolving the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
       "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
     ],
     "agency": "The Office of Experience",
@@ -401,7 +401,7 @@
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
+      "Lyft is vocal about its mission to be the friendlier, fairer option in the ride-share space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
       "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
     ],
     "agency": "The Office of Experience",
