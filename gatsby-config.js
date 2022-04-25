@@ -48,15 +48,15 @@ module.exports = {
     //     trackingId: "UA-37567317-1",
     //   },
     // },
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Amit Patel`,
-    //     short_name: `amit`,
-    //     start_url: `/`,
-    //     icon: `src/images/favicon.png`, // This path is relative to the root of the site.
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Amit Patel`,
+        short_name: `amit`,
+        start_url: `/`,
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-gatsby-cloud`,
