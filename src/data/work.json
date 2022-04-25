@@ -35,8 +35,8 @@
       },
       {
         "TextBlock":{
-          "title": "Make Stuff, Break Stuff",
-          "text": "With a finite budget for 3D renders, the truck configurator experience needed to be lean and repurpose as many image assets as much as possible. I explored many interactive models that focused on a guided linear experience while allowing a user to freely select categories of customization all while keeping the truck front and center."
+          "title": "Be an app",
+          "text": "Many product configurators fall prey to feeling like addons to existing marketing websites. While part of the Mack digital ecosystem, Mack Builder is intended to feel like an application. With full-screen modals and eliminating extraneous information, the configurator experience is meant to feel like a digital product."
         }
       },
       {
