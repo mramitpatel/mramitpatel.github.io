@@ -4,8 +4,10 @@ import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage} from "gatsby-plugin-image";
 import { Swiper, SwiperSlide} from 'swiper/react';
 import { Autoplay } from 'swiper';
+import { EffectFade } from 'swiper';
+import { EffectCreative } from "swiper";
 import 'swiper/css';
-import "swiper/css/effect-fade";
+import "swiper/css/effect-creative";
 
 
 export default function Showcase() {
@@ -44,13 +46,23 @@ export default function Showcase() {
 				</div>
 				<Swiper
 					spaceBetween={0}
+					grabCursor={true}
 					autoHeight={true}
 					autoplay={{
-						delay: 2500,
+						delay: 6000,
+					}}
+					effect={"creative"}
+					creativeEffect={{
+						prev: {
+						  shadow: true,
+						  opacity: 0,
+						},
+						next: {
+							opacity: 0,
+						},
 					}}
 					loop={true}
-					effect={"fade"}
-					modules={[Autoplay]}
+					modules={[Autoplay, EffectCreative]}
 
 				>
 					{allWorkJson.nodes.map((work,idx) => {

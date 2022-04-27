@@ -5,19 +5,19 @@ $color-gray: #222222;
 $default-transition: 0.3s ease-out;
 
 // Breakpoints
-$screen-xxl: 1920px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
-$screen-xl: 1408px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
+$screen-xxl: 2550px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
+$screen-xl: 1520px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
 $screen-lg: 1024px;     /* big landscape tablets, laptops, and desktops */
 $screen-md: 768px;      /* tablet, landscape iPad, lo-res laptops ands desktops */
 $screen-sm: 640px;      /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 $screen-xs: 480px;      /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
 // Grid
-$grid-width: 1330px;
+$grid-width: 2300px;
 $grid-columns: 12;
 $neat-grid: (columns: $grid-columns, gutter: 32px);
-$neat-grid-xxl: (columns: $grid-columns, gutter: 56px, media: '(max-width: 1920px)');
-$neat-grid-xl: (columns: $grid-columns, gutter: 56px, media: '(max-width: 1320px)');
+$neat-grid-xxl: (columns: $grid-columns, gutter: 96px, media: '(max-width: 2550px)');
+$neat-grid-xl: (columns: $grid-columns, gutter: 72px, media: '(max-width: 1520px)');
 $neat-grid-lg: (columns: $grid-columns, gutter: 32px, media: '(max-width: 1024px)');
 $neat-grid-md: (columns: $grid-columns, gutter: 16px, media: '(max-width: 768px)');
 $neat-grid-sm: (columns: $grid-columns, gutter: 16px, media: '(max-width: 640px)');

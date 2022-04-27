@@ -29,7 +29,7 @@ export default function Essay() {
 					<div className="col-7 col-md-12">
 						<ul className="essay-list">
 							{allMdx.nodes.map((writing) => {
-								return <li><Link to={`writing/${writing.frontmatter.slug}`}> {writing.frontmatter.title} <StaticImage src={'../../../images/arrow.png'}/></Link></li>
+								return <li><Link to={`writing/${writing.frontmatter.slug}`}> {writing.frontmatter.title} <span className="arrow-r">→</span></Link></li>
 							})}
 						</ul>
 					</div>

@@ -37,8 +37,8 @@ $font-heading-medium: "Sneak Medium", "Helvetica", "Arial", sans-serif;
 
 $font-base: 'Sneak', "Times New Roman", Times, serif;
 
-$font-size-base: 18px;
-$line-height-base: 30px;
+$font-size-base: 21px;
+$line-height-base: 150%;
 
 html, body {
 	font-family: $font-base;
@@ -64,18 +64,21 @@ p {
 }
 
 h1 {
-	font-size: 54px;
-	line-height: 58px;
+	font-size: 72px;
+	line-height: 110%;
 	letter-spacing: -1.74845px;
 	font-family: $font-heading-light;
 	font-weight: normal;
 	span {
 		font-family: $font-heading-medium;
 	}
-	@include screen-md-max {
-		font-size: 40px;
-		line-height: 44px;
+	@include screen-xl-max {
+		font-size: 56px;
 	}
+	@include screen-lg-max {
+		font-size: 44px;
+		letter-spacing: -1px;
+	}	
 }
 
 h2 {
@@ -92,7 +95,7 @@ h3 {
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 21px;
 	line-height: 30px;
 	span {
 		font-family: $font-heading-light;

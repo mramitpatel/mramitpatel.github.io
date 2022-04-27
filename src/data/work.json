@@ -255,7 +255,7 @@
     "slug": "spectrum",
     "title": "Spectrum Enterprise",
 		"type":"Digital Marketing",
-    "byline": "Humanizing B2B telecom.",
+    "byline": "Humanizing B2B telecom",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
     "description": [
@@ -401,14 +401,14 @@
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
-      "While many language learning applications exist in the market, only one focuses on teaching with proven linguistic methodologies that focus on speaking fluently.",
-      "As Creative Director, I lead a brand redesign effort from insights to executing identity explorations and brand expression."
+      "While there are many language learning applications, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
+      "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how language learn unlocks a rich tapestry of cultural experiences.","As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "Brand Identity",
+      "Identity Design",
+      "Brand Expression"
     ],
     "layout": [
       {
@@ -459,12 +459,11 @@
     "slug": "imove",
     "title": "iMove",
 		"type":"Product Design",
-    "byline": "Relocation reimagined",
+    "byline": "Simplifying the relocation process.",
     "hero": "../images/projects/imove/iMove-Hero.jpg",
     "thumbnail": "../images/projects/imove/thumbnail.png",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -510,7 +509,7 @@
     "title": "Mack",
 		"type":"Product Design",
     "byline": "Digital marketing for an American legend.",
-    "hero": "../images/projects/mack/Mack-Marketing-Hero-1.jpg",
+    "hero": "../images/projects/mack/Mack-Marketing-Hero.jpg",
     "thumbnail": "../images/projects/mack/Mack-Marketing-Thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
@@ -566,7 +565,7 @@
     "slug": "daddario",
     "title": "D’Addario",
 		"type":"Product Design",
-    "byline": "E-Com designed for the music enthusiast.",
+    "byline": "E-Com designed for the music enthusiast",
     "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
     "thumbnail": "../images/projects/daddario/D'Addario-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
