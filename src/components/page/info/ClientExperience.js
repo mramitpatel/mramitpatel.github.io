@@ -3,15 +3,15 @@ import React from 'react';
 const clientData = [
 	{
 		"title": "Tate & Lyle",
-		"description": "Digital marketing and brand system design for B2B global supply chain distribtion"
+		"description": "Lead creative strategy and design for multi-channel, performance digital marketing efforts."
 	},
 	{
 		"title": "Patagonia",
-		"description": "Patagonia Tin-Shed, website maintenance, other experiences"
+		"description": "Patagonia Tin-Shed, website maintenance, other experiences."
 	},
 	{
 		"title": "CSA",
-		"description": "Brand identity, branding, photography direction for a global provider of standards and testing"
+		"description": "Brand identity, branding, photography direction for a global provider of standards and testing."
 	},
 	{
 		"title": "Mack",
@@ -35,22 +35,22 @@ const clientData = [
 	},
 	{
 		"title": "CoolerScreens",
-		"description": "Digital advertisting in the forefront of the aisle."
+		"description": "Advertising and IoT at the forefront of the freezer aisle."
 	},
 	{
 		"title": "D’Addario",
-		"description": "E-Com design for a music legend"
+		"description": "E-Com design for a music legend."
 	},
 	{
 		"title": "Dot Foods",
-		"description": "E-Com design for enterprise food distribution"
+		"description": "E-Com design for enterprise food distribution."
 	},
 	{
 		"title": "FLOR",
 		"description": "Brand website and product design for an interactive rug builder."
 	},
 	{
-		"title": "Diebold Nixdorf",
+		"title": "Diebold-Nixdorf",
 		"description": "Website redesign, digital marketing and lead generation tactics."
 	},
 	{
@@ -59,7 +59,7 @@ const clientData = [
 	},
 	{
 		"title": "Chicago School of Business",
-		"description": "Brand extension, digital marketing"
+		"description": "Brand extension, digital marketing."
 	},
 	{
 		"title": "SeaRay",
@@ -67,7 +67,7 @@ const clientData = [
 	},
 	{
 		"title": "Spectrum Enterprise",
-		"description": "Digital products and website design for B2B Enterprise Telecom provider"
+		"description": "Digital products and website design for B2B Enterprise Telecom provider."
 	},
 	{
 		"title": "PwC",
@@ -75,7 +75,7 @@ const clientData = [
 	},
 	{
 		"title": "Mango Languages",
-		"description": "Brand strategy, identity and expression for a langauge learning start-up."
+		"description": "Brand strategy, identity and expression for a language learning start-up."
 	}
 ]
 

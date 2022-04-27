@@ -11,6 +11,7 @@
 	&-link {
 		transition: all $default-transition;
 		max-height: 30px;
+		padding-bottom: 116px;
 		&-hide {
 			opacity: 0;
 			max-height: 0px;
@@ -18,21 +19,33 @@
 	}
 
 	&-title {
-		font-size: 54px;
-		margin-top: 176px;
-		line-height: 58px;
+		font-size: 72px;
+		margin-bottom: 18px;
+		margin-top: 86px;
+		line-height: 110%;
 		letter-spacing: -1.74845px;
 		font-family: $font-heading-medium;
-		margin-bottom: 18px;
-		@include screen-md-max {
-			font-size: 40px;
-			line-height: 44px;
+		font-weight: normal;
+		span {
+			font-family: $font-heading-medium;
+		}
+		@include screen-xl-max {
+			font-size: 56px;
+		}
+		@include screen-lg-max {
+			font-size: 44px;
+			letter-spacing: -1px;
 		}
 	}
 
 	&-description {
 		font-size: 54px;
-		line-height: 58px;
+		line-height: 110%;
 		letter-spacing: -1.74845px;
+		font-family: $font-heading-light;
+		@include screen-lg-max {
+			font-size: 36px;
+			letter-spacing: -1px;
+		}
 	}
 }

@@ -32,7 +32,7 @@ export default function Writing() {
 						{allMdx.nodes.map((writing) => {
 								return (
 								<Link className="writing-list-item" to={`writing/${writing.frontmatter.slug}`}> 
-									{writing.frontmatter.title} <StaticImage src={'../../../images/arrow.png'}/>
+									{writing.frontmatter.title} <span className="arrow-r">→</span>
 								</Link>)
 						})}
 						</div>

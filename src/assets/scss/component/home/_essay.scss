@@ -1,5 +1,5 @@
 .essay {
-	margin: 111px 0 149px;
+	margin: 128px 0 256px;
 	&-list {
 		margin: 0;
 		padding: 0;
@@ -16,12 +16,14 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
-				.gatsby-image-wrapper {
+				.arrow-r {
+					font-size: 32px;
+					font-family: $font-heading-light;
 					opacity: 0;
 					transition: opacity .3s ease-out;
 				}
 				&:hover {
-					.gatsby-image-wrapper {
+					.arrow-r {
 						opacity: 1;
 	
 					}

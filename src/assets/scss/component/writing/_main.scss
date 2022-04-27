@@ -24,16 +24,17 @@
 			&:first-child {
 				border: none;
 			}
-			.gatsby-image-wrapper {
+			.arrow-r {
+				font-size: 32px;
+				font-family: $font-heading-light;
 				opacity: 0;
-				transition: opacity .3s ease-in;
+				transition: opacity .3s ease-out;
 			}
 			&:hover {
-				.gatsby-image-wrapper {
+				.arrow-r {
 					opacity: 1;
 
 				}
-
 			}
 		}
 	}

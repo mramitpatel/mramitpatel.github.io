@@ -1,7 +1,7 @@
 .info-hero {
 	margin-bottom: 128px;
 	opacity: 0;
-	transform: translateY(50px);
+	transform: translateY(72px);
 	transition: opacity $default-transition, transform $default-transition;
 	&-visible {
 		transform: none;
