@@ -13,7 +13,7 @@
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "UX Concepting",
+      "UX",
       "Product Design"
     ],
     "layout": [
@@ -80,7 +80,7 @@
     "background": "white",    
     "slug": "csa",
     "title": "CSA",
-    "type":"Product Design",
+    "type":"Brand",
     "byline": "Holding the future to a higher standard.",
     "hero": "../images/projects/csa/CSA-Hero.jpg",
     "thumbnail": "../images/projects/csa/CSA-thumb.jpg",
@@ -254,19 +254,20 @@
   {
     "slug": "spectrum",
     "title": "Spectrum Enterprise",
-		"type":"Digital Marketing",
+		"type":"Creative Direction & UX",
     "byline": "Humanizing B2B telecom",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "The Spectrum Enterprise brand spun off following the merger of Charter with Time Warner with a focus on a growing business services segment. As a challenger brand, Spectrum Enterprise needed a digital destination that embraced the companies newly formed rally cry - be unreasonable",
+      "I designed and creative directed the brands, TK"
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "Creative Direction",
+      "Digital Branding",
+      "UX",
+      "Product Design"
     ],
     "layout": [
       {
@@ -353,7 +354,7 @@
   {
     "slug": "cooler-screens",
     "title": "Cooler Screens",
-		"type":"Product Concepting & Design",
+		"type":"Product Concept & Design",
     "byline": "Transforming the cooler aisle.",
     "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
     "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
@@ -395,7 +396,7 @@
   {
     "slug": "mango",
     "title": "Mango",
-    "type":"Product Design",
+    "type":"Branding & Creative Direction",
     "byline": "Global language learning",
     "hero": "../images/projects/mango/Mango-Hero.jpg",
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
@@ -507,9 +508,9 @@
   {
     "slug": "mack",
     "title": "Mack",
-		"type":"Product Design",
-    "byline": "Digital marketing for an American legend.",
-    "hero": "../images/projects/mack/Mack-Marketing-Hero.jpg",
+		"type":"Branding & Creative Direction",
+    "byline": "Rediscover an American legend.",
+    "hero": "../images/projects/mack/Mack-Marketing-Hero-1.jpg",
     "thumbnail": "../images/projects/mack/Mack-Marketing-Thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
