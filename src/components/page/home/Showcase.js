@@ -51,18 +51,18 @@ export default function Showcase() {
 					autoplay={{
 						delay: 6000,
 					}}
-					effect={"creative"}
-					creativeEffect={{
-						prev: {
-						  shadow: true,
-						  opacity: 0,
-						},
-						next: {
-							opacity: 0,
-						},
-					}}
+					effect={"fade"}
+					// creativeEffect={{
+					// 	prev: {
+					// 	  shadow: true,
+					// 	  opacity: 0,
+					// 	},
+					// 	next: {
+					// 		opacity: 0,
+					// 	},
+					// }}
 					loop={true}
-					modules={[Autoplay, EffectCreative]}
+					modules={[Autoplay, EffectFade]}
 
 				>
 					{allWorkJson.nodes.map((work,idx) => {
@@ -79,10 +79,12 @@ export default function Showcase() {
 									</div>
 									<div className="row">
 										<div className="col-12">
-											<h4 className="home-showcase-title">{title}
-												<span className="home-showcase-title-count">{current}–{len}</span>
+											<div className="home-showcase-content">
+											<h4 className="home-showcase-content-title">{title}
+												<span className="home-showcase-content-title-count">{current}–{len}</span>
 											</h4>
-											<h4 className="home-showcase-type">{type}</h4>
+											<h4 className="home-showcase-content-type">{type}</h4>
+											</div>
 										</div>
 									</div>
 								</Link>

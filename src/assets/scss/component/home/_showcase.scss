@@ -63,31 +63,35 @@
 	}
 
 	img {
-
 		width: 100%;
 	}
+	&-content {
+		background-color: $color-black;
 
-	&-title {
-		font-family: $font-heading-medium;
-		margin-top: 50px;
-		display: flex;
-		justify-content: space-between;
-		&-count {
-			font-family: $font-heading-light;
-			font-size: 18px;
-			line-height: 21px;
+		&-title {
+			font-family: $font-heading-medium;
+			margin-top: 50px;
+			display: flex;
+			justify-content: space-between;
+			&-count {
+				font-family: $font-heading-light;
+				font-size: 18px;
+				line-height: 21px;
+			}
+		}
+		&-title,&-type {
+			color: $color-white;
 		}
 	}
-	&-title,&-type {
-		color: $color-white;
-		
-	}
+
+
 
 	&-button {
 		display: flex;
 		justify-content: flex-end;
 		margin-top: 54px;
 		cursor: url("/R-Arrow.gif"), auto;
+		padding-bottom: 30px;
 		@include screen-lg-max {
 			margin-top: 72px;
 			justify-content: flex-start;
@@ -98,6 +102,7 @@
 	}
 	&-carouselItem {
 		position: relative;
+		z-index: 99;
 
 		.gatsby-image-wrapper {
 			// margin-bottom: 50px;
