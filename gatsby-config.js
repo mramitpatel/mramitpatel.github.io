@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Amit Patel`,
-    description: ``,
+    description: `Amit Patel is a designer, creative director and UX strategist in Chicago.`,
     author: `Amit Patel`,
     siteUrl: `https://www.mramitpatel.com`,
   },
