@@ -1,6 +1,5 @@
 [
   {
-    "background": "black",
     "slug": "mack-builder",
     "title": "Mack Truck Builder",
 		"type":"Product Design",
@@ -562,7 +561,6 @@
     ]
   },
   {
-    "background": "black",
     "slug": "daddario",
     "title": "D’Addario",
 		"type":"Product Design",

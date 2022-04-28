@@ -3,11 +3,22 @@ import React from 'react';
 export default function Footer({isHome}) {
 	const classList = isHome ?"col-6 col-lg-12" :'col-6 push-lg-hide col-lg-12 '; 
 	const copyClassList = !isHome && 'push-lg-hide'
+	const isBrowser = typeof window !== "undefined"
+	const scrollToTop = (e) => {
+		e.preventDefault();
+		if(isBrowser) {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth',
+			});
+		}
+	}
+
 	return (
 		<div className="footer">
 		<div className="container">
 			<div className="row">
-				<div class="col-2 col-md-12"><a className="button scrollUp" href="#">↥</a></div>
+				<div onClick={scrollToTop} class="col-2 col-md-12"><a className="button scrollUp" href="#">↥</a></div>
 				<div class="col-9 col-md-12">
 					<a href="mailto:amit@mramitpatel.com" className="button" >Email</a>
 					<a href="https://www.instagram.com/mramitpatel/" className="button" target="_blank">Instagram</a>

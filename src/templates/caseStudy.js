@@ -61,12 +61,8 @@ export default function CaseStudy({pageContext,location}){
 				}
 			}
 		};
-		document.getElementsByTagName('body')[0].classList = [];
 		document.addEventListener("keydown", closeCaseStudy, false);
-		if(background) {
-			document.getElementsByTagName('body')[0].classList.add(background);
-		}
-	}, [background])
+	}, [])
 	
 	useEffect(() => {
 		if(location.state != null ) {
