@@ -1,24 +1,18 @@
 import React, {useRef,useEffect, useCallback} from 'react';
 
 export default function BackgroundSwap({data}) {
-	const {prevBg,newBg} = data;
+	const {newBg} = data;
 	const hiddenRef = useRef();
 	const isBrowser = typeof window !== "undefined"
 	
-	function toggleBackgroundCLass(newClass) {
-		document.getElementsByTagName('body')[0].classList = []
-		document.getElementsByTagName('body')[0].classList.add(newClass);
-	}
-
 	const scrollHandler = useCallback(() => {
-		if (isBrowser && window.pageYOffset <= hiddenRef.current.offsetTop - 125) {
-			console.log('new')
-			toggleBackgroundCLass(prevBg);
+		if (isBrowser && window.pageYOffset >= hiddenRef.current.offsetTop - 125) {
+			document.getElementsByTagName('body')[0].classList.add(newBg);
 		} else {
-			console.log('old')
-			toggleBackgroundCLass(newBg);
+			document.getElementsByTagName('body')[0].classList.remove('black');
+
 		}
-	},[isBrowser,newBg,prevBg]);
+	},[isBrowser,newBg]);
 
 
 	useEffect(() => {

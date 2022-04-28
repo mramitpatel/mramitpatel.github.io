@@ -16,12 +16,8 @@ export default function Next({data, toggleAnimation, titleRef}) {
 	const scrollHandler = useCallback(() => {
 		if(isBrowser) {
 			const currentColor = document.getElementsByTagName('body')[0].classList[0];
-			if (window.pageYOffset + window.innerHeight >= nextRef.current.offsetTop) {
-				if (currentColor != undefined) {
-					document.getElementsByTagName('body')[0].classList = [];
-				} else {
-					document.getElementsByTagName('body')[0].classList.add('black');
-				}
+			if (window.pageYOffset + window.innerHeight >= nextRef.current.offsetTop && currentColor != null) {
+				document.getElementsByTagName('body')[0].classList.remove('black');
 			}
 		}
 
