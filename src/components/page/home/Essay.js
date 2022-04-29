@@ -1,5 +1,4 @@
 import React from 'react'
-import { StaticImage } from "gatsby-plugin-image"
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -29,7 +28,7 @@ export default function Essay() {
 					<div className="col-7 col-md-12">
 						<ul className="essay-list">
 							{allMdx.nodes.map((writing) => {
-								return <li><Link to={`writing/${writing.frontmatter.slug}`}> {writing.frontmatter.title} <span className="arrow-r">→</span></Link></li>
+								return <li key={writing.frontmatter.title}><Link to={`writing/${writing.frontmatter.slug}`}> {writing.frontmatter.title} <span className="arrow-r">→</span></Link></li>
 							})}
 						</ul>
 					</div>

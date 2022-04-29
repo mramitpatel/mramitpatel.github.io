@@ -6,7 +6,7 @@ import Hero from '../components/page/info/Hero';
 import Resume from '../components/page/info/Resume'
 export default function Index() {
 	return (
-		<Layout pageClass="info" type="info">
+		<Layout pageclassName="info" type="info">
 			<Seo title="Info" />
 			<Hero/>
 			<Resume />

@@ -11,7 +11,7 @@ export default function Index() {
 		document.getElementsByTagName('body')[0].classList = [];
 	},[])
 	return (
-		<Layout pageClass="home" type="home">
+		<Layout pageclassName="home" type="home">
 			<Seo title="Home" />
 			<Hero />
 			<Navigation isHome={true}/>
