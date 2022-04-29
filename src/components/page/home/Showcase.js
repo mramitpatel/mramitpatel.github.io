@@ -45,7 +45,7 @@ export default function Showcase() {
 					</div>
 				</div>
 				<Swiper
-					spaceBetween={0}
+					spaceBetween={30}
 					grabCursor={true}
 					autoHeight={true}
 					autoplay={{
