@@ -58,7 +58,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || `timhillegonds`,
+          content: site.siteMetadata?.author || `amitpatel`,
         },
         {
           name: `twitter:title`,
