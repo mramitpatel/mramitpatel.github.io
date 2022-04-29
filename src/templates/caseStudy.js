@@ -73,7 +73,7 @@ export default function CaseStudy({pageContext,location}){
 
 	return (
 		<>
-			<Seo title={title} />
+			<Seo title={title} description={description[0]}/>
 			<AnimatedLayout isAnimating={isAnimiating}>
 				<Header ref={headerRef} isCaseStudy={true} location={location} idx={idx} len={len} />
 				<Title 

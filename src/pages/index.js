@@ -12,7 +12,7 @@ export default function Index() {
 	},[])
 	return (
 		<Layout pageclassName="home" type="home">
-			<Seo title="Home" />
+			<Seo title="Amit Patel | Creative Director and Product Designer" />
 			<Hero />
 			<Navigation isHome={true}/>
 			<Showcase />
