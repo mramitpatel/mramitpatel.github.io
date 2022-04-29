@@ -37,7 +37,7 @@ export default function Projects() {
 	}, [])
 
 	return (
-		<Layout pageClass="project" type="projects">
+		<Layout pageclassName="project" type="projects">
 			<Seo title="Select Projects" />
 			<Hero/>
 			<ProjectList projects={allWorkJson.nodes} />

@@ -5,7 +5,6 @@ import { GatsbyImage} from "gatsby-plugin-image";
 import { Swiper, SwiperSlide} from 'swiper/react';
 import { Autoplay } from 'swiper';
 import { EffectFade } from 'swiper';
-import { EffectCreative } from "swiper";
 import 'swiper/css';
 import "swiper/css/effect-creative";
 
@@ -70,7 +69,7 @@ export default function Showcase() {
 						work.current = idx + 1;
 						const {hero, title,type,slug,current,len} = work;
 							return (
-							<SwiperSlide>
+							<SwiperSlide key={idx}>
 								<Link state={{fromHome:true}} to={`projects/${slug}`} className='home-showcase-carouselItem'>
 									<div className="row">
 										<div className="col-12 home-showcase-carouselItem-img">

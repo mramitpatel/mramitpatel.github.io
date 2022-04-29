@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React from 'react';
 import "../assets/scss/main.scss"
 import Layout from '../components/layout';
 import { MDXRenderer } from 'gatsby-plugin-mdx'
@@ -6,8 +6,6 @@ import Seo from '../components/seo'
 import Title from '../components/writing/Title'
 import Hero from '../components/writing/Hero'
 import { MDXProvider } from "@mdx-js/react"
-
-const colClass = ''; 
 
 const img = props => {
 	// const data = props.map(({ style, ...rest }) => rest)
@@ -27,10 +25,10 @@ export default function CaseStudy({pageContext}){
 
 
 	return (
-		<Layout pageClass="writing-article" type="writing">
+		<Layout pageclassName="writing-article" type="writing">
 			<Seo title={title} />
 			<Title title={title} byline={byline}/>
-			<Hero img={hero}/>
+			<Hero img={hero} alt={title}/>
 				<MDXProvider components={components}>
 					<MDXRenderer>{body}</MDXRenderer>
 				</MDXProvider>

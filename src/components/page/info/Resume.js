@@ -25,7 +25,7 @@ const exp = [
 const ExperienceItem = ({year,company,title,description}) => {
 	return(
 		<div className="resume-item">
-			<div class="row">
+			<div className="row">
 				<div className="push-2 col-4 push-lg-hide col-lg-12 resume-item-left">
 					<div className="resume-item-year">{year}</div>
 				</div>
@@ -41,7 +41,7 @@ const ExperienceItem = ({year,company,title,description}) => {
 const ExperienceList = ({data}) => {
 	return (
 		<div className="resume-list">
-			{data.map((c,idx)=> <ExperienceItem key={c.title} year={c.year} company={c.company} title={c.title} description={c.description}/>)}
+			{data.map((c,idx)=> <ExperienceItem key={idx} year={c.year} company={c.company} title={c.title} description={c.description}/>)}
 		</div>
 	)
 }

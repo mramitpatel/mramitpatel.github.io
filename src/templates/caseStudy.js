@@ -17,7 +17,6 @@ import { navigate } from 'gatsby';
 
 export default function CaseStudy({pageContext,location}){
 	const {title,
-		background,
 		roles,
 		hero,
 		description,
@@ -62,7 +61,7 @@ export default function CaseStudy({pageContext,location}){
 			}
 		};
 		document.addEventListener("keydown", closeCaseStudy, false);
-	}, [])
+	}, [location.state])
 	
 	useEffect(() => {
 		if(location.state != null ) {
@@ -86,7 +85,7 @@ export default function CaseStudy({pageContext,location}){
 					title={title} 
 					byline={byline} />
 				<Hero 
-					img={hero} />
+					img={hero} alt={title}/>
 					<ScrollToShow  component={<InfoBlock description={description} agency={agency} roles={roles}/>}/>
 				{
 					layout.map((l,idx)=> {
@@ -94,7 +93,7 @@ export default function CaseStudy({pageContext,location}){
 							const Tag = ComponentList[c]
 							if (l[c] != null) {
 								// return <ScrollToShow  key={iidx} component={<Tag data={l[c]}/>}/>
-								return <Tag data={l[c]}/>
+								return <Tag key={iidx} data={l[c]}/>
 								
 							} else {
 								return null
