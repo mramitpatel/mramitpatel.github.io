@@ -11,8 +11,8 @@ export default function Hero() {
 		<div className={`info-hero ${heroClass}`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-6  col-lg-12">
-						<StaticImage height={636} src="../../../images/Amit_Patel.jpg" alt="Amit Patel" />
+					<div className="col-6  col-md-8 col-lg-12">
+						<StaticImage height={800} objectFit="cover" layout="constrained" src="../../../images/Amit_Patel.jpg" alt="Hi, this is a photo of me, Amit Patel" />
 					</div>
 					<div className="col-5 col-lg-12">
 						<div className="info-hero-content">
