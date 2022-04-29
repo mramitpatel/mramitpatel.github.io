@@ -3,7 +3,9 @@ module.exports = {
     title: `Amit Patel`,
     description: `Amit Patel is a designer, creative director and UX strategist in Chicago.`,
     author: `Amit Patel`,
-    siteUrl: `https://www.mramitpatel.com`,
+    // siteUrl: `https://www.mramitpatel.com`,
+    siteUrl: `https://mramitpatelgithubiogatsby24735.gatsbyjs.io/`,
+    image: '/src/images/SiteThumbnail.jpg'
   },
   plugins: [
     `gatsby-plugin-image`,
