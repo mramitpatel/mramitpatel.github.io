@@ -68,12 +68,10 @@ export default function CaseStudy({pageContext,location}){
 			setFromCaseStudy(location.state.fromCaseStudy)
 		}
 	}, [fromCaseStudy,location.state])
-
-
-
+	console.log(hero.childImageSharp.gatsbyImageData.images.fallback.src);
 	return (
 		<>
-			<Seo title={title} description={description[0]}/>
+			<Seo title={title} description={description[0]} image={hero.childImageSharp.gatsbyImageData.images.fallback.src}/>
 			<AnimatedLayout isAnimating={isAnimiating}>
 				<Header ref={headerRef} isCaseStudy={true} location={location} idx={idx} len={len} />
 				<Title 
