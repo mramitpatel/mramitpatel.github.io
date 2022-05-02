@@ -38,7 +38,7 @@ export default function Projects() {
 
 	return (
 		<Layout pageclassName="project" type="projects">
-			<Seo title="Select Projects" />
+			<Seo title="Select Work | Amit Patel is a Creative Director and Product Designer" />
 			<Hero/>
 			<ProjectList projects={allWorkJson.nodes} />
 		</Layout>

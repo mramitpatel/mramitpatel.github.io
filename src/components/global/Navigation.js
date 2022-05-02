@@ -22,7 +22,7 @@ export default function Navigation({isHome}) {
 							{showName && <Link to="/"><h4>Amit Patel</h4></Link>}
 						</div>
 						<div className={navRowClass}>
-							<Link to="/projects" className="button">Projects</Link>
+							<Link to="/projects" className="button">Work</Link>
 							<Link to="/writing" className="button">Writing</Link>
 							<Link to="/info" className="button">Info</Link>
 						</div>

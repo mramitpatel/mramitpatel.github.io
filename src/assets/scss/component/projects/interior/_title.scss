@@ -21,7 +21,7 @@
 	}
 
 	&-description {
-		font-size: 54px;
+		font-size: 72px;
 		font-family: $font-heading-light;
 		line-height: 110%;
 		letter-spacing: -1.74845px;
@@ -29,11 +29,14 @@
 		transition:transform $default-transition, opacity $default-transition;
 		opacity:0;
 		transition-delay: 100ms;
-		@include screen-lg-max {
-			font-size: 36px;
-			line-height: 125%;
-			letter-spacing: -1px;
+		@include screen-xl-max {
+			font-size: 56px;
 		}
+		@include screen-lg-max {
+			font-size: 44px;
+			letter-spacing: -1px;
+			line-height: 125%;
+		}	
 		&.show {
 			opacity: 1;
 			transform: none;

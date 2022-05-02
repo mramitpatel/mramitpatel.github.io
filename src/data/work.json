@@ -1,7 +1,7 @@
 [
   {
     "slug": "mack-builder",
-    "title": "Mack Truck Builder",
+    "title": "Mack Builder",
 		"type":"Product Design",
     "byline": "Build your own Mack.",
     "hero": "../images/projects/mackbuilder/Mack-Builder-Hero-2.jpg",
@@ -16,6 +16,12 @@
       "Product Design"
     ],
     "layout": [
+      {
+        "BackgroundSwap": {
+          "prevBg": "white",
+          "newBg": "black"
+        }
+      },      
       {
         "FullWidthImage": {
           "img": "../images/projects/mackbuilder/MackBuilder-1.jpg"
@@ -149,14 +155,14 @@
         }
       },
       {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Signage.jpg"
-        }
-      },
-      {
         "BackgroundSwap": {
           "prevBg": "white",
           "newBg": "black"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-Signage.jpg"
         }
       },
       {
@@ -167,7 +173,12 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Web-1.jpg"
+          "img": "../images/projects/csa/CSA-web-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/CSA-web-2.jpg"
         }
       },
       {
@@ -184,17 +195,18 @@
     ]
   },
   {
-    "slug": "finelite",
-    "title": "FineLite",
+    "background": "white",  
+    "slug": "finetune",
+    "title": "FineTune",
     "type":"Product Design",
     "byline": "Advanced lighting for healthier living",
-    "hero": "../images/projects/finelite/FL Design Hero 1.jpg",
-    "thumbnail": "../images/projects/finelite/FL-thumb.jpg",
+    "hero": "../images/projects/finelite/finelite-hero.jpg",
+    "thumbnail": "../images/projects/finelite/finelite-thumb.jpg",
     "thumbnailClass": "col-5 col-lg-12",
     "description": [
-      "Studies have shown, interior lighting is critical to human functioning affecting beings both psychologically and physiologically. FineLite partnered with Airro Studio to a design a lighting system that allows for optimal control of commercial lighting to provide optimal lighting conditions to patients, students and other commercial applications.",
-      "The goal? Design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
-      "To build an app, I first understood the context and the behaviors of the audience at hand. With partnering with Airro Studios, we designed an app that is intuitive as other IOT applications. I took care in insuring onboarding to on-going scheduling was easy."
+      "Studies have shown, the color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces ranging from hospitals and schools to workpplaces.",
+      "The goal? To design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
+      "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and concepted design interfaces. With partnering with Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
     ],
     "agency": "Airro Studio",
     "roles": [
@@ -205,47 +217,78 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/Fine-Lite-SketchSetup.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/IA Sketch.jpg"
+          "img": "../images/projects/finelite/finelite-sketch-setup.jpg"
         }
       },
       {
         "TextBlock": {
           "title": "User Journey & Controller",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemless discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience. The UI where an operator would be doing most of their work needed to feel intuitive and natural."
+          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemlessly discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/FL-Flow.jpg"
+          "img": "../images/projects/finelite/finelite-IA-sketch.jpg"
+        }
+      }, 
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-flow.jpg"
+        }
+      },            
+      {
+        "TextBlock": {
+          "title": "Intuitive Controls",
+          "text": "The overall app was designed for portrait usage making adjustments to setting and color parameters easily accomplishable using a single hand. Unlike consumer lighting IoT applications where on-the-fly adjusting is a requirement, a FineTune controller is designed to be programmed once, with little need for on-the-fly adjusting. This allowed for an interface is primarily read-on only or programming mode. For both sets of actions, I looked towards familiar design patterns to create an interface that is intuitive to a broad range of users."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/Fine-lite-product-all.jpg"
+          "img": "../images/projects/finelite/finelite-all-screens.jpg"
         }
       },
       {
         "TextBlock": {
-          "title": "Leveraging Intuitive Interfaces",
-          "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/finelite/FL Design 2.jpg",
-          "img1Class": "col-7",
-          "img2": "../images/projects/finelite/Frame 145.jpg",
-          "img2Class": "col-5" 
+          "title": "Timeline",
+          "text": "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/finelite/FL Design 4.jpg"
+          "img": "../images/projects/finelite/finelite-timeline.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Schedules",
+          "text": "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/finelite/finelite-schedule-detail-left.jpg",
+          "img1Class": "col-6",
+          "img2": "../images/projects/finelite/finelite-schedule-detail-right.jpg",
+          "img2Class": "col-6" 
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Wheeling Around",
+          "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-big-wheel.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/finelite/finelite-intensity-detail-left.jpg",
+          "img1Class": "col-6",
+          "img2": "../images/projects/finelite/finelite-intensity-detail-right.jpg",
+          "img2Class": "col-6" 
         }
       }
     ]
@@ -285,14 +328,14 @@
         }
       },
       {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/SE-INT-Syn-Out-2.jpg"
-        }
-      },
-      {
         "BackgroundSwap": {
           "prevBg": "white",
           "newBg": "black"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/spectrum/SE-INT-Syn-Out-2.jpg"
         }
       },
       {
@@ -308,12 +351,6 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/spectrum/Frame 20.jpg"
-        }
-      },
-      {
-        "BackgroundSwap": {
-          "prevBg": "black",
-          "newBg": "white"
         }
       },
       {
@@ -463,12 +500,12 @@
     "hero": "../images/projects/imove/iMove-Hero.jpg",
     "thumbnail": "../images/projects/imove/thumbnail.png",
     "description": [
-      "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed."
+      "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of an homescreen."
     ],
     "agency": "The Office of Experience",
     "roles": [
       "Pitch Strategy",
-      "Concept Design",
+      "Product Design",
       "Video Storyboard"
     ],
     "layout": [
@@ -513,14 +550,15 @@
     "thumbnail": "../images/projects/mack/Mack-Marketing-Thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "Positioning a 20-year old brand for future sucess through brand evolution and by evolving the digital presence, activating the brand using unique activations and extending the Mack story into other aspects of life.",
+      "As Associate Creative Director on the account, I helped envision a new digital experience for Mack trucks, created an AR "
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "Creative Direction",
+      "Branding",
+      "Digital Marketing",
+      "UX/Design"
     ],
     "layout": [
       {
@@ -564,21 +602,27 @@
     "slug": "daddario",
     "title": "D’Addario",
 		"type":"Product Design",
-    "byline": "E-Com designed for the music enthusiast",
+    "byline": "Elevating ecommerce for an icon in the music industry.",
     "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
     "thumbnail": "../images/projects/daddario/D'Addario-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
-      "Lyft is vocal about its mission to be the friendlier, fairer option in the rideshare space. In anticipation of going public, Lyft needed to show continued growth by attracting new riders and drivers. Increasing both at the same time would mean more rides, shorter wait times, and higher revenue.",
-      "Work & Co redesigned Lyft.com with these values and goals in mind, inspiring more people to sign up or apply to drive with Airro Studios."
+      "D'Addario is one of the largest suppliers of musical equipment in the world. With thousands of products, global reach and an established brand, D'Addario needed a B2B platform that allowed hundreds of distributors to purchase products in bulk, see insights on purchasing trends and place orders quickly.",
+      "That platform I designed did exactly that and more. With features like speed-entry and the ability for publishers to promote products on brand, the experience was built for both shoppers and business alike."
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "ecommerce",
+      "UX",
+      "(Web) Product Design"
     ],
     "layout": [
+      {
+        "BackgroundSwap": {
+          "prevBg": "white",
+          "newBg": "black"
+        }
+      },
       {
         "FullWidthImage": {
           "img": "../images/projects/daddario/DAddario-Img-1.jpg"
