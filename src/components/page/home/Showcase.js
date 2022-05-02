@@ -40,7 +40,7 @@ export default function Showcase() {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<h2>Select Projects</h2>
+						<h2>Select Work</h2>
 					</div>
 				</div>
 				<Swiper
