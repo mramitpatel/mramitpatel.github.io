@@ -12,7 +12,7 @@ export default function Navigation({isHome}) {
 			setVisible(true);
 		}
 	}, [])
-
+	
 	return (
 		<div className="container">
 					<nav className={`navigation ${navClass} ${visibleClass}`}>
