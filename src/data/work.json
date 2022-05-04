@@ -290,6 +290,11 @@
           "img2": "../images/projects/finelite/finelite-intensity-detail-right.jpg",
           "img2Class": "col-6" 
         }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-design-system.jpg"
+        }
       }
     ]
   },
