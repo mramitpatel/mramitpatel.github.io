@@ -8,7 +8,7 @@
     "thumbnail": "../images/projects/mackbuilder/mack-builder-thumb.jpg",
     "description": [
       "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
-      "I helped shape and design the experience from high-level UX and the interactive model to detailed product design across all viewport sizes allowing anyone, anywhere, to design a Mack."
+      "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that allowed for future growth and iteration."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -24,7 +24,7 @@
       },      
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-1.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-experience-architecture.jpg"
         }
       },
       {
@@ -71,12 +71,12 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-3up.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-mobile-detail.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-3up.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-get-a-quote.jpg"
         }
       }  
     ]
@@ -179,17 +179,6 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/csa/csa-web-2.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/csa/csa-web-image-3.jpg",
-          "img2": "../images/projects/csa/csa-web-image-4.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-web-image5.jpg"
         }
       }
     ]
