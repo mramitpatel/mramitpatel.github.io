@@ -4,8 +4,8 @@
     "title": "Mack Builder",
 		"type":"Product Design",
     "byline": "Build your own Mack.",
-    "hero": "../images/projects/mackbuilder/Mack-Builder-Hero-2.jpg",
-    "thumbnail": "../images/projects/mackbuilder/builder-thumb.jpg",
+    "hero": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
+    "thumbnail": "../images/projects/mackbuilder/mack-builder-thumb.jpg",
     "description": [
       "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
       "I helped shape and design the experience from high-level UX and the interactive model to detailed product design across all viewport sizes allowing anyone, anywhere, to design a Mack."
@@ -24,7 +24,7 @@
       },      
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-1.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-1.jpg"
         }
       },
       {
@@ -35,7 +35,7 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-2.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-2.jpg"
         }
       },
       {
@@ -46,37 +46,37 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-3.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-3.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-4.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-4.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-5.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-5.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-6.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-6.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-7.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-7.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-3up.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-3up.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/MackBuilder-.jpg"
+          "img": "../images/projects/mackbuilder/mack-builder-3up.jpg"
         }
       }  
     ]
@@ -87,8 +87,8 @@
     "title": "CSA",
     "type":"Brand",
     "byline": "Holding the future to a higher standard.",
-    "hero": "../images/projects/csa/CSA-Hero.jpg",
-    "thumbnail": "../images/projects/csa/CSA-thumb.jpg",
+    "hero": "../images/projects/csa/csa-hero.jpg",
+    "thumbnail": "../images/projects/csa/csa-thumb.jpg",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
       "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
@@ -105,7 +105,7 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Main-Logo.jpg"
+          "img": "../images/projects/csa/csa-main-logo.jpg"
         }
       },
       {
@@ -116,8 +116,8 @@
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/csa/CSA-Logo-Detail.jpg",
-          "img2": "../images/projects/csa/FL Design 8.jpg"
+          "img1": "../images/projects/csa/csa-logo-detail.jpg",
+          "img2": "../images/projects/csa/csa-logo-detail-b.jpg"
         }
       },
       {
@@ -128,30 +128,30 @@
       },      
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/csa/CSA-Color-Palette.jpg",
+          "img1": "../images/projects/csa/csa-color-palette.jpg",
           "img1Class": "col-5",
-          "img2": "../images/projects/csa/CSA-Type-Spec.jpg",
+          "img2": "../images/projects/csa/csa-type-spec.jpg",
           "img2Class": "col-7"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Icons.jpg"
+          "img": "../images/projects/csa/csa-icons.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Brand-Guideliens.jpg"
+          "img": "../images/projects/csa/csa-brand-guidelines.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-brand-expression-all.jpg"
+          "img": "../images/projects/csa/csa-brand-expression-all.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Brand-Expression-Standards-Doc.jpg"
+          "img": "../images/projects/csa/csa-brand-expression-standards-doc.jpg"
         }
       },
       {
@@ -162,7 +162,7 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-Signage.jpg"
+          "img": "../images/projects/csa/csa-signage.jpg"
         }
       },
       {
@@ -173,23 +173,23 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-web-1-fullwidth.jpg"
+          "img": "../images/projects/csa/csa-web-1-fullwidth.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-web-2.jpg"
+          "img": "../images/projects/csa/csa-web-2.jpg"
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/csa/CSA-web-image-3.jpg",
-          "img2": "../images/projects/csa/CSA-web-image-4.jpg"
+          "img1": "../images/projects/csa/csa-web-image-3.jpg",
+          "img2": "../images/projects/csa/csa-web-image-4.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/csa/CSA-web-image5.jpg"
+          "img": "../images/projects/csa/csa-web-image5.jpg"
         }
       }
     ]
@@ -502,8 +502,8 @@
     "title": "iMove",
 		"type":"Product Design",
     "byline": "Simplifying the relocation process.",
-    "hero": "../images/projects/imove/iMove-hero-fullwidth.jpg",
-    "thumbnail": "../images/projects/imove/iMove-thumb.jpg",
+    "hero": "../images/projects/imove/imove-hero-fullwidth.jpg",
+    "thumbnail": "../images/projects/imove/imove-thumb.jpg",
     "description": [
       "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of an homescreen."
     ],
@@ -552,11 +552,11 @@
     "title": "Mack",
 		"type":"Branding & Creative Direction",
     "byline": "Rediscover an American legend.",
-    "hero": "../images/projects/mack/Mack-Marketing-Hero-1.jpg",
-    "thumbnail": "../images/projects/mack/Mack-Marketing-Thumb.jpg",
+    "hero": "../images/projects/mack/mack-marketing-hero-1.jpg",
+    "thumbnail": "../images/projects/mack/mack-marketing-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
-      "Positioning a 20-year old brand for future sucess through brand evolution and by evolving the digital presence, activating the brand using unique activations and extending the Mack story into other aspects of life.",
+      "Positioning a 20-year old brand for future success through brand evolution and by evolving the digital presence, activating the brand using unique activations and extending the Mack story into other aspects of life.",
       "As Associate Creative Director on the account, I helped envision a new digital experience for Mack trucks, created an AR "
     ],
     "agency": "The Office of Experience",
@@ -569,37 +569,37 @@
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Anthem-Emails-1.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Anthem-Social-1.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 19.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/FL Design 20.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Anthem-brochure-1.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/Mack Page System.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/69chev_spread 1.jpg"
+          "img": "../images/projects/mack/anthem-emails-1.jpg"
         }
       }
     ]
