@@ -502,8 +502,8 @@
     "title": "iMove",
 		"type":"Product Design",
     "byline": "Simplifying the relocation process.",
-    "hero": "../images/projects/imove/iMove-Hero.jpg",
-    "thumbnail": "../images/projects/imove/iMove-Hero.jpg",
+    "hero": "../images/projects/imove/iMove-hero-fullwidth.jpg",
+    "thumbnail": "../images/projects/imove/iMove-thumb.jpg",
     "description": [
       "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of an homescreen."
     ],
