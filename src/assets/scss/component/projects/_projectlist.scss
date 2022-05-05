@@ -1,9 +1,9 @@
 .project-list {
 	&-item {
-		margin-bottom: 192px;
+		margin-bottom: 256px;
 		@include screen-lg-max {
 			flex: 0 1 100%;
-			margin-bottom: 92px;
+			margin-bottom: 128px;
 		}
 		&-thumbnail {
 			display: block !important;
@@ -28,7 +28,7 @@
 			}
 		}
 		&-title {
-			margin-top: 50px;
+			margin-top: 48px;
 			color: $color-black;
 			margin-bottom: 0px;
 			font-family: $font-heading-medium;

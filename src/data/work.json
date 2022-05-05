@@ -199,7 +199,7 @@
     "slug": "finetune",
     "title": "FineTune",
     "type":"Product Design",
-    "byline": "Advanced lighting for healthier living",
+    "byline": "Advanced lighting for healthier living.",
     "hero": "../images/projects/finelite/finelite-hero.jpg",
     "thumbnail": "../images/projects/finelite/finelite-thumb.jpg",
     "thumbnailClass": "col-5 col-lg-12",
@@ -302,7 +302,7 @@
     "slug": "spectrum",
     "title": "Spectrum Enterprise",
 		"type":"Creative Direction & UX",
-    "byline": "Humanizing B2B telecom",
+    "byline": "Humanizing B2B telecom.",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
     "description": [
@@ -438,7 +438,7 @@
     "slug": "mango",
     "title": "Mango",
     "type":"Branding & Creative Direction",
-    "byline": "Global language learning",
+    "byline": "Global language learning.",
     "hero": "../images/projects/mango/Mango-Hero.jpg",
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
     "thumbnailClass": "col-7 col-lg-12",
@@ -502,8 +502,8 @@
     "title": "iMove",
 		"type":"Product Design",
     "byline": "Simplifying the relocation process.",
-    "hero": "../images/projects/imove/iMove-Hero.jpg",
-    "thumbnail": "../images/projects/imove/thumbnail.png",
+    "hero": "../images/projects/imove/iMove-hero.jpg",
+    "thumbnail": "../images/projects/imove/iMove-hero.jpg",
     "description": [
       "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of an homescreen."
     ],
@@ -520,28 +520,29 @@
         }
       },
       {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/Frame 128.jpg"
+        "TwoColumnImages": {
+          "img1": "../images/projects/imove/imove-logo-final.jpg",
+          "img2": "../images/projects/imove/imove-logo-grid.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/imove-startscreen.jpg"
+          "img": "../images/projects/imove/imove-color-palette-type.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/imove/3_Launch.jpg"
+          "img": "../images/projects/imove/imove-art-breaker.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-3-up.jpg"
         }
       },
       {
         "FullWidthImage": {
           "img": "../images/projects/imove/imove-designs-all.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-3up-gain.jpg"
         }
       }
     ]
@@ -607,7 +608,7 @@
     "slug": "daddario",
     "title": "D’Addario",
 		"type":"Product Design",
-    "byline": "Elevating ecommerce for an icon in the music industry.",
+    "byline": "Elevating ecommerce for an industry icon.",
     "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
     "thumbnail": "../images/projects/daddario/D'Addario-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
