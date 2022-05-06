@@ -5,7 +5,7 @@
 		"type":"Product Design",
     "byline": "Build your own Mack.",
     "hero": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
-    "thumbnail": "../images/projects/mackbuilder/mack-builder-thumb.jpg",
+    "thumbnail": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
     "description": [
       "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
       "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that allowed for future growth and iteration."
@@ -312,8 +312,20 @@
         }
       },
       {
+        "TextBlock": {
+          "title": "Insights to Innovate",
+          "text": "We started by auditing existing material - websites, marketing material and other collateral. We performed in-depth user research interviews as well as stakeholder interviews to understand the vertical, the challenges and to uncover Spectrum Enterprise's unique challenges and opportunities."
+        }
+      },
+      {
         "FullWidthImage": {
           "img": "../images/projects/spectrum/Verbatims.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Synthesis and Modeling",
+          "text": "After categorizing what we heard and understood we modeled site architecture that would help deliver results across various audience needs."
         }
       },
       {
@@ -333,8 +345,14 @@
         }
       },
       {
+        "TextBlock": {
+          "title": "Brains and Brand",
+          "text": "A digital design system that encapsulates the brands underlying tenants - voice, tone, characteristics as well as a design that accomplishes established goals for both buyers and the business."
+        }
+      },
+      {
         "FullWidthImage": {
-          "img": "../images/projects/spectrum/FL Design 9.jpg"
+          "img": "../images/projects/spectrum/se-webdesign-homepage-1.jpg"
         }
       },
       {
@@ -345,6 +363,12 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/spectrum/Frame 20.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Be Unreasonable",
+          "text": "To tell Spectrum Enterprise's unique challenger brand story, we created a digital destination that celebrates those who had challenges and rose to exceed them. The multi-week engagement required quick prototyping of interactions and exercises in finding the right content framework to drive home the concept."
         }
       },
       {
@@ -363,7 +387,12 @@
           "img": "../images/projects/spectrum/BE-U-Designs.jpg"
         }
       },
-
+      {
+        "TextBlock": {
+          "title": "Sales Enablement During Lockdown",
+          "text": "With the world in lockdown, Spectrum Enterprise needed new ways to enable sales and drive meaningful leads. We concepted designed a sales tool and lead generator that educated and informed while gathering valuable information along the way."
+        }
+      },
       {
         "FullWidthImage": {
           "img": "../images/projects/spectrum/MNE-Tool-1.jpg"
@@ -376,7 +405,7 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/spectrum/MNE-Tool-2.jpg"
+          "img": "../images/projects/spectrum/se-solution-optimizer-3up.jpg"
         }
       }        
     ]
