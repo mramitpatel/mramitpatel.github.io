@@ -167,6 +167,25 @@
       },
       {
         "TextBlock":{
+          "title": "Global Photoshoot",
+          "text": "Traveling the world, meet employees in all segments of the company, to capture CSA's diverse and tell the story of CSA's unknown story through photography. The people that make the company, to capture them at work Over the course of 3 months, I "
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-web-1-fullwidth.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/csa-color-palette.jpg",
+          "img1Class": "col-6",
+          "img2": "../images/projects/csa/csa-type-spec.jpg",
+          "img2Class": "col-6"
+        }
+      },
+      {
+        "TextBlock":{
           "title": "Elevating the Story",
           "text": "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
         }
@@ -654,12 +673,12 @@
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/daddario/DAddario-Img-2.jpg"
+          "img": "../images/projects/daddario/daddario-main-mobile.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/daddario/DAddario-Style-guide-3.jpg"
+          "img": "../images/projects/daddario/daddario-design-system.jpg"
         }
       },
       {
@@ -670,6 +689,11 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/daddario/DAddario-Img-2.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/daddario/DAddario-Style-guide-3.jpg"
         }
       }
     ]
