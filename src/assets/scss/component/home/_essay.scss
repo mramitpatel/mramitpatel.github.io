@@ -1,5 +1,8 @@
 .essay {
 	margin: 128px 0 256px;
+	h2{
+		padding-bottom: 16px;
+	}
 	&-list {
 		margin: 0;
 		padding: 0;
@@ -10,7 +13,10 @@
 				border: none;
 			}
 			a {
-				padding: 34px 0;
+				font-size: 28px;
+				line-height: 42px;
+				font-family: $font-heading-regular;
+				padding: 40px 0;
 				color: $color-black;
 				width: 100%;
 				display: flex;

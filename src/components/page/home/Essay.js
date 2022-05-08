@@ -23,7 +23,8 @@ export default function Essay() {
 			<div className="container">
 				<div className="row">
 					<div className="col-5 col-md-12">
-						<h2>Essays</h2>
+						<h2>Writing</h2>
+						<p>Articles, ideas and random thoughts.</p>
 					</div>
 					<div className="col-7 col-md-12">
 						<ul className="essay-list">
