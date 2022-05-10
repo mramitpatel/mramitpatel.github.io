@@ -16,7 +16,7 @@ export default function Index() {
 			<Hero />
 			<Navigation isHome={true}/>
 			<Showcase />
-			<Essay/>
+			{/* <Essay/> */}
 		</Layout>
 	)
 }
