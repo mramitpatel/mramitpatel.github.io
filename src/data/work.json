@@ -593,8 +593,7 @@
     "thumbnail": "../images/projects/mack/mack-marketing-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
-      "Positioning a 20-year old brand for future success through brand evolution and by evolving the digital presence, activating the brand using unique activations and extending the Mack story into other aspects of life.",
-      "As Associate Creative Director on the account, I helped envision a new digital experience for Mack trucks, created an AR "
+      "To build upon a lasting legacy, Mack Trucks needed to reinvest in all things digital. As part of a multi-year effort, to reposition the legendary brand, I lead the design effort to bring a new product to market, recrafted Mack's digital home and envisioned new digital concepts that would help the legendary brand evolve into the future."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -605,38 +604,50 @@
     ],
     "layout": [
       {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+        "TextBlock": {
+          "title": "The New Mack",
+          "text": "To recapture the long-haul semi segment, Mack redesigned it's class 8 semi. Prior to it's launch, we generated buzz for the new product through a year long tease campaign."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+          "img": "../images/projects/mack/anthem-tease-experience-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+          "img": "../images/projects/mack/anthem-tease-emails-1.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Our Anthem",
+          "text": "To signal a new day at Mack, we redesigned Mack.com by bringing interactivity to otherwise static pages and developed content that is fit for audiences."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+          "img": "../images/projects/mack/anthem-launch-web.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+          "img": "../images/projects/mack/mack-website-1.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+          "img": "../images/projects/mack/mack-page-system.jpg"
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-emails-1.jpg"
+          "img": "../images/projects/mack/anthem-brochure-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/mack/anthem-ar-concept.jpg"
         }
       }
     ]
