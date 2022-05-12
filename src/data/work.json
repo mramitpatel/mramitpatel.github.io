@@ -480,8 +480,8 @@
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
     "thumbnailClass": "col-7 col-lg-12",
     "description": [
-      "While there are many language learning applications, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
-      "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how language learn unlocks a rich tapestry of cultural experiences.","As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
+      "While many language learning applications exist, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
+      "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how learning a new language unlocks a rich tapestry of cultural experiences.","As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -542,7 +542,7 @@
     "hero": "../images/projects/imove/imove-hero-fullwidth.jpg",
     "thumbnail": "../images/projects/imove/imove-thumb.jpg",
     "description": [
-      "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of an homescreen."
+      "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with an intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of any homescreen."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -588,12 +588,12 @@
     "slug": "mack",
     "title": "Mack",
 		"type":"Branding & Creative Direction",
-    "byline": "Rediscover an American legend.",
+    "byline": "Rediscover the American legend.",
     "hero": "../images/projects/mack/mack-marketing-hero-1.jpg",
     "thumbnail": "../images/projects/mack/mack-marketing-thumb.jpg",
     "thumbnailClass": "col-6 col-lg-12",
     "description": [
-      "To build upon a lasting legacy, Mack Trucks needed to reinvest in all things digital. As part of a multi-year effort, to reposition the legendary brand, I lead the design effort to bring a new product to market, recrafted Mack's digital home and envisioned new digital concepts that would help the legendary brand evolve into the future."
+      "After a wildly successful rebrand, the iconic truck branded to reinvest in all things digital. As part of a multi-year effort to elevate Mack's digital presence, I lead the design effort to bring a new product to market, recrafted Mack's digital home and envisioned new digital concepts that would help the lead the way for future improvements."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -606,7 +606,7 @@
       {
         "TextBlock": {
           "title": "The New Mack",
-          "text": "To recapture the long-haul semi segment, Mack redesigned it's class 8 semi. Prior to it's launch, we generated buzz for the new product through a year long tease campaign."
+          "text": "To recapture the long-haul semi segment, Mack redesigned it's class 8 semi. Prior to it's launch, we generated buzz for the new product through a year long tease campaign consisting of a dedicated digital experience, media campaign and printed material."
         }
       },
       {
@@ -622,7 +622,7 @@
       {
         "TextBlock": {
           "title": "Our Anthem",
-          "text": "To signal a new day at Mack, we redesigned Mack.com by bringing interactivity to otherwise static pages and developed content that is fit for audiences."
+          "text": "To signal a new day at Mack, we redesigned Mack.com by bringing interactivity to otherwise static pages and rearchitected product pages to tell a more compelling story."
         }
       },
       {
@@ -638,6 +638,11 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/mack/mack-page-system.jpg"
+        }
+      },      {
+        "TextBlock": {
+          "title": "Anthem Brochure",
+          "text": "Printed material is a large part of Mack's marketing material. We ensured the story we were telling along with art-direction was consistent across all marketing material"
         }
       },
       {
