@@ -5,6 +5,10 @@
 			flex: 0 1 100%;
 			margin-bottom: 128px;
 		}
+		@include screen-md-max {
+			flex: 0 1 100%;
+			margin-bottom: 256px;
+		}
 		&-thumbnail {
 			display: block !important;
 
