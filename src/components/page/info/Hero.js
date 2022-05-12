@@ -17,8 +17,8 @@ export default function Hero() {
 					<div className="col-5 col-lg-12">
 						<div className="info-hero-content">
 							<h1>I’m a multidisciplinary designer with over a decade of agency experience.</h1>
-							<p>My passion lies in creating digital experiences at the intersection of brand, product and technology. I’m currently open to contract or full-time engagements.</p>
-							<p>Reach out on <a href="https://www.linkedin.com/in/mramitpatel/" target="_blank">LinkedIn</a>, <a href="https://www.instagram.com/mramitpatel/" target="_blank">Instagram</a> or by <a href="mailto:amit@mramitpatel.com">Email</a>.</p>
+							<p>My passion lies in creating digital experiences at the intersection of brand, product and technology. I’m currently open for contract or full-time engagements.</p>
+							<p>Reach out on <a href="https://www.linkedin.com/in/mramitpatel/" target="_blank">LinkedIn</a>, <a href="https://www.instagram.com/mramitpatel/" target="_blank">Instagram</a> or by <a href="mailto:amit@mramitpatel.com">email</a>.</p>
 						</div>
 					</div>
 				</div>
