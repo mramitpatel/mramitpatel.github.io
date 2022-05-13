@@ -18,11 +18,11 @@ export default function Footer({isHome}) {
 		<div className="footer">
 		<div className="container">
 			<div className="row">
-				<div onClick={scrollToTop} className="col-2 col-md-1"><a className="button scrollUp" href="#">↥</a></div>
+				<div onClick={scrollToTop} className="col-2 col-md-1"><a className="scrollUp" href="#">↥</a></div>
 				<div className="col-9 col-md-3">
-					<a href="mailto:amit@mramitpatel.com" className="button" >Email</a>
-					<a rel="noreferrer"href="https://www.instagram.com/mramitpatel/" className="button" target="_blank">Instagram</a>
-					<a rel="noreferrer"href="https://www.linkedin.com/in/mramitpatel/" className="button" target="_blank">Linkedin</a>
+					<a href="mailto:amit@mramitpatel.com" className="link" >Email</a>
+					<a rel="noreferrer"href="https://www.instagram.com/mramitpatel/" className="link" target="_blank">Instagram</a>
+					<a rel="noreferrer"href="https://www.linkedin.com/in/mramitpatel/" className="link" target="_blank">Linkedin</a>
 					{/*<a href="https://twitter.com/mramitpatel"  target="_blank" className="button">Twitter</a>*/}
 					
 				</div>
