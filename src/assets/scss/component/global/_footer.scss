@@ -13,9 +13,20 @@
 	}
 	.peace{
 		padding: 13px 22px;
+		color: $color-light-gray;
 		float: left;
+		line-height: 30px;
 	}
 	a {
 		margin-right: 10px;
+		color: $color-light-gray;
+		line-height: 30px;
+		padding: 14px 20px;
+		transition: all $default-transition;
+		cursor: pointer;
+		&:hover {
+			color: $color-black;
+			border-color: $color-black;
+			}
 	}
 }
