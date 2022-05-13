@@ -29,7 +29,7 @@
       },
       {
         "TextBlock":{
-          "title": "Make Stuff, Break Stuff",
+          "title": "Make stuff, break stuff.",
           "text": "With a finite budget for 3D renders, the truck configurator experience needed to be lean and repurpose as many image assets as much as possible. I explored many interactive models that focused on a guided linear experience while allowing a user to freely select categories of customization all while keeping the truck front and center."
         }
       },
@@ -40,7 +40,7 @@
       },
       {
         "TextBlock":{
-          "title": "Be an app",
+          "title": "Be an app.",
           "text": "Many product configurators fall prey to feeling like add-ons to existing marketing websites. While part of the Mack digital ecosystem, Mack Builder is intended to feel like an application. With full-screen modals and eliminating extraneous information, the configurator experience is meant to feel like a digital product."
         }
       },
@@ -73,12 +73,7 @@
         "FullWidthImage": {
           "img": "../images/projects/mackbuilder/mack-builder-mobile-detail.jpg"
         }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-get-a-quote.jpg"
-        }
-      }  
+      }
     ]
   },
   {
@@ -93,7 +88,7 @@
     "description": [
       "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
       "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.",
-      "As Creative Director of the multi-year initiative , I re-invigorated the mark and reshape all aspects of the brand - from identity, brand expression, photography direction and the digital experience."
+      "As Creative Director of the multi-year initiative , I re-invigorated the mark and reshaped all aspects of the brand—from identity, brand expression, photography direction and the digital experience."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -110,7 +105,7 @@
       },
       {
         "TextBlock":{
-          "title": "The Mark that Created it All",
+          "title": "Revisiting the mark that started it all.",
           "text": "Renewing the logo meant revisiting past incarnations of the CSA mark to truly understand the evolution of the identity. As a symbol that appears on thousands of products in the world, a radical redesign would mean endless hours of updating and create inconsistency across old and new product badging. I opted to perfect the original CSA mark from the 1900's mark by retaining the timeless quality of the geometric shape while refining the form optically and true geometry."
         }
       },
@@ -122,7 +117,7 @@
       },
       {
         "TextBlock":{
-          "title": "Expressing the Brand",
+          "title": "Expressing the brand.",
           "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color palette was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
         }
       },      
@@ -167,26 +162,7 @@
       },
       {
         "TextBlock":{
-          "title": "Global Photoshoot",
-          "text": "Traveling the world, meet employees in all segments of the company, to capture CSA's diverse and tell the story of CSA's unknown story through photography. The people that make the company, to capture them at work Over the course of 3 months, I "
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-web-1-fullwidth.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/csa/csa-color-palette.jpg",
-          "img1Class": "col-6",
-          "img2": "../images/projects/csa/csa-type-spec.jpg",
-          "img2Class": "col-6"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Elevating the Story",
+          "title": "Elevating a unique story.",
           "text": "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
         }
       },
@@ -230,8 +206,8 @@
       },
       {
         "TextBlock": {
-          "title": "User Journey & Controller",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seemlessly discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience."
+          "title": "Designing with intent and users in mind.",
+          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seamlessly discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience."
         }
       },
       {
@@ -246,7 +222,7 @@
       },            
       {
         "TextBlock": {
-          "title": "Intuitive Controls",
+          "title": "Leveraging common patterns.",
           "text": "The overall app was designed for portrait usage making adjustments to setting and color parameters easily accomplishable using a single hand. Unlike consumer lighting IoT applications where on-the-fly adjusting is a requirement, a FineTune controller is designed to be programmed once, with little need for on-the-fly adjusting. This allowed for an interface is primarily read-on only or programming mode. For both sets of actions, I looked towards familiar design patterns to create an interface that is intuitive to a broad range of users."
         }
       },
@@ -257,7 +233,7 @@
       },
       {
         "TextBlock": {
-          "title": "Timeline",
+          "title": "Timeline view.",
           "text": "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
         }
       },
@@ -268,7 +244,7 @@
       },
       {
         "TextBlock": {
-          "title": "Schedules",
+          "title": "Schedule your lighting program.",
           "text": "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
         }
       },
@@ -282,7 +258,7 @@
       },
       {
         "TextBlock": {
-          "title": "Wheeling Around",
+          "title": "We'll miss you iPod.",
           "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
         }
       },
@@ -332,7 +308,7 @@
       },
       {
         "TextBlock": {
-          "title": "Insights to Innovate",
+          "title": "Research-led insights and designs.",
           "text": "We started by auditing existing material - websites, marketing material and other collateral. We performed in-depth user research interviews as well as stakeholder interviews to understand the vertical, the challenges and to uncover Spectrum Enterprise's unique challenges and opportunities."
         }
       },
@@ -343,7 +319,7 @@
       },
       {
         "TextBlock": {
-          "title": "Synthesis and Modeling",
+          "title": "Defining information architecture for all types.",
           "text": "After categorizing what we heard and understood we modeled site architecture that would help deliver results across various audience needs."
         }
       },
@@ -365,8 +341,8 @@
       },
       {
         "TextBlock": {
-          "title": "Brains and Brand",
-          "text": "A digital design system that encapsulates the brands underlying tenants - voice, tone, characteristics as well as a design that accomplishes established goals for both buyers and the business."
+          "title": "A complete digital design system.",
+          "text": "We designed a digital design system that reflects the brands underlying tenants, voice, tone and characteristics."
         }
       },
       {
@@ -386,7 +362,7 @@
       },
       {
         "TextBlock": {
-          "title": "Be Unreasonable",
+          "title": "Be unreasonable.",
           "text": "To tell Spectrum Enterprise's unique challenger brand story, we created a digital destination that celebrates those who had challenges and rose to exceed them. The multi-week engagement required quick prototyping of interactions and exercises in finding the right content framework to drive home the concept."
         }
       },
@@ -408,7 +384,7 @@
       },
       {
         "TextBlock": {
-          "title": "Sales Enablement During Lockdown",
+          "title": "Enabling sales during a new era.",
           "text": "With the world in lockdown, Spectrum Enterprise needed new ways to enable sales and drive meaningful leads. We concepted designed a sales tool and lead generator that educated and informed while gathering valuable information along the way."
         }
       },
@@ -605,7 +581,7 @@
     "layout": [
       {
         "TextBlock": {
-          "title": "The New Mack",
+          "title": "The new Mack.",
           "text": "To recapture the long-haul semi segment, Mack redesigned it's class 8 semi. Prior to it's launch, we generated buzz for the new product through a year long tease campaign consisting of a dedicated digital experience, media campaign and printed material."
         }
       },
@@ -621,7 +597,7 @@
       },
       {
         "TextBlock": {
-          "title": "Our Anthem",
+          "title": "Our Anthem.",
           "text": "To signal a new day at Mack, we redesigned Mack.com by bringing interactivity to otherwise static pages and rearchitected product pages to tell a more compelling story."
         }
       },
@@ -638,11 +614,6 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/mack/mack-page-system.jpg"
-        }
-      },      {
-        "TextBlock": {
-          "title": "Anthem Brochure",
-          "text": "Printed material is a large part of Mack's marketing material. We ensured the story we were telling along with art-direction was consistent across all marketing material"
         }
       },
       {
