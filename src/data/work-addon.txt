@@ -1,0 +1,19 @@
+     {
+        "TextBlock":{
+          "title": "Shoot globally, source locally.",
+          "text": "A team of three traveled the globe to meet CSA employees from all segments of the company. Our intent, to capture CSA's diverse offering and tell the story of CSA's unknown story through photography."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-global-shoot-1.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/csa-global-shoot-2.jpg",
+          "img1Class": "col-6",
+          "img2": "../images/projects/csa/csa-global-shoot-3.jpg",
+          "img2Class": "col-6"
+        }
+      },
