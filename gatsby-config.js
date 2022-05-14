@@ -3,8 +3,8 @@ module.exports = {
     title: `Amit Patel`,
     description: `Amit Patel is a designer, creative director and UX strategist in Chicago.`,
     author: `Amit Patel`,
-    // siteUrl: `https://www.mramitpatel.com`,
-    siteUrl: `https://mramitpatelgithubiogatsby24735.gatsbyjs.io/`,
+    siteUrl: `https://www.mramitpatel.com`,
+    //siteUrl: `https://mramitpatelgithubiogatsby24735.gatsbyjs.io/`,
     image: '/static/SiteThumbnail.jpg'
   },
   plugins: [
@@ -42,25 +42,74 @@ module.exports = {
         ],
       },
     },
-    
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     // You can add multiple tracking ids and a pageview event will be fired for all of them.
-    //     trackingId: "UA-37567317-1",
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Amit Patel`,
-    //     short_name: `amit`,
-    //     start_url: `/`,
-    //     icon: `src/images/favicon.png`, // This path is relative to the root of the site.
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          allWpContentNode(filter: {nodeType: {in: ["Post", "Page"]}}) {
+            nodes {
+              ... on WpPost {
+                uri
+                modifiedGmt
+              }
+              ... on WpPage {
+                uri
+                modifiedGmt
+              }
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+          allWpContentNode: { nodes: allWpNodes },
+        }) => {
+          const wpNodeMap = allWpNodes.reduce((acc, node) => {
+            const { uri } = node
+            acc[uri] = node
+
+            return acc
+          }, {})
+
+          return allPages.map(page => {
+            return { ...page, ...wpNodeMap[page.path] }
+          })
+        },
+        serialize: ({ path, modifiedGmt }) => {
+          return {
+            url: path,
+            lastmod: modifiedGmt,
+          }
+        },
+      },
+    },
+    {
+     resolve: `gatsby-plugin-google-analytics`,
+       options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+         trackingId: "G-H728MH6PX9",
+         // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 325,
+        respectDNT: true,
+       },
+      },
+    //{
+      //resolve: `gatsby-plugin-manifest`,
+      //options: {
+        //name: `Amit Patel`,
+        //short_name: `amit`,
+        //start_url: `/`,
+        //icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      //},
+    //},
     `gatsby-plugin-sass`,
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
