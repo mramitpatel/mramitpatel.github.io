@@ -67,7 +67,6 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/data/**", "/components/**"],
           // Defaults to https://www.googletagmanager.com
-          origin: "https://www.mramitpatel.com",
         },
       },
     },
