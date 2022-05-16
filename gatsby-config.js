@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Amit Patel`,
-    description: `Amit Patel is a designer, creative director and UX strategist in Chicago.`,
+    title: `Amit Patel | Designer`,
+    description: `Amit Patel is a designer, creative director and UX strategist in Chicago. He's focused on designing products, shaping brands and creating meaningful digital experiences.`,
     author: `Amit Patel`,
     siteUrl: `https://www.mramitpatel.com`,
     //siteUrl: `https://mramitpatelgithubiogatsby24735.gatsbyjs.io/`,
