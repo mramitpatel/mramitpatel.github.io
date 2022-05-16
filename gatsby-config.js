@@ -14,7 +14,19 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-advanced-sitemap`,
+    {
+    resolve: `gatsby-plugin-advanced-sitemap`,
+    options: {
+            // The filepath and name to Index Sitemap. Defaults to '/sitemap.xml'.
+            output: "/sitemap.xml",
+            exclude: [
+              `/dev-404-page`,
+              `/404`,
+              `/404.html`,
+            ],
+      createLinkInHead: true, // optional: create a link in the `<head>` of your site
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
