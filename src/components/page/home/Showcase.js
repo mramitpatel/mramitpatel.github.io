@@ -43,6 +43,11 @@ export default function Showcase() {
 				</div>
 				<Swiper
 					spaceBetween={30}
+					speed={400}
+					autoplay={{
+						delay: 5000,
+						pauseOnMouseEnter: true
+					  }}
 					grabCursor={true}
 					autoHeight={true}
 					simulateTouch={true}
