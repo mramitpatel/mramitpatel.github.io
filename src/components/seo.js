@@ -69,7 +69,7 @@ function Seo({ description, lang, meta, title,image }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || `amitpatel`,
+          content: site.siteMetadata?.author || `mramitpatel`,
         },
         {
           name: `twitter:title`,

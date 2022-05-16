@@ -8,19 +8,22 @@
 		padding: 13px 22px;
 	}
 	&-copyright {
+		font-size: 24px;
 		margin-top: 77px;
 		padding-bottom: 50px;
 	}
 	.peace{
 		padding: 0px 22px;
+		font-size: 24px;
 		color: $color-light-gray;
 		float: left;
 		line-height: 30px;
 	}
+	
 	a {
 		color: $color-light-gray;
 		line-height: 30px;
-		padding: 16px 21px;
+		padding: 16px 12px;
 		transition: all $default-transition;
 		cursor: pointer;
 		&:hover {
