@@ -46,11 +46,10 @@ export default function Showcase() {
 					speed={400}
 					autoplay={{
 						delay: 5000,
-						pauseOnMouseEnter: true
 					  }}
+					waitForTransition={false}
 					grabCursor={true}
 					autoHeight={true}
-					simulateTouch={true}
 					keyboard={{
 						enabled: true,
 						onlyInViewport: true,
