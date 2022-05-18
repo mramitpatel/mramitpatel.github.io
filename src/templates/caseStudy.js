@@ -8,6 +8,7 @@ import Hero from '../components/page/projects/interior/Hero'
 import InfoBlock from '../components/page/projects/interior/InfoBlock';
 import TextBlock from '../components/page/projects/interior/TextBlock';
 import FullWidthImage from '../components/page/projects/interior/FullWidthImage';
+import FullWidthVideo from '../components/page/projects/interior/FullWidthVideo';
 import TwoColumnImages from '../components/page/projects/interior/TwoColumnImages';
 import Next from '../components/page/projects/interior/Next';
 import BackgroundSwap from '../components/page/projects/interior/BackgroundSwap';
@@ -36,6 +37,7 @@ export default function CaseStudy({pageContext,location}){
 	const ComponentList = {
 		TextBlock,
 		FullWidthImage,
+		FullWidthVideo,
 		TwoColumnImages,
 		BackgroundSwap
 	};
@@ -69,6 +71,7 @@ export default function CaseStudy({pageContext,location}){
 		}
 	}, [fromCaseStudy,location.state])
 	console.log(hero.childImageSharp.gatsbyImageData.images.fallback.src);
+	console.log();
 	return (
 		<>
 			<Seo title={title} description={description[0]} image={hero.childImageSharp.gatsbyImageData.images.fallback.src}/>

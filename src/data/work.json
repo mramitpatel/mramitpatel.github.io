@@ -306,8 +306,8 @@
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
     "description": [
-      "The Spectrum Enterprise brand spun off following the merger of Charter with Time Warner with a focus on a growing business services segment. As a challenger brand, Spectrum Enterprise needed a digital destination that embraced the companies newly formed rally cry - be unreasonable",
-      "I designed and creative directed the brands, TK"
+      "The Spectrum Enterprise brand spun off following the merger of Charter with Time Warner with a focus on a growing business services segment. As a challenger brand, Spectrum Enterprise needed a digital destination that embraced the companies newly formed rally cry and reposition the company as a leader in the telecom space.",
+      "We designed an enterprise website from research and insights gathering to final designs and development. After the launch, we created lead-gen and sales tool to help support the business."
     ],
     "agency": "The Office of Experience",
     "roles": [
@@ -317,6 +317,11 @@
       "Product Design"
     ],
     "layout": [
+      {
+        "FullWidthVideo":{
+          "videoSrc": "../images/projects/spectrum/Spectrum_ADDY_FINAL_031221.mp4"
+        }
+      },
       {
         "FullWidthImage": {
           "img": "../images/projects/spectrum/SE-Audit.jpg"

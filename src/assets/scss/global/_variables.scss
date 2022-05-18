@@ -3,7 +3,7 @@ $color-white: #ffffff;
 $color-gray: #222222;
 $color-light-gray: #737373;
 // Transition
-$default-transition: 0.3s ease-out;
+$default-transition: 0.3s cubic-bezier(0, 0, 0.16, 0.94);
 
 // Breakpoints
 $screen-xxl: 2550px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
