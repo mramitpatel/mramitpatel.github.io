@@ -156,8 +156,24 @@
         }
       },
       {
+        "TextBlock":{
+          "title": "Shoot globally, source locally.",
+          "text": "A team of three traveled the globe to meet CSA employees from all segments of the company. Our intent, to capture CSA's diverse offering and tell the story of CSA's unknown story through photography."
+        }
+      },
+      {
         "FullWidthImage": {
-          "img": "../images/projects/csa/csa-signage.jpg"
+          "img": "../images/projects/csa/csa-global-shoot-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-global-shoot-2.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-global-shoot-3.jpg"
         }
       },
       {
@@ -348,11 +364,6 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/spectrum/se-webdesign-homepage-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/FL Design 17.jpg"
         }
       },
       {
@@ -624,6 +635,12 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/mack/anthem-ar-concept.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Results",
+          "text": "Bringing a new long haul truck to market was no easy feat and required a team of skilled project managers, designers, CGI vendors and strategists. The multi-year long Anthem truck tease and launch campaign was a success, resulting in over 5,000 new leads and increase in social growth of 10% (in 90 days). Social media impressions increased to 10.6 million with over 3,000 Facebook likes, comments and shares."
         }
       }
     ]
