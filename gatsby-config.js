@@ -5,7 +5,7 @@ module.exports = {
     author: `Amit Patel`,
     siteUrl: `https://www.mramitpatel.com`,
     //siteUrl: `https://mramitpatelgithubiogatsby24735.gatsbyjs.io/`,
-    image: '/static/SiteThumbnail.jpg'
+    image: '/src/images/SiteThumbnail.jpg'
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -83,15 +83,15 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Amit Patel`,
-        short_name: `amit`,
-        start_url: `/`,
-        icon: '/static/favicon.png', // This path is relative to the root of the site.
-      },
-    },
+//    {
+//      resolve: `gatsby-plugin-manifest`,
+//      options: {
+//        name: `Amit Patel`,
+//        short_name: `amit`,
+//        start_url: `/`,
+//        icon: '/images/favicon.png', // This path is relative to the root of the site.
+//      },
+//    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

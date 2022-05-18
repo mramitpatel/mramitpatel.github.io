@@ -1,21 +1,21 @@
 import React from 'react';
 
 export default function FullWidthVideo({data}) {
-	const {videoSrc} = data
 	return (
 		<div className="project-fullwidthvideo">
-			console.logt("video");
 			<div className="container">
 				<div className="row">
-					<div className="col-12">
-						<iframe
-      						src={videoSrc}
+					<div className="col-8 push-2">
+						<div className="responsive-iframe-container">
+						<iframe className='responsive-iframe'
+      						src={data.videoSrcURL}
 					    	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       						frameBorder="0"
       						webkitallowfullscreen="true"
       						mozallowfullscreen="true"
-      						allowFullScreen
+      						allowFullScreen="false"
     					/>
+						</div>
 					</div>
 				</div>
 			</div>

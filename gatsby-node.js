@@ -68,6 +68,9 @@ exports.createPages = ({ actions, graphql }) => {
 					prevBg
 					newBg
 				}
+				FullWidthVideo{
+					videoSrcURL
+				}
 			}
 		}
 	}`;
