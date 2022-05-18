@@ -30,7 +30,7 @@ function Seo({ description, lang, meta, title,image }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const defaultImage = `${site.siteMetadata?.siteUrl}${image || site.siteMetadata?.image}`
-      console.log(image);
+  //    console.log(image);
   return (
     <Helmet
       htmlAttributes={{

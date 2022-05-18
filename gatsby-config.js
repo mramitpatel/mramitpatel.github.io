@@ -83,15 +83,15 @@ module.exports = {
         },
       },
     },
-    //{
-      //resolve: `gatsby-plugin-manifest`,
-      //options: {
-        //name: `Amit Patel`,
-        //short_name: `amit`,
-        //start_url: `/`,
-        //icon: `src/images/favicon.png`, // This path is relative to the root of the site.
-      //},
-    //},
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Amit Patel`,
+        short_name: `amit`,
+        start_url: `/`,
+        icon: '/static/favicon.png', // This path is relative to the root of the site.
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
