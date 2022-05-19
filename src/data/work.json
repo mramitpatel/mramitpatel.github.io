@@ -8,11 +8,13 @@
     "thumbnail": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
     "description": [
       "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
-      "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that allowed for future growth and iteration."
+      "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that set the stage for future growth and iteration.",
+      "The Mack Truckbuilder experience is available at build.macktrucks.com/."
     ],
     "agency": "The Office of Experience",
     "roles": [
-      "UX",
+      "UX Strategy",
+      "UX Design",
       "Product Design"
     ],
     "layout": [
