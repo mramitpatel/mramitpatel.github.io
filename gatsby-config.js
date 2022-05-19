@@ -70,7 +70,7 @@ module.exports = {
         //  optimize_id: "OPT_CONTAINER_ID",
         //  anonymize_ip: true,
           cookie_expires: 0,
-          cookie_domain: "http://www.mramitpatel.com",
+          cookie_domain: "https://www.mramitpatel.com/",
           cookie_flags: 'SameSite=None;Secure',
         },
         // This object is used for configuration specific to this plugin
