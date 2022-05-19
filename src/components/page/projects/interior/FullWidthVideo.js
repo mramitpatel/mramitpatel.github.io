@@ -5,7 +5,7 @@ export default function FullWidthVideo({data}) {
 		<div className="project-fullwidthvideo">
 			<div className="container">
 				<div className="row">
-					<div className="col-8 push-2">
+					<div className="col-10 push-1 push-lg-hide col-lg-12">
 						<div className="responsive-iframe-container">
 						<iframe className='responsive-iframe'
       						src={data.videoSrcURL}
