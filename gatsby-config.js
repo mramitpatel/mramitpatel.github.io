@@ -60,7 +60,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-H728MH6PX9", // Google Analytics / GA
+          "G-BW2WM5V5RP", // Google Analytics / GA
         //"AW-CONVERSION_ID", // Google Ads / Adwords / AW
         //"DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
@@ -70,8 +70,8 @@ module.exports = {
         //  optimize_id: "OPT_CONTAINER_ID",
         //  anonymize_ip: true,
           cookie_expires: 7200,
-          cookie_domain: "https://mramitpatel.com/",
-          cookie_flags: 'SameSite=None;Secure',
+          cookie_domain: "https://www.mramitpatel.com/",
+          cookie_flags: "SameSite=None;Secure",
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
