@@ -70,8 +70,7 @@ module.exports = {
         //  optimize_id: "OPT_CONTAINER_ID",
         //  anonymize_ip: true,
           cookie_expires: 7200,
-          cookie_domain: "https://www.mramitpatel.com/",
-        //  cookie_flags: "SameSite=None;Secure",
+          cookie_flags: "SameSite=None;Secure",
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
@@ -82,6 +81,7 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/data/**", "/components/**"],
           // Defaults to https://www.googletagmanager.com
+          origin: "https://www.mramitpatel.com/",
         },
       },
     },
