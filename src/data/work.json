@@ -6,6 +6,7 @@
     "byline": "Build your own Mack.",
     "hero": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
     "thumbnail": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
       "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that set the stage for future growth and iteration.",
@@ -86,7 +87,7 @@
     "byline": "Holding the future to a higher standard.",
     "hero": "../images/projects/csa/csa-hero.jpg",
     "thumbnail": "../images/projects/csa/csa-thumb.jpg",
-    "thumbnailClass": "col-7 col-lg-12",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
       "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.",
@@ -204,7 +205,7 @@
     "byline": "Advanced lighting for healthier living.",
     "hero": "../images/projects/finelite/finelite-hero.jpg",
     "thumbnail": "../images/projects/finelite/finelite-thumb.jpg",
-    "thumbnailClass": "col-5 col-lg-12",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "Studies have shown, the color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces ranging from hospitals and schools to workpplaces.",
       "The goal? To design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
@@ -307,6 +308,7 @@
     "byline": "Humanizing B2B telecom.",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "The Spectrum Enterprise brand spun off following the merger of Charter with Time Warner with a focus on a growing business services segment. As a challenger brand, Spectrum Enterprise needed a digital destination that embraced the companies newly formed rally cry and reposition the company as a leader in the telecom space.",
       "We designed an enterprise website from research and insights gathering to final designs and development. After the launch, we created lead-gen and sales tool to help support the business."
@@ -424,7 +426,7 @@
       {
         "TextBlock": {
           "title": "Awards & Outcomes",
-          "text": "The vastly improved digital experience lead to a 31% increase in leads across all lead-gen forms. A new digital design system allowed Spectrum Enterprise to quickly add pages and tailor content to specific users. Our work on Spectrum Enterprises won Best Telecommunications and Best ISP site in 2021."
+          "text": "The vastly improved digital experience lead to a 32% increase in leads across all lead-gen forms and an increase of 67% in content engagement. A new digital design system allowed Spectrum Enterprise to quickly add pages and tailor content to specific users. Our work on Spectrum Enterprises won Best Telecommunications and Best ISP site in 2021."
         }
       }        
     ]
@@ -436,7 +438,7 @@
     "byline": "Transforming the cooler aisle.",
     "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
     "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
-    "thumbnailClass": "col-5 col-lg-12",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "CoolerScreens is a startup focused on evolving the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
       "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
@@ -478,7 +480,7 @@
     "byline": "Global language learning.",
     "hero": "../images/projects/mango/Mango-Hero.jpg",
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
-    "thumbnailClass": "col-7 col-lg-12",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "While many language learning applications exist, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
       "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how learning a new language unlocks a rich tapestry of cultural experiences.","As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
@@ -541,6 +543,7 @@
     "byline": "Simplifying the relocation process.",
     "hero": "../images/projects/imove/imove-hero-fullwidth.jpg",
     "thumbnail": "../images/projects/imove/imove-thumb.jpg",
+    "thumbnailClass": "col-6 col-lg-12",
     "description": [
       "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with an intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of any homescreen."
     ],
