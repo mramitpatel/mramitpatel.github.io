@@ -555,6 +555,34 @@
     ],
     "layout": [
       {
+        "TextBlock": {
+          "title": "Journey Mapping.",
+          "text": "Through live workshops with stakeholders, we mapped the entire relocation process and used empathy matching exercises to put ourselves in the shoes of prospective movers. The output of the exercises allowed us to generate specific priorities for the iMove app as well as additional services and offerings that would allow Sirva employees aid and assist in relocations."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-journey.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Product Visioning",
+          "text": "To help define the overall scope, features and requirements, I explored a range of creative solutions that would assist both movers and back of the house providers in an effort to reduce common pain points during the relocation process. Each visioning option was branded and helped visualize how the experience would look, sound and feel to an end-user."
+        }
+      },
+        {
+        "FullWidthImage": {
+          "img": "../images/projects/imove/imove-visioning.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Product Branding",
+          "text": "A team of 2 designers, explored a range of creative solutions that would assist both movers and back of the house providers in an effort to reduce common pain points during the relocation process. Each visioning option was branded and helped visualize how the micro experience would look, sound and feel to an end-user."
+        }
+      },
+        {
         "FullWidthImage": {
           "img": "../images/projects/imove/imove-logos.png"
         }

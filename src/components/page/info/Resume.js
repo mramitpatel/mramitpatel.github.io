@@ -5,7 +5,13 @@ const exp = [
 		year:'2016-2022',
 		company: 'The Office of Experience',
 		title: 'Creative Director',
-		description:["At OX, I led design initiatives across brand, product and digital projects. I was fortunate to work with some of the most talented designers, strategists and practitioners in Chicago. Over the course of 6 years, the team grew from 8 to 60, we changed offices once, and went on 4 boat parties.","I was focused on building a team of designers that were well-versed in Product Design tools and process – introduced Figma and Sketch into our workflow and set the foundation for component based design.", "While at OX, I redesigned Spectrum Enterprise's web experience, led the creative marketing execution for Tate & Lyle, oversaw the design and UX of Dot Foods B2B E-Commerce platform and made many friends along the way."]
+		description:["I led design initiatives across brand, product and digital projects. I was fortunate to work with some of the most talented designers, strategists and practitioners in Chicago. Over the course of 6 years, the team grew from 8 to 60, we changed offices once, and went on 4 boat parties.","I was focused on building a team of designers that were well-versed in Product Design tools and process – introduced Figma and Sketch into our workflow and set the foundation for component based design.", "While at OX, I redesigned Spectrum Enterprise's web experience, led the creative marketing execution for Tate & Lyle, oversaw the design and UX of Dot Foods B2B E-Commerce platform and made many friends along the way."]
+	},
+	{
+		year:'2016–2010',
+		company: 'The Office of Experience',
+		title: 'Associate Creative Director',
+		description:["As an ACD, I lead product design initiatives and branding efforts for LG, D'Addario, FLOR and Mack Trucks. I onboarding the team to Sketch and Abstract and formalized a component design process."]
 	},
 	{
 		year:'2010–2016',

@@ -9,10 +9,33 @@
 	}
 
 	h1 {
+		position: relative;
 		br {
 			@include screen-md-max {
 				display: none;
 			}
 		}
+	}
+	.callout{
+		font-family: Kalam;
+		transform: rotate(-8deg);
+		background-color: rgba(222, 238, 82, 0.7);
+		padding: 8px 21px 2px 21px;
+		font-weight: 300;
+		line-height: 1;
+		font-size: 64px;
+		position: absolute;
+		top: -45px;
+		left: 20.25%;
+	}
+	.carrot{
+		height: 21px;
+		font-size: 70px;
+		font-family: Kalam;
+		font-weight: 300;
+		position: absolute;
+		top: 60px;
+		left: 23%;
+
 	}
 }
