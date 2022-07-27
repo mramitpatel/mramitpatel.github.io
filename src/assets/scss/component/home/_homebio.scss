@@ -1,0 +1,68 @@
+.home-bio {
+	color: white;
+	padding: 10vh 0 10vh 0;
+	//@include grid-collapse;
+	opacity: 0;
+	transition: opacity $default-transition, transform $default-transition;
+		&-visible {
+			transform: none;
+			opacity: 1;
+		}
+
+	h3{
+		padding-bottom: 64px;
+		padding-top: 64px;
+		font-size: 56px;
+		//border: 1px solid black;
+		line-height: 1.15;
+		letter-spacing: -2px;
+		font-family: $font-heading-regular;
+		font-weight: normal;
+		span {
+			font-family: $font-heading-light;
+		}
+		@include screen-xxl-max {
+			font-size: 56px;
+			//border: 1px solid yellow;
+		}
+		@include screen-xl-max {
+			font-size: 48px;
+			//border: 1px solid green;
+		}	
+		@include screen-lg-max {
+			//border: 1px solid red;
+			font-size: 32px;
+			letter-spacing: -1px;
+		}
+	}
+	.container{
+		padding-left: 48px;
+    	padding-right: 48px;
+		@include screen-xxl-max {
+			//border: 1px solid yellow;
+		}
+		@include screen-xl-max {
+			//border: 1px solid green;
+		}	
+		@include screen-lg-max {
+			//border: 1px solid red;
+			letter-spacing: -1px;
+		}
+		@include screen-sm-max {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+	.content{
+		padding: 4vh 0;
+	}
+
+	h1 {
+		position: relative;
+		br {
+			@include screen-md-max {
+				display: none;
+			}
+		}
+	}
+}

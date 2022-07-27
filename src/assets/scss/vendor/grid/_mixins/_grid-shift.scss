@@ -1,0 +1,24 @@
+﻿/// Shift columns and reorder them within their container using relative
+/// positioning.
+///
+/// @group features
+///
+/// @name Grid shift
+///
+/// @argument {number (unitless)} $shift [false]
+///   The number of columns to shift the column.
+///
+/// @argument {map} $grid [$neat-grid]
+///   The grid to be used to determine how far to shift the column.
+///   By default, the global `$neat-grid` will be used.
+
+@mixin grid-shift($shift: false, $grid: $neat-grid) {
+	@if $shift {
+		$_shift-value: calc(#{_neat-column-width($grid, $shift)});
+		left: $_shift-value;
+	} @else {
+		left: auto;
+	}
+
+	position: relative;
+}

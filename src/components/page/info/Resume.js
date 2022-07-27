@@ -32,10 +32,10 @@ const ExperienceItem = ({year,company,title,description}) => {
 	return(
 		<div className="resume-item">
 			<div className="row">
-				<div className="push-2 col-4 push-lg-hide col-lg-12 col-md-4 resume-item-left">
+				<div className="push-1 col-4 push-lg-hide col-lg-12 col-md-4 resume-item-left">
 					<div className="resume-item-year">{year}</div>
 				</div>
-				<div className="col-5 col-lg-12 resume-item-right">
+				<div className="col-6 col-lg-12 resume-item-right">
 				<div className="resume-item-company">{company}</div>
 				<div className="resume-item-title">{title}</div>
 				<div className="resume-item-description">{description.map((d,idx) => <p key={idx}>{d}</p>)}</div>
@@ -57,7 +57,7 @@ export default function ClientExperience() {
 		<div className="clientExperience">
 			<div className="container">
 				<div className="row">
-					<div className="col-9 push-2 push-lg-hide col-lg-12 col-md-12">
+					<div className="col-9 push-1 push-lg-hide col-lg-12 col-md-12">
 						<h2>Experience</h2>
 					</div>
 				</div>

@@ -1,35 +1,71 @@
 .header {
-	padding: 53px 0;
+	padding: 40px 0;
+	font-family: "Sneak Medium", "Helvetica", "Arial", sans-serif;
 	opacity: 0;
+	display: flex;
 	transition: opacity $default-transition;
 	&-visible {
 		opacity: 1;
 	}
+	.connect{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.button{
+		margin-left: 10px;
+	}
+	a{
+	line-height: 30px;
+	padding: 10px 21px;
+	transition: all 250ms ease;
+	cursor: pointer;
+	display: inline-flex;
+	}
+	.name {
+		    font-family: "Sneak Medium", "Helvetica", "Arial", sans-serif;
+		white-space: nowrap;
+		width: inherit;
+		display: block;
+		color: $color-black;
+		padding-left: 0;
+		padding-top: 10px;
+	}
 	&-flex {
-		.name {
-			font-size: 18px;
-			white-space: nowrap;
-			width: inherit;
-			display: block;
-			color: $color-black;
-		}
 		.count {
+			padding-top: 14px;
 			font-family: $font-heading-regular !important;
 			font-feature-settings: "zero", "tnum", "ss05";
 			font-weight: normal;
+			white-space: nowrap;
+			width: inherit;
+			display: block;
 		}
 		a {
 			width: 100%;
 			display: flex;
 			justify-content: flex-end;
 		}
+		.close-icon{
+			height: 14px;
+			width: 14px;
+			display: inline-block;
+			flex-shrink: 0;
+		}
+		&:hover {
+			fill: #ffffff;
+		}
 		&-close {
-			height: 38px;
-			width: 38px;
+			top: 42px;
+			padding: 10px 19px;
+			align-items: center;
 			cursor: pointer;
 			z-index: 999;
 			position: fixed;
-			
+			transition: all ease-in-out .1s;
+			appearance: none;
+			-moz-box-align: center;
+			-moz-box-pack: center;
+			justify-content: center;
 		}
 	}
 }

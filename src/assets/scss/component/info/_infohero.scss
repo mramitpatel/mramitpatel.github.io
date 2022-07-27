@@ -1,4 +1,5 @@
 .info-hero {
+	padding-top: 40px;
 	margin-bottom: 128px;
 	opacity: 0;
 	transform: translateY(72px);
@@ -16,14 +17,6 @@
 			margin-bottom: 60px;
 			&:last-child {
 				margin-bottom: 0;
-			}
-		}
-		a {
-			border-bottom: 1px solid transparent;
-			transition: border .3s ease-out;
-			&:hover {
-				text-decoration: none;
-				border-color: #000000;
 			}
 		}
 	}

@@ -40,20 +40,22 @@ $font-heading-medium: "Sneak Medium", "Helvetica", "Arial", sans-serif;
 
 $font-base: 'Sneak', "Times New Roman", Times, serif;
 
-$font-size-base: 21px;
+$font-size-base: 20px;
 $line-height-base: 150%;
 
 html, body {
 	font-family: $font-base;
 	font-size: $font-size-base;
 	line-height: $line-height-base;
-	color: $color-gray;
+	color: $color-black;
+	font-feature-settings: "kern";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
 	text-decoration: none;
+	color: $color-black;
 	transition: all $default-transition;
 }
 
@@ -66,27 +68,44 @@ p {
 	}
 }
 
+
+
 h1 {
-	font-size: 72px;
-	line-height: 110%;
-	letter-spacing: -1.74845px;
-	font-family: $font-heading-light;
+	font-size: 86px;
+	//border: 1px solid black;
+	line-height: 1.05;
+	letter-spacing: -3.12px;
+	font-family: $font-heading-regular;
 	font-weight: normal;
 	span {
 		font-family: $font-heading-medium;
 	}
-	@include screen-xl-max {
-		font-size: 56px;
+	@include screen-xxl-max {
+		font-size: 86px;
+		//border: 1px solid yellow;
 	}
+	@include screen-xl-max {
+		font-size: 64px;
+		//border: 1px solid green;
+	}	
 	@include screen-lg-max {
+		//border: 1px solid red;
 		font-size: 44px;
 		letter-spacing: -1px;
-	}	
+	}
+	@include screen-sm-max {
+		//border: 1px solid red;
+		font-size: 36px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
 }
+
+
 
 h2 {
 	font-size: 40px;
-	line-height: 40px;
+	line-height: 125%;
 	font-weight: normal;
 	font-family: $font-heading-regular;
 }
@@ -98,10 +117,12 @@ h3 {
 }
 
 h4 {
-	font-size: 21px;
+	font-size: 20px;
 	line-height: 30px;
+	letter-spacing: -0.124px;
+	font-family: $font-heading-regular;
 	span {
-		font-family: $font-heading-light;
+		font-family: $font-heading-regular;
 	}
 }
 

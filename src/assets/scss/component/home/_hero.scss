@@ -1,5 +1,5 @@
 .home-hero {
-	padding: 96px 0;
+	padding: 12.5vh 0 40vh 0;
 	opacity: 0;
 	transform: translateY(72px);
 	transition: opacity $default-transition, transform $default-transition;
@@ -9,33 +9,27 @@
 	}
 
 	h1 {
+		font-size: 120px;
 		position: relative;
-		br {
-			@include screen-md-max {
-				display: none;
-			}
+		font-family: $font-heading-light;
+		@include screen-xxl-max {
+			font-size: 120px;
+			//border: 1px solid yellow;
 		}
-	}
-	.callout{
-		font-family: Kalam;
-		transform: rotate(-8deg);
-		background-color: rgba(222, 238, 82, 0.7);
-		padding: 8px 21px 2px 21px;
-		font-weight: 300;
-		line-height: 1;
-		font-size: 64px;
-		position: absolute;
-		top: -45px;
-		left: 20.25%;
-	}
-	.carrot{
-		height: 21px;
-		font-size: 70px;
-		font-family: Kalam;
-		font-weight: 300;
-		position: absolute;
-		top: 60px;
-		left: 23%;
-
+		@include screen-xl-max {
+			font-size: 76px;
+			//border: 1px solid green;
+		}	
+		@include screen-lg-max {
+			//border: 1px solid red;
+			font-size: 44px;
+			letter-spacing: -1px;
+		}
+		@include screen-sm-max {
+			//border: 1px solid red;
+			font-size: 36px;
+			line-height: 125%;
+			letter-spacing: -1px;
+		}
 	}
 }

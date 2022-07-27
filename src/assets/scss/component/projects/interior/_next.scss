@@ -19,24 +19,37 @@
 	}
 
 	&-title {
-		font-size: 72px;
+		font-size: 86px;
 		margin-bottom: 18px;
 		margin-top: 86px;
-		line-height: 110%;
-		letter-spacing: -1.74845px;
+		line-height: 1.05;
+		letter-spacing: -3px;
 		font-family: $font-heading-medium;
 		font-weight: normal;
 		span {
 			font-family: $font-heading-medium;
 		}
-		@include screen-xl-max {
-			font-size: 56px;
-		}
-		@include screen-lg-max {
-			font-size: 44px;
-			letter-spacing: -1px;
-		}
+	@include screen-xxl-max {
+		font-size: 86px;
+		//border: 1px solid yellow;
 	}
+	@include screen-xl-max {
+		font-size: 64px;
+		//border: 1px solid green;
+	}	
+	@include screen-lg-max {
+		//border: 1px solid red;
+		font-size: 44px;
+		letter-spacing: -1px;
+	}
+	@include screen-sm-max {
+		//border: 1px solid red;
+		font-size: 36px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
+}
+
 
 	&-description {
 		font-size: 72px;

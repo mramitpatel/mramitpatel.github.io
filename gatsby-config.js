@@ -15,6 +15,14 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+        rule: {
+          include: "/src/svg" // See below to configure properly
+      }
+    }
+    },
+    {
     resolve: `gatsby-plugin-advanced-sitemap`,
     options: {
             // The filepath and name to Index Sitemap. Defaults to '/sitemap.xml'.

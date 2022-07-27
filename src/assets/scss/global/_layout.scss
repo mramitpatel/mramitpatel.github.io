@@ -8,7 +8,7 @@
 	margin: 0 auto;
 	@include screen-xxl-max {
 		max-width: none;
-		padding: 0 80px;
+		padding: 0 128px;
 	}
 	@include screen-xl-max {
 		max-width: none;
@@ -197,6 +197,24 @@ body {
 	background-color: $color-white;
 	transition: all $default-transition;
 	position: relative;
+
+/* responsive debug */
+@include screen-xxl-max {
+	border: 4px solid purple;
+	content: "xxl-max";
+}
+@include screen-xl-max {
+	border: 4px solid green;
+}	
+@include screen-lg-max {
+	border: 4px solid red;
+	
+}
+@include screen-sm-max {
+	border: 4px solid blue;
+
+}
+
 
 	&.black {
 		color: $color-white !important;

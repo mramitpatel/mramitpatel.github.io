@@ -100,7 +100,7 @@ export default function ClientExperience() {
 		<div className="clientExperience">
 			<div className="container">
 				<div className="row">
-					<div className="col-9 push-2 push-lg-hide col-lg-12 col-md-12">
+					<div className="col-10 push-1 push-lg-hide col-lg-12 col-md-12">
 						<h2>Client Experience</h2>
 						{<ClientList data={clientData}/>	}
 					</div>

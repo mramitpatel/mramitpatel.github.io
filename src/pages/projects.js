@@ -14,6 +14,7 @@ export default function Projects() {
 					nodes {
 						title
 						slug
+						byline
 						type
 						hero {
 							childImageSharp {

@@ -44,7 +44,7 @@ import Navigation from "./global/Navigation"
 		const Info = ({children}) => {
 			return (
 				<>
-					<Navigation />
+			 		<Header headerType="info" />
 					<ChildrenContainer children={children} />
 					<Footer isHome={false}/>
 				</>

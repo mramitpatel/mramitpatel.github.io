@@ -20,6 +20,9 @@ exports.createPages = ({ actions, graphql }) => {
 				}
 			}
 			description
+			duration
+			platform
+			contribution
 			agency
 			roles
 			layout {

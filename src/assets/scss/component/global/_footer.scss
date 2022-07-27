@@ -4,6 +4,9 @@
 	&-copy {
 		margin-bottom: 35px;
 	}
+	.button {
+		margin-right: 10px;
+	}
 	.scrollUp{
 		padding: 13px 22px;
 	}
@@ -15,20 +18,20 @@
 	.peace{
 		padding: 0px 22px;
 		font-size: 24px;
-		color: $color-light-gray;
+		color: $color-black;
 		float: left;
 		line-height: 30px;
 	}
-	
-	a {
+	.copyright{
+		text-align: right;
 		color: $color-light-gray;
+	}
+	
+	.txt-link {
+		color: $color-black;
 		line-height: 30px;
-		padding: 16px 12px;
+		margin: 16px 16px;
 		transition: all $default-transition;
 		cursor: pointer;
-		&:hover {
-			color: $color-black;
-			border-color: $color-black;
-			}
 	}
 }

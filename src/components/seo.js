@@ -76,9 +76,21 @@ function Seo({ description, lang, meta, title,image }) {
           content: title,
         },
         {
+          name: `theme-color`,
+          content: "#ecd96f",
+          media: "(prefers-color-scheme: light)",
+        },
+        {
+          name: `theme-color`,
+          content: "#ecd96f",
+          media: "(prefers-color-scheme: dark)",
+        },
+        {
           name: `twitter:description`,
           content: metaDescription,
         },
+
+
       ].concat(meta)}
     />
   )

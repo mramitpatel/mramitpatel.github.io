@@ -6,18 +6,19 @@
     "byline": "Build your own Mack.",
     "hero": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
     "thumbnail": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "thumbnailClass": "col-xxl-6 col-xl-12 col-md-12 col-sm-12",
     "description": [
       "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
       "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that set the stage for future growth and iteration.",
       "The Mack Truckbuilder experience is available at build.macktrucks.com/."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "UX Strategy",
-      "UX Design",
-      "Product Design"
+      "Creative Director"
     ],
+    "contribution": "UX Strategy, UX/UI Design, Branding",
+    "duration": "8 months",
+    "platform": "Responsive Web",
+    "agency": "The Office of Experience",
     "layout": [
       {
         "BackgroundSwap": {
@@ -79,228 +80,7 @@
       }
     ]
   },
-  {
-    "background": "white",    
-    "slug": "csa",
-    "title": "CSA",
-    "type":"Brand",
-    "byline": "Holding the future to a higher standard.",
-    "hero": "../images/projects/csa/csa-hero.jpg",
-    "thumbnail": "../images/projects/csa/csa-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
-    "description": [
-      "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
-      "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.",
-      "As Creative Director of the multi-year initiative , I re-invigorated the mark and reshaped all aspects of the brand—from identity, brand expression, photography direction and the digital experience."
-    ],
-    "agency": "The Office of Experience",
-    "roles": [
-      "Identity",
-      "Branding",
-      "UX/Content Strategy",
-      "Digital Design"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-main-logo.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Revisiting the mark that started it all.",
-          "text": "Renewing the logo meant revisiting past incarnations of the CSA mark to truly understand the evolution of the identity. As a symbol that appears on thousands of products in the world, a radical redesign would mean endless hours of updating and create inconsistency across old and new product badging. I opted to perfect the original CSA mark from the 1900's mark by retaining the timeless quality of the geometric shape while refining the form optically and true geometry."
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/csa/csa-logo-detail.jpg",
-          "img2": "../images/projects/csa/csa-logo-detail-b.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Expressing the brand.",
-          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color palette was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
-        }
-      },      
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/csa/csa-color-palette.jpg",
-          "img1Class": "col-5",
-          "img2": "../images/projects/csa/csa-type-spec.jpg",
-          "img2Class": "col-7"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-icons.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-brand-guidelines.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-brand-expression-all.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-brand-expression-standards-doc.jpg"
-        }
-      },
-      {
-        "BackgroundSwap": {
-          "prevBg": "white",
-          "newBg": "black"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Shoot globally, source locally.",
-          "text": "A team of three traveled the globe to meet CSA employees from all segments of the company. Our intent, to capture CSA's diverse offering and tell the story of CSA's unknown story through photography."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-global-shoot-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-global-shoot-2.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-global-shoot-3.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Elevating a unique story.",
-          "text": "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-web-1-fullwidth.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-web-2.jpg"
-        }
-      }
-    ]
-  },
-  {
-    "background": "white",  
-    "slug": "finetune",
-    "title": "FineTune",
-    "type":"Product Design",
-    "byline": "Advanced lighting for healthier living.",
-    "hero": "../images/projects/finelite/finelite-hero.jpg",
-    "thumbnail": "../images/projects/finelite/finelite-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
-    "description": [
-      "Studies have shown, the color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces ranging from hospitals and schools to workpplaces.",
-      "The goal? To design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
-      "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and concepted design interfaces. With partnering with Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
-    ],
-    "agency": "Airro Studio",
-    "roles": [
-      "Product Visioning",
-      "UX",
-      "Product Design"
-    ],
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-sketch-setup.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Designing with intent and users in mind.",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seamlessly discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-IA-sketch.jpg"
-        }
-      }, 
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-flow.jpg"
-        }
-      },            
-      {
-        "TextBlock": {
-          "title": "Leveraging common patterns.",
-          "text": "The overall app was designed for portrait usage making adjustments to setting and color parameters easily accomplishable using a single hand. Unlike consumer lighting IoT applications where on-the-fly adjusting is a requirement, a FineTune controller is designed to be programmed once, with little need for on-the-fly adjusting. This allowed for an interface is primarily read-on only or programming mode. For both sets of actions, I looked towards familiar design patterns to create an interface that is intuitive to a broad range of users."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-all-screens.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Timeline view.",
-          "text": "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-timeline.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Schedule your lighting program.",
-          "text": "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/finelite/finelite-schedule-detail-left.jpg",
-          "img1Class": "col-6",
-          "img2": "../images/projects/finelite/finelite-schedule-detail-right.jpg",
-          "img2Class": "col-6" 
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "We'll miss you iPod.",
-          "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-big-wheel.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/finelite/finelite-intensity-detail-left.jpg",
-          "img1Class": "col-6",
-          "img2": "../images/projects/finelite/finelite-intensity-detail-right.jpg",
-          "img2Class": "col-6" 
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-design-system.jpg"
-        }
-      }
-    ]
-  },
+
   {
     "slug": "spectrum",
     "title": "Spectrum Enterprise",
@@ -308,18 +88,18 @@
     "byline": "Humanizing B2B telecom.",
     "hero": "../images/projects/spectrum/Hero-1.jpg",
     "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "thumbnailClass": "col-xxl-3 col-xl-6 col-md-6 col-sm-12",
     "description": [
       "The Spectrum Enterprise brand spun off following the merger of Charter with Time Warner with a focus on a growing business services segment. As a challenger brand, Spectrum Enterprise needed a digital destination that embraced the companies newly formed rally cry and reposition the company as a leader in the telecom space.",
       "We designed an enterprise website from research and insights gathering to final designs and development. After the launch, we created lead-gen and sales tool to help support the business."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "Creative Direction",
-      "Digital Branding",
-      "UX",
-      "Product Design"
+      "Creative Director"
     ],
+    "contribution": "Brand Design, UX Strategy, Design",
+    "duration": "1.5 Years",
+    "platform": "AOR, Brand, Digital",
+    "agency": "The Office of Experience",
     "layout": [
       {
         "FullWidthVideo":{
@@ -431,44 +211,227 @@
       }        
     ]
   },
+
   {
-    "slug": "cooler-screens",
-    "title": "Cooler Screens",
-		"type":"Product Concept & Design",
-    "byline": "Transforming the cooler aisle.",
-    "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
-    "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "background": "white",  
+    "slug": "finetune",
+    "title": "FineTune",
+    "type":"Product Design",
+    "byline": "Advanced lighting for healthier living.",
+    "hero": "../images/projects/finelite/finelite-hero.jpg",
+    "thumbnail": "../images/projects/finelite/finelite-thumb.jpg",
+    "thumbnailClass": "col-xxl-3 col-xl-6 col-md-6 col-sm-12",
     "description": [
-      "CoolerScreens is a startup focused on evolving the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
-      "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
+      "Studies have shown, the color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces ranging from hospitals and schools to workpplaces.",
+      "The goal? To design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
+      "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and concepted design interfaces. With partnering with Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Concept Design",
-      "Video Storyboard"
+      "Product Designer"
     ],
+    "contribution": "UX Strategy, UX/UI Design",
+    "duration": "8 months",
+    "platform": "iOS Native",
+    "agency": "Contract / AirroStudio",
     "layout": [
       {
         "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-diagram-1.jpg"
+          "img": "../images/projects/finelite/finelite-sketch-setup.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Designing with intent and users in mind.",
+          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seamlessly discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-design-1.jpg"
+          "img": "../images/projects/finelite/finelite-IA-sketch.jpg"
+        }
+      }, 
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-flow.jpg"
+        }
+      },            
+      {
+        "TextBlock": {
+          "title": "Leveraging common patterns.",
+          "text": "The overall app was designed for portrait usage making adjustments to setting and color parameters easily accomplishable using a single hand. Unlike consumer lighting IoT applications where on-the-fly adjusting is a requirement, a FineTune controller is designed to be programmed once, with little need for on-the-fly adjusting. This allowed for an interface is primarily read-on only or programming mode. For both sets of actions, I looked towards familiar design patterns to create an interface that is intuitive to a broad range of users."
         }
       },
       {
         "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-design-2.jpg"
+          "img": "../images/projects/finelite/finelite-all-screens.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Timeline view.",
+          "text": "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-timeline.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Schedule your lighting program.",
+          "text": "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
         }
       },
       {
         "TwoColumnImages": {
-          "img1": "../images/projects/cooler/image-left-1.jpg",
-          "img2": "../images/projects/cooler/image-right-1.jpg"
+          "img1": "../images/projects/finelite/finelite-schedule-detail-left.jpg",
+          "img1Class": "col-6",
+          "img2": "../images/projects/finelite/finelite-schedule-detail-right.jpg",
+          "img2Class": "col-6" 
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "We'll miss you iPod.",
+          "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-big-wheel.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/finelite/finelite-intensity-detail-left.jpg",
+          "img1Class": "col-6",
+          "img2": "../images/projects/finelite/finelite-intensity-detail-right.jpg",
+          "img2Class": "col-6" 
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/finelite/finelite-design-system.jpg"
+        }
+      }
+    ]
+  },
+  
+  {
+    "background": "white",    
+    "slug": "csa",
+    "title": "CSA",
+    "type":"Brand",
+    "byline": "Holding the future to a higher standard.",
+    "hero": "../images/projects/csa/csa-hero.jpg",
+    "thumbnail": "../images/projects/csa/csa-thumb.jpg",
+    "thumbnailClass": "col-xxl-3 col-xl-12 col-md-6 col-sm-12",
+    "description": [
+      "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
+      "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.",
+      "As Creative Director of the multi-year initiative , I re-invigorated the mark and reshaped all aspects of the brand—from identity, brand expression, photography direction and the digital experience."
+    ],
+    "roles": [
+      "Creative Director"
+    ],
+    "contribution": "Brand Design, UX Design, Art Direction",
+    "duration": "1.5 Years",
+    "platform": "Brand, Digital",
+    "agency": "The Office of Experience",
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-main-logo.jpg"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Revisiting the mark that started it all.",
+          "text": "Renewing the logo meant revisiting past incarnations of the CSA mark to truly understand the evolution of the identity. As a symbol that appears on thousands of products in the world, a radical redesign would mean endless hours of updating and create inconsistency across old and new product badging. I opted to perfect the original CSA mark from the 1900's mark by retaining the timeless quality of the geometric shape while refining the form optically and true geometry."
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/csa-logo-detail.jpg",
+          "img2": "../images/projects/csa/csa-logo-detail-b.jpg"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Expressing the brand.",
+          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color palette was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
+        }
+      },      
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/csa/csa-color-palette.jpg",
+          "img1Class": "col-5",
+          "img2": "../images/projects/csa/csa-type-spec.jpg",
+          "img2Class": "col-7"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-icons.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-brand-guidelines.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-brand-expression-all.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-brand-expression-standards-doc.jpg"
+        }
+      },
+      {
+        "BackgroundSwap": {
+          "prevBg": "white",
+          "newBg": "black"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Shoot globally, source locally.",
+          "text": "A team of three traveled the globe to meet CSA employees from all segments of the company. Our intent, to capture CSA's diverse offering and tell the story of CSA's unknown story through photography."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-global-shoot-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-global-shoot-2.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-global-shoot-3.jpg"
+        }
+      },
+      {
+        "TextBlock":{
+          "title": "Elevating a unique story.",
+          "text": "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-web-1-fullwidth.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/csa/csa-web-2.jpg"
         }
       }
     ]
@@ -480,17 +443,18 @@
     "byline": "Global language learning.",
     "hero": "../images/projects/mango/Mango-Hero.jpg",
     "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "thumbnailClass": "col-xxl-3 col-xl-6 col-lg-12 col-sm-12",
     "description": [
       "While many language learning applications exist, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
       "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how learning a new language unlocks a rich tapestry of cultural experiences.","As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "Brand Identity",
-      "Identity Design",
-      "Brand Expression"
+      "Creative Director"
     ],
+    "contribution": "Identity, Brand Expression",
+    "duration": "8 months",
+    "platform": "Brand",
+    "agency": "The Office of Experience",
     "layout": [
       {
         "FullWidthVideo": {
@@ -536,6 +500,50 @@
       }
     ]
   },
+
+  {
+    "slug": "cooler-screens",
+    "title": "Cooler Screens",
+		"type":"Product Concept & Design",
+    "byline": "Transforming the cooler aisle.",
+    "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
+    "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
+    "thumbnailClass": "col-6 col-lg-12",
+    "description": [
+      "CoolerScreens is a startup focused on evolving the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
+      "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
+    ],
+    "roles": [
+      "Creative Director"
+    ],
+    "contribution": "Art Direction, Product Strategy",
+    "duration": "4 months",
+    "platform": "Digital",
+    "agency": "The Office of Experience",
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-diagram-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-design-1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/cooler/cooler-screens-design-2.jpg"
+        }
+      },
+      {
+        "TwoColumnImages": {
+          "img1": "../images/projects/cooler/image-left-1.jpg",
+          "img2": "../images/projects/cooler/image-right-1.jpg"
+        }
+      }
+    ]
+  },
   {
     "slug": "imove",
     "title": "iMove",
@@ -543,16 +551,17 @@
     "byline": "Simplifying the relocation process.",
     "hero": "../images/projects/imove/imove-hero-fullwidth.jpg",
     "thumbnail": "../images/projects/imove/imove-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "thumbnailClass": "col-xxl-6 col-lg-12 col-sm-12",
     "description": [
       "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with an intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of any homescreen."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "Pitch Strategy",
-      "Product Design",
-      "Video Storyboard"
+      "Product Designer, Creative Director"
     ],
+    "contribution": "UX Strategy, UX/UI Design, Branding",
+    "duration": "8 months",
+    "platform": "iOS Native",
+    "agency": "The Office of Experience",
     "layout": [
       {
         "TextBlock": {
@@ -615,6 +624,7 @@
       }
     ]
   },
+
   {
     "slug": "mack",
     "title": "Mack",
@@ -622,17 +632,17 @@
     "byline": "Rediscover the American legend.",
     "hero": "../images/projects/mack/mack-marketing-hero-1.jpg",
     "thumbnail": "../images/projects/mack/mack-marketing-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "thumbnailClass": "col-6 col-xl-12 col-lg-12 col-sm-12",
     "description": [
       "After a wildly successful rebrand, the iconic truck branded to reinvest in all things digital. As part of a multi-year effort to elevate Mack's digital presence, I lead the design effort to bring a new product to market, recrafted Mack's digital home and envisioned new digital concepts that would help the lead the way for future improvements."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "Creative Direction",
-      "Branding",
-      "Digital Marketing",
-      "UX/Design"
+      "Creative Director"
     ],
+    "contribution": "UX Strategy, UX/UI Design, Art Direction",
+    "duration": "1.5 Years",
+    "platform": "Responsive Web, Digital",
+    "agency": "The Office of Experience",
     "layout": [
       {
         "TextBlock": {
@@ -696,17 +706,18 @@
     "byline": "Elevating ecommerce for an industry icon.",
     "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
     "thumbnail": "../images/projects/daddario/D'Addario-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
+    "thumbnailClass": "col-xxl-3 col-xl-6 col-lg-12",
     "description": [
       "D'Addario is one of the largest suppliers of musical equipment in the world. With thousands of products, global reach and an established brand, D'Addario needed a B2B platform that allowed hundreds of distributors to purchase products in bulk, see insights on purchasing trends and place orders quickly.",
       "That platform I designed did exactly that and more. With features like speed-entry and the ability for publishers to promote products on brand, the experience was built for both shoppers and business alike."
     ],
-    "agency": "The Office of Experience",
     "roles": [
-      "ecommerce",
-      "UX",
-      "(Web) Product Design"
+      "Creative Director, Product Design"
     ],
+    "contribution": "UX Strategy, UX/UI Design",
+    "duration": "8 months",
+    "platform": "Web App",
+    "agency": "The Office of Experience",
     "layout": [
       {
         "BackgroundSwap": {
@@ -742,6 +753,87 @@
       {
         "FullWidthImage": {
           "img": "../images/projects/daddario/DAddario-Style-guide-3.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "sartorious",
+    "title": "Sartorious",
+		"type":"Product Design",
+    "byline": "Rapid UX design for medical devices.",
+    "hero": "../images/projects/sartorious/Sartorius-hero.jpg",
+    "thumbnail": "../images/projects/sartorious/Sartorius-thumb.jpg",
+    "thumbnailClass": "col-xxl-3 col-xl-6 col-lg-12",
+    "description": [
+      "Sartarious accelerates medical discovery and aims to simplify drug production. One way they do this – invest in product design and user experience of existing device products.With a defined UI design kit, sartarious improves upon existing interface and hardware design to help produce faster, easier, safer.","As Sartious AG was looking to secure a design agency who could design UX strategy, high-fidelity design and prototype while maintaing brand guidelines and keeping experience standards up to par. "
+    ],
+    "roles": [
+      "Creative Director, Product Designer"
+    ],
+    "contribution": "UX Strategy, UX/UI Design",
+    "duration": "4 weeks",
+    "platform": "Android",
+    "agency": "The Office of Experience",
+    "layout": [
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/sartorious/Sartorius-problem-1.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "First, an audit of existing screens.",
+          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/sartorious/Sartorius-audit.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Sketching possibilities.",
+          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/sartorious/Sartorius-sketch.jpg"
+        }
+      },
+      {
+        "BackgroundSwap": {
+          "prevBg": "white",
+          "newBg": "black"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Final Designs",
+          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/sartorious/Sartorius-home-r1.jpg"
+        }
+      },
+      {
+        "TextBlock": {
+          "title": "Real-time output for real-time control.",
+          "text": "The controller view was re-organized around a central, real-time view of the equipment in it's current state. This allows an operator to understand the exact position of all elements without needing to face the equipment."
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/sartorious/Sartorius-controller-r1.jpg"
+        }
+      },
+      {
+        "FullWidthImage": {
+          "img": "../images/projects/sartorious/Sartorius-setpoints-r1.png"
         }
       }
     ]

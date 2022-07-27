@@ -10,13 +10,13 @@
 	&-list{
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		gap: 16px;
 		&-item {
-			flex: 0 1 30%;
+			flex: 0 1 19%;
 			margin-bottom: 12px;
 			margin-bottom: 64px;
 			@include screen-lg-max {
-				flex: 0 1 48%;
+
 			}
 			@include screen-md-max {
 				flex: 0 1 100%;

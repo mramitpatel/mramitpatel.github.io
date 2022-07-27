@@ -23,6 +23,9 @@ export default function CaseStudy({pageContext,location}){
 		description,
 		byline,
 		agency,
+		contribution,
+		duration,
+		platform,
 		layout,
 		next,
 		idx,
@@ -76,7 +79,7 @@ export default function CaseStudy({pageContext,location}){
 		<>
 			<Seo title={title} description={description[0]} image={hero.childImageSharp.gatsbyImageData.images.fallback.src}/>
 			<AnimatedLayout isAnimating={isAnimiating}>
-				<Header ref={headerRef} isCaseStudy={true} location={location} idx={idx} len={len} />
+				<Header ref={headerRef} headerType='caseStudy' location={location} idx={idx} len={len} />
 				<Title 
 					toggleCaseStudy={setFromCaseStudy} 
 					fromCaseStudy={fromCaseStudy} 
@@ -87,7 +90,7 @@ export default function CaseStudy({pageContext,location}){
 					byline={byline} />
 				<Hero 
 					img={hero} alt={title}/>
-					<ScrollToShow  component={<InfoBlock description={description} agency={agency} roles={roles}/>}/>
+					<ScrollToShow  component={<InfoBlock description={description} duration={duration} platform={platform} agency={agency} contribution={contribution} roles={roles}/>}/>
 				{
 					layout.map((l,idx)=> {
 						return Object.keys(l).map((c,iidx)=> {
