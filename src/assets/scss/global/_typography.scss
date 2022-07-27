@@ -82,19 +82,15 @@ h1 {
 	}
 	@include screen-xxl-max {
 		font-size: 86px;
-		//border: 1px solid yellow;
 	}
 	@include screen-xl-max {
 		font-size: 64px;
-		//border: 1px solid green;
 	}	
 	@include screen-lg-max {
-		//border: 1px solid red;
 		font-size: 44px;
 		letter-spacing: -1px;
 	}
 	@include screen-sm-max {
-		//border: 1px solid red;
 		font-size: 36px;
 		line-height: 125%;
 		letter-spacing: -1px;

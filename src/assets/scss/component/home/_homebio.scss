@@ -1,6 +1,6 @@
 .home-bio {
 	color: white;
-	padding: 10vh 0 10vh 0;
+	padding: 2vh 0 16vh 0;
 	//@include grid-collapse;
 	opacity: 0;
 	transition: opacity $default-transition, transform $default-transition;
@@ -23,14 +23,11 @@
 		}
 		@include screen-xxl-max {
 			font-size: 56px;
-			//border: 1px solid yellow;
 		}
 		@include screen-xl-max {
-			font-size: 48px;
-			//border: 1px solid green;
+			font-size: 50px;
 		}	
 		@include screen-lg-max {
-			//border: 1px solid red;
 			font-size: 32px;
 			letter-spacing: -1px;
 		}
@@ -39,13 +36,12 @@
 		padding-left: 48px;
     	padding-right: 48px;
 		@include screen-xxl-max {
-			//border: 1px solid yellow;
+
 		}
 		@include screen-xl-max {
-			//border: 1px solid green;
+
 		}	
 		@include screen-lg-max {
-			//border: 1px solid red;
 			letter-spacing: -1px;
 		}
 		@include screen-sm-max {
@@ -54,7 +50,9 @@
 		}
 	}
 	.content{
-		padding: 4vh 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		align-self: center;
 	}
 
 	h1 {
