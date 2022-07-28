@@ -26,7 +26,7 @@ export default function Footer({isHome}) {
 					{/* <Link to="/writing" className="button">Writing</Link> */}
 					<Link to="/info" className="button">Info</Link>
 				</div>
-				<div className="connect col-4 col-sm-12 col-md-3">
+				<div className="connect col-4 col-sm-12 col-md-12">
 					<a rel="noreferrer"href="mailto:amit@mramitpatel.com" className="txt-link" target="_blank">Email</a>
 					<a rel="noreferrer"href="https://www.instagram.com/mramitpatel/" className="txt-link" target="_blank">Instagram</a>
 					<a rel="noreferrer"href="https://www.linkedin.com/in/mramitpatel/" className="txt-link" target="_blank">Linkedin</a>
@@ -34,7 +34,7 @@ export default function Footer({isHome}) {
 				</div>
 			</div>
 			<div className="row sub-foot">
-				<div className="col-3 col-sm-12 col-md-12 copyright">Built with <a rel="noreferrer"href="https://www.gatsbyjs.com/" className="txt-link" target="_blank">GatsbyJS</a>, <a rel="noreferrer"href="https://www.gatsbyjs.com/products/cloud/" className="txt-link" target="_blank">Gatsby Cloud</a> and a lot of help from <a rel="noreferrer"href="http://www.imdkhn.com/" className="txt-link" target="_blank">Imad</a>.</div>
+				<div className="col-2 col-sm-12 col-md-12 copyright">Built with <a rel="noreferrer"href="https://www.gatsbyjs.com/" className="txt-link" target="_blank">GatsbyJS</a>, <a rel="noreferrer"href="https://www.gatsbyjs.com/products/cloud/" className="txt-link" target="_blank">Gatsby Cloud</a> and a lot of help from <a rel="noreferrer"href="http://www.imdkhn.com/" className="txt-link" target="_blank">Imad</a>.</div>
 				<div className="push-6 push-sm-hide col-3 col-sm-12 col-md-12 copyright">© Amit Patel. All rights reserved. ✌︎</div>
 			</div>
 
