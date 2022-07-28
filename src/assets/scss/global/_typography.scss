@@ -87,10 +87,19 @@ h1 {
 		font-size: 64px;
 	}	
 	@include screen-lg-max {
-		font-size: 44px;
+		font-size: 56px;
+		letter-spacing: -1px;
+	}
+	@include screen-md-max {
+		font-size: 48px;
 		letter-spacing: -1px;
 	}
 	@include screen-sm-max {
+		font-size: 40px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
+	@include screen-xs-max {
 		font-size: 36px;
 		line-height: 125%;
 		letter-spacing: -1px;
@@ -100,16 +109,26 @@ h1 {
 
 
 h2 {
-	font-size: 40px;
+	font-size: 32px;
 	line-height: 125%;
 	font-weight: normal;
 	font-family: $font-heading-regular;
+	@include screen-xs-max {
+		font-size: 28px;
+		line-height: 125%;
+		letter-spacing: -0.15px;
+	}
 }
 
 h3 {
 	font-size: 32px;
 	line-height: 36px;
 	font-family: $font-heading-regular;
+	@include screen-xs-max {
+		font-size: 28px;
+		line-height: 125%;
+		letter-spacing: -0.15px;
+	}
 }
 
 h4 {

@@ -3,8 +3,8 @@
 
 	&-title {
 		font-family: $font-heading-medium;
-		line-height: 110%;		
-		margin-bottom: 18px;
+		line-height: 110%;
+		margin-bottom: 16px;		
 		transform: translateY(72px);
 		transition:transform $default-transition, opacity $default-transition;
 		opacity:0;
@@ -21,7 +21,6 @@
 	}
 
 	&-description {
-		font-size: 72px;
 		font-family: $font-heading-light;
 		line-height: 110%;
 		letter-spacing: -1.74845px;
@@ -29,14 +28,30 @@
 		transition:transform $default-transition, opacity $default-transition;
 		opacity:0;
 		transition-delay: 100ms;
-		@include screen-xl-max {
-			font-size: 56px;
+		@include screen-xxl-max {
+			font-size: 86px;
 		}
-		@include screen-lg-max {
-			font-size: 44px;
-			letter-spacing: -1px;
-			line-height: 125%;
+		@include screen-xl-max {
+			font-size: 64px;
 		}	
+		@include screen-lg-max {
+			font-size: 56px;
+			letter-spacing: -1px;
+		}
+		@include screen-md-max {
+			font-size: 48px;
+			letter-spacing: -1px;
+		}
+		@include screen-sm-max {
+			font-size: 40px;
+			line-height: 125%;
+			letter-spacing: -1px;
+		}
+		@include screen-xs-max {
+			font-size: 36px;
+			line-height: 125%;
+			letter-spacing: -1px;
+		}
 		&.show {
 			opacity: 1;
 			transform: none;

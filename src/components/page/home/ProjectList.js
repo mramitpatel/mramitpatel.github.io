@@ -30,7 +30,7 @@ export default function ProjectList({projects, sectionContainer}) {
 		<div className={`${sectionContainer}`}>
 			<div className="container">
 				<div className="row project-list">
-					<div class="col-12"><h3>Select Work</h3></div>
+					<div class="col-12"><h2>Select Work</h2></div>
 					<ProjectItems/>
 				</div>
 			</div>

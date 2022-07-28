@@ -12,8 +12,8 @@ const Hero = () => {
 		<div className={`home-hero ${showClass}`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-xxl-7 col-xl-8 col-md-12">
-						<h1><span>Hello.</span> I'm Amit,<br/> a Product Designer and Creative Director based <br/>in Chicago.</h1>
+					<div className="col-xs-12 col-sm-10 col-md-9 col-lg-9 col-xl-8 col-xxl-7">
+						<h1><span>Hello.</span> I'm Amit,<br/> a Product Designer and Creative Director based<br/>in Chicago.</h1>
 					</div>
 				</div>
 			</div>
