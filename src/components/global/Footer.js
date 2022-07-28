@@ -21,20 +21,23 @@ export default function Footer({isHome}) {
 		<div className="container">
 			<div className="row">
 				{/* <div onClick={scrollToTop} className="col-2 col-md-1"><a className="scrollUp" href="#">↥</a></div>  */}
-				<div className="col-3 col-md-3">
+				<div className="nav col-3 col-sm-12 col-md-3">
 					<Link to="/" className="button">Home</Link>
 					{/* <Link to="/writing" className="button">Writing</Link> */}
 					<Link to="/info" className="button">Info</Link>
 				</div>
-				<div className="col-4 col-md-3">
+				<div className="connect col-4 col-sm-12 col-md-3">
 					<a rel="noreferrer"href="mailto:amit@mramitpatel.com" className="txt-link" target="_blank">Email</a>
 					<a rel="noreferrer"href="https://www.instagram.com/mramitpatel/" className="txt-link" target="_blank">Instagram</a>
 					<a rel="noreferrer"href="https://www.linkedin.com/in/mramitpatel/" className="txt-link" target="_blank">Linkedin</a>
-					{/*<a href="https://twitter.com/mramitpatel"  target="_blank" className="button">Twitter</a>*/}
-					
+					{/*<a href="https://twitter.com/mramitpatel"  target="_blank" className="button">Twitter</a>*/}	
 				</div>
-				<div className="col-5 col-md-12 copyright"><span className="col-2 col-md-1">© Amit Patel. All rights reserved. ✌︎</span></div>
 			</div>
+			<div className="row sub-foot">
+				<div className="col-3 col-sm-12 col-md-12 copyright">Built with <a rel="noreferrer"href="https://www.gatsbyjs.com/" className="txt-link" target="_blank">GatsbyJS</a>, <a rel="noreferrer"href="https://www.gatsbyjs.com/products/cloud/" className="txt-link" target="_blank">Gatsby Cloud</a> and a lot of help from <a rel="noreferrer"href="http://www.imdkhn.com/" className="txt-link" target="_blank">Imad</a>.</div>
+				<div className="push-6 push-sm-hide col-3 col-sm-12 col-md-12 copyright">© Amit Patel. All rights reserved. ✌︎</div>
+			</div>
+
 		</div>
 	</div>
 	)

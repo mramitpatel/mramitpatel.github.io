@@ -1,5 +1,8 @@
 .home-hero {
-	padding: 12.5vh 0 40vh 0;
+	height:90vh;
+	margin-top: -72px;
+	align-items: center;
+	display: flex;
 	opacity: 0;
 	transform: translateY(72px);
 	transition: opacity $default-transition, transform $default-transition;
@@ -7,6 +10,7 @@
 		transform: none;
 		opacity: 1;
 	}
+	
 
 	h1 {
 		font-size: 120px;
@@ -27,7 +31,7 @@
 		}
 		@include screen-sm-max {
 			//border: 1px solid red;
-			font-size: 36px;
+			font-size: 40px;
 			line-height: 125%;
 			letter-spacing: -1px;
 		}

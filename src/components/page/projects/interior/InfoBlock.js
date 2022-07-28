@@ -5,7 +5,7 @@ export default function InfoBlock({description,platform,duration,contribution,ag
 		<div className="project-infoblock">
 			<div className="container">
 				<div className="row">
-					<div className="push-1 col-2 col-lg-12">
+					<div className="push-sm-hide push-1 col-sm-12 col-2 col-lg-12">
 						<div className="project-infoblock-section">
 							<div className="project-infoblock-section-title">Role</div>
 							{roles.map((r,idx) => <p className="project-infoblock-section-text" key={idx}>{r}</p>)}

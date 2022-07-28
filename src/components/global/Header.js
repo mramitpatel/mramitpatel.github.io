@@ -29,7 +29,7 @@ const Header = ({headerType = 'home',idx,len, location = {}}) => {
 			<div className="header-flex col-2 col-md-4">
 				<Link to='/' className="name">Amit Patel</Link>
 			</div>
-			<div className="header-flex col-2">
+			<div className="mobile-hide header-flex col-2">
 				<span className="count">{idx}&#8209;{len} </span>
 			</div>
 			{/* <div className="">

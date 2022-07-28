@@ -77,12 +77,12 @@ function Seo({ description, lang, meta, title,image }) {
         },
         {
           name: `theme-color`,
-          content: "#ecd96f",
+          content: "#FFFFFF",
           media: "(prefers-color-scheme: light)",
         },
         {
           name: `theme-color`,
-          content: "#ecd96f",
+          content: "#000000",
           media: "(prefers-color-scheme: dark)",
         },
         {

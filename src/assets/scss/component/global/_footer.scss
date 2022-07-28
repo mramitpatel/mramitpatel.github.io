@@ -22,16 +22,26 @@
 		float: left;
 		line-height: 30px;
 	}
-	.copyright{
-		text-align: right;
+	.sub-foot{
 		color: $color-light-gray;
+		padding-top: 96px;
+		font-size: 16px;
 	}
 	
-	.txt-link {
-		color: $color-black;
-		line-height: 30px;
-		margin: 16px 16px;
-		transition: all $default-transition;
-		cursor: pointer;
+	.nav, .connect{
+		.txt-link {
+			color: $color-black;
+			line-height: 30px;
+			margin: 16px 16px;
+			transition: all $default-transition;
+			cursor: pointer;
+		}
+		@include screen-lg-max {
+
+		}
+		@include screen-sm-max {
+			padding-bottom: 48px;
+			text-align: left;
+		}
 	}
 }
