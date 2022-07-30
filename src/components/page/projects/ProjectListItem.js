@@ -17,7 +17,7 @@ export default function ProjectListItem({position, slug, img, hero, title, type,
 		}
 	}, [])
 	return (
-		<div className={`project-list-item ${projectClassList}`}>
+		<div id={`${slug}`} className={`project-list-item ${projectClassList}`}>
 			<Link to={`/projects/${slug}`} >
 				<GatsbyImage height={imgSize} className="project-list-item-thumbnail" alt={title} image={img.childImageSharp.gatsbyImageData} />
 				<GatsbyImage height={imgSize} className="project-list-item-hero" alt={title} image={hero.childImageSharp.gatsbyImageData} />
