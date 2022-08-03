@@ -1,9 +1,10 @@
 import React,{useState,useEffect} from "react"
 import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const Header = ({headerType = 'home',idx,len, location = {}}) => {
+const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 	const [visible, setVisible] = useState(false);
-	const slug = location.state && location.state.fromHome ? '/' : '/';
+	const slug = anchor ? `/${anchor}` : '/';
 	const HomeHeader = ({buttonLink,buttonText}) => {
 		return(
 			<>
@@ -36,12 +37,12 @@ const Header = ({headerType = 'home',idx,len, location = {}}) => {
 				<Link to="/projects" className="button">Work</Link>
 			</div> */}
 			<div className=" header-flex push-6 col-2">
-			<Link to={slug}
+			<AnchorLink to={slug}
 				state={{ fromCaseStudy: false, }}>
 					<div className="header-flex-close">
 					<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><line class="cls-1" x1=".5" y1=".5" x2="15.5" y2="15.5"/><line class="cls-1" x1="15.5" y1=".5" x2=".5" y2="15.5"/></svg>
 					</div>
-				</Link>
+				</AnchorLink>
 			</div>
 			</>
 			// <div className="col-12">

@@ -20,6 +20,7 @@ export default function CaseStudy({pageContext,location}){
 	const {title,
 		roles,
 		hero,
+		slug,
 		description,
 		byline,
 		agency,
@@ -32,7 +33,7 @@ export default function CaseStudy({pageContext,location}){
 		len
 	} = pageContext;
 
-
+	const anchor = `#${slug}`;
 	const [isAnimiating, setIsAnimating] = useState(false);
 	const titleRef = useRef();
 	const headerRef = useRef();
@@ -50,19 +51,11 @@ export default function CaseStudy({pageContext,location}){
 	useEffect(() => {
 		const closeCaseStudy = (e) => {
 			if (e.key === "Escape") {
-				if(location.state.fromHome) {
-					navigate(
-						`/`,
-						{
-							state: { fromCaseStudy:false,fromHome: false },
-						})
-				} else {
-					navigate(
-						`/projects/`,
-						{
-							state: { fromCaseStudy:false },
-						})
-				}
+				navigate(
+					`/#${slug}`,
+					{
+						state: { fromCaseStudy:false,fromHome: false },
+					})
 			}
 		};
 		document.addEventListener("keydown", closeCaseStudy, false);
@@ -73,13 +66,11 @@ export default function CaseStudy({pageContext,location}){
 			setFromCaseStudy(location.state.fromCaseStudy)
 		}
 	}, [fromCaseStudy,location.state])
-	console.log(hero.childImageSharp.gatsbyImageData.images.fallback.src);
-	console.log();
 	return (
-		<>
+		<div id={anchor}>
 			<Seo title={title} description={description[0]} image={hero.childImageSharp.gatsbyImageData.images.fallback.src}/>
 			<AnimatedLayout isAnimating={isAnimiating}>
-				<Header ref={headerRef} headerType='caseStudy' location={location} idx={idx} len={len} />
+				<Header ref={headerRef} headerType='caseStudy' anchor={anchor} location={location} idx={idx} len={len} />
 				<Title 
 					toggleCaseStudy={setFromCaseStudy} 
 					fromCaseStudy={fromCaseStudy} 
@@ -107,6 +98,6 @@ export default function CaseStudy({pageContext,location}){
 				}
 			</AnimatedLayout>
 			<Next data={next} headerRef={headerRef} titleRef={titleRef} toggleAnimation={setIsAnimating}/>
-		</>
+		</div>
 	)
 }

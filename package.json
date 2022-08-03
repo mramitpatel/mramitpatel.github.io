@@ -19,6 +19,7 @@
     "@mdx-js/react": "^1.6.22",
     "gatsby": "^4.13.1",
     "gatsby-plugin-advanced-sitemap": "^2.1.0",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-gatsby-cloud": "^4.13.0",
     "gatsby-plugin-google-analytics": "^4.5.0",
     "gatsby-plugin-google-gtag": "^4.14.0",
