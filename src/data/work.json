@@ -15,7 +15,7 @@
     "roles": [
       "Lead Product Designer"
     ],
-    "contribution": "UX Strategy, UX/UI Design, Branding",
+    "contribution": "UX Strategy, Product Design",
     "duration": "8 months",
     "platform": "Responsive Web",
     "agency": "The Office of Experience",
@@ -27,7 +27,7 @@
         }
       },      
       {
-        "FullWidthImage": {
+        "InsetWidthImage": {
           "img": "../images/projects/mackbuilder/mack-builder-experience-architecture.jpg"
         }
       },
@@ -49,7 +49,7 @@
         }
       },
       {
-        "FullWidthImage": {
+        "InsetWidthImage": {
           "img": "../images/projects/mackbuilder/mack-builder-3.jpg"
         }
       },
@@ -59,22 +59,22 @@
         }
       },
       {
-        "FullWidthImage": {
+        "InsetWidthImage": {
           "img": "../images/projects/mackbuilder/mack-builder-5.jpg"
         }
       },
       {
-        "FullWidthImage": {
+        "InsetWidthImage": {
           "img": "../images/projects/mackbuilder/mack-builder-6.jpg"
         }
       },
       {
-        "FullWidthImage": {
+        "InsetWidthImage": {
           "img": "../images/projects/mackbuilder/mack-builder-7.jpg"
         }
       },
       {
-        "FullWidthImage": {
+        "InsetWidthImagee": {
           "img": "../images/projects/mackbuilder/mack-builder-mobile-detail.jpg"
         }
       }

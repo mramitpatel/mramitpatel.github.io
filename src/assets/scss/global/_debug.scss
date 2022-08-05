@@ -1,0 +1,32 @@
+body::before{
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 16px;
+	font-size: 12px;
+	color: white;
+	opacity: 0.8;
+
+	@include screen-xxl-max {
+		content: "xxl";
+		background-color: blue;
+	}
+	@include screen-xl-max {
+		content: "xl";
+		background-color: black;
+	}
+	
+	@include screen-lg-max {
+		content: "lg";
+		background-color: green;
+	}
+
+	@include screen-md-max {
+		content: "md";
+		background-color: red;
+	}
+	@include screen-sm-max {
+		content: "sm";
+		background-color: orange;
+	}
+}

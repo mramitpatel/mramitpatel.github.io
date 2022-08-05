@@ -8,6 +8,7 @@ import Hero from '../components/page/projects/interior/Hero'
 import InfoBlock from '../components/page/projects/interior/InfoBlock';
 import TextBlock from '../components/page/projects/interior/TextBlock';
 import FullWidthImage from '../components/page/projects/interior/FullWidthImage';
+import InsetWidthImage from '../components/page/projects/interior/InsetWidthImage';
 import FullWidthVideo from '../components/page/projects/interior/FullWidthVideo';
 import TwoColumnImages from '../components/page/projects/interior/TwoColumnImages';
 import Next from '../components/page/projects/interior/Next';
@@ -41,6 +42,7 @@ export default function CaseStudy({pageContext,location}){
 	const ComponentList = {
 		TextBlock,
 		FullWidthImage,
+		InsetWidthImage,
 		FullWidthVideo,
 		TwoColumnImages,
 		BackgroundSwap

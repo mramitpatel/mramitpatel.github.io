@@ -38,6 +38,18 @@ exports.createPages = ({ actions, graphql }) => {
 						}
 					}
 				}
+				InsetWidthImage {
+					img {
+						name
+						childImageSharp {
+							gatsbyImageData(
+								formats: WEBP
+								transformOptions: {fit: FILL}
+								outputPixelDensities: 3	
+							)
+						}
+					}
+				}
 				TwoColumnImages {
 					img1 {
 						name
