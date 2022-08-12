@@ -94,15 +94,16 @@ h1 {
 
 
 h2 {
-	font-size: 40px;
+	--minFontSize: 24px;
+	--maxFontSize: 40px;
+	--scaler: 5vw;
+	font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
 	line-height: 125%;
 	margin-bottom: 32px;
 	letter-spacing: -0.5px;
 	font-weight: normal;
 	font-family: $font-heading-medium;
 	@include screen-xs-max {
-		font-size: 28px;
-		line-height: 125%;
 		letter-spacing: -0.15px;
 	}
 }

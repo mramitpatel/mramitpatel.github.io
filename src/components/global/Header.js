@@ -8,10 +8,10 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 	const HomeHeader = ({buttonLink,buttonText}) => {
 		return(
 			<>
-			<div className="header-flex col-3">
+			<div className="header-flex col-6">
 				<Link to='/' className="name">Amit Patel</Link>
 			</div>
-			<div className="header-flex push-6 push-md-5 col-3 cold-md-6">
+			<div className="header-flex header-flex-end col-6">
 			{/* <Link to="https://www.instagram.com/mramitpatel/" className="link mobile-hide">IG</Link> */}
 				<Link to="https://www.linkedin.com/in/mramitpatel/" className="link mobile-hide">LinkedIn</Link>
 				<Link to="mailto:amit@mramitpatel.com" className="link mobile-hide">Mail</Link>
@@ -23,16 +23,16 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 	const CaseStudyHeader = () => {
 		return (
 			<>
-			<div className="header-flex col-xl-2 col-sm-4">
+			<div className="header-flex col-2 col-xl-2 col-sm-4">
 				<Link to='/' className="name">Amit Patel</Link>
 			</div>
-			<div className="mobile-hide header-flex col-3">
+			<div className="mobile-hide header-flex col-2">
 				<span className="count">{idx}&#8209;{len} </span>
 			</div>
 			{/* <div className="">
 				<Link to="/projects" className="button">Work</Link>
 			</div> */}
-			<div className="col-1 push-6 header-flex header-flex-end">
+			<div className="col-2 push-6 header-flex header-flex-end">
 			<AnchorLink className="button header-flex-close" to={slug}
 				state={{ fromCaseStudy: false, }}>
 					<span>ESC</span><div className="button-close">
