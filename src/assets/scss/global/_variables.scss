@@ -9,20 +9,20 @@ $shadow-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
 $default-transition: 250ms ease;
 
 // Breakpoints
-$screen-xxl: 2560px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
+$screen-xxl: 2570px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
 $screen-xl: 1920px;     /* hi-res laptops and desktops (should be grid-width + desktop page gutters */
-$screen-lg: 1280px;     /* big landscape tablets, laptops, and desktops */
-$screen-md: 768px;      /* tablet, landscape iPad, lo-res laptops ands desktops */
-$screen-sm: 640px;      /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+$screen-lg: 1360px;     /* big landscape tablets, laptops, and desktops */
+$screen-md: 1086px;      /* tablet, landscape iPad, lo-res laptops ands desktops */
+$screen-sm: 768px;      /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 $screen-xs: 480px;      /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
 // Grid
-$grid-width: 2400px;
+$grid-width: 2570px;
 $grid-columns: 12;
 $neat-grid: (columns: $grid-columns, gutter: 32px);
-$neat-grid-xxl: (columns: $grid-columns, gutter: 96px, media: '(max-width: 2560px)');
-$neat-grid-xl: (columns: $grid-columns, gutter: 72px, media: '(max-width: 1920px)');
-$neat-grid-lg: (columns: $grid-columns, gutter: 32px, media: '(max-width: 1280px)');
-$neat-grid-md: (columns: $grid-columns, gutter: 16px, media: '(max-width: 768px)');
-$neat-grid-sm: (columns: $grid-columns, gutter: 16px, media: '(max-width: 640px)');
+$neat-grid-xxl: (columns: $grid-columns, gutter: 64px, media: '(max-width: 2570px)');
+$neat-grid-xl: (columns: $grid-columns, gutter: 56px, media: '(max-width: 1920px)');
+$neat-grid-lg: (columns: $grid-columns, gutter: 32px, media: '(max-width: 1360px)');
+$neat-grid-md: (columns: $grid-columns, gutter: 24px, media: '(max-width: 1086px)');
+$neat-grid-sm: (columns: $grid-columns, gutter: 16px, media: '(max-width: 768px)');
 $neat-grid-xs: (columns: $grid-columns, gutter: 16px, media: '(max-width: 480px)');

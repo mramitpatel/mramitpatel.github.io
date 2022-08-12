@@ -6,6 +6,7 @@ import AnimatedLayout from '../components/page/projects/interior/AnimatedLayout'
 import Title from '../components/page/projects/interior/Title'
 import Hero from '../components/page/projects/interior/Hero'
 import InfoBlock from '../components/page/projects/interior/InfoBlock';
+import SectionTextBlock from '../components/page/projects/interior/SectionTextBlock';
 import TextBlock from '../components/page/projects/interior/TextBlock';
 import FullWidthImage from '../components/page/projects/interior/FullWidthImage';
 import InsetWidthImage from '../components/page/projects/interior/InsetWidthImage';
@@ -24,6 +25,9 @@ export default function CaseStudy({pageContext,location}){
 		slug,
 		description,
 		byline,
+		challenge,
+		roleDescription,
+		intro,
 		agency,
 		contribution,
 		duration,
@@ -41,6 +45,7 @@ export default function CaseStudy({pageContext,location}){
 	const [fromCaseStudy, setFromCaseStudy] = useState(false);
 	const ComponentList = {
 		TextBlock,
+		SectionTextBlock,
 		FullWidthImage,
 		InsetWidthImage,
 		FullWidthVideo,
@@ -79,11 +84,12 @@ export default function CaseStudy({pageContext,location}){
 					ref={titleRef} 
 					idx={idx}
 					len={len}
-					title={title} 
+					title={title}
+					intro={intro}
 					byline={byline} />
 				<Hero 
 					img={hero} alt={title}/>
-					<ScrollToShow  component={<InfoBlock description={description} duration={duration} platform={platform} agency={agency} contribution={contribution} roles={roles}/>}/>
+					<ScrollToShow  component={<InfoBlock description={description} roleDescription={roleDescription} challenge={challenge} duration={duration} platform={platform} agency={agency} contribution={contribution} roles={roles}/>}/>
 				{
 					layout.map((l,idx)=> {
 						return Object.keys(l).map((c,iidx)=> {

@@ -6,7 +6,7 @@ export default function BackgroundSwap({data}) {
 	const isBrowser = typeof window !== "undefined"
 	
 	const scrollHandler = useCallback(() => {
-		if (isBrowser && window.pageYOffset >= hiddenRef.current.offsetTop - 125) {
+		if (isBrowser && window.pageYOffset >= hiddenRef.current.offsetTop - 200) {
 			document.getElementsByTagName('body')[0].classList.add(newBg);
 		} else {
 			document.getElementsByTagName('body')[0].classList.remove('black');

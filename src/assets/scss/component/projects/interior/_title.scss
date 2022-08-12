@@ -2,8 +2,8 @@
 	padding: 128px 0 80px;
 
 	&-title {
+		letter-spacing: -0.35px;
 		font-family: $font-heading-medium;
-		line-height: 110%;
 		margin-bottom: 16px;		
 		transform: translateY(72px);
 		transition:transform $default-transition, opacity $default-transition;
@@ -19,39 +19,38 @@
 			transition: none;
 		}
 	}
-
 	&-description {
-		font-family: $font-heading-light;
+		font-family: $font-heading-medium;
+		margin-bottom: 32px;
 		line-height: 110%;
-		letter-spacing: -1.74845px;
+		letter-spacing: -1.76px;
 		transform:translateY(72px);
 		transition:transform $default-transition, opacity $default-transition;
 		opacity:0;
 		transition-delay: 100ms;
-		@include screen-xxl-max {
-			font-size: 86px;
+		&.show {
+			opacity: 1;
+			transform: none;
 		}
-		@include screen-xl-max {
-			font-size: 64px;
-		}	
-		@include screen-lg-max {
-			font-size: 56px;
-			letter-spacing: -1px;
+		&-visible {
+			opacity: 1;
+			transform: none;
+			transition: none;
 		}
-		@include screen-md-max {
-			font-size: 48px;
-			letter-spacing: -1px;
-		}
-		@include screen-sm-max {
-			font-size: 40px;
-			line-height: 125%;
-			letter-spacing: -1px;
-		}
-		@include screen-xs-max {
-			font-size: 36px;
-			line-height: 125%;
-			letter-spacing: -1px;
-		}
+	}
+	&-intro {
+		--minFontSize: 21px;
+		--maxFontSize: 28px;
+		--scaler: 1vw;
+		line-height: 150%;
+		font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+		letter-spacing: -0.35px;
+		font-family: $font-heading-regular;
+		margin-bottom: 16px;		
+		transform: translateY(72px);
+		transition:transform $default-transition, opacity $default-transition;
+		opacity:1;
+
 		&.show {
 			opacity: 1;
 			transform: none;

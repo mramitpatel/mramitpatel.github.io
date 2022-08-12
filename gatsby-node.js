@@ -10,6 +10,7 @@ exports.createPages = ({ actions, graphql }) => {
 			slug
 			title
 			byline
+			intro
 			hero {
 				childImageSharp {
 					gatsbyImageData(
@@ -20,6 +21,8 @@ exports.createPages = ({ actions, graphql }) => {
 				}
 			}
 			description
+			challenge
+			roleDescription
 			duration
 			platform
 			contribution
@@ -76,6 +79,11 @@ exports.createPages = ({ actions, graphql }) => {
 					img2Class
 				}
 				TextBlock {
+					title
+					text
+				}
+				SectionTextBlock {
+					heading
 					title
 					text
 				}

@@ -29,6 +29,8 @@
 @import "component/projects/interior/hero";
 @import "component/projects/interior/infoblock";
 @import "component/projects/interior/textblock";
+@import "component/projects/interior/sectionTextBlock";
+@import "component/projects/interior/backgroundSwap";
 @import "component/projects/interior/next";
 @import "component/projects/interior/fullWidthImage";
 @import "component/projects/interior/insetWidthImage";
@@ -38,4 +40,4 @@
 @import "component/writing/main";
 
 // responsive debug
-@import "global/debug.scss"
+//@import "global/debug.scss"

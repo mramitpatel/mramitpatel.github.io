@@ -6,13 +6,11 @@ export default function TextBlock({data}) {
 		<div className="project-textblock">
 			<div className="container">
 				<div className="row">
-					<div className="col-6 push-2 push-lg-1 col-lg-11 push-md-hide col-md-12">
-						<div className="h4 project-textblock-title">
+				<div className="push-2 push-md-hide col-6 col-md-12 col-lg-8 col-xl-6 col-xxl-6">
+						<h4 className="project-textblock-heading">
 							{title}
-						</div>
-						<p className="project-textblock-text">
-							{text}
-						</p>
+						</h4>
+						{text.map((t,idx)=> <p className="project-textblock-text" key={idx}>{t}</p>)}
 					</div>
 				</div>
 			</div>

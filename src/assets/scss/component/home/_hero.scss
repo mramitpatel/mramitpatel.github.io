@@ -12,34 +12,12 @@
 	}
 	
 	h1 {
-		font-size: 96px;
+		--minFontSize: 40px;
+		--maxFontSize: 100px;
+		--scaler: 5.5vw;
+		font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
 		position: relative;
 		font-family: $font-heading-light;
-		@include screen-xxl-max {
-			font-size: 96px;
-		}
-		@include screen-xl-max {
-			font-size: 80px;
-		}	
-		@include screen-lg-max {
-			font-size: 64px;
-			letter-spacing: -1px;
-		}
-		@include screen-md-max {
-			//border: 1px solid red;
-			font-size: 48px;
-			letter-spacing: -1px;
-		}
-		@include screen-sm-max {
-			//border: 1px solid red;
-			font-size: 40px;
-			line-height: 125%;
-			letter-spacing: -1px;
-		}
-		@include screen-xs-max {
-			font-size: 36px;
-			line-height: 125%;
-			letter-spacing: -1px;
-		}
+
 	}
 }

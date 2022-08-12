@@ -68,15 +68,15 @@ export default function Next({data, toggleAnimation, titleRef}) {
 			<div ref={textRef} className="container">
 				<div className="row">
 					<div className="push-2 col-2 push-lg-hide ">
-						<div className={`project-next-link ${hideNextClass}`}>
+						<h4 className={`project-next-link ${hideNextClass}`}>
 							Next
-						</div>
+						</h4>
 					</div>
 				</div>
 				<div className="row">
 					<div className="push-2 col-7 push-lg-hide col-lg-12">
-						<div className="project-next-title">{title}</div>
-						<div className="project-next-description">{description}</div>
+						<h4 className="project-next-title">{title}</h4>
+						<h1 className="project-next-description">{description}</h1>
 					</div>
 				</div>
 

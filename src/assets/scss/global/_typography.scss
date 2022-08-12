@@ -40,7 +40,7 @@ $font-heading-medium: "Sneak Medium", "Helvetica", "Arial", sans-serif;
 
 $font-base: 'Sneak', "Times New Roman", Times, serif;
 
-$font-size-base: 20px;
+$font-size-base: 18px;
 $line-height-base: 150%;
 
 html, body {
@@ -49,8 +49,8 @@ html, body {
 	line-height: $line-height-base;
 	color: $color-black;
 	font-feature-settings: "kern";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -60,6 +60,11 @@ a {
 }
 
 p {
+	--minFontSize: 18px;
+	--maxFontSize: 24px;
+	--scaler: 1vw;
+	line-height: 150%;
+	font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
 	a {
 		color: $color-gray;
 		&:hover {
@@ -68,51 +73,33 @@ p {
 	}
 }
 
-
-
 h1 {
-	font-size: 86px;
-	//border: 1px solid black;
-	line-height: 1.05;
+	--minFontSize: 40px;
+	--maxFontSize: 88px;
+	--scaler: 5vw;
+	font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+	line-height: 105%;
 	letter-spacing: -3.12px;
 	font-family: $font-heading-regular;
 	font-weight: normal;
+	@include screen-md-max {
+		letter-spacing: -0.5px;
+	}
 	span {
 		font-family: $font-heading-medium;
 	}
-	@include screen-xxl-max {
-		font-size: 86px;
-	}
-	@include screen-xl-max {
-		font-size: 64px;
-	}	
-	@include screen-lg-max {
-		font-size: 56px;
-		letter-spacing: -1px;
-	}
-	@include screen-md-max {
-		font-size: 48px;
-		letter-spacing: -1px;
-	}
-	@include screen-sm-max {
-		font-size: 40px;
-		line-height: 125%;
-		letter-spacing: -1px;
-	}
-	@include screen-xs-max {
-		font-size: 36px;
-		line-height: 125%;
-		letter-spacing: -1px;
-	}
+
 }
 
 
 
 h2 {
-	font-size: 32px;
+	font-size: 40px;
 	line-height: 125%;
+	margin-bottom: 32px;
+	letter-spacing: -0.5px;
 	font-weight: normal;
-	font-family: $font-heading-regular;
+	font-family: $font-heading-medium;
 	@include screen-xs-max {
 		font-size: 28px;
 		line-height: 125%;
@@ -121,7 +108,7 @@ h2 {
 }
 
 h3 {
-	font-size: 32px;
+	font-size: 21px;
 	line-height: 36px;
 	font-family: $font-heading-regular;
 	@include screen-xs-max {
@@ -132,12 +119,19 @@ h3 {
 }
 
 h4 {
-	font-size: 20px;
-	line-height: 30px;
+	--minFontSize: 18px;
+	--maxFontSize: 24px;
+	--scaler: 1vw;
+	font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
 	letter-spacing: -0.124px;
 	font-family: $font-heading-regular;
+	--minPadSize: 9px;
+	--maxPadSize: 12px;
+	--scaler: 1vw;
+	margin-bottom: clamp( var(--minPadSize), var(--scaler), var(--maxPadSize) );
+	
 	span {
-		font-family: $font-heading-regular;
+		font-family: $font-heading-medium;
 	}
 }
 

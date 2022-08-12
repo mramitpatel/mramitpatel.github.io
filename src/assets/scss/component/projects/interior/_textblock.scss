@@ -1,12 +1,10 @@
 .project-textblock {
 	padding: 128px 0 64px;
-	&-title {
-		font-size: 24px;
+	&-heading{
 		font-family: $font-heading-medium;
-		letter-spacing: .4px;
-		line-height: 1.85;
-		word-spacing: .8px;
-		margin-bottom: 10px;
+	}
+	&-title {
+
 	}
 	&-text {}
 }

@@ -1,12 +1,15 @@
 ﻿.button {
 	font-family: "Sneak Medium", "Helvetica", "Arial", sans-serif;
 	color: $color-gray;
-	line-height: 30px;
+	line-height: 1;
 	border: 1px solid $color-black;
 	border-radius: 82px;
 	padding: 16px 24px;
 	transition: all $default-transition;
 	cursor: pointer;
+	&-close{
+		padding: 0;
+	}
 
 	&:active{
 		background-color: $color-black;

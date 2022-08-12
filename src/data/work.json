@@ -1,841 +1,1027 @@
 [
   {
-    "slug": "mack-builder",
-    "title": "Mack Builder",
-		"type":"Product Design",
-    "byline": "Build your own Mack.",
-    "hero": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
-    "thumbnail": "../images/projects/mackbuilder/mack-builder-hero-2.jpg",
-    "thumbnailClass": "col-xxl-6 col-xl-12 col-md-12 col-sm-12",
-    "description": [
-      "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
-      "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that set the stage for future growth and iteration.",
-      "The Mack Truckbuilder experience is available at build.macktrucks.com/."
-    ],
-    "roles": [
-      "Lead Product Designer"
-    ],
-    "contribution": "UX Strategy, Product Design",
-    "duration": "8 months",
-    "platform": "Responsive Web",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "BackgroundSwap": {
-          "prevBg": "white",
-          "newBg": "black"
-        }
-      },      
-      {
-        "InsetWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-experience-architecture.jpg"
-        }
+     "slug":"mack-builder",
+     "title":"Mack Builder",
+     "type":"Product Design",
+     "byline":"Build your own Mack.",
+     "intro":[
+        "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. The digital experience allows customers to customize the family of Mack Trucks with a focus on minimal options, colors and configurations. The tool serves as an engaging way to interact with the product portfolio while creating quality leads for Mack."
+     ],
+     "hero":"../images/projects/mackbuilder/mack-builder-hero-2.jpg",
+     "thumbnail":"../images/projects/mackbuilder/mack-builder-hero-2.jpg",
+     "thumbnailClass":"col-xxl-6 col-xl-12 col-md-12 col-sm-12",
+     "challenge":"How can we empower Mack customers to build the truck of their dreams?",
+     "description":[
+        "Mack Trucks are known in mass culture for the legendary durability and reliability. While the saying 'built like a Mack' exists, there was no way real way to build your own - the missing gap in Mack's digital ecosyste.",
+        "Mack Builder captured on this request by allowing customizations that were tailored for business needs and met the everyday desires of drivers. The goal? Allowing a customer to envision a Mack Truck of their dreams, submit their build and be contacted by a Mack specialist."
+     ],
+     "roleDescription":[
+      "I lead the user experience design of the project across concepting, interaction design and UI design. I partnered with UX Strategy, Project Managers and Account Strategists to bring concepts to reality."
+   ],
+     "roles":[
+        "Lead Product Designer"
+     ],
+     "contribution":"UX Strategy, Product Design",
+     "duration":"8 months",
+     "platform":"Responsive Web",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "SectionTextBlock":{
+              "heading":"Discovery",
+              "title":"Start with Understanding the audience.",
+              "text":[
+                 "Working alongside UX Strategy and with existing personas in hand, we dived deep to understand customer intent, motivations and behaviors. The main takeaways, truck configurations are dissimilar to automotive configurations in that, there's infinite more variations. Likewise, commercial truck buyers have specific business goals in mind when configuring products."
+              ]
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Experience Flow",
+            "title":"Map the experience from start to finish.",
+            "text":[
+                 "I collaborated closely with UX Strategy and UX Architects to map out the experience journey from initial entry points to exits. By framing the experience in it's entirety, we were able to break sections of the experience into sprints and prioritize efforts."
+              ]
+           }
+        },
+        {
+         "InsetWidthImage":{
+            "img":"../images/projects/mackbuilder/mack-builder-experience-architecture-l.jpg"
+         }
       },
       {
-        "TextBlock":{
-          "title": "Make stuff, break stuff.",
-          "text": "With a finite budget for 3D renders, the truck configurator experience needed to be lean and repurpose as many image assets as much as possible. I explored many interactive models that focused on a guided linear experience while allowing a user to freely select categories of customization all while keeping the truck front and center."
-        }
-      },
+         "SectionTextBlock":{
+            "heading":"Design",
+            "title":"Sketching possible solutions.",
+            "text":[
+                 "Throughout the design process, I sketched ideas and created mockups in varying degrees of fidelity. The goal? To align internal teams and external stakeholders in how the experience might function, look and overall, work."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mackbuilder/mack-builder-2-sketch.jpg"
+           }
+        },
       {
-        "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-2.jpg"
+         "SectionTextBlock":{
+            "heading":"Design",
+            "title":"Prototype",
+            "text":[
+                 "A clickable prototype and an IXD prototype made in Framer validated some early assumptions on an interaction model, likewise was instrumental in communicating intended behavior to engineers."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mackbuilder/mack-builder-proto-flow.jpg"
+           }
+        },
+        {
+         "FullWidthVideo":{
+            "videoSrcURL":"https://www.youtube.com/embed/_wY2XuHsI4o"
+         }
+         },
+         {
+            "BackgroundSwap":{
+               "prevBg":"white",
+               "newBg":"black"
+               }
+            },
+         {
+            "SectionTextBlock":{
+               "heading":"Design",
+               "title":"Final Designs",
+               "text":[
+                    "High-fidelity views were designed as a final deliverable to developers with a focus on conveying a digital-first Mack brand. While the design reflected the core of Mack's brand guidelines, I extended the styling of buttons, icons and digital styles."
+                 ]
+              }
+           },
+           {
+            "FullWidthImage":{
+               "img":"../images/projects/mackbuilder/mack-builder-3.jpg"
+            }
+         },
+         {
+            "InsetWidthImage":{
+               "img":"../images/projects/mackbuilder/mack-builder-mobile-detail.jpg"
+            }
+         },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/mackbuilder/mack-builder-5.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/mackbuilder/mack-builder-6.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/mackbuilder/mack-builder-7.jpg"
+           }
+        },
+        {
+           "InsetWidthImagee":{
+              "img":"../images/projects/mackbuilder/mack-builder-mobile-detail.jpg"
+           }
         }
-      },
-      {
-        "TextBlock":{
-          "title": "Be an app.",
-          "text": "Many product configurators fall prey to feeling like add-ons to existing marketing websites. While part of the Mack digital ecosystem, Mack Builder is intended to feel like an application. With full-screen modals and eliminating extraneous information, the configurator experience is meant to feel like a digital product."
-        }
-      },
-      {
-        "InsetWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-3.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-4.jpg"
-        }
-      },
-      {
-        "InsetWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-5.jpg"
-        }
-      },
-      {
-        "InsetWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-6.jpg"
-        }
-      },
-      {
-        "InsetWidthImage": {
-          "img": "../images/projects/mackbuilder/mack-builder-7.jpg"
-        }
-      },
-      {
-        "InsetWidthImagee": {
-          "img": "../images/projects/mackbuilder/mack-builder-mobile-detail.jpg"
-        }
-      }
-    ]
-  },
-
-  {
-    "slug": "spectrum",
-    "title": "Spectrum Enterprise",
-		"type":"Creative Direction & UX",
-    "byline": "Humanizing B2B telecom.",
-    "hero": "../images/projects/spectrum/Hero-1.jpg",
-    "thumbnail": "../images/projects/spectrum/SE-thumb.jpg",
-    "thumbnailClass": "col-xxl-3 col-xl-6 col-md-6 col-sm-12",
-    "description": [
-      "The Spectrum Enterprise brand spun off following the merger of Charter with Time Warner with a focus on a growing business services segment. As a challenger brand, Spectrum Enterprise needed a digital destination that embraced the companies newly formed rally cry and reposition the company as a leader in the telecom space.",
-      "We designed an enterprise website from research and insights gathering to final designs and development. After the launch, we created lead-gen and sales tool to help support the business."
-    ],
-    "roles": [
-      "Digital Creative Director"
-    ],
-    "contribution": "Brand Design, UX Strategy, Design",
-    "duration": "1.5 Years",
-    "platform": "AOR, Brand, Digital",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "FullWidthVideo":{
-          "videoSrcURL": "https://www.youtube.com/embed/q-TyP6mrZe8"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/SE-Audit.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Research-led insights and designs.",
-          "text": "We started by auditing existing material - websites, marketing material and other collateral. We performed in-depth user research interviews as well as stakeholder interviews to understand the vertical, the challenges and to uncover Spectrum Enterprise's unique challenges and opportunities."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/Verbatims.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Defining information architecture for all types.",
-          "text": "After categorizing what we heard and understood we modeled site architecture that would help deliver results across various audience needs."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/SE-INT-Syn-Out-1.jpg"
-        }
-      },
-      {
-        "BackgroundSwap": {
-          "prevBg": "white",
-          "newBg": "black"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/SE-INT-Syn-Out-2.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "A complete digital design system.",
-          "text": "We designed a digital design system that reflects the brands underlying tenants, voice, tone and characteristics."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/se-webdesign-homepage-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/Frame 20.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Be unreasonable.",
-          "text": "To tell Spectrum Enterprise's unique challenger brand story, we created a digital destination that celebrates those who had challenges and rose to exceed them. The multi-week engagement required quick prototyping of interactions and exercises in finding the right content framework to drive home the concept."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/BEU-Wires-1.jpg"
-        }
-      },
-
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/Landing HoverSpectrum.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/BE-U-Designs.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Enabling sales during a new era.",
-          "text": "With the world in lockdown, Spectrum Enterprise needed new ways to enable sales and drive meaningful leads. We concepted designed a sales tool and lead generator that educated and informed while gathering valuable information along the way."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/MNE-Tool-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/MNE-Tool-Design-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/spectrum/se-solution-optimizer-3up.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Awards & Outcomes",
-          "text": "The vastly improved digital experience lead to a 32% increase in leads across all lead-gen forms and an increase of 67% in content engagement. A new digital design system allowed Spectrum Enterprise to quickly add pages and tailor content to specific users. Our work on Spectrum Enterprises won Best Telecommunications and Best ISP site in 2021."
-        }
-      }        
-    ]
-  },
-
-  {
-    "background": "white",  
-    "slug": "finetune",
-    "title": "FineTune",
-    "type":"Product Design",
-    "byline": "Advanced lighting for healthier living.",
-    "hero": "../images/projects/finelite/finelite-hero.jpg",
-    "thumbnail": "../images/projects/finelite/finelite-thumb.jpg",
-    "thumbnailClass": "col-xxl-3 col-xl-6 col-md-6 col-sm-12",
-    "description": [
-      "Studies have shown, the color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces ranging from hospitals and schools to workpplaces.",
-      "The goal? To design a lighting system that is easy to deploy and setup with the aid of an iOS application. With FineTune, lighting is continuously tune-able with little to no assistance from a technician.",
-      "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and concepted design interfaces. With partnering with Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
-    ],
-    "roles": [
-      "Lead Product Designer"
-    ],
-    "contribution": "UX Strategy, UX/UI Design",
-    "duration": "8 months",
-    "platform": "iOS Native",
-    "agency": "Contract / AirroStudio",
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-sketch-setup.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Designing with intent and users in mind.",
-          "text": "As an application that compliments technician installed hardware, task flow was an important consideration when designing the overall application. After a FineTune unit is installed, the app has to allow for a user to seamlessly discover a FineTune receiver, set initial parameters like naming, zones and initial lighting settings. The interface to control lighting is also fundamental to a great experience."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-IA-sketch.jpg"
-        }
-      }, 
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-flow.jpg"
-        }
-      },            
-      {
-        "TextBlock": {
-          "title": "Leveraging common patterns.",
-          "text": "The overall app was designed for portrait usage making adjustments to setting and color parameters easily accomplishable using a single hand. Unlike consumer lighting IoT applications where on-the-fly adjusting is a requirement, a FineTune controller is designed to be programmed once, with little need for on-the-fly adjusting. This allowed for an interface is primarily read-on only or programming mode. For both sets of actions, I looked towards familiar design patterns to create an interface that is intuitive to a broad range of users."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-all-screens.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Timeline view.",
-          "text": "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-timeline.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Schedule your lighting program.",
-          "text": "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/finelite/finelite-schedule-detail-left.jpg",
-          "img1Class": "col-6",
-          "img2": "../images/projects/finelite/finelite-schedule-detail-right.jpg",
-          "img2Class": "col-6" 
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "We'll miss you iPod.",
-          "text": "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-big-wheel.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/finelite/finelite-intensity-detail-left.jpg",
-          "img1Class": "col-6",
-          "img2": "../images/projects/finelite/finelite-intensity-detail-right.jpg",
-          "img2Class": "col-6" 
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/finelite/finelite-design-system.jpg"
-        }
-      }
-    ]
-  },
-  
-  {
-    "background": "white",    
-    "slug": "csa",
-    "title": "CSA",
-    "type":"Brand",
-    "byline": "Holding the future to a higher standard.",
-    "hero": "../images/projects/csa/csa-hero.jpg",
-    "thumbnail": "../images/projects/csa/csa-thumb.jpg",
-    "thumbnailClass": "col-xxl-3 col-xl-12 col-md-6 col-sm-12",
-    "description": [
-      "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world.",
-      "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.",
-      "As Creative Director of the multi-year initiative , I re-invigorated the mark and reshaped all aspects of the brand—from identity, brand expression, photography direction and the digital experience."
-    ],
-    "roles": [
-      "Creative Director"
-    ],
-    "contribution": "Brand Design, UX Design, Art Direction",
-    "duration": "1.5 Years",
-    "platform": "Brand, Digital",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-main-logo.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Revisiting the mark that started it all.",
-          "text": "Renewing the logo meant revisiting past incarnations of the CSA mark to truly understand the evolution of the identity. As a symbol that appears on thousands of products in the world, a radical redesign would mean endless hours of updating and create inconsistency across old and new product badging. I opted to perfect the original CSA mark from the 1900's mark by retaining the timeless quality of the geometric shape while refining the form optically and true geometry."
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/csa/csa-logo-detail.jpg",
-          "img2": "../images/projects/csa/csa-logo-detail-b.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Expressing the brand.",
-          "text": "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color palette was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
-        }
-      },      
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/csa/csa-color-palette.jpg",
-          "img1Class": "col-5",
-          "img2": "../images/projects/csa/csa-type-spec.jpg",
-          "img2Class": "col-7"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-icons.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-brand-guidelines.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-brand-expression-all.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-brand-expression-standards-doc.jpg"
-        }
-      },
-      {
-        "BackgroundSwap": {
-          "prevBg": "white",
-          "newBg": "black"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Shoot globally, source locally.",
-          "text": "A team of three traveled the globe to meet CSA employees from all segments of the company. Our intent, to capture CSA's diverse offering and tell the story of CSA's unknown story through photography."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-global-shoot-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-global-shoot-2.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-global-shoot-3.jpg"
-        }
-      },
-      {
-        "TextBlock":{
-          "title": "Elevating a unique story.",
-          "text": "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-web-1-fullwidth.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/csa/csa-web-2.jpg"
-        }
-      }
-    ]
+     ]
   },
   {
-    "slug": "mango",
-    "title": "Mango",
-    "type":"Branding & Creative Direction",
-    "byline": "Global language learning.",
-    "hero": "../images/projects/mango/Mango-Hero.jpg",
-    "thumbnail": "../images/projects/mango/mango-thumbnail.jpg",
-    "thumbnailClass": "col-xxl-3 col-xl-6 col-lg-12 col-sm-12",
-    "description": [
-      "While many language learning applications exist, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
-      "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how learning a new language unlocks a rich tapestry of cultural experiences.","As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
+     "slug":"spectrum",
+     "title":"Spectrum Enterprise",
+     "type":"Creative Direction & UX",
+     "byline":"Humanizing B2B telecom.",
+     "intro":[
+        "Spectrum Enterprise was conceived following the merger of Time Warner Cable with Charter Communications as well as the acquisition of BrightHouse Networks. The newly forged company services small-to-medium sized business with telecom and internet solutions and is a direct competitor to AT&T and Verizon enterprise."
+     ],
+     "hero":"../images/projects/spectrum/Hero-1.jpg",
+     "thumbnail":"../images/projects/spectrum/SE-thumb.jpg",
+     "thumbnailClass":"col-xxl-3 col-xl-6 col-md-6 col-sm-12",
+     "challenge":"How do you communicate a unique brand promise in the telecom space?",
+     "description":[
+      "The telecom space is cluttered with many small telecoms and ISP providers as well as giant behemoths like AT&T and Verizon. Following a rebrand, Spectrum Enterprises unique advantage was quite clear - a telecom that goes above and beyond to solve customer needs while providing customized solutions for every challenge.",
+      "As a new entrant to the enterprise telecom space, Spectrum Enterprise needed a digital destination that addressed this problem and served as a platform for future growth.",
+        "The Spectrum Enterprise website is designed to address customers needs during their buying journey, offers resources for education and provide tools to help right-size products and offerings for all telecom needs"],
+     "roleDescription":[
+      "As the Creative Director on the account, I lead a multi-disciplinary team from discovery to execution. I oversaw all aspects of UX, Creative and was an individual contributor on concept design and digital experiences."
     ],
-    "roles": [
-      "Creative Director"
-    ],
-    "contribution": "Identity, Brand Expression",
-    "duration": "8 months",
-    "platform": "Brand",
-    "agency": "The Office of Experience",
-    "layout": [
+     "roles":[
+        "Digital Creative Director"
+     ],
+     "contribution":"Brand Design, UX Strategy, Design",
+     "duration":"1.5 Years",
+     "platform":"AOR, Brand, Digital",
+     "agency":"The Office of Experience",
+     "layout":[
       {
-        "FullWidthVideo": {
-          "videoSrcURL": "https://www.youtube.com/embed/S7ZwUqt5C7I?modestbranding=1&controls=0&rel=0&showinfo=0&vq=hd1080&autohide=1&data-layer=0"
-        }
-      },  
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Brand-iPhone.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Brand-Photography.jpg",
-          "img2": "../images/projects/mango/Mango-Brand-Charecteristics.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Brand-OOH.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Brochure.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img2": "../images/projects/mango/Mango-Business-Card.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mango/Mango-Trade-Show.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/mango/Mango-Trade-Show-Stickers.jpg",
-          "img2": "../images/projects/mango/Mango-Trade-Show-Print.jpg"
-        }
-      }
-    ]
-  },
-
-  {
-    "slug": "cooler-screens",
-    "title": "Cooler Screens",
-		"type":"Product Concept & Design",
-    "byline": "Transforming the cooler aisle.",
-    "hero": "../images/projects/cooler/Cooler-Screens-Hero.jpg",
-    "thumbnail": "../images/projects/cooler/Cooler-Screens-thumb.jpg",
-    "thumbnailClass": "col-6 col-lg-12",
-    "description": [
-      "CoolerScreens is a startup focused on evolving the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
-      "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
-    ],
-    "roles": [
-      "Creative Director"
-    ],
-    "contribution": "Art Direction, Product Strategy",
-    "duration": "4 months",
-    "platform": "Digital",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-diagram-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-design-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/cooler/cooler-screens-design-2.jpg"
-        }
-      },
-      {
-        "TwoColumnImages": {
-          "img1": "../images/projects/cooler/image-left-1.jpg",
-          "img2": "../images/projects/cooler/image-right-1.jpg"
-        }
-      }
-    ]
-  },
-  {
-    "slug": "imove",
-    "title": "iMove",
-		"type":"Product Design",
-    "byline": "Simplifying the relocation process.",
-    "hero": "../images/projects/imove/imove-hero-fullwidth.jpg",
-    "thumbnail": "../images/projects/imove/imove-thumb.jpg",
-    "thumbnailClass": "col-xxl-6 col-lg-12 col-sm-12",
-    "description": [
-      "Moving across the country can be stressful, fortunately iMove, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move.","I was involved in early product planning from workshops to stakeholder interviews to designing an application with an intuitive interface that helps transferees keep track of every pivotal moment in their move.","While iMove ultimately decided to blend a few concepts together, my work was pivotal in the final version that was deployed. The result – an application that is worthy of any homescreen."
-    ],
-    "roles": [
-      "Product Designer, Creative Director"
-    ],
-    "contribution": "UX Strategy, UX/UI Design, Branding",
-    "duration": "8 months",
-    "platform": "iOS Native",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "TextBlock": {
-          "title": "Journey Mapping.",
-          "text": "Through live workshops with stakeholders, we mapped the entire relocation process and used empathy matching exercises to put ourselves in the shoes of prospective movers. The output of the exercises allowed us to generate specific priorities for the iMove app as well as additional services and offerings that would allow Sirva employees aid and assist in relocations."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-journey.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Product Visioning",
-          "text": "To help define the overall scope, features and requirements, I explored a range of creative solutions that would assist both movers and back of the house providers in an effort to reduce common pain points during the relocation process. Each visioning option was branded and helped visualize how the experience would look, sound and feel to an end-user."
-        }
+         "SectionTextBlock":{
+            "heading":"Discovery",
+            "title":"Research, review and synthesize.",
+            "text":[
+               "During the Discovery phase, I partnered with UX Strategy and an Account Director to understand all aspects of the business from user and stakeholder research, market and competitive insights as well as out-of-market analogs."
+            ]
+         }
       },
         {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-visioning.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Product Branding",
-          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
-        }
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/SE-Audit.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"UX",
+            "title":"Create an IA model that addresses needs",
+            "text":[
+               "Working alongside a dedicated UX Architect, we crafted a model that addressed content needs across user-types. The model served as a foundation for content-hierarchy across the site as well as on pages."
+            ]
+         }
       },
         {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-logos.png"
-        }
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/SE-INT-Syn-Out-2.jpg"
+           }
+        },
+        {
+         "BackgroundSwap":{
+            "prevBg":"white",
+            "newBg":"black"
+         }
       },
       {
-        "TwoColumnImages": {
-          "img1": "../images/projects/imove/imove-logo-final.jpg",
-          "img2": "../images/projects/imove/imove-logo-grid.jpg"
-        }
+         "SectionTextBlock":{
+            "heading":"Design",
+            "title":"Address needs through content.",
+            "text":[
+               "Throughout the experience, we ensured content hierarchy was a response to user needs. The order of content on pages mattered and a versatile design system was needed to address current and future use-cases."
+            ]
+         }
       },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-color-palette-type.jpg"
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/se-webdesign-homepage-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/spectrum/Frame 20.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Brand Extension",
+            "title":"Be Unreasonable.",
+              "text":[
+                 "To tell Spectrum Enterprise's unique challenger brand story, we created a digital destination that celebrates those who had challenges and rose to exceed them. The multi-week engagement required quick prototyping of interactions and exercises in finding the right content framework to drive home the concept."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/spectrum/BEU-Wires-1.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/Landing HoverSpectrum.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/BE-U-Designs.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Digital Tools",
+            "title":"Find the solution right for you.",
+              "text":[
+                 "To help assist in the solution finding process, I designed an experience that allows users to answer a series of questions and be paired up with a solution bucket thats right for them. The digital experience was a great way to communicate Spectrum's domain knowledge while serving as lead-gen tool."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/spectrum/MNE-Tool-1.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/MNE-Tool-Design-1.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/spectrum/se-solution-optimizer-3up.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Awards & Outcomes",
+              "text":[
+                 "The vastly improved digital experience lead to a 32% increase in leads across all lead-gen forms and an increase of 67% in content engagement. A new digital design system allowed Spectrum Enterprise to quickly add pages and tailor content to specific users. Our work on Spectrum Enterprises won Best Telecommunications and Best ISP site in 2021."
+              ]
+           }
         }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-art-breaker.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-3-up.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/imove/imove-designs-all.jpg"
-        }
-      }
-    ]
-  },
-
-  {
-    "slug": "mack",
-    "title": "Mack",
-		"type":"Branding & Creative Direction",
-    "byline": "Rediscover the American legend.",
-    "hero": "../images/projects/mack/mack-marketing-hero-1.jpg",
-    "thumbnail": "../images/projects/mack/mack-marketing-thumb.jpg",
-    "thumbnailClass": "col-6 col-xl-12 col-lg-12 col-sm-12",
-    "description": [
-      "After a wildly successful rebrand, the iconic truck branded to reinvest in all things digital. As part of a multi-year effort to elevate Mack's digital presence, I lead the design effort to bring a new product to market, recrafted Mack's digital home and envisioned new digital concepts that would help the lead the way for future improvements."
-    ],
-    "roles": [
-      "Creative Director"
-    ],
-    "contribution": "UX Strategy, UX/UI Design, Art Direction",
-    "duration": "1.5 Years",
-    "platform": "Responsive Web, Digital",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "TextBlock": {
-          "title": "The new Mack.",
-          "text": "To recapture the long-haul semi segment, Mack redesigned it's class 8 semi. Prior to it's launch, we generated buzz for the new product through a year long tease campaign consisting of a dedicated digital experience, media campaign and printed material."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-tease-experience-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-tease-emails-1.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Our Anthem.",
-          "text": "To signal a new day at Mack, we redesigned Mack.com by bringing interactivity to otherwise static pages and rearchitected product pages to tell a more compelling story."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-launch-web.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/mack-website-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/mack-page-system.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-brochure-1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/mack/anthem-ar-concept.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Results",
-          "text": "Bringing a new long haul truck to market was no easy feat and required a team of skilled project managers, designers, CGI vendors and strategists. The multi-year long Anthem truck tease and launch campaign was a success, resulting in over 5,000 new leads and increase in social growth of 10% (in 90 days). Social media impressions increased to 10.6 million with over 3,000 Facebook likes, comments and shares."
-        }
-      }
-    ]
+     ]
   },
   {
-    "slug": "daddario",
-    "title": "D’Addario",
-		"type":"Product Design",
-    "byline": "Elevating ecommerce for an industry icon.",
-    "hero": "../images/projects/daddario/D'Addario-Hero.jpg",
-    "thumbnail": "../images/projects/daddario/D'Addario-thumb.jpg",
-    "thumbnailClass": "col-xxl-3 col-xl-6 col-lg-12",
-    "description": [
-      "D'Addario is one of the largest suppliers of musical equipment in the world. With thousands of products, global reach and an established brand, D'Addario needed a B2B platform that allowed hundreds of distributors to purchase products in bulk, see insights on purchasing trends and place orders quickly.",
-      "That platform I designed did exactly that and more. With features like speed-entry and the ability for publishers to promote products on brand, the experience was built for both shoppers and business alike."
-    ],
-    "roles": [
-      "Creative Director, Product Design"
-    ],
-    "contribution": "UX Strategy, UX/UI Design",
-    "duration": "8 months",
-    "platform": "Web App",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "BackgroundSwap": {
-          "prevBg": "white",
-          "newBg": "black"
-        }
+     "background":"white",
+     "slug":"finetune",
+     "title":"FineTune",
+     "type":"Product Design",
+     "byline":"Advanced lighting for healthier living.",
+     "intro":[
+      "Studies have shown, color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces.",
+      "The hardware and software solution is called FineTune TCS and is available through FineLite's website."
+     ],
+     "hero":"../images/projects/finelite/finelite-hero.jpg",
+     "thumbnail":"../images/projects/finelite/finelite-thumb.jpg",
+     "thumbnailClass":"col-xxl-3 col-xl-6 col-md-6 col-sm-12",
+     "challenge": "How do you set and control lighting from the palm of your hand?",
+     "description":[
+        "Designing a digital product that allows a user to control lighting parameters, from scratch, is no easy feat. The digital product needed to compliment pre-defined hardware abilities, be able to be operated from a single hand and be easy and intuitive to use.",
+        "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and explored UI options. As a partner of Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
+     ],
+     "roleDescription":[
+      "As the lead product designer, I conducted interviews, drafted the UX strategy, created wireframes and high-fidelity designs. I interfaced with engineers (firmware and native C) as well as internal stakeholders."
+      ],
+     "roles":[
+        "Lead Product Designer"
+     ],
+     "contribution":"UX Strategy, UX/UI Design",
+     "duration":"8 months",
+     "platform":"iOS Native",
+     "agency":"Contract / AirroStudio",
+     "layout":[
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/finelite/finelite-sketch-setup.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Discovery",
+            "title":"Gather insights",
+            "text":[
+               "With no formal discovery phase, I relied on insights gathered by discussing options, feasibility, target audience and other dimensions with the projects main and only stakeholder – a firmware engineer at FineTune. The main takeaway - while consumer products allow a wider range of values FineTune is focused on setting colors commonly found in daylight spectrum as well as intensity."
+            ]
+         }
       },
       {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/DAddario-Img-1.jpg"
-        }
+         "SectionTextBlock":{
+            "heading":"Experience Flow",
+            "title":"Map the journey.",
+            "text":[
+               "Early on in the UX phase, I mapped a high-level architecture flow to help gain alignment on the full process a user would take while interacting with the app."
+            ]
+         }
+      },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/finelite/finelite-IA-sketch.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Wireframe & Prototype",
+            "title":"Create lo-fidelity mockups.",
+            "text":[
+               "Quick mockups using iOS patterns and kits allowed me to generate a clickable flow and give context to various controls. I used this phase to indicate custom components vs default iOS controls as means to reduce dev complexity and effort."
+            ]
+         }
+      },
+        {
+            "InsetWidthImage":{
+              "img":"../images/projects/finelite/finelite-flow.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Concepts",
+            "title":"Create multiple solutions where it matters.",
+            "text":[
+               "Throughout the design process, I iterated on controls and interaction models and ran them by engineering and stakeholders."
+            ]
+         }
+      },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/finelite/finelite-concepts.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+            "heading":"Final Designs",
+            "title":"Create high-fidelity designs and work with dev.",
+            "text":[
+               ""
+            ]
+         }
       },
       {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/daddario-main-mobile.jpg"
-        }
+         "FullWidthImage":{
+            "img":"../images/projects/finelite/finelite-all-screens.jpg"
+         }
       },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/daddario-design-system.jpg"
+        {
+           "TextBlock":{
+              "title":"Timeline view.",
+              "text":[
+                 "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
+              ]
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/finelite/finelite-timeline.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Schedule your lighting program.",
+              "text":[
+                 "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
+              ]
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/finelite/finelite-schedule-detail-left.jpg",
+              "img1Class":"col-6",
+              "img2":"../images/projects/finelite/finelite-schedule-detail-right.jpg",
+              "img2Class":"col-6"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"The wheel.",
+              "text":[
+                 "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
+              ]
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/finelite/finelite-big-wheel.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/finelite/finelite-design-system.jpg"
+           }
         }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/DAddario-Img-4.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/DAddario-Img-2.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/daddario/DAddario-Style-guide-3.jpg"
-        }
-      }
-    ]
+     ]
   },
   {
-    "slug": "sartorious",
-    "title": "Sartorious",
-		"type":"Product Design",
-    "byline": "Rapid UX design for medical devices.",
-    "hero": "../images/projects/sartorious/Sartorius-hero.jpg",
-    "thumbnail": "../images/projects/sartorious/Sartorius-thumb.jpg",
-    "thumbnailClass": "col-xxl-3 col-xl-6 col-lg-12",
-    "description": [
-      "Sartarious accelerates medical discovery and aims to simplify drug production. One way they do this – invest in product design and user experience of existing device products.With a defined UI design kit, sartarious improves upon existing interface and hardware design to help produce faster, easier, safer.","As Sartious AG was looking to secure a design agency who could design UX strategy, high-fidelity design and prototype while maintaing brand guidelines and keeping experience standards up to par. "
-    ],
-    "roles": [
-      "Creative Director, Product Designer"
-    ],
-    "contribution": "UX Strategy, UX/UI Design",
-    "duration": "4 weeks",
-    "platform": "Android",
-    "agency": "The Office of Experience",
-    "layout": [
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/sartorious/Sartorius-problem-1.jpg"
+     "background":"white",
+     "slug":"csa",
+     "title":"CSA",
+     "type":"Brand",
+     "byline":"Holding the future to a higher standard.",
+     "intro":[
+      "CSA Group has a long but hidden history in ensuring the products we use on a daily basis are safer for all. The CSA mark represents the gold standard in safety assurance and is found on products ranging from sinks and homewares to some of the most complex electronics in the world."
+     ],
+     "hero":"../images/projects/csa/csa-hero.jpg",
+     "thumbnail":"../images/projects/csa/csa-thumb.jpg",
+     "thumbnailClass":"col-xxl-3 col-xl-12 col-md-6 col-sm-12",
+     "description":[
+         "With over 100 years in making the world a safer place, CSA Group needed to renew their global story. The goal? An update that recognizes the 100 years of innovation and while leaving a legacy of holding the future to a higher standard.", "The updated needed to get to the core of what CSA does and accurately represent all aspects of the business to tell a much deeper story. A story that expressed the intelligence of CSA's workplace and their compassionate hearts."
+     ],
+     "challenge": "Tell an unique story and express it to the world.",
+     "roleDescription":[
+      "I was a hands-on Creative Director leading the branding, brand expression and digital experience. I traveled to over 4 countries and art-directed a multi-month long photoshoot."
+      ],
+     "roles":[
+        "Creative Director"
+     ],
+     "contribution":"Brand Design, UX Design, Art Direction",
+     "duration":"1.5 Years",
+     "platform":"Brand, Digital",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-main-logo.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Revisiting the mark that started it all.",
+              "text":[
+                 "Renewing the logo meant revisiting past incarnations of the CSA mark to truly understand the evolution of the identity. As a symbol that appears on thousands of products in the world, a radical redesign would mean endless hours of updating and create inconsistency across old and new product badging. I opted to perfect the original CSA mark from the 1900's mark by retaining the timeless quality of the geometric shape while refining the form optically and true geometry."
+              ]
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/csa/csa-logo-detail.jpg",
+              "img2":"../images/projects/csa/csa-logo-detail-b.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Expressing the brand.",
+              "text":[
+                 "From color, typeface selection, iconography and photography - all aspects of the brand were in service of creating a visual identity that manifests the brands characteristics. A color palette was selected that represented credibility and trust but also carry the gravitas of immediacy. I selected Acumin and Tiempos as primary typefaces to"
+              ]
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/csa/csa-color-palette.jpg",
+              "img1Class":"col-5",
+              "img2":"../images/projects/csa/csa-type-spec.jpg",
+              "img2Class":"col-7"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-icons.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-brand-guidelines.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-brand-expression-all.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-brand-expression-standards-doc.jpg"
+           }
+        },
+        {
+           "BackgroundSwap":{
+              "prevBg":"white",
+              "newBg":"black"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Shoot globally, source locally.",
+              "text":[
+                 "A team of three traveled the globe to meet CSA employees from all segments of the company. Our intent, to capture CSA's diverse offering and tell the story of CSA's unknown story through photography."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-global-shoot-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-global-shoot-2.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-global-shoot-3.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Elevating a unique story.",
+              "text":[
+                 "CSA Group audiences are corporations looking to ensure the safety of the products they produce and a non-profit wing that is dedicated to the advancement and creation of standards themselves. The website was designed to cater to both sides of the business with easy to find information on testing and certification as well as standards creation."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-web-1-fullwidth.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/csa/csa-web-2.jpg"
+           }
         }
+     ]
+  },
+  {
+     "slug":"mango",
+     "title":"Mango",
+     "type":"Branding & Creative Direction",
+     "byline":"Global language learning.",
+     "intro":[
+        "Mango Languages helps people of all ages learn a new language through Intuitive Language Construction™. The unique methodology sets Mango Langauges apart from other products and services."
+     ],
+     "hero":"../images/projects/mango/Mango-Hero.jpg",
+     "thumbnail":"../images/projects/mango/mango-thumbnail.jpg",
+     "thumbnailClass":"col-xxl-3 col-xl-6 col-lg-12 col-sm-12",
+     "challenge":"How do you attract a new audience to language learning in a crowded market?",
+     "description":[
+        "While many language learning applications exist, only one focuses on teaching speaking fluently with the power of proven linguistic methodologies.",
+        "Mango Languages was in need of a brand transformation that positioned the brand as more than an application. The goal, to convey the vibrancy of global languages and how learning a new language unlocks a rich tapestry of cultural experiences.",
+        "As Creative Director, I lead a brand redesign effort from insights to execution across brand identity explorations and brand expression."
+     ],
+     "roleDescription":[
+      "I lead the creative direction and execution of the rebrand while reporting to an Executive Director."
+      ],
+     "roles":[
+        "Creative Director"
+     ],
+     "contribution":"Identity, Brand Expression",
+     "duration":"8 months",
+     "platform":"Brand",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "FullWidthVideo":{
+              "videoSrcURL":"https://www.youtube.com/embed/S7ZwUqt5C7I?modestbranding=1&controls=0&rel=0&showinfo=0&vq=hd1080&autohide=1&data-layer=0"
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/mango/Mango-Brand-iPhone.jpg"
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/mango/Mango-Brand-Photography.jpg",
+              "img2":"../images/projects/mango/Mango-Brand-Charecteristics.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mango/Mango-Brand-OOH.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mango/Mango-Brochure.jpg"
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img2":"../images/projects/mango/Mango-Business-Card.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mango/Mango-Trade-Show.jpg"
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/mango/Mango-Trade-Show-Stickers.jpg",
+              "img2":"../images/projects/mango/Mango-Trade-Show-Print.jpg"
+           }
+        }
+     ]
+  },
+  {
+     "slug":"cooler-screens",
+     "title":"Cooler Screens",
+     "type":"Product Concept & Design",
+     "byline":"Transforming the cooler aisle.",
+     "intro":[
+        "Mack Builder is a product configurator experience that allows anyone to realize the Mack Truck of their dreams. With the launch of the newly designed Mack Anthem™, Mack Trucks wanted to redesign and relaunch the configurator to help fleet buyers and brand enthusiasts to build a Mack.",
+        "Building a product configurator is no easy feat. With limitations in front-end rendering, availability of 3D assets and limited grasp of an audience, I designed an experience that set the stage for future growth and iteration.",
+        "The Mack Truckbuilder experience is available at build.macktrucks.com/."
+     ],
+     "hero":"../images/projects/cooler/Cooler-Screens-Hero.jpg",
+     "thumbnail":"../images/projects/cooler/Cooler-Screens-thumb.jpg",
+     "thumbnailClass":"col-6 col-lg-12",
+     "description":[
+        "CoolerScreens is a startup focused on evolving the cooler aisle retail experience. Their solution replaces traditional glass cooler doors with IoT LCD's replete with motion sensors. Cooler Screen doors provide shopping insights, from nutrition information to recipes along with the ability for retailers to manage dynamic promotions and incentives.",
+        "I helped concept the digital experience for shoppers, created marketing material future investors and provided insight into possible advertising models."
+     ],
+     "roleDescription":[
+      "How can we empower Mack customers to build the truck of their dreams?"
+      ],
+     "roles":[
+        "Creative Director"
+     ],
+     "contribution":"Art Direction, Product Strategy",
+     "duration":"4 months",
+     "platform":"Digital",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/cooler/cooler-screens-diagram-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/cooler/cooler-screens-design-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/cooler/cooler-screens-design-2.jpg"
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/cooler/image-left-1.jpg",
+              "img2":"../images/projects/cooler/image-right-1.jpg"
+           }
+        }
+     ]
+  },
+  {
+     "slug":"imove",
+     "title":"iMove",
+     "type":"Product Design",
+     "byline":"Simplifying the relocation process.",
+     "intro":[
+      "iMove is a digital product designed to simplify the relocation process. Funded by Sirva, the employee relocation expert, iMoves main intent was to allow someone to manage their move from the palm of their hand. The product built from scratch took needs assessments, multiple concepting phases, brand concepting and final designs to get it right."
+     ],
+     "hero":"../images/projects/imove/imove-hero-fullwidth.jpg",
+     "thumbnail":"../images/projects/imove/imove-thumb.jpg",
+     "thumbnailClass":"col-xxl-6 col-lg-12 col-sm-12",
+     "challenge": "How do you simplify the employee relocation process?",
+     "description":[
+      "Relocating across the country for a new job or career can be stressful. Finding a new home, selecting the right moving service and completing all of the other necessary pre-move items can be a challenge. Quoting Costs and budgeting adds another level of complexity.","Fortunately iMove, by Sirva, is here to make the process simple. With a native application on both the iOS and Google Play, employees and HR teams can plan and manage every step of the move."
+     ],
+     "roleDescription":[
+      "As a Creative Director and Product Designer, I co-lead a team of UX researchers, architects and designers from initial concepts to final designs."
+      ],
+     "roles":[
+        "Product Designer, Creative Director"
+     ],
+     "contribution":"UX Strategy, UX/UI Design, Branding",
+     "duration":"8 months",
+     "platform":"iOS Native",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "SectionTextBlock":{
+               "heading":"Discovery",
+               "title":"Map the journey with stakeholders.",
+               "text":[
+                 "Through live workshops with stakeholders, we mapped the entire relocation process and used empathy matching exercises to put ourselves in the shoes of prospective movers. The output of the exercises allowed us to generate specific priorities for the iMove app as well as additional services and offerings that would allow Sirva employees aid and assist in relocations."
+              ]
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/imove/imove-journey.jpg"
+           }
+        },
+        {
+           "SectionTextBlock":{
+               "heading":"Visioning",
+              "title":"Explore bold ideas.",
+              "text":[
+                 "To help define the overall scope, features and requirements, I explored a range of creative solutions that would assist both movers and back of the house providers in an effort to reduce common pain points during the relocation process. Each visioning option was branded and helped visualize how the experience would look, sound and feel to an end-user."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/imove/imove-visioning.jpg"
+           }
+        },
+        {
+           "SectionTextBlock":{
+               "heading":"Design",
+              "title":"Product Branding",
+              "text":[
+                 "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/imove/imove-logos.png"
+           }
+        },
+        {
+           "TwoColumnImages":{
+              "img1":"../images/projects/imove/imove-logo-final.jpg",
+              "img2":"../images/projects/imove/imove-logo-grid.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/imove/imove-color-palette-type.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/imove/imove-art-breaker.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+             "heading":"Product Design",
+            "title":"Final UI Designs",
+            "text":[
+               "Interface design came together quickly after understand the nature of the experience. We focused on delivering content through a timeline and showing insights, quotes and other relevant information along the way."
+            ]
+         }
       },
-      {
-        "TextBlock": {
-          "title": "First, an audit of existing screens.",
-          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/imove/imove-3-up.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/imove/imove-designs-all.jpg"
+           }
         }
+     ]
+  },
+  {
+     "slug":"mack",
+     "title":"Mack",
+     "type":"Branding & Creative Direction",
+     "byline":"Rediscover the American legend.",
+     "intro":[
+        "Founded in the 1900's, Mack Trucks is the iconic American-made truck brand. Known for their durability, reliability and brute strength, the brand's class-8 semi started to see a decline in sales and popularity. After 17 years since it's inception, Mack decided it's time to reboot the truck that established Mack's legendary presence."
+     ],
+     "hero":"../images/projects/mack/mack-marketing-hero-1.jpg",
+     "thumbnail":"../images/projects/mack/mack-marketing-thumb.jpg",
+     "thumbnailClass":"col-6 col-xl-12 col-lg-12 col-sm-12",
+     "challenge": "How do you bring a class-8 semi to market?",
+     "description":[
+        "Bringing the Mack Anthem to market required the efforts of many teams working together. The multi-year long engagement consisted of concepting campaigns before truck designs were finished, brain-storming activation campaigns, advertising campaigns.","The campaign consisted of pre-launch tease, launch and post launch tactics across physical and digital mediums."
+     ],
+     "roleDescription":[
+      "As an Associate Creative Director, I worked closely with CD's, designers and copywriters to in-vision brand positioning, creative and advertising concepts and redesign a website that aligned with strategy."
+      ],
+     "roles":[
+        "Associate Creative Director"
+     ],
+     "contribution":"UX Strategy, UX/UI Design, Art Direction",
+     "duration":"1.5 Years",
+     "platform":"Responsive Web, Digital",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "SectionTextBlock":{
+               "heading":"Pre-Launch",
+              "title":"Generate Buzz",
+              "text":[
+                 "To recapture the long-haul semi segment, Mack redesigned it's class 8 semi. Prior to it's launch, we generated buzz for the new product through a year long tease campaign consisting of a dedicated digital experience, media campaign and printed material."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/anthem-tease-experience-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/anthem-tease-emails-1.jpg"
+           }
+        },
+        {
+         "SectionTextBlock":{
+             "heading":"Launch",
+            "title":"Our Anthem.",
+            "text":[
+               "To signal a new day at Mack, we redesigned Mack.com by bringing interactivity to otherwise static pages and rearchitected product pages to tell a more compelling story."
+            ]
+         }
       },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/sartorious/Sartorius-audit.jpg"
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/anthem-launch-web.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/mack-website-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/mack-page-system.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/anthem-brochure-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/mack/anthem-ar-concept.jpg"
+           }
+        },
+        {
+           "SectionTextBlock":{
+              "title":"Results",
+              "text":[
+                 "The multi-year long Anthem truck tease and launch campaign was a success, resulting in over 5,000 new leads and increase in social growth of 10% (in 90 days). Social media impressions increased to 10.6 million with over 3,000 Facebook likes, comments and shares."
+              ]
+           }
         }
-      },
-      {
-        "TextBlock": {
-          "title": "Sketching possibilities.",
-          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+     ]
+  },
+  {
+     "slug":"daddario",
+     "title":"D’Addario",
+     "type":"Product Design",
+     "byline":"Elevating ecommerce for an industry icon.",
+     "intro":[
+        "D'Addario is one of the largest manufactures of musical equipment in the world. Their focus is musical instrument strings and accessories, primarily for guitars but also other fretted and orchestral instruments. The company currently has its world headquarters in Farmingdale, Long Island, New York, and its European headquarters in Newcastle upon Tyne, England."
+     ],
+     "hero":"../images/projects/daddario/D'Addario-Hero.jpg",
+     "thumbnail":"../images/projects/daddario/D'Addario-thumb.jpg",
+     "thumbnailClass":"col-xxl-3 col-xl-6 col-lg-12",
+     "challenge":"Designing an e-com platform built for distributors and music aficionados.",
+     "description":[
+        "With thousands of products, global reach and an established brand, D'Addario needed a B2B platform that allowed hundreds of distributors to purchase products in bulk, see insights on purchasing trends and place orders quickly.",
+        "That platform I designed did exactly that and more. With features like speed-entry and the ability for publishers to promote products on brand, the experience was built for both shoppers and business alike."
+     ],
+     "roleDescription":[
+      "I was lead product designer on the project. I worked closely with UX Strategy, UX Architects, PM's and Account Strategy."
+      ],
+     "roles":[
+        "Creative Director, Product Design"
+     ],
+     "contribution":"UX Strategy, UX/UI Design",
+     "duration":"8 months",
+     "platform":"Web App",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "BackgroundSwap":{
+              "prevBg":"white",
+              "newBg":"black"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/daddario/DAddario-Img-1.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/daddario/daddario-main-mobile.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/daddario/daddario-design-system.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/daddario/DAddario-Img-4.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/daddario/DAddario-Img-2.jpg"
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/daddario/DAddario-Style-guide-3.jpg"
+           }
         }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/sartorious/Sartorius-sketch.jpg"
+     ]
+  },
+  {
+     "slug":"sartorious",
+     "title":"Sartorious",
+     "type":"Product Design",
+     "byline":"Rapid UX design for medical devices.",
+     "intro":[
+      "Sartarious accelerates medical discovery and aims to simplify drug production by focusing on consistent, easier to use, operator interfaces. With a defined UI design kit, Sartarious improves upon existing user experience, interface and hardware design to help produce faster, easier, safer."
+     ],
+     "hero":"../images/projects/sartorious/Sartorius-hero.jpg",
+     "thumbnail":"../images/projects/sartorious/Sartorius-thumb.jpg",
+     "thumbnailClass":"col-xxl-3 col-xl-6 col-lg-12",
+     "challenge": "Redesign the UX/UI of an existing graphical interface to match Sartious's standards.",
+     "description":[
+        "To help seat a new agency as a design partner, Sartarious offered a UX/UI assignment to incumbent agencies. The goal - to understand how we work with little context and see our thoughts and process in applying UI standards to an existing set of interfaces."
+     ],
+     "roleDescription":[
+      "As a lead Product Designer, I collaborated closely with an UX Architect."
+      ],
+     "roles":[
+        "Creative Director, Product Designer"
+     ],
+     "contribution":"UX Strategy, UX/UI Design",
+     "duration":"4 weeks",
+     "platform":"Android",
+     "agency":"The Office of Experience",
+     "layout":[
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/sartorious/Sartorius-problem-1.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"First, an audit of existing screens.",
+              "text":[
+                 "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+              ]
+           }
+        },
+        {
+           "FullWidthImage":{
+              "img":"../images/projects/sartorious/Sartorius-audit.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Sketching possibilities.",
+              "text":[
+                 "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+              ]
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/sartorious/Sartorius-sketch.jpg"
+           }
+        },
+        {
+           "BackgroundSwap":{
+              "prevBg":"white",
+              "newBg":"black"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Final Designs",
+              "text":[
+                 "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
+              ]
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/sartorious/Sartorius-home-r1.jpg"
+           }
+        },
+        {
+           "TextBlock":{
+              "title":"Real-time output for real-time control.",
+              "text":[
+                 "The controller view was re-organized around a central, real-time view of the equipment in it's current state. This allows an operator to understand the exact position of all elements without needing to face the equipment."
+              ]
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/sartorious/Sartorius-controller-r1.jpg"
+           }
+        },
+        {
+           "InsetWidthImage":{
+              "img":"../images/projects/sartorious/Sartorius-setpoints-r1.png"
+           }
         }
-      },
-      {
-        "BackgroundSwap": {
-          "prevBg": "white",
-          "newBg": "black"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Final Designs",
-          "text": "Every digital product has an equally great brand expression. I explored multiple logo options, quickly defined typography and established a color palette. All of the foundational work helped define the overall UI of the experience and set the stage for further UI engineering."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/sartorious/Sartorius-home-r1.jpg"
-        }
-      },
-      {
-        "TextBlock": {
-          "title": "Real-time output for real-time control.",
-          "text": "The controller view was re-organized around a central, real-time view of the equipment in it's current state. This allows an operator to understand the exact position of all elements without needing to face the equipment."
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/sartorious/Sartorius-controller-r1.jpg"
-        }
-      },
-      {
-        "FullWidthImage": {
-          "img": "../images/projects/sartorious/Sartorius-setpoints-r1.png"
-        }
-      }
-    ]
+     ]
   }
 ]

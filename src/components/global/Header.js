@@ -8,14 +8,10 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 	const HomeHeader = ({buttonLink,buttonText}) => {
 		return(
 			<>
-			<div className="col-6">
-			 	<h4 className="">
-				 <Link to="/" className="name link">
-					Amit Patel
-				</Link>
-				</h4>
+			<div className="header-flex col-3">
+				<Link to='/' className="name">Amit Patel</Link>
 			</div>
-			<div className="col-6 connect">
+			<div className="header-flex push-6 push-md-5 col-3 cold-md-6">
 			{/* <Link to="https://www.instagram.com/mramitpatel/" className="link mobile-hide">IG</Link> */}
 				<Link to="https://www.linkedin.com/in/mramitpatel/" className="link mobile-hide">LinkedIn</Link>
 				<Link to="mailto:amit@mramitpatel.com" className="link mobile-hide">Mail</Link>
@@ -27,41 +23,24 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 	const CaseStudyHeader = () => {
 		return (
 			<>
-			<div className="header-flex col-2 col-md-4">
+			<div className="header-flex col-xl-2 col-sm-4">
 				<Link to='/' className="name">Amit Patel</Link>
 			</div>
-			<div className="mobile-hide header-flex col-2">
+			<div className="mobile-hide header-flex col-3">
 				<span className="count">{idx}&#8209;{len} </span>
 			</div>
 			{/* <div className="">
 				<Link to="/projects" className="button">Work</Link>
 			</div> */}
-			<div className=" header-flex push-6 col-2">
-			<AnchorLink to={slug}
+			<div className="col-1 push-6 header-flex header-flex-end">
+			<AnchorLink className="button header-flex-close" to={slug}
 				state={{ fromCaseStudy: false, }}>
-					<div className="header-flex-close">
-					<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><line class="cls-1" x1=".5" y1=".5" x2="15.5" y2="15.5"/><line class="cls-1" x1="15.5" y1=".5" x2=".5" y2="15.5"/></svg>
+					<span>ESC</span><div className="button-close">
+						<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><line class="cls-1" x1=".5" y1=".5" x2="15.5" y2="15.5"/><line class="cls-1" x1="15.5" y1=".5" x2=".5" y2="15.5"/></svg>
 					</div>
 				</AnchorLink>
 			</div>
 			</>
-			// <div className="col-12">
-			// 	<h4 className="header-flex">
-			// 	<Link to='/' className="name">Amit Patel</Link>
-			// 	<span className="count">{idx}&#8209;{len} </span>
-			// 	<Link to={slug}
-			// 	state={{ fromCaseStudy: false, }}>
-			// 		<div className="header-flex-close">
-			// 			<svg width="32" height="32" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-			// 				<circle cx="19" cy="19" r="18.375"  stroke="black" strokeWidth="1.25"/>
-			// 				<line y1="-0.625" x2="21.8015" y2="-0.625" transform="matrix(0.713618 0.700535 -0.713618 0.700535 10.5952 11.7275)" stroke="black" strokeWidth="1.25"/>
-			// 				<line y1="-0.625" x2="21.8015" y2="-0.625" transform="matrix(-0.713618 0.700535 -0.713618 -0.700535 25.7114 11)" stroke="black" strokeWidth="1.25"/>
-			// 			</svg>
-
-			// 		</div>
-			// 	</Link>
-			// </h4>
-			// </div>
 		)
 	}
 	const headerClass = visible ? 'header-visible' : '';
