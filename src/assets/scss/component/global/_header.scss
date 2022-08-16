@@ -55,13 +55,15 @@
 				position: absolute;
 				left: -36px;
 				top: 12px;
-				opacity: .75;
+				opacity: 0;
 				color: $color-light-gray;
 				transition: all ease-in-out .1s;
 			}
 			&:hover{
 				stroke: white;
-				opacity: 1;
+				span {
+					opacity: 1;
+				}
 			}
 		}
 		&-end{
