@@ -56,6 +56,7 @@ export default function CaseStudy({pageContext,location}){
 
 
 	useEffect(() => {
+		document.querySelector('body').classList.remove('overflow');
 		const closeCaseStudy = (e) => {
 			if (e.key === "Escape") {
 				navigate(

@@ -36,17 +36,19 @@ export default function Next({data, toggleAnimation, titleRef}) {
 
 	function caseStudyRedirect() {
 		let scrollTop;
-		let nextOffset;
+		let nextData;
 		let diff;
+		let diff1;
 		let titleOffset;
+		let currentWindowHeight;
 		toggleAnimation(true)
 		setIsAnim(true)
 		if (window) {
-			scrollTop = window.scrollY;
-			nextOffset = nextRef.current.offsetTop;
-			titleOffset = titleRef.current.offsetTop;
-			// diff = nextOffset - scrollTop + 250 - 30 - 80 - 20;
-			diff = nextOffset - scrollTop + 136 + 128 + 24;
+			document.querySelector('body').classList.add('overflow');
+			currentWindowHeight = window.innerHeight;
+			nextData = nextRef.current.getBoundingClientRect();
+			titleOffset = document.querySelector('.project-title-titleContainer').offsetTop;
+			diff = nextRef.current.offsetTop - window.scrollY - titleOffset;
 		}
 
 		nextRef.current.style = `transform:translateY(-${diff}px)`
@@ -62,19 +64,19 @@ export default function Next({data, toggleAnimation, titleRef}) {
 
 	return (
 	<div 
-	ref={nextRef} 
+	
 	onClick={caseStudyRedirect} 
 	className={`project-next ${nextAnimatedClass}`}>
 			<div ref={textRef} className="container">
 				<div className="row">
-					<div className="push-2 col-2 push-lg-hide ">
+					<div className="push-2 push-md-hide col-md-8 col-xl-7 col-xxl-5">
 						<h4 className={`project-next-link ${hideNextClass}`}>
 							Next
 						</h4>
 					</div>
 				</div>
 				<div className="row">
-					<div className="push-2 col-7 push-lg-hide col-lg-12">
+					<div ref={nextRef}  className="project-next-titleContainer push-2 push-md-hide col-md-8 col-xl-7 col-xxl-5">
 						<h4 className="project-next-title">{title}</h4>
 						<h1 className="project-next-description">{description}</h1>
 					</div>

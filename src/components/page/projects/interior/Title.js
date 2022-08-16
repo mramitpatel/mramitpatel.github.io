@@ -21,7 +21,7 @@ const Title = forwardRef((props,ref) => {
 		<div ref={ref} className="project-title">
 			<div className="container">
 				<div className="row">
-					<div className="push-2 push-md-hide col-md-8 col-xl-7 col-xxl-5">
+					<div className="project-title-titleContainer push-2 push-md-hide col-md-8 col-xl-7 col-xxl-5">
 						<h4 ref={titleRef} className={`project-title-title ${titleClass}`}>{title}</h4>
 						<h1 ref={descRef} className={`project-title-description ${descClass}`}>{byline}</h1>
 					</div>

@@ -36,7 +36,7 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 			<AnchorLink className="button header-flex-close" to={slug}
 				state={{ fromCaseStudy: false, }}>
 					<span>ESC</span><div className="button-close">
-						<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><line class="cls-1" x1=".5" y1=".5" x2="15.5" y2="15.5"/><line class="cls-1" x1="15.5" y1=".5" x2=".5" y2="15.5"/></svg>
+						<svg className="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><line className="cls-1" x1=".5" y1=".5" x2="15.5" y2="15.5"/><line className="cls-1" x1="15.5" y1=".5" x2=".5" y2="15.5"/></svg>
 					</div>
 				</AnchorLink>
 			</div>
