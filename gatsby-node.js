@@ -104,6 +104,8 @@ exports.createPages = ({ actions, graphql }) => {
         title
         slug
         byline
+				background
+        textColor
         hero {
           childImageSharp {
             gatsbyImageData
