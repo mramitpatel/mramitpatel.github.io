@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Amit Patel – Product Designer, Creative Director`,
+    title: `Amit Patel – Product Designer & Creative Director`,
     description: `Amit Patel is a Product Designer and Creative director based in Chicago. He's focused on designing products, shaping brands and creating meaningful digital experiences.`,
     author: `Amit Patel`,
     siteUrl: `https://www.mramitpatel.com`,

@@ -42,7 +42,7 @@ export default function Index() {
 	},[])
 	return (
 		<Layout pageclassName="home" type="home">
-			<Seo title="Portfolio and Info" />
+			<Seo title=" " />
 			<Hero />
 			{/* <Navigation isHome={true}/> */}
 			<ProjectList projects={allWorkJson.nodes} sectionContainer="homeProjectContainer"/>

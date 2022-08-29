@@ -76,7 +76,7 @@ export default function CaseStudy({pageContext,location}){
 	}, [fromCaseStudy,location.state])
 	return (
 		<div id={anchor}>
-			<Seo title={title} description={description[0]} image={hero.childImageSharp.gatsbyImageData.images.fallback.src}/>
+			<Seo title={`${title} | `} description={description[0]} image={hero.childImageSharp.gatsbyImageData.images.fallback.src}/>
 			<AnimatedLayout isAnimating={isAnimiating}>
 				<Header ref={headerRef} headerType='caseStudy' anchor={anchor} location={location} idx={idx} len={len} />
 				<Title 

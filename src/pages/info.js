@@ -7,7 +7,7 @@ import Resume from '../components/page/info/Resume'
 export default function Index() {
 	return (
 		<Layout pageclassName="info" type="info">
-			<Seo title="Info" />
+			<Seo title="About |" />
 			<Hero/>
 			<Resume />
 			<ClientExperience/>
