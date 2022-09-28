@@ -53,6 +53,25 @@ exports.createPages = ({ actions, graphql }) => {
 						}
 					}
 				}
+				InsetFigmaEmbed {
+					FigmaEmbedURL
+				}
+				TwoColumnFigmaEmbed {
+					img {
+						name
+						childImageSharp {
+							gatsbyImageData(
+								formats: WEBP
+								transformOptions: {fit: FILL}
+								outputPixelDensities: 3
+								
+							)
+						}
+					}
+					imgClass
+					FigmaEmbedURL
+					embedClass
+				}
 				TwoColumnImages {
 					img1 {
 						name

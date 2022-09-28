@@ -1,4 +1,149 @@
 [
+   {
+      "background":"white",
+      "slug":"finetune",
+      "title":"FineTune",
+      "type":"Product Design",
+      "byline":"Advanced lighting for healthier living.",
+      "intro":[
+       "Studies have shown, color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces.",
+       "The hardware and software solution is called FineTune TCS and is available through FineLite's website."
+      ],
+      "hero":"../images/projects/finelite/finelite-hero.jpg",
+      "thumbnail":"../images/projects/finelite/finelite-thumb.jpg",
+      "thumbnailClass":"col-xxl-3 col-xl-12 col-md-12 col-sm-12",
+      "challenge": "How do you set and control lighting from the palm of your hand?",
+      "description":[
+         "Designing a digital product that allows a user to control lighting parameters, from scratch, is no easy feat. The digital product needed to compliment pre-defined hardware abilities, be able to be operated from a single hand and be easy and intuitive to use.",
+         "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and explored UI options. As a partner of Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
+      ],
+      "roleDescription":[
+       "As the lead product designer, I conducted interviews, drafted the UX strategy, created wireframes and high-fidelity designs. I interfaced with engineers (firmware and native C) as well as internal stakeholders."
+       ],
+      "roles":[
+         "Lead Product Designer"
+      ],
+      "contribution":"UX Strategy, UX/UI Design",
+      "duration":"8 months",
+      "platform":"iOS Native",
+      "agency":"Contract / AirroStudio",
+      "layout":[
+         {
+            "FullWidthImage":{
+               "img":"../images/projects/finelite/finelite-sketch-setup.jpg"
+            }
+         },
+         {
+          "SectionTextBlock":{
+             "heading":"Discovery",
+             "title":"Gather insights",
+             "text":[
+                "With no formal discovery phase, I relied on insights gathered by discussing options, feasibility, target audience and other dimensions with the projects main and only stakeholder – a firmware engineer at FineTune. The main takeaway - while consumer products allow a wider range of values FineTune is focused on setting colors commonly found in daylight spectrum as well as intensity."
+             ]
+          }
+       },
+       {
+          "SectionTextBlock":{
+             "heading":"Experience Flow",
+             "title":"Map the journey.",
+             "text":[
+                "Early on in the UX phase, I mapped a high-level architecture flow to help gain alignment on the full process a user would take while interacting with the app."
+             ]
+          }
+       },
+         {
+            "InsetWidthImage":{
+               "img":"../images/projects/finelite/finelite-IA-sketch.jpg"
+            }
+         },
+         {
+          "SectionTextBlock":{
+             "heading":"Prototyping",
+             "title":"Move fast and iterate with rapid prototyping.",
+             "text":[
+                "The benefit of a small-knit design and development team was the ability of prototyping in early phases to test out interactivity and IxD and overall app flow. I relied on a off-the-shelf iOS patterns and kits to handle low complexity UI patterns such as settings screens. For new use-cases such as time schedules and color patterns, I designed bespoke UI patterns. I used this phase to indicate custom components vs default iOS controls as means to reduce dev complexity and effort."
+             ]
+          }
+       },
+       {
+          "InsetFigmaEmbed":{
+             "FigmaEmbedURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FHso2tRFjJ5gXDTTqUNfoWj%2FFinelite-v1B%3Fnode-id%3D0%253A130"
+          }
+         },
+         {
+          "SectionTextBlock":{
+             "heading":" ",
+             "title":"Final UI Designs",
+             "text":[
+                "The process to get to final designs was a process of exploration, validating ideas with key stakeholders and relying on findings from prototypes. I focused design time on the key views of the experience - the main timeline view, weekly/daily schedules and setting corresponding color schedules."
+             ]
+          }
+       },
+         {
+          "FullWidthImage":{
+             "img":"../images/projects/finelite/finelite-all-screens.jpg"
+          }
+          },
+         {
+          "SectionTextBlock":{
+             "heading":"UI Designs",
+             "title":"Timeline View",
+             "text":[
+                "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly. I explore multiple options of the main view with a focus on information clarity, UI details while being delightful to see and use."
+             ]
+          }
+       },
+         {
+          "InsetWidthImage":{
+             "img":"../images/projects/finelite/finelite-design-options.jpg"
+             }
+          },
+         {
+          "TwoColumnFigmaEmbed":{
+             "FigmaEmbedURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoygWMEzOTeuNhsoJHSexJO%2FcaseStudy_Finelite%3Fpage-id%3D113%253A443%26node-id%3D274%253A1006%26starting-point-node-id%3D114%253A465%26scaling%3Dcontain",
+             "embedClass":"col-6",
+             "img":"../images/projects/finelite/finelite-schedule-detail-right.jpg",
+             "imgClass":"col-6"
+          }
+       },
+       {
+          "SectionTextBlock":{
+             "heading":"UI Designs",
+             "title":"Scheduling lighting programs",
+             "text":[
+                "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
+             ]
+          }
+       },
+         {
+            "TwoColumnImages":{
+               "img1":"../images/projects/finelite/finelite-schedule-detail-left.jpg",
+               "img1Class":"col-6",
+               "img2":"../images/projects/finelite/finelite-schedule-detail-right.jpg",
+               "img2Class":"col-6"
+            }
+         },
+         {
+          "SectionTextBlock":{
+             "heading":"UI Designs",
+             "title":"The wheel reincarnated",
+             "text":[
+                "A circular dial to set light color seemed like the most intuitive solution. While other solutions were attempted I kept coming back to the wheel as simplest, single-handed, method of input to set color and intensity."
+             ]
+          }
+       },
+       {
+          "InsetFigmaEmbed":{
+             "FigmaEmbedURL":"https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoygWMEzOTeuNhsoJHSexJO%2FcaseStudy_Finelite%3Fpage-id%3D113%253A443%26node-id%3D117%253A623%26starting-point-node-id%3D347%253A1473%26scaling%3Dscale-down" 
+          }
+       },
+         {
+            "FullWidthImage":{
+               "img":"../images/projects/finelite/finelite-design-system.jpg"
+            }
+         }
+      ]
+   },
   {
      "slug":"mack-builder",
      "title":"Mack Builder",
@@ -9,7 +154,7 @@
      ],
      "hero":"../images/projects/mackbuilder/mack-builder-hero-2.jpg",
      "thumbnail":"../images/projects/mackbuilder/mack-builder-hero-2.jpg",
-     "thumbnailClass":"col-xxl-6 col-xl-12 col-md-12 col-sm-12",
+     "thumbnailClass":"col-xxl-6 col-xl-6 col-md-12 col-sm-12",
      "challenge":"How can we empower Mack customers to build the truck of their dreams?",
      "description":[
         "Mack Trucks are known in mass culture for the legendary durability and reliability. While the saying 'built like a Mack' exists, there was no way real way to build your own - the missing gap in Mack's digital ecosyste.",
@@ -267,154 +412,7 @@
         }
      ]
   },
-  {
-     "background":"white",
-     "slug":"finetune",
-     "title":"FineTune",
-     "type":"Product Design",
-     "byline":"Advanced lighting for healthier living.",
-     "intro":[
-      "Studies have shown, color temperature and intensity of artificial lighting is critical to human functioning both physically and psychologically. FineLite, a provider of custom lighting solutions, partnered with Airro Studio to design a system that allows for the optimal control of color temperature, intensity and duration of lighting in commercial spaces.",
-      "The hardware and software solution is called FineTune TCS and is available through FineLite's website."
-     ],
-     "hero":"../images/projects/finelite/finelite-hero.jpg",
-     "thumbnail":"../images/projects/finelite/finelite-thumb.jpg",
-     "thumbnailClass":"col-xxl-3 col-xl-6 col-md-6 col-sm-12",
-     "challenge": "How do you set and control lighting from the palm of your hand?",
-     "description":[
-        "Designing a digital product that allows a user to control lighting parameters, from scratch, is no easy feat. The digital product needed to compliment pre-defined hardware abilities, be able to be operated from a single hand and be easy and intuitive to use.",
-        "To build an app, I first understood the context and the behaviors of the audience at hand, built journey maps and explored UI options. As a partner of Airro Studios, we designed an app for the commercial space that is as intuitive as other IOT applications. The result – an application that is intuitive to use with an interface tailored towards healthcare workers, teachers and other space managers."
-     ],
-     "roleDescription":[
-      "As the lead product designer, I conducted interviews, drafted the UX strategy, created wireframes and high-fidelity designs. I interfaced with engineers (firmware and native C) as well as internal stakeholders."
-      ],
-     "roles":[
-        "Lead Product Designer"
-     ],
-     "contribution":"UX Strategy, UX/UI Design",
-     "duration":"8 months",
-     "platform":"iOS Native",
-     "agency":"Contract / AirroStudio",
-     "layout":[
-        {
-           "FullWidthImage":{
-              "img":"../images/projects/finelite/finelite-sketch-setup.jpg"
-           }
-        },
-        {
-         "SectionTextBlock":{
-            "heading":"Discovery",
-            "title":"Gather insights",
-            "text":[
-               "With no formal discovery phase, I relied on insights gathered by discussing options, feasibility, target audience and other dimensions with the projects main and only stakeholder – a firmware engineer at FineTune. The main takeaway - while consumer products allow a wider range of values FineTune is focused on setting colors commonly found in daylight spectrum as well as intensity."
-            ]
-         }
-      },
-      {
-         "SectionTextBlock":{
-            "heading":"Experience Flow",
-            "title":"Map the journey.",
-            "text":[
-               "Early on in the UX phase, I mapped a high-level architecture flow to help gain alignment on the full process a user would take while interacting with the app."
-            ]
-         }
-      },
-        {
-           "InsetWidthImage":{
-              "img":"../images/projects/finelite/finelite-IA-sketch.jpg"
-           }
-        },
-        {
-         "SectionTextBlock":{
-            "heading":"Wireframe & Prototype",
-            "title":"Create lo-fidelity mockups.",
-            "text":[
-               "Quick mockups using iOS patterns and kits allowed me to generate a clickable flow and give context to various controls. I used this phase to indicate custom components vs default iOS controls as means to reduce dev complexity and effort."
-            ]
-         }
-      },
-        {
-            "InsetWidthImage":{
-              "img":"../images/projects/finelite/finelite-flow.jpg"
-           }
-        },
-        {
-         "SectionTextBlock":{
-            "heading":"Concepts",
-            "title":"Create multiple solutions where it matters.",
-            "text":[
-               "Throughout the design process, I iterated on controls and interaction models and ran them by engineering and stakeholders."
-            ]
-         }
-      },
-        {
-           "InsetWidthImage":{
-              "img":"../images/projects/finelite/finelite-concepts.jpg"
-           }
-        },
-        {
-         "SectionTextBlock":{
-            "heading":"Final Designs",
-            "title":"Create high-fidelity designs and work with dev.",
-            "text":[
-               ""
-            ]
-         }
-      },
-      {
-         "FullWidthImage":{
-            "img":"../images/projects/finelite/finelite-all-screens.jpg"
-         }
-      },
-        {
-           "TextBlock":{
-              "title":"Timeline view.",
-              "text":[
-                 "The main view of the controller post set up is a timeline view showing the current color temperature and intensity. A scrollable pane allows an operator to see what's in store to ensure the schedule is running correctly."
-              ]
-           }
-        },
-        {
-           "InsetWidthImage":{
-              "img":"../images/projects/finelite/finelite-timeline.jpg"
-           }
-        },
-        {
-           "TextBlock":{
-              "title":"Schedule your lighting program.",
-              "text":[
-                 "An interface that revolves around days of the week as most inhabitants of the space function on a weekly schedule. Allowing specific color schedules to be executed by day of the week down to the hour."
-              ]
-           }
-        },
-        {
-           "TwoColumnImages":{
-              "img1":"../images/projects/finelite/finelite-schedule-detail-left.jpg",
-              "img1Class":"col-6",
-              "img2":"../images/projects/finelite/finelite-schedule-detail-right.jpg",
-              "img2Class":"col-6"
-           }
-        },
-        {
-           "TextBlock":{
-              "title":"The wheel.",
-              "text":[
-                 "Operator audience was kept in mind while designing the interface. It had to be intuitive and simple while also allowing full control to more advanced users in complex installation scenarios."
-              ]
-           }
-        },
-        {
-           "InsetWidthImage":{
-              "img":"../images/projects/finelite/finelite-big-wheel.jpg"
-           }
-        },
-        {
-           "FullWidthImage":{
-              "img":"../images/projects/finelite/finelite-design-system.jpg"
-           }
-        }
-     ]
-  },
+
   {
      "background":"white",
      "slug":"csa",

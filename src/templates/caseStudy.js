@@ -10,6 +10,8 @@ import SectionTextBlock from '../components/page/projects/interior/SectionTextBl
 import TextBlock from '../components/page/projects/interior/TextBlock';
 import FullWidthImage from '../components/page/projects/interior/FullWidthImage';
 import InsetWidthImage from '../components/page/projects/interior/InsetWidthImage';
+import InsetFigmaEmbed from '../components/page/projects/interior/InsetFigmaEmbed';
+import TwoColumnFigmaEmbed from '../components/page/projects/interior/TwoColumnFigmaEmbed';
 import FullWidthVideo from '../components/page/projects/interior/FullWidthVideo';
 import TwoColumnImages from '../components/page/projects/interior/TwoColumnImages';
 import Next from '../components/page/projects/interior/Next';
@@ -48,6 +50,8 @@ export default function CaseStudy({pageContext,location}){
 		SectionTextBlock,
 		FullWidthImage,
 		InsetWidthImage,
+		InsetFigmaEmbed,
+		TwoColumnFigmaEmbed,
 		FullWidthVideo,
 		TwoColumnImages,
 		BackgroundSwap

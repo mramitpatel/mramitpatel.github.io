@@ -30,7 +30,7 @@ export default function Writing() {
 						<div className="writing-list">
 						{allMdx.nodes.map((writing) => {
 								return (
-								<Link className="writing-list-item" to={`writing/${writing.frontmatter.slug}`}> 
+								<Link className="writing-list-item" to={`${writing.frontmatter.slug}`}> 
 									{writing.frontmatter.title} <span className="arrow-r">→</span>
 								</Link>)
 						})}
