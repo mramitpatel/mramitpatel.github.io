@@ -10,14 +10,4 @@
 		transform: none;
 		opacity: 1;
 	}
-	
-	h1 {
-		--minFontSize: 40px;
-		--maxFontSize: 100px;
-		--scaler: 5.5vw;
-		font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
-		position: relative;
-		font-family: $font-heading-light;
-
-	}
 }

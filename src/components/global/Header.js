@@ -9,7 +9,7 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 		return(
 			<>
 			<div className="header-flex col-6">
-				<Link to='/' className="name">Amit Patel</Link>
+				<Link to='/' className="name">Amit Patel<span class="mobile-hide">–Experience Design</span></Link>
 			</div>
 			<div className="header-flex header-flex-end col-6">
 			{/* <Link to="https://www.instagram.com/mramitpatel/" className="link mobile-hide">IG</Link> */}
@@ -27,7 +27,7 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 				<Link to='/' className="name">Amit Patel</Link>
 			</div>
 			<div className="mobile-hide header-flex col-2">
-				<span className="count">{idx}&#8209;{len} </span>
+			{/*	<span className="count">{idx}&#8209;{len} </span> */}
 			</div>
 			{/* <div className="">
 				<Link to="/projects" className="button">Work</Link>
@@ -50,7 +50,7 @@ const Header = ({headerType = 'home',idx,len, location = {}, anchor}) => {
 	const RenderHeader = (type) => {
 		switch(type) {
 			case 'home':
-				return <HomeHeader buttonLink="/info" buttonText="Info"/>
+				return <HomeHeader buttonLink="/info" buttonText="Resume"/>
 			case 'caseStudy':
 				return <CaseStudyHeader />
 			case 'info':

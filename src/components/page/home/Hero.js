@@ -13,7 +13,7 @@ const Hero = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-xs-12 col-sm-10 col-md-9 col-lg-9 col-xl-8 col-xxl-7">
-						<h1><span>Hello.</span> I'm Amit,<br/> a Product Designer and Creative Director based<br/>in Chicago.</h1>
+						<h1>I <span>define</span>, <span>design</span> and <span>deliver</span> digital and product experiences for early-stage startups and established companies.<br/> </h1>
 					</div>
 				</div>
 			</div>
