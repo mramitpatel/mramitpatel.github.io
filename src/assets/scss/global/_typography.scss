@@ -75,16 +75,17 @@ p {
 
 h1 {
 	--minFontSize: 32px;
-	--maxFontSize: 88px;
-	--scaler: 5vw;
+	--maxFontSize: 86px;
+	--scaler: 4.25vw;
 	font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
-	line-height: 115%;
+	line-height: 102.5%;
 	letter-spacing: -3.12px;
 	font-family: $font-heading-regular;
 	font-weight: normal;
 	font-family: $font-heading-light;
 	@include screen-md-max {
 		letter-spacing: -0.5px;
+		color:red;
 	}
 	span {
 		font-family: $font-heading-medium;
