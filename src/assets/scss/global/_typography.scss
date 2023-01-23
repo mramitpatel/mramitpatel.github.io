@@ -85,7 +85,6 @@ h1 {
 	font-family: $font-heading-light;
 	@include screen-md-max {
 		letter-spacing: -0.5px;
-		color:red;
 	}
 	span {
 		font-family: $font-heading-medium;
